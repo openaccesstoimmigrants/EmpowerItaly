@@ -17,3 +17,7 @@ http://stra-dati.istat.it/# -> Popolazione e famiglie -> Caratteristiche socio-d
 - ISTAT_Immigrants_region_Italy_nationality:
 
 http://stra-dati.istat.it/# -> Popolazione e famiglie -> Caratteristiche socio-demografiche -> Permessi di soggiorno dei cittadani non comunitari -> Provincia e cittadinanza
+
+- OECD
+
+https://data.oecd.org/unemp/unemployment-rate.htm
