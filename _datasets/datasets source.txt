@@ -10,6 +10,10 @@ http://stra-dati.istat.it/# -> Lavoro -> Occupati -> Dati per sesso, titulo di s
 
 http://stra-dati.istat.it/# -> Lavoro -> Tasso di atività -> Dati per sesso, titolo di studio - stranieri
 
+- ISTAT_Inactive_Foreigners[2018-2021]:
+
+http://stra-dati.istat.it/# -> Lavoro -> Tasso di inattività -> Dati per sesso, titolo di studio - stranieri
+
 - ISTAT_Immigrants_residence_type_nationality:
 
 http://stra-dati.istat.it/# -> Popolazione e famiglie -> Caratteristiche socio-demografiche -> Permessi di soggiorno dei cittadani non comunitari -> Tipo di permesso e cittadinanza
