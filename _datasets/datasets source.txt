@@ -21,3 +21,7 @@ http://stra-dati.istat.it/# -> Popolazione e famiglie -> Caratteristiche socio-d
 - OECD
 
 https://data.oecd.org/unemp/unemployment-rate.htm
+
+- OUR_WORLD_IN_DATA_unemployment-rate[Till-2021]
+
+https://ourworldindata.org/grapher/unemployment-rate
