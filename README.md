@@ -6,3 +6,16 @@ The information presented here is being used for studying reasons and does not i
 1. Introduction
 ___
 In recent years is notable the movement of immigrants entering Italy (legally or illegaly) and how this is also a matter for the different government leaders the country have had.
+
+Regqarding this fact, we would like to understand the level of education of legal immigrants living in Italy and their participation in the labour market following the hypothesis below.
+
+-If part of immigrants have a high level of education that somehow would guarantee some employability.
+-If a certain group (seperated by gender) is more educated, that would mean they're more active in the market.
+
+2. Scenario
+
+3. Original dataset and mushup dataset
+
+Aspects being studied:
+
+-The number of legal immigrants 
