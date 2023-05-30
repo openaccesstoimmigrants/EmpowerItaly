@@ -6,7 +6,7 @@
 
 ## A - Are immigrants in Italy more likely to be unemployed compared to the native population?
 
-### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows you to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
+### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
 ## B - Do immigrants contribute to the economic growth of Italy through their entrepreneurial activities?
 
@@ -40,32 +40,53 @@ We believe in Open Data and want to integrate our project into the larger pictur
 3. **Produce Linked Open Datasets as output**, including DCAT_AP metadata and license RDF.
 4. **Design and develop visualizations** to effectively communicate and exploit the results.
 
+To achieve our goal, we will follow this procedure:
+
+1. **Define your research question:** Clarify the specific aspect of immigrant entrepreneurship we want to investigate. Refine our hypothesis question and determine the variables and data needed to address it.
+2. **Gather data:** Identify relevant data sources that provide information on immigrant entrepreneurship in Italy. Look for datasets that include details on immigrant-owned businesses, employment generated, sectors, and other relevant factors. Ensure the data is reliable and covers the desired time period.
+3. **Data preprocessing:** Clean and preprocess the data to ensure it's in a suitable format for analysis. This may involve handling missing values, addressing outliers, standardizing variables, and performing data transformations as needed.
+4. **Data exploration and analysis:** Conduct exploratory data analysis to gain insights into the characteristics of immigrant entrepreneurship in Italy. Visualize the data using charts, graphs, and statistical summaries. Perform appropriate statistical analyses to test your hypothesis and identify any significant patterns or correlations.
+5. **Interpretation and findings:** Analyze the results of our data analysis and interpret their implications. Discuss any observed trends, patterns, or relationships between immigrant entrepreneurship and economic growth in Italy. Highlight the positive contributions of immigrant entrepreneurs and their impact on job creation and innovation.
+6. **Draw conclusions:** Based on our findings, draw conclusions about the role of immigrant entrepreneurship in Italy's economy. Discuss the potential benefits and resources that immigrants bring to the country through their entrepreneurial activities. Consider the limitations of our study and any recommendations for further research.
+7. **Document your project:** Create a clear and well-structured report or presentation summarizing your project, including the research question, methodology, data sources, analysis techniques, and key findings. Make sure to cite your sources appropriately and include visualizations to enhance understanding.
+
+### 2.3 How EmpowerItaly can contribute to E-Governance
+
+In the context of E-Governance, EmpowerItaly might play a role in:
+
+- raising awareness over the real status of immigration in Italy in order to promote ***inclusive societies for sustainable development***.
+- ecc
+
 ## 3. Original datasets and mashup datasets
+
+FOR THE GRUOP
+
+Istat provides complaint open data (with SDMX metadata) only here → [https://esploradati.istat.it/databrowser/#/](https://esploradati.istat.it/databrowser/#/). 
+Unfortunally data relative to immigration just goes down to 2019. 
 
 ### Dataset n.
 
 Source, Title, Viewed in date, Link
-
 License
-
 Metadata (Provided or Not provided)
-
 Content description
 
-### D1
+### D1 - An example of the data we need for each dataset
 
 Source: **I.Stat**
 Title: **Permessi di soggiorno dei cittadini non comunitari** (*Residence permits of non-EU citizens : [Province and citizenship](http://stra-dati.istat.it/index.aspx?queryid=4217)*)
 Viewed in date (DD/MM/YY): **16/05/23**
-Link: [http://dati.istat.it//Index.aspx?QueryId=60856](http://dati.istat.it//Index.aspx?QueryId=60856) - *REMINDER: In order to obtain the link you need to select the data you want (ex. from 2012 to 2022) and save the query (under “My Queries” on the web site)*
+Link: [http://dati.istat.it//Index.aspx?QueryId=60857](http://dati.istat.it//Index.aspx?QueryId=60857) - *REMINDER: In order to obtain the link you need to select the data you want (ex. from 2012 to 2022) and save the query (under “My Queries” on the web site) - THIS LINK SHOULD BE A PERSISTENT URI see this link →* [https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.3_persistent_uri_design_and_management_en_edp.pdf](https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.3_persistent_uri_design_and_management_en_edp.pdf)
 
 License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/it/note-legali](https://www.istat.it/it/note-legali)
 
-Metada: Provided - [https://siqual.istat.it/SIQual/visualizza.do?id=7779008](https://siqual.istat.it/SIQual/visualizza.do?id=7779008)
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [https://siqual.istat.it/SIQual/visualizza.do?id=7779008](https://siqual.istat.it/SIQual/visualizza.do?id=7779008)
 
 Content description: **The process makes it possible to quantify the non-EU foreigners who are legally present in Italy according to their socio-demographic characteristics and to measure the incoming flows (new permits issued during the year).**
 
 ## 4. Quality analysis of the datasets
+
+### 4.1 Information quality
 
 This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID [https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati)). The four characteristics to control the level of information quality are:
 
@@ -77,9 +98,10 @@ This section considers the requirements, established according to the "Linee gui
 |  | Accuracy | Coherence | Completeness | Curentness |
 | --- | --- | --- | --- | --- |
 | D1 | YES | YES | YES | YES |
-| D2 |  |  |  |  |
+| D2 | NO - See point 1 | YES | YES | YES |
 | D3 |  |  |  |  |
 | D4 |  |  |  |  |
+1. The dataset does not complain with the accuracy standard because…
 
 ## 5. Legal analysis (privacy, license, purpose, etc.)
 
@@ -88,6 +110,43 @@ This analysis is designed to assess compliance with legal and ethical aspects in
 The analysis pays particular attention to aspects related to privacy, licenses, and interest for the purpose of creating a service that balances the public function, transparency and rights of individual citizens.
 
 ### 5.1. Legal Checklist
+
+|  | To check | D1 | D2 | D3 | D4 |
+| --- | --- | --- | --- | --- | --- |
+| 1. Privacy issues | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |  |  |  |  |
+|  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. |  |  |  |  |
+|  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? |  |  |  |  |
+|  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? |  |  |  |  |
+|  | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |  |  |  |  |
+|  | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  |  |
+|  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? |  |  |  |  |
+|  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? |  |  |  |  |
+|  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? |  |  |  |  |
+|  | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |  |  |  |  |
+| 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? |  |  |  |  |
+|  | 2.2 Are you the owner of the dataset? Who is the owner? |  |  |  |  |
+|  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? |  |  |  |  |
+|  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? |  |  |  |  |
+| 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? |  |  |  |  |
+|  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |
+|  | 3.3 Do you release the API (in case you have) with an open source license no |  |  |  |  |
+| 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |
+|  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |  |  |  |  |
+|  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? |  |  |  |  |
+|  | 4.4 Do you check if there are some limitations concerning the public interest ? |  |  |  |  |
+|  | 4.5 Do you check the international law limitations ? |  |  |  |  |
+|  | 4.6 Do you check the INSPIRE law limitations for the spatial data? |  |  |  |  |
+| 5. Economical Conditions | 5.1 Do you check that the dataset could be released for free ? |  |  |  |  |
+|  | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |  |  |  |  |
+|  | 5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |  |  |  |  |
+|  | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? |  |  |  |  |
+|  | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? |  |  |  |  |
+| 6. Temporary aspects | 6.1 Do you have a temporary policy for updating the dataset ? |  |  |  |  |
+|  | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ? |  |  |  |  |
+|  | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ? |  |  |  |  |
+|  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? |  |  |  |  |
+
+### 5.2 Licenses
 
 ## 6. Ethics analysis
 
