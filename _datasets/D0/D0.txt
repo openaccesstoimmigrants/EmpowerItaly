@@ -1,0 +1,8 @@
+Title: Immigration by age group, sex and citizenship
+Online data code: MIGR_IMM1CTZ
+last update: 29/03/2023 15:37
+consultation date: 31/05/2023
+Source: EUROSTAT
+Link: https://ec.europa.eu/eurostat/databrowser/view/MIGR_IMM1CTZ/default/table
+
+metadata: https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm

@@ -71,6 +71,17 @@ License
 Metadata (Provided or Not provided)
 Content description
 
+### D0 - Immigration by age group, sex and citizenship
+
+Source: **EUROSTAT**
+Title: **Immigration by age group, sex and citizenship - Online data code: MIGR_IMM1CTZ**
+Viewed in date (DD/MM/YY): **30/05/23**
+Link: [https://ec.europa.eu/eurostat/databrowser/view/MIGR_IMM1CTZ/default/table](https://ec.europa.eu/eurostat/databrowser/view/MIGR_IMM1CTZ/default/table)
+
+License: **Creative Commons Attribution 4.0 International (CC BY 4.0) licence** [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm](https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm)
+
 ### D1 - An example of the data we need for each dataset
 
 Source: **I.Stat**
