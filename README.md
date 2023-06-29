@@ -4,13 +4,9 @@
 
 ## Possible hypothesis questions:
 
-## A - Are immigrants in Italy more likely to be unemployed compared to the native population?
+## Are immigrants in Italy more likely to be unemployed compared to the native population?
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
-
-## B - Do immigrants contribute to the economic growth of Italy through their entrepreneurial activities?
-
-### This hypothesis question focuses on the potential positive impact of immigrants on the economy by examining their entrepreneurial endeavors. It allows to investigate whether immigrants create new businesses, generate employment opportunities, and contribute to the overall economic development of Italy.
 
 ## 1. Introduction
 
@@ -59,10 +55,94 @@ In the context of E-Governance, EmpowerItaly might play a role in:
 
 ## 3. Original datasets and mashup datasets
 
-FOR THE GRUOP
+### Overview
+For our datasets, since we are dealing with data related to Italy, our main source was [Istat](https://www.istat.it/en/), the Italian National Institute of Statistics, a public research organization that has been the main producer of official statistics since 1926, serving citizens and policy-makers. Istat provides different platforms, and sometimes it can be confusing to determine the correct source of data. For our topic, for example, we found, besides the official website, [I.Stat](http://dati.istat.it/Index.aspx?lang=en) and [Immigrants.Stat](http://stra-dati.istat.it/?lang=en), both of which store data that can be useful for our project. However, they are not compliant with any standard shared format.
 
-Istat provides complaint open data (with SDMX metadata) only here → [https://esploradati.istat.it/databrowser/#/](https://esploradati.istat.it/databrowser/#/). 
-Unfortunally data relative to immigration just goes down to 2019. 
+For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: [IstatData](https://esploradati.istat.it/databrowser/#/en). We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) [ISO standard](https://www.iso.org/standard/52500.html).
+
+### SDMX: A Design Choice
+SDMX is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources. The more organizations using it, the more useful SDMX becomes. Since it has become the preferred standard for data and metadata exchange by the global statistical community, its potential is enormous. SDMX comes in several "flavors" or sub-formats, including SDMX-ML Generic, SDMX-ML Compact (also referred to as SDMX-ML Structure Specific), SDMX-JSON, and SDMX-EDI. Among these, SDMX-JSON is the most compact and efficient. However, packing all that data as tightly as possible has led to a complex structure that is difficult to interpret.
+
+### SDMX Metadata and Data Format
+SDMX (Statistical Data and Metadata eXchange) is not only about exchanging data but also about exchanging metadata, which provides information about the structure and meaning of the data. SDMX metadata includes details such as concepts, dimensions, attributes, and codes, enabling better understanding and interpretation of the data.
+
+SDMX-ML (SDMX Markup Language) is the XML-based format used for representing SDMX metadata. It provides a standardized way to describe the structure and characteristics of datasets, making it easier to share and interpret metadata across different systems and organizations.
+
+When it comes to the data itself, SDMX-JSON is a widely adopted format. It is a compact and efficient representation of statistical data in JSON (JavaScript Object Notation) format. SDMX-JSON organizes data into datasets, series, observations, and dimensions, following a hierarchical structure. This format allows for easy parsing and manipulation of data while maintaining its integrity and semantic meaning.
+
+By leveraging the power of SDMX metadata and data formats, analysts and researchers can access standardized and interoperable data, enabling more efficient and accurate analysis, comparison, and sharing of statistical information across organizations and domains.
+
+### ISTAT and SDMX
+
+The National Institute of Statistics (ISTAT) allows access to its data warehouse (http://dati.istat.it/) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/).
+
+There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: http://sdmx.istat.it/SDMXWS/.
+
+### How to query the APIs
+
+The base URL for access is http://sdmx.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
+
+### Accessing Metadata
+
+This is the URL structure for accessing metadata:
+
+http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
+
+Some notes:
+- `resource` (required): the resource you want to query (including `categorisation`, `categoryscheme`, `codelist`, `conceptscheme`, `contentconstraint`, `dataflow`, and `datastructure`).
+- `agencyID`: the identifier of the agency exposing the data (here it is IT1).
+- `resourceID`: the ID of the resource you want to query (some examples will be provided later).
+- `version`: the version of the artifact you want to query.
+- `itemID`: the ID of the element (for element schemes) or hierarchy (for hierarchical code lists) to be returned.
+- `queryStringParameters`:
+  - `detail`: the desired level of information. Possible values are `allstubs`, `referencestubs`, `allcompletestubs`, `referencecompletestubs`, `referencepartial, and `full`. The default is `full`.
+  - `references`: the related references to be returned. Possible values are `none`, `parents`, `parentsandsiblings`, `children`, `descendants`, `all`, and `any`. The default is `none`.
+
+An example is retrieving the `dataflows`, which is the list of queryable data flows. The URL for retrieving it is http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1. From URL we found the dataset we needed, with ID 28_185.
+
+### Applying Filters
+
+To obtain the correct dimensions of the dataset, it is useful to apply filters, especially for large datasets like the one in question. To apply filters, you need to know the data schema of the dataflow you want to query. This is described in the metadata resource called "datastructure," which can be queried by ID. But what is the ID of the dataset on immigrations, as mentioned in the datastructure?
+
+The ID is specified in the dataflow. Referring back to the previous information, the ID referenced in the datastructure for immigrations is `DCIS_MIGRAZIONI`.
+
+For our example the query will be:
+`http://sdmx.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_MIGRAZIONI/`
+
+By querying the API, we will obtain an XML output that includes the `structure:DimensionList` tag, which contains the list of dimensions, i.e., the data schema of the dataset. In our case, the dimensions are as follows: `FREQ`, `ETA_NUM`, `PAESE_CITTAD`, `TERR_DEST`, `REF_AREA_0`, `STATO_EST_DEST`, `STATO_EST_PROV`, `TIPO_TRASF`, `SESSO`, `TIPO_INDDEM`.
+
+What is the meaning of these abbreviations?
+The answer to this question is provided by the metadata resource - the package - called `codelist`. It can be queried by ID, but we need to know the IDs of the various fields, which are written in the XML file mentioned above.
+
+For example, for the "FREQ" field, we read <Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />, which means that the corresponding ID in the codelist is "CL_FREQ". The URL to be used to retrieve information about this field is another metadata query URL: http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
+
+The output will be an XML file, where it states that it represents the "Frequency". The XML also contains the possible values for this dimension, which for "CL_FREQ" correspond to the underlying pairs of ID and value.
+
+#### Which codes/values are available to filter a specific dataflow by dimension?
+
+We can explore the values available for each dimension with this query:
+`http://sdmx.istat.it/SDMXWS/rest/availableconstraint/28_185`
+
+The output is an XML file, where, for example, it can be seen that for this specific dataflow, the available value for the dimension FREQ (Frequency) is A, which represents annual frequency.
+
+
+#### Build the URL to filter a dataflow, perform an attribute query
+
+An attribute query should list the attribute values in the URL following this pattern:
+
+`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/fieldValue1.fieldValue2.fieldValue3/`
+
+The example above shows a data structure with three fields. The field values should be separated by a dot (.) character. If a value is not specified, no filter will be applied for that field/dimension. Therefore, an URL like:
+
+`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../`
+
+is equivalent to not applying any filter.
+
+For the dataflow we are using in this guide, an example could be filtering for all immigrats to Italy (not divided by province), coming from Africa, of every age and of both sexs:
+
+`http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.AFR.ITTOT.ITTOT....9.`
+
+By use of this queries we can collect different datasets from just one source.
 
 ### Dataset n.
 
@@ -112,6 +192,7 @@ This section considers the requirements, established according to the "Linee gui
 | D2 | NO - See point 1 | YES | YES | YES |
 | D3 |  |  |  |  |
 | D4 |  |  |  |  |
+
 1. The dataset does not complain with the accuracy standard because…
 
 ## 5. Legal analysis (privacy, license, purpose, etc.)
