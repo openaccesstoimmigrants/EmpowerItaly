@@ -28,16 +28,22 @@ export default function App() {
   // console.log(series)
 
   // Testing the ISTAT API
+
+  const [values, setValues] = useState([])
+
   useEffect(() => {
-    fetch("http://sdmx.istat.it/SDMXWS/rest/data/29_956")
-      .then((res) => res.json())
+    // fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+    fetch('http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.AFR.ITTOT.ITTOT....9.')
+      // fetch() returns a Promise so you can handle success or failure using
+      // then() and catch() methods
+      .then((response) => response.json())
       .then((data) => {
         console.log(data)
       })
       .catch((err) => {
         console.log(err.message)
       })
-  }, [])
+    }, [])
 
   return (
     <div className="App">

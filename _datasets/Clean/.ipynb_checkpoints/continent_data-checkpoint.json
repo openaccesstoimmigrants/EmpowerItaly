@@ -1,0 +1,494 @@
+{
+    "AFR": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 33256
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 69794
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 70796
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 48001
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 43692
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 44164
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 71191
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 68833
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 75035
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 64283
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 65025
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 62827
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 57644
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 66491
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 78666
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 107193
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 89866
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 61055
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 45878
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 57456
+        }
+    ],
+    "AME": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 21504
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 49384
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 49601
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 35006
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 32806
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 32489
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 39739
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 40778
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 44188
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 34435
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 27219
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 22612
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 18503
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 18714
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 22587
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 31083
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 36494
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 42153
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 24815
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 32797
+        }
+    ],
+    "ASI": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 33163
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 46102
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 57695
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 45481
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 38995
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 35771
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 57067
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 69042
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 86076
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 76176
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 76078
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 70104
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 68805
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 67396
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 64805
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 65840
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 63408
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 60139
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 41475
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 64455
+        }
+    ],
+    "EU27_FOR": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 10854
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 9739
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 9816
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 23979
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 25071
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 312484
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 198092
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 130434
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 117040
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 113808
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 104078
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 77483
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 68070
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 63492
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 62693
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 61096
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 57369
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 58672
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 42588
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 44408
+        }
+    ],
+    "EUR_NEU27": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 69652
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 217436
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 184861
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 114791
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 101109
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 65203
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 95870
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 83106
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 96865
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 65330
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 48617
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 45719
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 35075
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 33676
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 33932
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 35580
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 38107
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 42254
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 36801
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 44232
+        }
+    ],
+    "OCE": [
+        {
+            "year": "2002-12-31",
+            "tot_immigrants": 284
+        },
+        {
+            "year": "2003-12-31",
+            "tot_immigrants": 294
+        },
+        {
+            "year": "2004-12-31",
+            "tot_immigrants": 317
+        },
+        {
+            "year": "2005-12-31",
+            "tot_immigrants": 329
+        },
+        {
+            "year": "2006-12-31",
+            "tot_immigrants": 315
+        },
+        {
+            "year": "2007-12-31",
+            "tot_immigrants": 292
+        },
+        {
+            "year": "2008-12-31",
+            "tot_immigrants": 277
+        },
+        {
+            "year": "2009-12-31",
+            "tot_immigrants": 314
+        },
+        {
+            "year": "2010-12-31",
+            "tot_immigrants": 323
+        },
+        {
+            "year": "2011-12-31",
+            "tot_immigrants": 270
+        },
+        {
+            "year": "2012-12-31",
+            "tot_immigrants": 255
+        },
+        {
+            "year": "2013-12-31",
+            "tot_immigrants": 274
+        },
+        {
+            "year": "2014-12-31",
+            "tot_immigrants": 244
+        },
+        {
+            "year": "2015-12-31",
+            "tot_immigrants": 245
+        },
+        {
+            "year": "2016-12-31",
+            "tot_immigrants": 227
+        },
+        {
+            "year": "2017-12-31",
+            "tot_immigrants": 257
+        },
+        {
+            "year": "2018-12-31",
+            "tot_immigrants": 242
+        },
+        {
+            "year": "2019-12-31",
+            "tot_immigrants": 272
+        },
+        {
+            "year": "2020-12-31",
+            "tot_immigrants": 182
+        },
+        {
+            "year": "2021-12-31",
+            "tot_immigrants": 224
+        }
+    ]
+}

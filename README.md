@@ -44,7 +44,7 @@ To achieve our goal, we will follow this procedure:
 4. **Data exploration and analysis:** Conduct exploratory data analysis to gain insights into the characteristics of immigrant entrepreneurship in Italy. Visualize the data using charts, graphs, and statistical summaries. Perform appropriate statistical analyses to test your hypothesis and identify any significant patterns or correlations.
 5. **Interpretation and findings:** Analyze the results of our data analysis and interpret their implications. Discuss any observed trends, patterns, or relationships between immigrant entrepreneurship and economic growth in Italy. Highlight the positive contributions of immigrant entrepreneurs and their impact on job creation and innovation.
 6. **Draw conclusions:** Based on our findings, draw conclusions about the role of immigrant entrepreneurship in Italy's economy. Discuss the potential benefits and resources that immigrants bring to the country through their entrepreneurial activities. Consider the limitations of our study and any recommendations for further research.
-7. **Document your project:** Create a clear and well-structured report or presentation summarizing your project, including the research question, methodology, data sources, analysis techniques, and key findings. Make sure to cite your sources appropriately and include visualizations to enhance understanding.
+7. **Document our project:** Create a clear and well-structured report or presentation summarizing our project, including the research question, methodology, data sources, analysis techniques, and key findings. We cite our sources appropriately and include visualizations to enhance understanding.
 
 ### 2.3 How EmpowerItaly can contribute to E-Governance
 
@@ -141,6 +141,10 @@ is equivalent to not applying any filter.
 For the dataflow we are using in this guide, an example could be filtering for all immigrats to Italy (not divided by province), coming from Africa, of every age and of both sexs:
 
 `http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.AFR.ITTOT.ITTOT....9.`
+
+Since one of our goals is to provide new datasets and visulize them, we can query the numbers of all immigrants, divided by year, for each continent:
+
+`http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.EU27_FOR+EUR_NEU27+AFR+ASI+AME+OCE.ITTOT.ITTOT....9.`
 
 By use of this queries we can collect different datasets from just one source.
 
