@@ -146,7 +146,11 @@ Since one of our goals is to provide new datasets and visulize them, we can quer
 
 `http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.EU27_FOR+EUR_NEU27+AFR+ASI+AME+OCE.ITTOT.ITTOT....9.`
 
-By use of this queries we can collect different datasets from just one source.
+By using these queries, we can collect different datasets from just one source.
+
+With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `SDMX-test.ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
+
+To display the data in our React app, we simply save a constant with the URL of our GitHub repository that points to our new [JSON file in raw version](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json).
 
 ### Dataset n.
 

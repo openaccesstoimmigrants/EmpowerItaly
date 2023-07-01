@@ -38,3 +38,7 @@ export const numbers = [
         value: 10000
     }
 ]
+
+
+// Cleaned JSON saved from the Jupyter lab into GitHub
+export const TOTAL_IMMIGRANTS_WORLD_JSON = "https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json"

@@ -4,7 +4,7 @@ import { Chart as ChartJS } from 'chart.js/auto'
 
 export default function BarChart({ chartData }) {
     return (
-        <section id="total-immigrants" className="max-w-4xl items-center mx-auto">
+        <section id="total-immigrants" className="max-w-6xl items-center mx-auto py-12">
             <h1 className="text-4xl font-bold mb-6">From where?</h1>
             <p>Bla bla bla</p>
             <Bar data={chartData} />
