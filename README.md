@@ -8,6 +8,8 @@
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
+## for me: https://noi-italia.istat.it/pagina.php?L=0&categoria=4&dove=ITALIA
+
 ## 1. Introduction
 
 Our project aims to provide a comprehensive analysis of the phenomenon of immigration in Italy. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
@@ -74,13 +76,15 @@ By leveraging the power of SDMX metadata and data formats, analysts and research
 
 ### ISTAT and SDMX
 
-The National Institute of Statistics (ISTAT) allows access to its data warehouse (http://dati.istat.it/) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/).
+The National Institute of Statistics (ISTAT) allows access to its data warehouse (http://dati.istat.it/) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/) and enriched with our tests.
 
 There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: http://sdmx.istat.it/SDMXWS/.
 
 ### How to query the APIs
 
 The base URL for access is http://sdmx.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
+
+To test the APIs and explore the results we used [Postman API platform](https://www.postman.com/).
 
 ### Accessing Metadata
 
@@ -125,7 +129,6 @@ We can explore the values available for each dimension with this query:
 
 The output is an XML file, where, for example, it can be seen that for this specific dataflow, the available value for the dimension FREQ (Frequency) is A, which represents annual frequency.
 
-
 #### Build the URL to filter a dataflow, perform an attribute query
 
 An attribute query should list the attribute values in the URL following this pattern:
@@ -148,7 +151,7 @@ Since one of our goals is to provide new datasets and visulize them, we can quer
 
 By using these queries, we can collect different datasets from just one source.
 
-With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `SDMX-test.ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
+With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `D1_cleaning.ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
 
 To display the data in our React app, we simply save a constant with the URL of our GitHub repository that points to our new [JSON file in raw version](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json).
 
@@ -159,7 +162,7 @@ License
 Metadata (Provided or Not provided)
 Content description
 
-### D0 - Immigration by age group, sex and citizenship
+### **D0 - Immigration by age group, sex and citizenship**
 
 Source: **EUROSTAT**
 Title: **Immigration by age group, sex and citizenship - Online data code: MIGR_IMM1CTZ**
@@ -170,18 +173,67 @@ License: **Creative Commons Attribution 4.0 International (CC BY 4.0) licence**�
 
 Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm](https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm)
 
-### D1 - An example of the data we need for each dataset
+### **D1 - Total immigrants to Italy divided by continents**
 
-Source: **I.Stat**
-Title: **Permessi di soggiorno dei cittadini non comunitari** (*Residence permits of non-EU citizens : [Province and citizenship](http://stra-dati.istat.it/index.aspx?queryid=4217)*)
-Viewed in date (DD/MM/YY): **16/05/23**
-Link: [http://dati.istat.it//Index.aspx?QueryId=60857](http://dati.istat.it//Index.aspx?QueryId=60857) - *REMINDER: In order to obtain the link you need to select the data you want (ex. from 2012 to 2022) and save the query (under “My Queries” on the web site) - THIS LINK SHOULD BE A PERSISTENT URI see this link →* [https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.3_persistent_uri_design_and_management_en_edp.pdf](https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.3_persistent_uri_design_and_management_en_edp.pdf)
+Source: **Istat (IstatData)**
+Title: **Migrazioni (Trasferimenti di residenza) | Migration (Transfer of residence)**
+Viewed in date (DD/MM/YY): **30/05/23**
+Link: [https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0](https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
 
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/it/note-legali](https://www.istat.it/it/note-legali)
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
 
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [https://siqual.istat.it/SIQual/visualizza.do?id=7779008](https://siqual.istat.it/SIQual/visualizza.do?id=7779008)
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019400&refresh=true&language=IT](http://siqual.istat.it/SIQual/visualizza.do?id=0019400&refresh=true&language=IT)
+
+From [SDMX Roadmap2025](https://sdmx.org/wp-content/uploads/SDMX_roadmap2025_FINAL.pdf), in the paragraph "Making data usage easier via SDMX (Simplification)" we can read at point 4:
+The 2020 SDMX roadmap put a lot of emphasis on the exploration of links between SDMX and other standards (e.g. XBRL, RDF, DDI etc.). The new roadmap calls for follow-up implementation actions for improving cataloguing, navigation and discoverability (e.g. the publication of SDMX metadata assets as Linked Open Data, DCAT or Schema.org catalogues), as well as the exploration of how SDMX may relate to emerging standards for new use cases (e.g. Big Data/Microdata, Internet of Things etc.).
 
 Content description: **The process makes it possible to quantify the non-EU foreigners who are legally present in Italy according to their socio-demographic characteristics and to measure the incoming flows (new permits issued during the year).**
+
+### **DX - Level of education and gender of foreing citizens**
+
+Source: **Istat (IstatData)**
+Title: **Stranieri residenti e condizioni di vita | Resident foreigners and life conditions**
+Viewed in date (DD/MM/YY): **03/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_CV_STRA/IT1,29_956_DF_DCIS_CV_STRA_4,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_CV_STRA/IT1,29_956_DF_DCIS_CV_STRA_4,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN)
+
+### **DX - Municipal resident foreign population by sex and year of birth**
+
+Source: **Istat (IstatData)**
+Title: **Stranieri residenti al 1° gennaio | Resident foreigners on 1st January**
+Viewed in date (DD/MM/YY): **10/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
+
+### **DX - Italian resident municipal population**
+
+Source: **Istat (IstatData)**
+Title: **Popolazione residente al 1° gennaio | Resident population  on 1st January**
+Viewed in date (DD/MM/YY): **13/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN)
+
+### **DX - Citizenship foreign resident population**
+
+Source: **Istat (IstatData)**
+Title: **Stranieri residenti al 1° gennaio - Cittadinanza | esident foreigners on 1st January - Citizenship**
+Viewed in date (DD/MM/YY): **15/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019700&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019700&refresh=true&language=EN)
+
+https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0
 
 ## 4. Quality analysis of the datasets
 

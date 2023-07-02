@@ -1,8 +1,8 @@
 2023-07-01␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * App.js (App): Added `GroupedBarChart.js` component added with ternary
-        operators and fetched JSON data, created with our `SDMX-test.ipynb`
-        from our GitHub Repository.
+        operators and fetched JSON data, created with our `SDMX-test.ipynb`,
+        than renamed `D1_cleaning.ipynb`, from our GitHub Repository.
 
     * GroupedBarChart.js (GroupedBarChart): Created component to show the total
         immigrants to Italy divided per continent.
