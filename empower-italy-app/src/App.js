@@ -9,7 +9,9 @@ import Hero from './components/Hero';
 import Numbers from './components/Numbers';
 import Hypothesis from './components/Hypothesis';
 import GroupedBarChart from './components/GroupedBarChart';
-
+import Footer from './components/Footer';
+import Team from './components/Team';
+import Datasets from './components/Datasets';
 
 export default function App() {
 
@@ -78,6 +80,9 @@ export default function App() {
         <GroupedBarChart data={data} />
       )}
       <BarChart chartData={immigrationData} />
+      <Datasets />
+      <Team />
+      <Footer />
     </div>
   );
 }

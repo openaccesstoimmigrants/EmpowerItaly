@@ -21,7 +21,7 @@ export const navLinks = [
     },
 ]
 
-export const numbers = [
+export const NUMBERS = [
     {
         id: "num-1",
         title: "Total from the World",

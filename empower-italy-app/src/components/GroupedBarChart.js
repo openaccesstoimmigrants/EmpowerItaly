@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2';
 
 const GroupedBarChart = ({ data }) => {
 
-    const colors = ['#FFE45E', '#FC6471','#FFB9C8',  '#2C497F', '#A4D1F5','#6BCD9As'];
+    const colors = ['#FFE45E', '#FC6471','#FFB9C8',  '#2C497F', '#A4D1F5','#6BCD9A'];
 
     const continentLabels = {
     AFR: 'Africa',
@@ -15,20 +15,23 @@ const GroupedBarChart = ({ data }) => {
     };
 
     // Prepare chart data
-    const labels = data.AFR.map(entry => entry.year.split('-')[0]); 
+    const labels = data.AFR
+      .map(entry => entry.year.split('-')[0])
+      .slice(-10); // Filter and show only the last 10 years
 
     const datasets = Object.keys(data).map(region => {
-    return {
-        label: continentLabels[region], // Use the custom label from the continentLabels object
-        data: data[region].map(entry => entry.tot_immigrants),
-        backgroundColor: getRandomColor(region),
-        barPercentage: 0.2, // Set the width of the bars
-        barThickness: 8, // Set the thickness of the bars (adjust the value as needed)
-        };
+      return {
+          label: continentLabels[region], // Use the custom label from the continentLabels object
+          data: data[region]
+            .map(entry => entry.tot_immigrants)
+            .slice(-10), // Filter and show only the last 10 years
+          backgroundColor: getColor(region),
+          barPercentage: 0.8, // Set the width of the bars
+          };
     });
 
   // Generate random color for each region
-    function getRandomColor(region) {
+    function getColor(region) {
     // Use a predefined color array
     const colorIndex = Object.keys(data).indexOf(region);
     return colors[colorIndex % colors.length];
@@ -45,7 +48,7 @@ const GroupedBarChart = ({ data }) => {
     plugins: {
       title: {
         display: true,
-        text: 'Immigrants from the world to Italy (millions)',
+        text: 'Immigrants from the world to Italy (thousands)',
       },
     },
     scales: {
@@ -65,7 +68,10 @@ const GroupedBarChart = ({ data }) => {
         beginAtZero: true,
       },
     },
-    barSpacing: 8, // Set the spacing between bars in pixels
+    //barSpacing: 80, // Set the spacing between bars in pixels
+    //barCategoryGap: '20%', // Set the gap between bars of each year
+    //categoryPercentage: 0.5,
+    //barPercentage:0.5,
   };
 
   return (
