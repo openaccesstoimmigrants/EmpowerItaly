@@ -45,3 +45,42 @@ export const TOTAL_IMMIGRANTS_WORLD_JSON = "https://raw.githubusercontent.com/op
 
 // Cleaned JSON saved from the Jupyter lab into GitHub
 export const IMMIGRANTS_DEMOGRAPHIC_JSON = "https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/immigrants_demographic.json"
+
+export const DATASET_OBJ = [
+    {
+        id: 1,
+        format: "SDMXML",
+        title: "Wonder Woman",
+        source: "Diana Prince",
+        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
+        metadata: "Provided in SDMXt",
+        link_dataset: "www.link.link",
+    },
+    {
+        id: 2,
+        format: "SDMXML",
+        title: "Wonder Woman",
+        source: "Diana Prince",
+        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
+        metadata: "Provided in SDMXt",
+        link_dataset: "www.link.link",
+    },
+    {
+        id: 3,
+        format: "CSV",
+        title: "Wonder Woman",
+        source: "Diana Prince",
+        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
+        metadata: "Provided in SDMXt",
+        link_dataset: "www.link.link",
+    },
+    {
+        id: 4,
+        format: "SDMXML",
+        title: "Wonder Woman",
+        source: "Diana Prince",
+        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
+        metadata: "Provided in SDMXt",
+        link_dataset: "www.link.link",
+    }
+];

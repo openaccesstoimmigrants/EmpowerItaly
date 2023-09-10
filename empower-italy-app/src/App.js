@@ -11,8 +11,12 @@ import Footer from './components/Footer';
 import Team from './components/Team';
 import Datasets from './components/Datasets';
 import PyramidGraph from './components/PyramidGraph';
+import NumbersFromJSON from './components/NumbersFromJSON';
+
 
 export default function App() {
+
+  // GRAPHS
 
   // Fetch the data relative to TOTAL_IMMIGRANTS_WORLD_JSON than passed to
   // `GroupedBarChart` component
@@ -39,7 +43,7 @@ export default function App() {
     fetch(IMMIGRANTS_DEMOGRAPHIC_JSON)
       .then(response => response.json())
       .then(jsonData => {
-        console.log('Fetched data:', jsonData);
+        // console.log('Fetched data:', jsonData);
         setImmigrantsDemographic(jsonData);
       })
       .catch(error => {
@@ -48,12 +52,18 @@ export default function App() {
   }, []);
 
 
+// DATASETS
+
+
+
+
   return (
     <div className="App">
       <Header />
       <Hero />
       <Hypothesis />
       <Numbers />
+      <NumbersFromJSON />
       {loading ? (
         <p>Loading data...</p>
       ) : (

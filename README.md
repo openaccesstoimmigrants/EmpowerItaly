@@ -74,6 +74,25 @@ When it comes to the data itself, SDMX-JSON is a widely adopted format. It is a 
 
 By leveraging the power of SDMX metadata and data formats, analysts and researchers can access standardized and interoperable data, enabling more efficient and accurate analysis, comparison, and sharing of statistical information across organizations and domains.
 
+### SDMX Information Model (SDMX-IM): Data Structures
+
+The SDMX Information model provides a way of modelling statistical data, structural metadata, reference metadata and the data exchange processes by the representation of concepts, relationships, constraints, rules, and operations to specify data semantics for a chosen statistical domain.
+Content oriented guidelines are a set of propositions to harmonize the application of SDMX information model to provide concrete solutions for the interoperability in the exchange of data and metadata between organisations. 
+
+A DSD (key family) specifies a set of descriptor concepts (concepts that describe and identify a set of data). It tells which concepts are dimensions (identification and description), and which are attributes (just description), and it gives the attachment level for each of these concepts, based on the packaging structure (Data Set, Group, Series/Section, Observation) as well as their status (mandatory versus conditional). It also specifies which code lists provide possible values for the dimensions, as well as the possible values for the attributes, either as code lists or as free text fields. A data structure definition can be used to describe time series data, cross-sectional and multidimensional table data.
+
+Most of the concepts are actually SDMX Cross Domain Concepts, of the SDMX Content Oriented Guidelines (COG), which should be applied wherever possible.
+
+
+3.4.2 Code Lists
+In order to be able to exchange and understand data, it needs to be declared, what the possible values for each concept are. Besides the possibility to define text formats for free text values, which are usually used for attributes, the commonly used approach is to attach lists of values.
+Such a list of possible values is known as a ‘code list’. Each value on that list has a languageindependent abbreviation - a ‘code’ - and a language-specific description. This helps us avoid problems of translation in describing the data: the code can be translated into descriptions in any language without having to change the code associated with the data itself.  Wherever possible, the values for code lists are taken from international standards; such as those proposed in the SDMX Content-Oriented Guidelines or other internationally standardized ones (for example ISO-code lists for countries and currencies).
+
+Example query to explore the meaining of the values of a specific dimension: `http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_STATCIV2/`
+
+
+[SDMX self-learning package No. 4 Student book - Data Structure Definition](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details)
+
 ### ISTAT and SDMX
 
 The National Institute of Statistics (ISTAT) allows access to its data warehouse (http://dati.istat.it/) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/) and enriched with our tests.

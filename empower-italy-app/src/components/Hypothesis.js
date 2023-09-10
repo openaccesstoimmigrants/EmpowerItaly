@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hypothesis() {
   return (
-    <section id='hypothesis' className='py-24 mx-auto max-w-2xl'>
+    <section id='hypothesis' className='text-gray-600 body-font py-24 mx-auto max-w-2xl mb-16'>
         <div className='flex flex-col text-center w-full mb-12'>
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium mb-3">OUR HYPOTHESIS</h2>
           <h1 className="text-3xl font-bold text-gray-900">Are immigrants in Italy more likely to be unemployed compared to the native population?</h1>

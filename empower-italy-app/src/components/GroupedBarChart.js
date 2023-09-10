@@ -75,7 +75,7 @@ const GroupedBarChart = ({ data }) => {
   };
 
   return (
-        <section id="total-immigrants-world" className="max-w-6xl items-center mx-auto py-12">
+        <section id="total-immigrants-world" className="max-w-6xl items-center mx-auto py-12 mb-16">
             <h1 className="text-4xl font-bold mb-6">From where?</h1>
             <p>Bla bla bla</p>
             <Bar data={chartData} options={chartOptions} />

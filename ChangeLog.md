@@ -3,6 +3,11 @@
     * PyramidGraph.js (PyramidGraph): Created component to show immigrants
         demographics with JSON cleane from IstatData API.
 
+    * Datasets.js (Datasets): Now it maps an array and return `DatasetCard`s.
+
+    * DatasetsCard.js (DatasetsCard): The component rendered for each obj in the
+        `DATASET_OBJ` in the constants.
+
 2023-07-03␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * App.js (App): Added `Datasets.js`, `Team.js` and `Footer.js` components.

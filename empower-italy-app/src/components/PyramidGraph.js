@@ -100,10 +100,10 @@ const PyramidChart = ({ data }) => {
   }, [data]);
 
   return (
-    <section id="immigrants-demographics" className="max-w-6xl items-center mx-auto py-12">
-      <h1 className="text-4xl font-bold mb-6">From where?</h1>
-      <p>Bla bla bla</p>
-      <canvas ref={chartRef} style={{ height: '200px'}} />
+    <section id="immigrants-demographics" className="max-w-6xl items-center mx-auto py-6 mb-16">
+      <h1 className="text-4xl font-bold mb-6">Demographics of resident foreign</h1>
+      <p>Municipal resident foreign population by sex and year of birth.</p>
+      <canvas ref={chartRef} style={{ height: '180px'}} />
     </section>
   );
 };
