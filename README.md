@@ -2,9 +2,9 @@
 
 # EmpowerItaly: Exploring Immigrants' Contribution to Italian Economic Growth
 
-## Possible hypothesis questions:
+## Hypothesis questions:
 
-## Are immigrants in Italy more likely to be unemployed compared to the native population?
+## Does the number of immigrant arrival impact on the labor market?
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
