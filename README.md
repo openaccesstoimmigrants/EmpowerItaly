@@ -14,18 +14,18 @@
 
 Our project aims to provide a comprehensive analysis of the phenomenon of immigration in Italy. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
 
-We acknowledge that immigration is a complex topic that requires a multidimensional approach. Therefore, we focus on the contribution of migrants to the national economy as our main research question. Specifically, our hypothesis question explores the potential positive impact of immigrants on the economy by examining their entrepreneurial activities. We aim to investigate whether immigrants create new businesses, generate employment opportunities, and contribute to the overall economic development of Italy.
+We acknowledge that immigration is a complex topic that requires a multidimensional approach. Therefore, we focus on the contribution of migrants to the national economy as our main research question. Specifically, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] our hypothesis question explores the potential positive impact of immigrants on the economy by examining their entrepreneurial activities. We aim to investigate whether immigrants create new businesses, generate employment opportunities, and contribute to the overall economic development of Italy.
 
 ## 2. Scenario
 
-EmpowerItaly aligns data from various sources to generate insights about past and current migrational flows throughout Italy. Specifically, we are interested in how the number of entrants has changed over time, and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy. 
+EmpowerItaly aligns data from various sources to generate insights about past and current migrational flows throughout Italy. Specifically, we are interested in how the number of entrants has changed over time, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy. 
 
 In order to obtain an exhaustive picture of the phenomenon, we will align:
 
 1. Immigrants' nationality and distribution
-2. Compare the educational level of both Italians and immigrants
-3. Average salary and criminal rate per region
-4. Employment and unemployment rate
+2. Compare the educational level of both Italians and immigrants [RETREIVE INFO ABOUT ITALIAN'S ED LEVEL]
+3. Average salary and criminal rate per region [IS THE CRIMINAL RATE REALLY RELEVANT FOR THE ANALYSIS?]
+4. Employment and unemployment rate [REMEMBER TO RETRIEVE EMPLYMENT DATA]
 
 ### 2.1. The Open Data scenario
 
@@ -40,7 +40,7 @@ We believe in Open Data and want to integrate our project into the larger pictur
 
 To achieve our goal, we will follow this procedure:
 
-1. **Define your research question:** Clarify the specific aspect of immigrant entrepreneurship we want to investigate. Refine our hypothesis question and determine the variables and data needed to address it.
+1. **Define your research question:** Clarify the specific aspect of immigrant entrepreneurship [IS IT REALLY ABOUT ENTREPRENEURSHIP?] we want to investigate. Refine our hypothesis question and determine the variables and data needed to address it.
 2. **Gather data:** Identify relevant data sources that provide information on immigrant entrepreneurship in Italy. Look for datasets that include details on immigrant-owned businesses, employment generated, sectors, and other relevant factors. Ensure the data is reliable and covers the desired time period.
 3. **Data preprocessing:** Clean and preprocess the data to ensure it's in a suitable format for analysis. This may involve handling missing values, addressing outliers, standardizing variables, and performing data transformations as needed.
 4. **Data exploration and analysis:** Conduct exploratory data analysis to gain insights into the characteristics of immigrant entrepreneurship in Italy. Visualize the data using charts, graphs, and statistical summaries. Perform appropriate statistical analyses to test your hypothesis and identify any significant patterns or correlations.
@@ -322,6 +322,25 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 ## 6. Ethics analysis
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
+
+### ISTAT
+  Format: Excel, CSV, SDMX
+  Metadata:
+  URI:
+  Provenance:
+
+###OECD
+  Format:
+  Metadata:
+  URI:
+  Provenance:
+
+###Immigrati.Stat
+  Format: Excel, CSV, SDMX
+  Metadata:
+  URI:
+  Provenance:
+
 
 ## 8. Sustainability of updating the datasets over time
 
