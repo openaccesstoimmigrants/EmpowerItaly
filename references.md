@@ -2,6 +2,9 @@
 ## [IMMIGRATION AND ECONOMIC GROWTH](https://www.nber.org/system/files/working_papers/w25836/w25836.pdf)
 After the bibliography, at page 39, they present a dual-axis chart. In the x-axes, we have time, divided into `Decade`, while in the first y-axes, we have `GDP growth rate`, and in the second one (on the right), the `Net immigration rate`.
 
+## [Integrating the non-EU immigrants into the EU labour market. An econometric analysis of some of the specific factors](https://sciendo.com/article/10.2478/mmcks-2020-0021)
+The article explores the impact of some specific barriers to the integration of non-EUimmigrants on the European Union labour market, measuring the influence of age, level of educationand investments on the employment rate of non-EU immigrants.
+
 ### POSTS
 ## [THE IMMIGRATION EFFECT](https://projects.propublica.org/graphics/gdp#howitworks)
 Interesting graphs where they simulate GDP growth based on the number of immigrants. "Let’s back up a little bit and take a look at how U.S. economic growth is calculated in the first place. Two important factors that go into the equation are the number of people in the labor force and how productive they are. In the past 50 years, we’ve had an average GDP growth of around 3 percent, about half of which came from a growing labor force and half from their productivity (more recent years have hovered closer to 2 percent)."
