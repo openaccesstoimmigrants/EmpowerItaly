@@ -8,6 +8,8 @@ The article explores the impact of some specific barriers to the integration of 
 ## [The jobs and effects of migrant workers in Italy](Readings/The jobs and effects of migrant workers in Italy.pdf)
 It gives a panoramic on the post-Thatcherian and post-Brexit scenario.
 
+## [Do-immigrant-workers-depress-the-wages-of-native-workers](Readings/do-immigrant-workers-depress-the-wages-of-native-workers.pdf)
+Top elevator pitch to take inspo from
 
 ### POSTS
 ## [THE IMMIGRATION EFFECT](https://projects.propublica.org/graphics/gdp#howitworks)
