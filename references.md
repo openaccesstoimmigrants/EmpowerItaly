@@ -5,6 +5,10 @@ After the bibliography, at page 39, they present a dual-axis chart. In the x-axe
 ## [Integrating the non-EU immigrants into the EU labour market. An econometric analysis of some of the specific factors](https://sciendo.com/article/10.2478/mmcks-2020-0021)
 The article explores the impact of some specific barriers to the integration of non-EUimmigrants on the European Union labour market, measuring the influence of age, level of educationand investments on the employment rate of non-EU immigrants.
 
+## [The jobs and effects of migrant workers in Italy](Readings/The jobs and effects of migrant workers in Italy.pdf)
+It gives a panoramic on the post-Thatcherian and post-Brexit scenario.
+
+
 ### POSTS
 ## [THE IMMIGRATION EFFECT](https://projects.propublica.org/graphics/gdp#howitworks)
 Interesting graphs where they simulate GDP growth based on the number of immigrants. "Let’s back up a little bit and take a look at how U.S. economic growth is calculated in the first place. Two important factors that go into the equation are the number of people in the labor force and how productive they are. In the past 50 years, we’ve had an average GDP growth of around 3 percent, about half of which came from a growing labor force and half from their productivity (more recent years have hovered closer to 2 percent)."
@@ -41,3 +45,4 @@ Graph Type: Choose a graph type that accommodates multiple y-axes. A line chart 
 Y-Axes: Create separate y-axes for each variable. One for immigrant arrivals, one for the unemployment rate, and one for GDP.
 
 Keep in mind that while a composite graph can provide a high-level view of the relationships between these variables, it may not capture all the nuances and interactions. It's important to supplement this with other graphs and statistical analysis in your project documentation to provide a comprehensive answer to your research question.
+
