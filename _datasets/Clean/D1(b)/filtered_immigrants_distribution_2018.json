@@ -1,0 +1,44 @@
+[
+    {
+        "Territory": "IT",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 4883451
+    },
+    {
+        "Territory": "ITC",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 1656416
+    },
+    {
+        "Territory": "ITCD",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 2835528
+    },
+    {
+        "Territory": "ITD",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 1179112
+    },
+    {
+        "Territory": "ITE",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 1222811
+    },
+    {
+        "Territory": "ITF",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 592528
+    }
+]

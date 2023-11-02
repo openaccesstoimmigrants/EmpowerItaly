@@ -181,18 +181,33 @@ License
 Metadata (Provided or Not provided)
 Content description
 
-### **D0 - Immigration by age group, sex and citizenship**
+### **D1(a) - Resident foreign population by region 2019-2023**
 
-Source: **EUROSTAT**
-Title: **Immigration by age group, sex and citizenship - Online data code: MIGR_IMM1CTZ**
-Viewed in date (DD/MM/YY): **30/05/23**
-Link: [https://ec.europa.eu/eurostat/databrowser/view/MIGR_IMM1CTZ/default/table](https://ec.europa.eu/eurostat/databrowser/view/MIGR_IMM1CTZ/default/table)
+Source: **Istat (IstatData)**
+Title: **Stranieri residenti al 1° gennaio | Resident foreigners on 1st January**
+Viewed in date (DD/MM/YY): **10/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
 
-License: **Creative Commons Attribution 4.0 International (CC BY 4.0) licence** [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
 
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm](https://ec.europa.eu/eurostat/cache/metadata/en/migr_immi_esms.htm)
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
 
-### **D1 - Total immigrants to Italy divided by continents**
+This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.
+
+### **D1(b) - Resident foreign population by region 2001-2019**
+
+Source: **Istat (IstatData)**
+Title: **Popolazione residente ricostruita - Anni 2001-2019 | Estimated resident population - Years 2001-2019**
+Viewed in date (DD/MM/YY): **02/11/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
+
+This dataset was needed to implement D1(a) results with data relative to year 2018.
+
+### **D2 - Total immigrants to Italy divided by continents**
 
 Source: **Istat (IstatData)**
 Title: **Migrazioni (Trasferimenti di residenza) | Migration (Transfer of residence)**
@@ -208,6 +223,25 @@ The 2020 SDMX roadmap put a lot of emphasis on the exploration of links between 
 
 Content description: **The process makes it possible to quantify the non-EU foreigners who are legally present in Italy according to their socio-demographic characteristics and to measure the incoming flows (new permits issued during the year).**
 
+### **D3 - Italian resident municipal population**
+
+Source: **Istat (IstatData)**
+Title: **Popolazione residente al 1° gennaio | Resident population  on 1st January**
+Viewed in date (DD/MM/YY): **13/06/23**
+Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
+
+License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
+
+Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN)
+
+
+
+
+
+
+
+-- TODO: Fix datasets from here ------------------------------------------------
+
 ### **DX - Level of education and gender of foreing citizens**
 
 Source: **Istat (IstatData)**
@@ -219,27 +253,6 @@ License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https:
 
 Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN)
 
-### **DX - Municipal resident foreign population by sex and year of birth**
-
-Source: **Istat (IstatData)**
-Title: **Stranieri residenti al 1° gennaio | Resident foreigners on 1st January**
-Viewed in date (DD/MM/YY): **10/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
-
-### **DX - Italian resident municipal population**
-
-Source: **Istat (IstatData)**
-Title: **Popolazione residente al 1° gennaio | Resident population  on 1st January**
-Viewed in date (DD/MM/YY): **13/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN)
 
 ### **DX - Citizenship foreign resident population**
 
