@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    @apply pb-4
+}
+
+.nav-button {
+    @apply text-indigo-600 uppercase rounded-full bg-indigo-100 py-2 px-6 hover:bg-indigo-600 hover:text-indigo-100 transition-all 
+}
+
+.outline-button {
+    @apply rounded-full border border-indigo-600 text-indigo-600 py-2 px-6 uppercase hover:bg-indigo-600 hover:text-indigo-100 transition-all
+}
