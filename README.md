@@ -4,7 +4,7 @@
 
 ## Hypothesis questions:
 
-## Does the number of immigrant arrival impact on the labor market?
+## Does the number of immigrants impact on the labor market?
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
