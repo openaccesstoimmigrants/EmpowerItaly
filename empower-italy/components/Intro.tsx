@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Intro() {
   return (
       <section id="intro" className="pb-6">
-        <article className="max-w-7xl m-auto animate-fade-in-down">
+        <article className="max-w-7xl m-auto animate-fade-in-up">
             <div className="grid grid-cols-12 gap-6 h-full">
                 <div className="col-span-4">
                     <Image

@@ -1,5 +1,11 @@
 2023-03-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
+    * Updated `Numbers.tsx` with function to fetch and display data.
+
+    * Improved components CSS and upadated `global.css`.
+
+2023-03-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
     * Added escape rule in `eslintrc.json`.
 
     * Added function to get total immigrants number in `Numbers.tsx`.

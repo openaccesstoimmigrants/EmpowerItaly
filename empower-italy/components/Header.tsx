@@ -24,8 +24,8 @@ export default function Header({ name, href}: HeaderProps) {
                 <nav>
                     <ul className="flex items-center gap-x-6 cursor-pointer">
                         {HEADER_LINKS.map((link) => (
-                            <li key={link.name} className="nav-button">
-                                <Link className={ isActive ? 'bg-indigo-600' : 'text-indigo-600 hover:text-indigo-50'} href={link.href}>
+                            <li key={link.name} className="group nav-button">
+                                <Link className={ isActive ? 'bg-indigo-600' : 'text-indigo-600 group-hover:text-indigo-50'} href={link.href}>
                                     {link.name}
                                  </Link> {/* TODO: FIX */}
                             </li>

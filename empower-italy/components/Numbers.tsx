@@ -19,7 +19,8 @@ interface PopulationEntry {
 export default function Numbers() {
 
     // Funtion to calculate total foreing residents                                
-    const [totalImmigrants, setTotalImmigrants] = useState<string | null>(null);
+    const [totalImmigrants, setTotalImmigrants] = useState<number | null>(null);
+    const [totalWithCommas, setTotalWithCommas] = useState<string | null>(null);
     const [totalItalianPopulation, setTotalItalianPopulation] = useState<number | null>(null);
     const [percentage, setPercentage] = useState<string | null>(null);
     const [loading, setLoading] = useState(true);
@@ -71,6 +72,12 @@ export default function Numbers() {
                 // Calculate the percentage
                 const percentage = ((totalImmigrants / totalPopulation2022) * 100).toFixed(1);
 
+                setTotalImmigrants(totalImmigrants);
+
+                const totalWithCommas = totalImmigrants.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+                    setTotalWithCommas(totalWithCommas);
+                
+
                 setTotalItalianPopulation(totalPopulation2022);
                 setPercentage(percentage);
                 setLoading(false);
@@ -92,24 +99,33 @@ export default function Numbers() {
                         <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">TOTAL RESIDENT FOREIGNERS</h1>
                         {/* conditional rendering */}
                         {loading ? (
-                            <p>Loading...</p>
+                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
                         ) : error ? (
-                            <p>{error}</p>        
+                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{totalImmigrants}</p> 
+                                <p className="font-bold text-7xl text-indigo-600">{totalWithCommas}</p> 
                             </>
                         )}
                         <p className="font-bold text-4xl text-indigo-600">in Italy in 2022</p>
-                        <Link href="/" className="place-self-end font-bold text-lg text-indigo-600 uppercase pt-6">
+                        <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>
                     </div>
                     <div className="bg-indigo-100 rounded-2xl p-12 col-span-5 grid">
                         <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">THEY REPRESENT THE</h1>
-                        <p className="font-bold text-7xl text-indigo-600">{percentage}</p> {/* data will be loaded here */}
+                        {/* conditional rendering */}
+                        {loading ? (
+                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
+                        ) : error ? (
+                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
+                        ) : (
+                            <>
+                                <p className="font-bold text-7xl text-indigo-600">{percentage}%</p> 
+                            </>
+                        )}
                         <p className="font-bold text-4xl text-indigo-600">of the Italian population</p>
-                        <Link href="/" className="place-self-end font-bold text-lg text-indigo-600 uppercase pt-6">
+                        <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>
                     </div>

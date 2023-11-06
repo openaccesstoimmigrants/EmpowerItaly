@@ -42,7 +42,7 @@ export const HERO_DATA = [
         title: "Lorem ipsum dolor sit amet consectetur.",
         paragraph: "Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.",
         imageSrc: workflow,
-        payoff: "Demontrating a hypothesis",
+        payoff: "Our workflow",
         layoutOrder: false
     },
     {
