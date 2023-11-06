@@ -1,0 +1,24 @@
+{
+    "IT": [
+        {
+            "TIME_PERIOD": "2019",
+            "ObsValue": "59816673"
+        },
+        {
+            "TIME_PERIOD": "2020",
+            "ObsValue": "59641488"
+        },
+        {
+            "TIME_PERIOD": "2021",
+            "ObsValue": "59236213"
+        },
+        {
+            "TIME_PERIOD": "2022",
+            "ObsValue": "59030133"
+        },
+        {
+            "TIME_PERIOD": "2023",
+            "ObsValue": "58850717"
+        }
+    ]
+}
