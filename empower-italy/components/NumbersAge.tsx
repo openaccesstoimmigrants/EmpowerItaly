@@ -29,7 +29,7 @@ export default function Numbers() {
                 const italiansData: PopulationData[] = await italiansResponse.json();
 
                 // Fetch immigrants age data
-                const immigrantsResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D3/resident_italian_population_age.json"); // CHANGE WITH NEW
+                const immigrantsResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1/resident_immigrant_population_age.json"); // CHANGE WITH NEW
                 if (!immigrantsResponse.ok) {
                     throw new Error("Network response was not ok.");
                 }
@@ -95,7 +95,7 @@ export default function Numbers() {
                                 <p className="font-bold text-7xl text-indigo-600">{italiansMediumAge !== null ? italiansMediumAge.toFixed(1) : "N/A"}</p> {/* If null display N/A */}
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">...</p>
+                        <p className="font-bold text-4xl text-indigo-600">one of world's highest</p>
                         <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>
@@ -109,7 +109,7 @@ export default function Numbers() {
                             <p className="font-bold text-7xl text-indigo-600">{error}</p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{immigrantsMediumAge}</p> 
+                                <p className="font-bold text-7xl text-indigo-600">{immigrantsMediumAge !== null ? immigrantsMediumAge.toFixed(1) : "N/A"}</p> 
                             </>
                         )}
                         <p className="font-bold text-4xl text-indigo-600">...</p>
