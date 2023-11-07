@@ -82,6 +82,7 @@ export default function Numbers() {
                 setPercentage(percentage);
                 setLoading(false);
             } catch (error) {
+                console.error("Error fetching data:", error);
                 setError("An error occurred while fetching data.");
                 setLoading(false);
             }

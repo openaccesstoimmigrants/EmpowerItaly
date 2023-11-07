@@ -69,6 +69,7 @@ export default function Numbers() {
 
                 setLoading(false);
             } catch (error) {
+                console.error("Error fetching data:", error);
                 setError("An error occurred while fetching data.");
                 setLoading(false);
             }
