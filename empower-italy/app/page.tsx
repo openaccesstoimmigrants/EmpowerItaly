@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import { HERO_DATA } from "@/app/lib/data"
 import Intro from "@/components/Intro";
 import Hypothesis from "@/components/Hypothesis";
-import Numbers from "@/components/Numbers";
+import NumbersResidents from "@/components/NumbersResidents";
 import BarChart from "@/components/BarChart";
 import Conclusions from "@/components/Conclusions";
 
@@ -18,7 +18,7 @@ export default function Home() {
       <Hero {...dataHeroHome} />
       <Intro />
       <Hypothesis />
-      <Numbers />
+      <NumbersResidents />
       <BarChart />
       <Conclusions />
     </main>
