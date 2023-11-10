@@ -245,7 +245,8 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 -- TODO: Fix datasets from here ------------------------------------------------
 
 ### *D4 - Level of education of foreign citizens*
-
+|  | Dataset Source Information |
+| --- | --- |
 | Source | [EUROSTAT](https://ec.europa.eu/eurostat) |
 | Title | [Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%)](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
 | Last data update | 14/09/2023 23:00 | 
