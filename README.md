@@ -242,17 +242,14 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 
 -- TODO: Fix datasets from here ------------------------------------------------
 
-### **DX - Level of education and gender of foreing citizens**
+### *D4 - Level of education of foreign citizens*
 
-Source: **Istat (IstatData)**
-Title: **Stranieri residenti e condizioni di vita | Resident foreigners and life conditions**
-Viewed in date (DD/MM/YY): **03/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_CV_STRA/IT1,29_956_DF_DCIS_CV_STRA_4,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_CV_STRA/IT1,29_956_DF_DCIS_CV_STRA_4,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=8888950&refresh=true&language=EN)
-
+|  | Metadata |
+| --- | --- | 
+| Source | [EUROSTAT](https://ec.europa.eu/eurostat) |
+| Title | **[Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%)]**(https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
+| Last data update | 14/09/2023 23:00 | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
 ### **DX - Citizenship foreign resident population**
 
