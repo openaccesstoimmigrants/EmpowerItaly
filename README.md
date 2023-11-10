@@ -62,6 +62,8 @@ For our datasets, since we are dealing with data related to Italy, our main sour
 
 For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: [IstatData](https://esploradati.istat.it/databrowser/#/en). We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) [ISO standard](https://www.iso.org/standard/52500.html).
 
+As ancillary datasets in order to give more context to our hypothesis questions, the EUROSTAT was the main provider.
+
 ### SDMX: A Design Choice
 SDMX is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources. The more organizations using it, the more useful SDMX becomes. Since it has become the preferred standard for data and metadata exchange by the global statistical community, its potential is enormous. SDMX comes in several "flavors" or sub-formats, including SDMX-ML Generic, SDMX-ML Compact (also referred to as SDMX-ML Structure Specific), SDMX-JSON, and SDMX-EDI. Among these, SDMX-JSON is the most compact and efficient. However, packing all that data as tightly as possible has led to a complex structure that is difficult to interpret.
 
