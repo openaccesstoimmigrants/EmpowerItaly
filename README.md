@@ -260,6 +260,22 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | Last data update | - - | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
+### *D6 - Presence of foreigners divided by industry sector*
+|  | Dataset Source Information |
+| --- | --- |
+| Source | [ISTAT](https://www.istat.it/en/) |
+| Title | [Employment (thousands) - Nace 2007 - professional status, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
+| Last data update | - - | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+
+### *D7 - Unemployment rate between italians and foreigners*
+|  | Dataset Source Information |
+| --- | --- |
+| Source | [ISTAT](https://www.istat.it/en/) |
+| Title | [Unemployment Rate - Highest level of education attained, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0) |
+| Last data update | - - | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+
 ### **D5 - Citizenship foreign resident population**
 
 Source: **Istat (IstatData)**
