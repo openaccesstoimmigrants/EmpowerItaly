@@ -252,7 +252,15 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | Last data update | 14/09/2023 23:00 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
-### **DX - Citizenship foreign resident population**
+### *D5 - Acticity rate of foreign citizens*
+|  | Dataset Source Information |
+| --- | --- |
+| Source | [ISTAT](https://www.istat.it/en/) |
+| Title | [Activity rate: Data by gender, highest level of education attained - foreigners](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_2,1.0) |
+| Last data update | - - | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+
+### **D5 - Citizenship foreign resident population**
 
 Source: **Istat (IstatData)**
 Title: **Stranieri residenti al 1° gennaio - Cittadinanza | esident foreigners on 1st January - Citizenship**
