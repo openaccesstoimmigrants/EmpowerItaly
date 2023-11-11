@@ -358,23 +358,35 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
 
-### ISTAT
-  Format: Excel, CSV, SDMX
-  Metadata:
-  URI:
-  Provenance:
+### *ISTAT*
 
-###OECD
-  Format:
-  Metadata:
-  URI:
-  Provenance:
+### *Immigrants.Stat*
+  - Format: Excel, CSV, SDMX
+  - Metadata: Not provided
+  - URI: 
+    - [Activity rate of foreign citizens]()
+    - [Presence of foreigners divided by industry sector]()
+  - Provenance:
 
-###Immigrati.Stat
-  Format: Excel, CSV, SDMX
-  Metadata:
-  URI:
-  Provenance:
+### *I.Stat*
+  - Format: Excel, CSV, SDMX, JSON
+  - Metadata:
+  - URI:
+    - [Unemployment rate between italians and foreigners]
+  - Provenance:
+
+### *IstatData*
+  - Format: Excel, CSV, SDMX, JSON
+  - Metadata:
+  - URI:
+  - Provenance:
+
+### *EUROSTAT*
+  - Format: Excel, CSV, SDMX, JSON
+  - Metadata:
+  - URI:
+    - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
+  - Provenance:
 
 
 ## 8. Sustainability of updating the datasets over time
