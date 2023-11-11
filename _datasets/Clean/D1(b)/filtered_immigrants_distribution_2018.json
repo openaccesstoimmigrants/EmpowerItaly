@@ -40,5 +40,12 @@
         "Sex": "TOTAL",
         "Age": "TOTAL",
         "Quantity": 592528
+    },
+    {
+        "Territory": "ITG",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 232584
     }
 ]

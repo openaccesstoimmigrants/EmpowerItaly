@@ -42,6 +42,13 @@
         "Quantity": 592528
     },
     {
+        "Territory": "ITG",
+        "Year": 2018,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 232584
+    },
+    {
         "Territory": "IT",
         "Year": 2019,
         "Sex": "TOTAL",
@@ -82,6 +89,13 @@
         "Sex": "TOTAL",
         "Age": "TOTAL",
         "Quantity": 609173
+    },
+    {
+        "Territory": "ITG",
+        "Year": 2019,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 239789
     },
     {
         "Territory": "IT",
@@ -126,6 +140,13 @@
         "Quantity": 610717
     },
     {
+        "Territory": "ITG",
+        "Year": 2020,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 242042
+    },
+    {
         "Territory": "IT",
         "Year": 2021,
         "Sex": "TOTAL",
@@ -166,6 +187,13 @@
         "Sex": "TOTAL",
         "Age": "TOTAL",
         "Quantity": 593154
+    },
+    {
+        "Territory": "ITG",
+        "Year": 2021,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 235517
     },
     {
         "Territory": "IT",
@@ -210,6 +238,13 @@
         "Quantity": 583055
     },
     {
+        "Territory": "ITG",
+        "Year": 2022,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 233005
+    },
+    {
         "Territory": "IT",
         "Year": 2023,
         "Sex": "TOTAL",
@@ -250,5 +285,12 @@
         "Sex": "TOTAL",
         "Age": "TOTAL",
         "Quantity": 590189
+    },
+    {
+        "Territory": "ITG",
+        "Year": 2023,
+        "Sex": "TOTAL",
+        "Age": "TOTAL",
+        "Quantity": 233378
     }
 ]

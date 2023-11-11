@@ -29,7 +29,7 @@ export default function Numbers() {
                 const italiansData: PopulationData[] = await italiansResponse.json();
 
                 // Fetch immigrants age data
-                const immigrantsResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1/resident_immigrant_population_age.json"); // CHANGE WITH NEW
+                const immigrantsResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1(a)/resident_immigrant_population_age.json"); // CHANGE WITH NEW
                 if (!immigrantsResponse.ok) {
                     throw new Error("Network response was not ok.");
                 }
@@ -83,7 +83,7 @@ export default function Numbers() {
         <section id="numbers-demographic" className="pb-6">
             <article className="max-w-7xl m-auto">
                 <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-7 grid">
+                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-6 grid">
                         <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">ITALIANS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (
@@ -100,7 +100,7 @@ export default function Numbers() {
                             Source
                         </Link>
                     </div>
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-5 grid">
+                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-6 grid">
                         <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">IMMIGRANTS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (
@@ -112,7 +112,7 @@ export default function Numbers() {
                                 <p className="font-bold text-7xl text-indigo-600">{immigrantsMediumAge !== null ? immigrantsMediumAge.toFixed(1) : "N/A"}</p> 
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">...</p>
+                        <p className="font-bold text-4xl text-indigo-600">in line with world's medium</p>
                         <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>
