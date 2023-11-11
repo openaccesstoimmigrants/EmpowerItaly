@@ -24,7 +24,7 @@ export const HEADER_LINKS = [
         name: "Datasets",
         href: "/datasets"
     }
-] as const;
+];
 
 //
 // HERO DATA

@@ -1,3 +1,9 @@
+2023-11-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    * Updated `Header.tsx` with active link style.
+
+    * Added `placeholder` and `priority` attribute to image in `Hero.tsx`
+
 2023-03-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Updated `Numbers.tsx` with function to fetch and display data.
@@ -11,6 +17,8 @@
     * Added function to get total immigrants number in `Numbers.tsx`.
 
     * Added hero and hero's images in all pages.
+
+    * Added conditional rendering of links in `Footer.tsx`.
 
 2023-28-10␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 

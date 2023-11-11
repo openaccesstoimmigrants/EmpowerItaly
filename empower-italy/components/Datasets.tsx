@@ -6,7 +6,7 @@ export default function Datasets() {
   return (
     <section id="datsets" className="pb-6">
         <article className="max-w-7xl m-auto">
-            <div className="grid grid-cols-3 gap-6 h-full animate-fade-in-up">
+            <div className="grid grid-cols-3 gap-6 h-full animate-fade-in-down">
                 {
                     DATASETS_OBJ.map((dataset) => (
                         // We put the `key` in the fragment to not pass it as prop 

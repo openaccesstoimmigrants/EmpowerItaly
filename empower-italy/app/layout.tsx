@@ -7,8 +7,6 @@ import { HEADER_LINKS } from './lib/data'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const dataHeader = HEADER_LINKS[1]; //TODO: FIX
-
 export const metadata: Metadata = {
   title: 'Empower Italy',
   description: 'Open access project - UNIBO',
@@ -22,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
-        <Header {...dataHeader}/>
+        <Header links={HEADER_LINKS} />
         {children}
         <Footer />
       </body>

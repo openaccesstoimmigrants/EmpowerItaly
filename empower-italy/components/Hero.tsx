@@ -12,7 +12,7 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
     return (
         <section id="hero" className="pb-6">
             <article className="max-w-7xl m-auto">
-                <div className="grid grid-cols-12 gap-6 h-full animate-fade-in-up">
+                <div className="grid grid-cols-12 gap-6 h-full animate-fade-in-down">
                     <div className="grid col-span-6 grid-rows-5 gap-6">
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-7 row-span-4">
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">{title}</h1>
@@ -27,6 +27,8 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
                     </div>
                     <div className={`col-span-6 ${divOrder}`}>
                         <Image
+                            placeholder = "blur"
+                            priority={false}
                             src={imageSrc}
                             alt="hero"
                             className="rounded-2xl w-full h-full object-cover"

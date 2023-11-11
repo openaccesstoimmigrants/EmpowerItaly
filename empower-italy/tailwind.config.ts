@@ -27,8 +27,8 @@ const config: Config = {
         }
       },
       animation: {
-        'fade-in-down': 'fadeInDown 1.5s ease-in-out',
-        'fade-in-up': 'fadeInUp 1.5s ease-in-out'
+        'fade-in-down': 'fadeInDown 1s ease-in-out',
+        'fade-in-up': 'fadeInUp 1s ease-in-out'
       },
     },
   },
