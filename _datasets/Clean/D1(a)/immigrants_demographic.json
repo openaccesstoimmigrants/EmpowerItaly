@@ -37,41 +37,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "TOTAL",
-        "Quantity": 2581873
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "TOTAL",
-        "Quantity": 2607959
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "TOTAL",
-        "Quantity": 2647250
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "TOTAL",
-        "Quantity": 2562514
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "TOTAL",
-        "Quantity": 2577532
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "Y_GE100",
         "Quantity": 36
@@ -103,41 +68,6 @@
         "Sex": "Male",
         "Age": "Y_GE100",
         "Quantity": 64
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "Y_GE100",
-        "Quantity": 84
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "Y_GE100",
-        "Quantity": 93
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "Y_GE100",
-        "Quantity": 121
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "Y_GE100",
-        "Quantity": 130
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "Y_GE100",
-        "Quantity": 140
     },
     {
         "Territory": "IT",
@@ -177,41 +107,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "0",
-        "Quantity": 29873
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "0",
-        "Quantity": 29402
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "0",
-        "Quantity": 29217
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "0",
-        "Quantity": 26316
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "0",
-        "Quantity": 27379
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "1",
         "Quantity": 33498
@@ -243,41 +138,6 @@
         "Sex": "Male",
         "Age": "1",
         "Quantity": 27299
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "1",
-        "Quantity": 31727
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "1",
-        "Quantity": 29889
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "1",
-        "Quantity": 29661
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "1",
-        "Quantity": 27998
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "1",
-        "Quantity": 25901
     },
     {
         "Territory": "IT",
@@ -317,41 +177,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "10",
-        "Quantity": 27002
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "10",
-        "Quantity": 27964
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "10",
-        "Quantity": 27769
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "10",
-        "Quantity": 28204
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "10",
-        "Quantity": 29684
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "11",
         "Quantity": 27409
@@ -383,41 +208,6 @@
         "Sex": "Male",
         "Age": "11",
         "Quantity": 30339
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "11",
-        "Quantity": 25380
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "11",
-        "Quantity": 26600
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "11",
-        "Quantity": 27507
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "11",
-        "Quantity": 27616
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "11",
-        "Quantity": 27974
     },
     {
         "Territory": "IT",
@@ -457,41 +247,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "12",
-        "Quantity": 24233
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "12",
-        "Quantity": 25103
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "12",
-        "Quantity": 26483
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "12",
-        "Quantity": 27270
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "12",
-        "Quantity": 27422
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "13",
         "Quantity": 24445
@@ -523,41 +278,6 @@
         "Sex": "Male",
         "Age": "13",
         "Quantity": 29135
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "13",
-        "Quantity": 22534
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "13",
-        "Quantity": 23982
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "13",
-        "Quantity": 25100
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "13",
-        "Quantity": 26381
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "13",
-        "Quantity": 27031
     },
     {
         "Territory": "IT",
@@ -597,41 +317,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "14",
-        "Quantity": 21917
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "14",
-        "Quantity": 22497
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "14",
-        "Quantity": 24175
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "14",
-        "Quantity": 25042
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "14",
-        "Quantity": 26362
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "15",
         "Quantity": 22096
@@ -663,41 +348,6 @@
         "Sex": "Male",
         "Age": "15",
         "Quantity": 27841
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "15",
-        "Quantity": 20125
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "15",
-        "Quantity": 21964
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "15",
-        "Quantity": 22777
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "15",
-        "Quantity": 24166
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "15",
-        "Quantity": 24965
     },
     {
         "Territory": "IT",
@@ -737,41 +387,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "16",
-        "Quantity": 19720
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "16",
-        "Quantity": 20285
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "16",
-        "Quantity": 22240
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "16",
-        "Quantity": 22789
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "16",
-        "Quantity": 24374
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "17",
         "Quantity": 24220
@@ -803,41 +418,6 @@
         "Sex": "Male",
         "Age": "17",
         "Quantity": 26408
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "17",
-        "Quantity": 19942
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "17",
-        "Quantity": 19844
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "17",
-        "Quantity": 20383
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "17",
-        "Quantity": 22391
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "17",
-        "Quantity": 23207
     },
     {
         "Territory": "IT",
@@ -877,41 +457,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "18",
-        "Quantity": 18974
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "18",
-        "Quantity": 17951
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "18",
-        "Quantity": 17676
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "18",
-        "Quantity": 16801
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "18",
-        "Quantity": 23236
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "19",
         "Quantity": 33681
@@ -943,41 +488,6 @@
         "Sex": "Male",
         "Age": "19",
         "Quantity": 23550
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "19",
-        "Quantity": 19108
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "19",
-        "Quantity": 18943
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "19",
-        "Quantity": 18597
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "19",
-        "Quantity": 15982
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "19",
-        "Quantity": 18341
     },
     {
         "Territory": "IT",
@@ -1017,41 +527,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "2",
-        "Quantity": 31358
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "2",
-        "Quantity": 31538
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "2",
-        "Quantity": 30840
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "2",
-        "Quantity": 29640
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "2",
-        "Quantity": 27638
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "20",
         "Quantity": 40047
@@ -1083,41 +558,6 @@
         "Sex": "Male",
         "Age": "20",
         "Quantity": 24027
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "20",
-        "Quantity": 21569
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "20",
-        "Quantity": 20623
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "20",
-        "Quantity": 21766
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "20",
-        "Quantity": 18156
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "20",
-        "Quantity": 17902
     },
     {
         "Territory": "IT",
@@ -1157,41 +597,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "21",
-        "Quantity": 24039
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "21",
-        "Quantity": 23031
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "21",
-        "Quantity": 25210
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "21",
-        "Quantity": 20887
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "21",
-        "Quantity": 20403
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "22",
         "Quantity": 39297
@@ -1223,41 +628,6 @@
         "Sex": "Male",
         "Age": "22",
         "Quantity": 33254
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "22",
-        "Quantity": 25947
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "22",
-        "Quantity": 25456
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "22",
-        "Quantity": 28074
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "22",
-        "Quantity": 22435
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "22",
-        "Quantity": 23473
     },
     {
         "Territory": "IT",
@@ -1297,41 +667,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "23",
-        "Quantity": 28483
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "23",
-        "Quantity": 27583
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "23",
-        "Quantity": 30232
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "23",
-        "Quantity": 24778
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "23",
-        "Quantity": 25379
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "24",
         "Quantity": 39197
@@ -1363,41 +698,6 @@
         "Sex": "Male",
         "Age": "24",
         "Quantity": 43096
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "24",
-        "Quantity": 31462
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "24",
-        "Quantity": 30322
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "24",
-        "Quantity": 32058
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "24",
-        "Quantity": 27722
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "24",
-        "Quantity": 27831
     },
     {
         "Territory": "IT",
@@ -1437,41 +737,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "25",
-        "Quantity": 33926
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "25",
-        "Quantity": 33392
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "25",
-        "Quantity": 34494
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "25",
-        "Quantity": 30119
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "25",
-        "Quantity": 30743
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "26",
         "Quantity": 42366
@@ -1503,41 +768,6 @@
         "Sex": "Male",
         "Age": "26",
         "Quantity": 43666
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "26",
-        "Quantity": 37894
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "26",
-        "Quantity": 35798
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "26",
-        "Quantity": 36909
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "26",
-        "Quantity": 33123
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "26",
-        "Quantity": 33131
     },
     {
         "Territory": "IT",
@@ -1577,41 +807,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "27",
-        "Quantity": 40040
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "27",
-        "Quantity": 39825
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "27",
-        "Quantity": 38767
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "27",
-        "Quantity": 35793
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "27",
-        "Quantity": 35640
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "28",
         "Quantity": 47695
@@ -1643,41 +838,6 @@
         "Sex": "Male",
         "Age": "28",
         "Quantity": 44246
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "28",
-        "Quantity": 44871
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "28",
-        "Quantity": 41711
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "28",
-        "Quantity": 42052
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "28",
-        "Quantity": 37902
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "28",
-        "Quantity": 37958
     },
     {
         "Territory": "IT",
@@ -1717,41 +877,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "29",
-        "Quantity": 49471
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "29",
-        "Quantity": 46237
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "29",
-        "Quantity": 43617
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "29",
-        "Quantity": 41179
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "29",
-        "Quantity": 39781
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "3",
         "Quantity": 33307
@@ -1783,41 +908,6 @@
         "Sex": "Male",
         "Age": "3",
         "Quantity": 31066
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "3",
-        "Quantity": 31485
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "3",
-        "Quantity": 31225
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "3",
-        "Quantity": 32540
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "3",
-        "Quantity": 30582
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "3",
-        "Quantity": 29219
     },
     {
         "Territory": "IT",
@@ -1857,41 +947,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "30",
-        "Quantity": 53783
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "30",
-        "Quantity": 50649
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "30",
-        "Quantity": 47227
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "30",
-        "Quantity": 42717
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "30",
-        "Quantity": 42614
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "31",
         "Quantity": 54533
@@ -1923,41 +978,6 @@
         "Sex": "Male",
         "Age": "31",
         "Quantity": 45787
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "31",
-        "Quantity": 56510
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "31",
-        "Quantity": 54623
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "31",
-        "Quantity": 51226
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "31",
-        "Quantity": 46247
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "31",
-        "Quantity": 43856
     },
     {
         "Territory": "IT",
@@ -1997,41 +1017,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "32",
-        "Quantity": 57240
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "32",
-        "Quantity": 57041
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "32",
-        "Quantity": 54802
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "32",
-        "Quantity": 49984
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "32",
-        "Quantity": 46989
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "33",
         "Quantity": 55646
@@ -2063,41 +1048,6 @@
         "Sex": "Male",
         "Age": "33",
         "Quantity": 50529
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "33",
-        "Quantity": 56820
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "33",
-        "Quantity": 57396
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "33",
-        "Quantity": 56726
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "33",
-        "Quantity": 53465
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "33",
-        "Quantity": 50274
     },
     {
         "Territory": "IT",
@@ -2137,41 +1087,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "34",
-        "Quantity": 57534
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "34",
-        "Quantity": 56819
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "34",
-        "Quantity": 56877
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "34",
-        "Quantity": 55263
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "34",
-        "Quantity": 53429
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "35",
         "Quantity": 55382
@@ -2203,41 +1118,6 @@
         "Sex": "Male",
         "Age": "35",
         "Quantity": 54983
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "35",
-        "Quantity": 56846
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "35",
-        "Quantity": 57244
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "35",
-        "Quantity": 56131
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "35",
-        "Quantity": 55372
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "35",
-        "Quantity": 54943
     },
     {
         "Territory": "IT",
@@ -2277,41 +1157,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "36",
-        "Quantity": 58463
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "36",
-        "Quantity": 56501
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "36",
-        "Quantity": 56705
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "36",
-        "Quantity": 54570
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "36",
-        "Quantity": 55033
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "37",
         "Quantity": 56890
@@ -2343,41 +1188,6 @@
         "Sex": "Male",
         "Age": "37",
         "Quantity": 55079
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "37",
-        "Quantity": 57836
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "37",
-        "Quantity": 58057
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "37",
-        "Quantity": 55857
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "37",
-        "Quantity": 55133
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "37",
-        "Quantity": 54004
     },
     {
         "Territory": "IT",
@@ -2417,41 +1227,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "38",
-        "Quantity": 58767
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "38",
-        "Quantity": 57204
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "38",
-        "Quantity": 57478
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "38",
-        "Quantity": 54097
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "38",
-        "Quantity": 54583
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "39",
         "Quantity": 57217
@@ -2483,41 +1258,6 @@
         "Sex": "Male",
         "Age": "39",
         "Quantity": 53720
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "39",
-        "Quantity": 58324
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "39",
-        "Quantity": 58084
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "39",
-        "Quantity": 56587
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "39",
-        "Quantity": 55495
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "39",
-        "Quantity": 53562
     },
     {
         "Territory": "IT",
@@ -2557,41 +1297,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "4",
-        "Quantity": 31816
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "4",
-        "Quantity": 31289
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "4",
-        "Quantity": 32649
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "4",
-        "Quantity": 31994
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "4",
-        "Quantity": 30308
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "40",
         "Quantity": 56845
@@ -2623,41 +1328,6 @@
         "Sex": "Male",
         "Age": "40",
         "Quantity": 55900
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "40",
-        "Quantity": 57101
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "40",
-        "Quantity": 57609
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "40",
-        "Quantity": 57338
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "40",
-        "Quantity": 54586
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "40",
-        "Quantity": 54782
     },
     {
         "Territory": "IT",
@@ -2697,41 +1367,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "41",
-        "Quantity": 55590
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "41",
-        "Quantity": 56315
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "41",
-        "Quantity": 57080
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "41",
-        "Quantity": 55379
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "41",
-        "Quantity": 53866
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "42",
         "Quantity": 52279
@@ -2763,41 +1398,6 @@
         "Sex": "Male",
         "Age": "42",
         "Quantity": 56297
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "42",
-        "Quantity": 54876
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "42",
-        "Quantity": 54918
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "42",
-        "Quantity": 55908
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "42",
-        "Quantity": 55128
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "42",
-        "Quantity": 54606
     },
     {
         "Territory": "IT",
@@ -2837,41 +1437,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "43",
-        "Quantity": 53358
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "43",
-        "Quantity": 54121
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "43",
-        "Quantity": 54753
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "43",
-        "Quantity": 54008
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "43",
-        "Quantity": 54328
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "44",
         "Quantity": 47545
@@ -2903,41 +1468,6 @@
         "Sex": "Male",
         "Age": "44",
         "Quantity": 52501
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "44",
-        "Quantity": 51927
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "44",
-        "Quantity": 52749
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "44",
-        "Quantity": 54000
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "44",
-        "Quantity": 53000
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "44",
-        "Quantity": 53161
     },
     {
         "Territory": "IT",
@@ -2977,41 +1507,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "45",
-        "Quantity": 48755
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "45",
-        "Quantity": 51279
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "45",
-        "Quantity": 52778
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "45",
-        "Quantity": 52000
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "45",
-        "Quantity": 52023
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "46",
         "Quantity": 42929
@@ -3043,41 +1538,6 @@
         "Sex": "Male",
         "Age": "46",
         "Quantity": 48147
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "46",
-        "Quantity": 48660
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "46",
-        "Quantity": 48230
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "46",
-        "Quantity": 51382
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "46",
-        "Quantity": 50926
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "46",
-        "Quantity": 51065
     },
     {
         "Territory": "IT",
@@ -3117,41 +1577,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "47",
-        "Quantity": 47256
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "47",
-        "Quantity": 47960
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "47",
-        "Quantity": 48525
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "47",
-        "Quantity": 49427
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "47",
-        "Quantity": 49879
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "48",
         "Quantity": 39512
@@ -3183,41 +1608,6 @@
         "Sex": "Male",
         "Age": "48",
         "Quantity": 43525
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "48",
-        "Quantity": 46868
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "48",
-        "Quantity": 46680
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "48",
-        "Quantity": 48352
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "48",
-        "Quantity": 46776
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "48",
-        "Quantity": 48352
     },
     {
         "Territory": "IT",
@@ -3257,41 +1647,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "49",
-        "Quantity": 46515
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "49",
-        "Quantity": 46443
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "49",
-        "Quantity": 46924
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "49",
-        "Quantity": 46563
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "49",
-        "Quantity": 45856
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "5",
         "Quantity": 33130
@@ -3323,41 +1678,6 @@
         "Sex": "Male",
         "Age": "5",
         "Quantity": 33857
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "5",
-        "Quantity": 31346
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "5",
-        "Quantity": 31567
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "5",
-        "Quantity": 32782
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "5",
-        "Quantity": 31446
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "5",
-        "Quantity": 31556
     },
     {
         "Territory": "IT",
@@ -3397,41 +1717,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "50",
-        "Quantity": 47371
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "50",
-        "Quantity": 45951
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "50",
-        "Quantity": 46643
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "50",
-        "Quantity": 45107
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "50",
-        "Quantity": 45586
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "51",
         "Quantity": 33251
@@ -3463,41 +1748,6 @@
         "Sex": "Male",
         "Age": "51",
         "Quantity": 35779
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "51",
-        "Quantity": 45276
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "51",
-        "Quantity": 46863
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "51",
-        "Quantity": 45994
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "51",
-        "Quantity": 44956
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "51",
-        "Quantity": 44075
     },
     {
         "Territory": "IT",
@@ -3537,41 +1787,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "52",
-        "Quantity": 37219
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "52",
-        "Quantity": 44708
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "52",
-        "Quantity": 46618
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "52",
-        "Quantity": 44250
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "52",
-        "Quantity": 43900
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "53",
         "Quantity": 26487
@@ -3603,41 +1818,6 @@
         "Sex": "Male",
         "Age": "53",
         "Quantity": 33900
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "53",
-        "Quantity": 36103
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "53",
-        "Quantity": 36862
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "53",
-        "Quantity": 44396
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "53",
-        "Quantity": 44860
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "53",
-        "Quantity": 43196
     },
     {
         "Territory": "IT",
@@ -3677,41 +1857,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "54",
-        "Quantity": 36135
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "54",
-        "Quantity": 35730
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "54",
-        "Quantity": 36892
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "54",
-        "Quantity": 42635
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "54",
-        "Quantity": 43678
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "55",
         "Quantity": 22732
@@ -3743,41 +1888,6 @@
         "Sex": "Male",
         "Age": "55",
         "Quantity": 29929
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "55",
-        "Quantity": 35275
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "55",
-        "Quantity": 35921
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "55",
-        "Quantity": 35699
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "55",
-        "Quantity": 35352
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "55",
-        "Quantity": 41484
     },
     {
         "Territory": "IT",
@@ -3817,41 +1927,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "56",
-        "Quantity": 34233
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "56",
-        "Quantity": 34946
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "56",
-        "Quantity": 35703
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "56",
-        "Quantity": 34145
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "56",
-        "Quantity": 34359
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "57",
         "Quantity": 18670
@@ -3883,41 +1958,6 @@
         "Sex": "Male",
         "Age": "57",
         "Quantity": 23739
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "57",
-        "Quantity": 33125
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "57",
-        "Quantity": 33983
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "57",
-        "Quantity": 34825
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "57",
-        "Quantity": 34177
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "57",
-        "Quantity": 33045
     },
     {
         "Territory": "IT",
@@ -3957,41 +1997,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "58",
-        "Quantity": 33037
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "58",
-        "Quantity": 32855
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "58",
-        "Quantity": 33659
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "58",
-        "Quantity": 33136
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "58",
-        "Quantity": 33052
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "59",
         "Quantity": 15997
@@ -4023,41 +2028,6 @@
         "Sex": "Male",
         "Age": "59",
         "Quantity": 20213
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "59",
-        "Quantity": 30481
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "59",
-        "Quantity": 32731
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "59",
-        "Quantity": 32325
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "59",
-        "Quantity": 31893
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "59",
-        "Quantity": 31942
     },
     {
         "Territory": "IT",
@@ -4097,41 +2067,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "6",
-        "Quantity": 31319
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "6",
-        "Quantity": 30883
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "6",
-        "Quantity": 31339
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "6",
-        "Quantity": 31273
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "6",
-        "Quantity": 30949
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "60",
         "Quantity": 14966
@@ -4163,41 +2098,6 @@
         "Sex": "Male",
         "Age": "60",
         "Quantity": 18863
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "60",
-        "Quantity": 29079
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "60",
-        "Quantity": 30158
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "60",
-        "Quantity": 32012
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "60",
-        "Quantity": 30364
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "60",
-        "Quantity": 30571
     },
     {
         "Territory": "IT",
@@ -4237,41 +2137,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "61",
-        "Quantity": 26519
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "61",
-        "Quantity": 28875
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "61",
-        "Quantity": 29279
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "61",
-        "Quantity": 29903
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "61",
-        "Quantity": 29000
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "62",
         "Quantity": 12125
@@ -4303,41 +2168,6 @@
         "Sex": "Male",
         "Age": "62",
         "Quantity": 15921
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "62",
-        "Quantity": 24315
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "62",
-        "Quantity": 26212
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "62",
-        "Quantity": 27596
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "62",
-        "Quantity": 27017
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "62",
-        "Quantity": 28630
     },
     {
         "Territory": "IT",
@@ -4377,41 +2207,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "63",
-        "Quantity": 22204
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "63",
-        "Quantity": 24078
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "63",
-        "Quantity": 25017
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "63",
-        "Quantity": 25361
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "63",
-        "Quantity": 25807
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "64",
         "Quantity": 9521
@@ -4443,41 +2238,6 @@
         "Sex": "Male",
         "Age": "64",
         "Quantity": 12585
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "64",
-        "Quantity": 20001
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "64",
-        "Quantity": 22075
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "64",
-        "Quantity": 22894
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "64",
-        "Quantity": 22938
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "64",
-        "Quantity": 24119
     },
     {
         "Territory": "IT",
@@ -4517,41 +2277,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "65",
-        "Quantity": 17552
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "65",
-        "Quantity": 19854
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "65",
-        "Quantity": 20822
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "65",
-        "Quantity": 20763
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "65",
-        "Quantity": 21801
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "66",
         "Quantity": 7424
@@ -4583,41 +2308,6 @@
         "Sex": "Male",
         "Age": "66",
         "Quantity": 9964
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "66",
-        "Quantity": 16106
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "66",
-        "Quantity": 17421
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "66",
-        "Quantity": 18597
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "66",
-        "Quantity": 18804
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "66",
-        "Quantity": 19708
     },
     {
         "Territory": "IT",
@@ -4657,41 +2347,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "67",
-        "Quantity": 13859
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "67",
-        "Quantity": 15819
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "67",
-        "Quantity": 16057
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "67",
-        "Quantity": 16424
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "67",
-        "Quantity": 17726
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "68",
         "Quantity": 6263
@@ -4723,41 +2378,6 @@
         "Sex": "Male",
         "Age": "68",
         "Quantity": 7636
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "68",
-        "Quantity": 13224
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "68",
-        "Quantity": 13660
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "68",
-        "Quantity": 14462
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "68",
-        "Quantity": 14172
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "68",
-        "Quantity": 15561
     },
     {
         "Territory": "IT",
@@ -4797,41 +2417,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "69",
-        "Quantity": 11536
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "69",
-        "Quantity": 13013
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "69",
-        "Quantity": 12409
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "69",
-        "Quantity": 12808
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "69",
-        "Quantity": 13338
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "7",
         "Quantity": 31805
@@ -4863,41 +2448,6 @@
         "Sex": "Male",
         "Age": "7",
         "Quantity": 32866
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "7",
-        "Quantity": 29686
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "7",
-        "Quantity": 30808
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "7",
-        "Quantity": 30620
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "7",
-        "Quantity": 31347
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "7",
-        "Quantity": 30819
     },
     {
         "Territory": "IT",
@@ -4937,41 +2487,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "70",
-        "Quantity": 9893
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "70",
-        "Quantity": 11333
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "70",
-        "Quantity": 11885
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "70",
-        "Quantity": 10921
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "70",
-        "Quantity": 12100
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "71",
         "Quantity": 4224
@@ -5003,41 +2518,6 @@
         "Sex": "Male",
         "Age": "71",
         "Quantity": 5057
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "71",
-        "Quantity": 8168
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "71",
-        "Quantity": 9751
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "71",
-        "Quantity": 10221
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "71",
-        "Quantity": 10425
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "71",
-        "Quantity": 10355
     },
     {
         "Territory": "IT",
@@ -5077,41 +2557,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "72",
-        "Quantity": 6857
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "72",
-        "Quantity": 8108
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "72",
-        "Quantity": 8704
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "72",
-        "Quantity": 8891
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "72",
-        "Quantity": 9848
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "73",
         "Quantity": 3163
@@ -5143,41 +2588,6 @@
         "Sex": "Male",
         "Age": "73",
         "Quantity": 4278
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "73",
-        "Quantity": 5547
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "73",
-        "Quantity": 6769
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "73",
-        "Quantity": 7311
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "73",
-        "Quantity": 7613
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "73",
-        "Quantity": 8419
     },
     {
         "Territory": "IT",
@@ -5217,41 +2627,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "74",
-        "Quantity": 5119
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "74",
-        "Quantity": 5467
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "74",
-        "Quantity": 6072
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "74",
-        "Quantity": 6385
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "74",
-        "Quantity": 7164
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "75",
         "Quantity": 2765
@@ -5283,41 +2658,6 @@
         "Sex": "Male",
         "Age": "75",
         "Quantity": 3286
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "75",
-        "Quantity": 4666
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "75",
-        "Quantity": 5038
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "75",
-        "Quantity": 4864
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "75",
-        "Quantity": 5249
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "75",
-        "Quantity": 6044
     },
     {
         "Territory": "IT",
@@ -5357,41 +2697,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "76",
-        "Quantity": 4703
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "76",
-        "Quantity": 4616
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "76",
-        "Quantity": 4482
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "76",
-        "Quantity": 4208
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "76",
-        "Quantity": 4932
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "77",
         "Quantity": 2214
@@ -5423,41 +2728,6 @@
         "Sex": "Male",
         "Age": "77",
         "Quantity": 2399
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "77",
-        "Quantity": 3700
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "77",
-        "Quantity": 4582
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "77",
-        "Quantity": 4080
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "77",
-        "Quantity": 3898
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "77",
-        "Quantity": 3994
     },
     {
         "Territory": "IT",
@@ -5497,41 +2767,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "78",
-        "Quantity": 4077
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "78",
-        "Quantity": 3606
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "78",
-        "Quantity": 4070
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "78",
-        "Quantity": 3576
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "78",
-        "Quantity": 3627
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "79",
         "Quantity": 1907
@@ -5563,41 +2798,6 @@
         "Sex": "Male",
         "Age": "79",
         "Quantity": 1953
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "79",
-        "Quantity": 3162
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "79",
-        "Quantity": 3991
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "79",
-        "Quantity": 3164
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "79",
-        "Quantity": 3527
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "79",
-        "Quantity": 3320
     },
     {
         "Territory": "IT",
@@ -5637,41 +2837,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "8",
-        "Quantity": 28877
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "8",
-        "Quantity": 29118
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "8",
-        "Quantity": 30166
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "8",
-        "Quantity": 30269
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "8",
-        "Quantity": 30924
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "80",
         "Quantity": 1786
@@ -5703,41 +2868,6 @@
         "Sex": "Male",
         "Age": "80",
         "Quantity": 1934
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "80",
-        "Quantity": 2905
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "80",
-        "Quantity": 3096
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "80",
-        "Quantity": 3483
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "80",
-        "Quantity": 2714
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "80",
-        "Quantity": 3283
     },
     {
         "Territory": "IT",
@@ -5777,41 +2907,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "81",
-        "Quantity": 2517
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "81",
-        "Quantity": 2853
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "81",
-        "Quantity": 2651
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "81",
-        "Quantity": 2946
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "81",
-        "Quantity": 2533
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "82",
         "Quantity": 1371
@@ -5843,41 +2938,6 @@
         "Sex": "Male",
         "Age": "82",
         "Quantity": 1591
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "82",
-        "Quantity": 2138
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "82",
-        "Quantity": 2431
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "82",
-        "Quantity": 2493
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "82",
-        "Quantity": 2257
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "82",
-        "Quantity": 2711
     },
     {
         "Territory": "IT",
@@ -5917,41 +2977,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "83",
-        "Quantity": 1746
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "83",
-        "Quantity": 2069
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "83",
-        "Quantity": 2066
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "83",
-        "Quantity": 2065
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "83",
-        "Quantity": 2086
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "84",
         "Quantity": 949
@@ -5983,41 +3008,6 @@
         "Sex": "Male",
         "Age": "84",
         "Quantity": 1097
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "84",
-        "Quantity": 1483
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "84",
-        "Quantity": 1663
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "84",
-        "Quantity": 1760
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "84",
-        "Quantity": 1702
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "84",
-        "Quantity": 1923
     },
     {
         "Territory": "IT",
@@ -6057,41 +3047,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "85",
-        "Quantity": 1184
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "85",
-        "Quantity": 1428
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "85",
-        "Quantity": 1409
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "85",
-        "Quantity": 1442
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "85",
-        "Quantity": 1584
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "86",
         "Quantity": 682
@@ -6123,41 +3078,6 @@
         "Sex": "Male",
         "Age": "86",
         "Quantity": 729
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "86",
-        "Quantity": 1105
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "86",
-        "Quantity": 1165
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "86",
-        "Quantity": 1168
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "86",
-        "Quantity": 1125
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "86",
-        "Quantity": 1324
     },
     {
         "Territory": "IT",
@@ -6197,41 +3117,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "87",
-        "Quantity": 772
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "87",
-        "Quantity": 1045
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "87",
-        "Quantity": 929
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "87",
-        "Quantity": 957
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "87",
-        "Quantity": 1030
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "88",
         "Quantity": 500
@@ -6263,41 +3148,6 @@
         "Sex": "Male",
         "Age": "88",
         "Quantity": 492
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "88",
-        "Quantity": 898
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "88",
-        "Quantity": 697
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "88",
-        "Quantity": 842
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "88",
-        "Quantity": 750
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "88",
-        "Quantity": 870
     },
     {
         "Territory": "IT",
@@ -6337,41 +3187,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "89",
-        "Quantity": 565
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "89",
-        "Quantity": 808
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "89",
-        "Quantity": 536
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "89",
-        "Quantity": 682
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "89",
-        "Quantity": 687
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "9",
         "Quantity": 30475
@@ -6403,41 +3218,6 @@
         "Sex": "Male",
         "Age": "9",
         "Quantity": 31806
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "9",
-        "Quantity": 28578
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "9",
-        "Quantity": 28468
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "9",
-        "Quantity": 28394
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "9",
-        "Quantity": 30067
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "9",
-        "Quantity": 29819
     },
     {
         "Territory": "IT",
@@ -6477,41 +3257,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "90",
-        "Quantity": 490
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "90",
-        "Quantity": 536
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "90",
-        "Quantity": 624
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "90",
-        "Quantity": 420
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "90",
-        "Quantity": 622
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "91",
         "Quantity": 220
@@ -6543,41 +3288,6 @@
         "Sex": "Male",
         "Age": "91",
         "Quantity": 204
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "91",
-        "Quantity": 410
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "91",
-        "Quantity": 440
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "91",
-        "Quantity": 382
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "91",
-        "Quantity": 477
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "91",
-        "Quantity": 369
     },
     {
         "Territory": "IT",
@@ -6617,41 +3327,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "92",
-        "Quantity": 313
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "92",
-        "Quantity": 375
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "92",
-        "Quantity": 325
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "92",
-        "Quantity": 318
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "92",
-        "Quantity": 409
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "93",
         "Quantity": 139
@@ -6683,41 +3358,6 @@
         "Sex": "Male",
         "Age": "93",
         "Quantity": 129
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "93",
-        "Quantity": 283
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "93",
-        "Quantity": 280
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "93",
-        "Quantity": 278
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "93",
-        "Quantity": 234
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "93",
-        "Quantity": 280
     },
     {
         "Territory": "IT",
@@ -6757,41 +3397,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "94",
-        "Quantity": 190
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "94",
-        "Quantity": 237
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "94",
-        "Quantity": 190
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "94",
-        "Quantity": 217
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "94",
-        "Quantity": 208
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "95",
         "Quantity": 82
@@ -6823,41 +3428,6 @@
         "Sex": "Male",
         "Age": "95",
         "Quantity": 82
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "95",
-        "Quantity": 178
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "95",
-        "Quantity": 162
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "95",
-        "Quantity": 159
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "95",
-        "Quantity": 146
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "95",
-        "Quantity": 166
     },
     {
         "Territory": "IT",
@@ -6897,41 +3467,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "96",
-        "Quantity": 123
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "96",
-        "Quantity": 152
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "96",
-        "Quantity": 114
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "96",
-        "Quantity": 114
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "96",
-        "Quantity": 124
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "97",
         "Quantity": 46
@@ -6963,41 +3498,6 @@
         "Sex": "Male",
         "Age": "97",
         "Quantity": 31
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
-        "Sex": "Female",
-        "Age": "97",
-        "Quantity": 79
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "97",
-        "Quantity": 99
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "97",
-        "Quantity": 92
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "97",
-        "Quantity": 93
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "97",
-        "Quantity": 90
     },
     {
         "Territory": "IT",
@@ -7037,41 +3537,6 @@
     {
         "Territory": "IT",
         "Year": 2019,
-        "Sex": "Female",
-        "Age": "98",
-        "Quantity": 95
-    },
-    {
-        "Territory": "IT",
-        "Year": 2020,
-        "Sex": "Female",
-        "Age": "98",
-        "Quantity": 63
-    },
-    {
-        "Territory": "IT",
-        "Year": 2021,
-        "Sex": "Female",
-        "Age": "98",
-        "Quantity": 75
-    },
-    {
-        "Territory": "IT",
-        "Year": 2022,
-        "Sex": "Female",
-        "Age": "98",
-        "Quantity": 100
-    },
-    {
-        "Territory": "IT",
-        "Year": 2023,
-        "Sex": "Female",
-        "Age": "98",
-        "Quantity": 79
-    },
-    {
-        "Territory": "IT",
-        "Year": 2019,
         "Sex": "Male",
         "Age": "99",
         "Quantity": 22
@@ -7103,6 +3568,3541 @@
         "Sex": "Male",
         "Age": "99",
         "Quantity": 42
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "TOTAL",
+        "Quantity": 2581873
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "TOTAL",
+        "Quantity": 2607959
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "TOTAL",
+        "Quantity": 2647250
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "TOTAL",
+        "Quantity": 2562514
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "TOTAL",
+        "Quantity": 2577532
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "Y_GE100",
+        "Quantity": 84
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "Y_GE100",
+        "Quantity": 93
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "Y_GE100",
+        "Quantity": 121
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "Y_GE100",
+        "Quantity": 130
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "Y_GE100",
+        "Quantity": 140
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "0",
+        "Quantity": 29873
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "0",
+        "Quantity": 29402
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "0",
+        "Quantity": 29217
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "0",
+        "Quantity": 26316
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "0",
+        "Quantity": 27379
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "1",
+        "Quantity": 31727
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "1",
+        "Quantity": 29889
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "1",
+        "Quantity": 29661
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "1",
+        "Quantity": 27998
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "1",
+        "Quantity": 25901
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "10",
+        "Quantity": 27002
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "10",
+        "Quantity": 27964
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "10",
+        "Quantity": 27769
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "10",
+        "Quantity": 28204
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "10",
+        "Quantity": 29684
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "11",
+        "Quantity": 25380
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "11",
+        "Quantity": 26600
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "11",
+        "Quantity": 27507
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "11",
+        "Quantity": 27616
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "11",
+        "Quantity": 27974
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "12",
+        "Quantity": 24233
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "12",
+        "Quantity": 25103
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "12",
+        "Quantity": 26483
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "12",
+        "Quantity": 27270
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "12",
+        "Quantity": 27422
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "13",
+        "Quantity": 22534
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "13",
+        "Quantity": 23982
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "13",
+        "Quantity": 25100
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "13",
+        "Quantity": 26381
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "13",
+        "Quantity": 27031
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "14",
+        "Quantity": 21917
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "14",
+        "Quantity": 22497
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "14",
+        "Quantity": 24175
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "14",
+        "Quantity": 25042
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "14",
+        "Quantity": 26362
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "15",
+        "Quantity": 20125
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "15",
+        "Quantity": 21964
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "15",
+        "Quantity": 22777
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "15",
+        "Quantity": 24166
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "15",
+        "Quantity": 24965
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "16",
+        "Quantity": 19720
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "16",
+        "Quantity": 20285
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "16",
+        "Quantity": 22240
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "16",
+        "Quantity": 22789
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "16",
+        "Quantity": 24374
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "17",
+        "Quantity": 19942
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "17",
+        "Quantity": 19844
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "17",
+        "Quantity": 20383
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "17",
+        "Quantity": 22391
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "17",
+        "Quantity": 23207
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "18",
+        "Quantity": 18974
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "18",
+        "Quantity": 17951
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "18",
+        "Quantity": 17676
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "18",
+        "Quantity": 16801
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "18",
+        "Quantity": 23236
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "19",
+        "Quantity": 19108
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "19",
+        "Quantity": 18943
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "19",
+        "Quantity": 18597
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "19",
+        "Quantity": 15982
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "19",
+        "Quantity": 18341
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "2",
+        "Quantity": 31358
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "2",
+        "Quantity": 31538
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "2",
+        "Quantity": 30840
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "2",
+        "Quantity": 29640
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "2",
+        "Quantity": 27638
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "20",
+        "Quantity": 21569
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "20",
+        "Quantity": 20623
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "20",
+        "Quantity": 21766
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "20",
+        "Quantity": 18156
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "20",
+        "Quantity": 17902
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "21",
+        "Quantity": 24039
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "21",
+        "Quantity": 23031
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "21",
+        "Quantity": 25210
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "21",
+        "Quantity": 20887
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "21",
+        "Quantity": 20403
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "22",
+        "Quantity": 25947
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "22",
+        "Quantity": 25456
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "22",
+        "Quantity": 28074
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "22",
+        "Quantity": 22435
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "22",
+        "Quantity": 23473
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "23",
+        "Quantity": 28483
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "23",
+        "Quantity": 27583
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "23",
+        "Quantity": 30232
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "23",
+        "Quantity": 24778
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "23",
+        "Quantity": 25379
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "24",
+        "Quantity": 31462
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "24",
+        "Quantity": 30322
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "24",
+        "Quantity": 32058
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "24",
+        "Quantity": 27722
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "24",
+        "Quantity": 27831
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "25",
+        "Quantity": 33926
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "25",
+        "Quantity": 33392
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "25",
+        "Quantity": 34494
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "25",
+        "Quantity": 30119
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "25",
+        "Quantity": 30743
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "26",
+        "Quantity": 37894
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "26",
+        "Quantity": 35798
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "26",
+        "Quantity": 36909
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "26",
+        "Quantity": 33123
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "26",
+        "Quantity": 33131
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "27",
+        "Quantity": 40040
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "27",
+        "Quantity": 39825
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "27",
+        "Quantity": 38767
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "27",
+        "Quantity": 35793
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "27",
+        "Quantity": 35640
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "28",
+        "Quantity": 44871
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "28",
+        "Quantity": 41711
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "28",
+        "Quantity": 42052
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "28",
+        "Quantity": 37902
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "28",
+        "Quantity": 37958
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "29",
+        "Quantity": 49471
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "29",
+        "Quantity": 46237
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "29",
+        "Quantity": 43617
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "29",
+        "Quantity": 41179
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "29",
+        "Quantity": 39781
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "3",
+        "Quantity": 31485
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "3",
+        "Quantity": 31225
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "3",
+        "Quantity": 32540
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "3",
+        "Quantity": 30582
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "3",
+        "Quantity": 29219
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "30",
+        "Quantity": 53783
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "30",
+        "Quantity": 50649
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "30",
+        "Quantity": 47227
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "30",
+        "Quantity": 42717
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "30",
+        "Quantity": 42614
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "31",
+        "Quantity": 56510
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "31",
+        "Quantity": 54623
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "31",
+        "Quantity": 51226
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "31",
+        "Quantity": 46247
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "31",
+        "Quantity": 43856
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "32",
+        "Quantity": 57240
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "32",
+        "Quantity": 57041
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "32",
+        "Quantity": 54802
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "32",
+        "Quantity": 49984
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "32",
+        "Quantity": 46989
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "33",
+        "Quantity": 56820
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "33",
+        "Quantity": 57396
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "33",
+        "Quantity": 56726
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "33",
+        "Quantity": 53465
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "33",
+        "Quantity": 50274
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "34",
+        "Quantity": 57534
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "34",
+        "Quantity": 56819
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "34",
+        "Quantity": 56877
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "34",
+        "Quantity": 55263
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "34",
+        "Quantity": 53429
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "35",
+        "Quantity": 56846
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "35",
+        "Quantity": 57244
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "35",
+        "Quantity": 56131
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "35",
+        "Quantity": 55372
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "35",
+        "Quantity": 54943
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "36",
+        "Quantity": 58463
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "36",
+        "Quantity": 56501
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "36",
+        "Quantity": 56705
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "36",
+        "Quantity": 54570
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "36",
+        "Quantity": 55033
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "37",
+        "Quantity": 57836
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "37",
+        "Quantity": 58057
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "37",
+        "Quantity": 55857
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "37",
+        "Quantity": 55133
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "37",
+        "Quantity": 54004
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "38",
+        "Quantity": 58767
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "38",
+        "Quantity": 57204
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "38",
+        "Quantity": 57478
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "38",
+        "Quantity": 54097
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "38",
+        "Quantity": 54583
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "39",
+        "Quantity": 58324
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "39",
+        "Quantity": 58084
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "39",
+        "Quantity": 56587
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "39",
+        "Quantity": 55495
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "39",
+        "Quantity": 53562
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "4",
+        "Quantity": 31816
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "4",
+        "Quantity": 31289
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "4",
+        "Quantity": 32649
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "4",
+        "Quantity": 31994
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "4",
+        "Quantity": 30308
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "40",
+        "Quantity": 57101
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "40",
+        "Quantity": 57609
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "40",
+        "Quantity": 57338
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "40",
+        "Quantity": 54586
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "40",
+        "Quantity": 54782
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "41",
+        "Quantity": 55590
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "41",
+        "Quantity": 56315
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "41",
+        "Quantity": 57080
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "41",
+        "Quantity": 55379
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "41",
+        "Quantity": 53866
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "42",
+        "Quantity": 54876
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "42",
+        "Quantity": 54918
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "42",
+        "Quantity": 55908
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "42",
+        "Quantity": 55128
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "42",
+        "Quantity": 54606
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "43",
+        "Quantity": 53358
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "43",
+        "Quantity": 54121
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "43",
+        "Quantity": 54753
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "43",
+        "Quantity": 54008
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "43",
+        "Quantity": 54328
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "44",
+        "Quantity": 51927
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "44",
+        "Quantity": 52749
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "44",
+        "Quantity": 54000
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "44",
+        "Quantity": 53000
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "44",
+        "Quantity": 53161
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "45",
+        "Quantity": 48755
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "45",
+        "Quantity": 51279
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "45",
+        "Quantity": 52778
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "45",
+        "Quantity": 52000
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "45",
+        "Quantity": 52023
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "46",
+        "Quantity": 48660
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "46",
+        "Quantity": 48230
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "46",
+        "Quantity": 51382
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "46",
+        "Quantity": 50926
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "46",
+        "Quantity": 51065
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "47",
+        "Quantity": 47256
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "47",
+        "Quantity": 47960
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "47",
+        "Quantity": 48525
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "47",
+        "Quantity": 49427
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "47",
+        "Quantity": 49879
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "48",
+        "Quantity": 46868
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "48",
+        "Quantity": 46680
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "48",
+        "Quantity": 48352
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "48",
+        "Quantity": 46776
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "48",
+        "Quantity": 48352
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "49",
+        "Quantity": 46515
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "49",
+        "Quantity": 46443
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "49",
+        "Quantity": 46924
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "49",
+        "Quantity": 46563
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "49",
+        "Quantity": 45856
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "5",
+        "Quantity": 31346
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "5",
+        "Quantity": 31567
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "5",
+        "Quantity": 32782
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "5",
+        "Quantity": 31446
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "5",
+        "Quantity": 31556
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "50",
+        "Quantity": 47371
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "50",
+        "Quantity": 45951
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "50",
+        "Quantity": 46643
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "50",
+        "Quantity": 45107
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "50",
+        "Quantity": 45586
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "51",
+        "Quantity": 45276
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "51",
+        "Quantity": 46863
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "51",
+        "Quantity": 45994
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "51",
+        "Quantity": 44956
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "51",
+        "Quantity": 44075
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "52",
+        "Quantity": 37219
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "52",
+        "Quantity": 44708
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "52",
+        "Quantity": 46618
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "52",
+        "Quantity": 44250
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "52",
+        "Quantity": 43900
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "53",
+        "Quantity": 36103
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "53",
+        "Quantity": 36862
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "53",
+        "Quantity": 44396
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "53",
+        "Quantity": 44860
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "53",
+        "Quantity": 43196
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "54",
+        "Quantity": 36135
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "54",
+        "Quantity": 35730
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "54",
+        "Quantity": 36892
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "54",
+        "Quantity": 42635
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "54",
+        "Quantity": 43678
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "55",
+        "Quantity": 35275
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "55",
+        "Quantity": 35921
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "55",
+        "Quantity": 35699
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "55",
+        "Quantity": 35352
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "55",
+        "Quantity": 41484
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "56",
+        "Quantity": 34233
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "56",
+        "Quantity": 34946
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "56",
+        "Quantity": 35703
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "56",
+        "Quantity": 34145
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "56",
+        "Quantity": 34359
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "57",
+        "Quantity": 33125
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "57",
+        "Quantity": 33983
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "57",
+        "Quantity": 34825
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "57",
+        "Quantity": 34177
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "57",
+        "Quantity": 33045
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "58",
+        "Quantity": 33037
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "58",
+        "Quantity": 32855
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "58",
+        "Quantity": 33659
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "58",
+        "Quantity": 33136
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "58",
+        "Quantity": 33052
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "59",
+        "Quantity": 30481
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "59",
+        "Quantity": 32731
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "59",
+        "Quantity": 32325
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "59",
+        "Quantity": 31893
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "59",
+        "Quantity": 31942
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "6",
+        "Quantity": 31319
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "6",
+        "Quantity": 30883
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "6",
+        "Quantity": 31339
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "6",
+        "Quantity": 31273
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "6",
+        "Quantity": 30949
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "60",
+        "Quantity": 29079
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "60",
+        "Quantity": 30158
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "60",
+        "Quantity": 32012
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "60",
+        "Quantity": 30364
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "60",
+        "Quantity": 30571
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "61",
+        "Quantity": 26519
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "61",
+        "Quantity": 28875
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "61",
+        "Quantity": 29279
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "61",
+        "Quantity": 29903
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "61",
+        "Quantity": 29000
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "62",
+        "Quantity": 24315
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "62",
+        "Quantity": 26212
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "62",
+        "Quantity": 27596
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "62",
+        "Quantity": 27017
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "62",
+        "Quantity": 28630
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "63",
+        "Quantity": 22204
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "63",
+        "Quantity": 24078
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "63",
+        "Quantity": 25017
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "63",
+        "Quantity": 25361
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "63",
+        "Quantity": 25807
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "64",
+        "Quantity": 20001
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "64",
+        "Quantity": 22075
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "64",
+        "Quantity": 22894
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "64",
+        "Quantity": 22938
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "64",
+        "Quantity": 24119
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "65",
+        "Quantity": 17552
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "65",
+        "Quantity": 19854
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "65",
+        "Quantity": 20822
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "65",
+        "Quantity": 20763
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "65",
+        "Quantity": 21801
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "66",
+        "Quantity": 16106
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "66",
+        "Quantity": 17421
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "66",
+        "Quantity": 18597
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "66",
+        "Quantity": 18804
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "66",
+        "Quantity": 19708
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "67",
+        "Quantity": 13859
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "67",
+        "Quantity": 15819
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "67",
+        "Quantity": 16057
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "67",
+        "Quantity": 16424
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "67",
+        "Quantity": 17726
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "68",
+        "Quantity": 13224
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "68",
+        "Quantity": 13660
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "68",
+        "Quantity": 14462
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "68",
+        "Quantity": 14172
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "68",
+        "Quantity": 15561
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "69",
+        "Quantity": 11536
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "69",
+        "Quantity": 13013
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "69",
+        "Quantity": 12409
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "69",
+        "Quantity": 12808
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "69",
+        "Quantity": 13338
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "7",
+        "Quantity": 29686
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "7",
+        "Quantity": 30808
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "7",
+        "Quantity": 30620
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "7",
+        "Quantity": 31347
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "7",
+        "Quantity": 30819
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "70",
+        "Quantity": 9893
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "70",
+        "Quantity": 11333
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "70",
+        "Quantity": 11885
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "70",
+        "Quantity": 10921
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "70",
+        "Quantity": 12100
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "71",
+        "Quantity": 8168
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "71",
+        "Quantity": 9751
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "71",
+        "Quantity": 10221
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "71",
+        "Quantity": 10425
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "71",
+        "Quantity": 10355
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "72",
+        "Quantity": 6857
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "72",
+        "Quantity": 8108
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "72",
+        "Quantity": 8704
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "72",
+        "Quantity": 8891
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "72",
+        "Quantity": 9848
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "73",
+        "Quantity": 5547
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "73",
+        "Quantity": 6769
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "73",
+        "Quantity": 7311
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "73",
+        "Quantity": 7613
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "73",
+        "Quantity": 8419
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "74",
+        "Quantity": 5119
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "74",
+        "Quantity": 5467
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "74",
+        "Quantity": 6072
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "74",
+        "Quantity": 6385
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "74",
+        "Quantity": 7164
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "75",
+        "Quantity": 4666
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "75",
+        "Quantity": 5038
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "75",
+        "Quantity": 4864
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "75",
+        "Quantity": 5249
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "75",
+        "Quantity": 6044
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "76",
+        "Quantity": 4703
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "76",
+        "Quantity": 4616
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "76",
+        "Quantity": 4482
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "76",
+        "Quantity": 4208
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "76",
+        "Quantity": 4932
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "77",
+        "Quantity": 3700
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "77",
+        "Quantity": 4582
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "77",
+        "Quantity": 4080
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "77",
+        "Quantity": 3898
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "77",
+        "Quantity": 3994
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "78",
+        "Quantity": 4077
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "78",
+        "Quantity": 3606
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "78",
+        "Quantity": 4070
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "78",
+        "Quantity": 3576
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "78",
+        "Quantity": 3627
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "79",
+        "Quantity": 3162
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "79",
+        "Quantity": 3991
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "79",
+        "Quantity": 3164
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "79",
+        "Quantity": 3527
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "79",
+        "Quantity": 3320
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "8",
+        "Quantity": 28877
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "8",
+        "Quantity": 29118
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "8",
+        "Quantity": 30166
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "8",
+        "Quantity": 30269
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "8",
+        "Quantity": 30924
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "80",
+        "Quantity": 2905
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "80",
+        "Quantity": 3096
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "80",
+        "Quantity": 3483
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "80",
+        "Quantity": 2714
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "80",
+        "Quantity": 3283
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "81",
+        "Quantity": 2517
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "81",
+        "Quantity": 2853
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "81",
+        "Quantity": 2651
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "81",
+        "Quantity": 2946
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "81",
+        "Quantity": 2533
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "82",
+        "Quantity": 2138
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "82",
+        "Quantity": 2431
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "82",
+        "Quantity": 2493
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "82",
+        "Quantity": 2257
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "82",
+        "Quantity": 2711
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "83",
+        "Quantity": 1746
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "83",
+        "Quantity": 2069
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "83",
+        "Quantity": 2066
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "83",
+        "Quantity": 2065
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "83",
+        "Quantity": 2086
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "84",
+        "Quantity": 1483
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "84",
+        "Quantity": 1663
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "84",
+        "Quantity": 1760
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "84",
+        "Quantity": 1702
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "84",
+        "Quantity": 1923
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "85",
+        "Quantity": 1184
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "85",
+        "Quantity": 1428
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "85",
+        "Quantity": 1409
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "85",
+        "Quantity": 1442
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "85",
+        "Quantity": 1584
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "86",
+        "Quantity": 1105
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "86",
+        "Quantity": 1165
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "86",
+        "Quantity": 1168
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "86",
+        "Quantity": 1125
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "86",
+        "Quantity": 1324
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "87",
+        "Quantity": 772
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "87",
+        "Quantity": 1045
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "87",
+        "Quantity": 929
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "87",
+        "Quantity": 957
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "87",
+        "Quantity": 1030
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "88",
+        "Quantity": 898
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "88",
+        "Quantity": 697
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "88",
+        "Quantity": 842
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "88",
+        "Quantity": 750
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "88",
+        "Quantity": 870
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "89",
+        "Quantity": 565
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "89",
+        "Quantity": 808
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "89",
+        "Quantity": 536
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "89",
+        "Quantity": 682
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "89",
+        "Quantity": 687
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "9",
+        "Quantity": 28578
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "9",
+        "Quantity": 28468
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "9",
+        "Quantity": 28394
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "9",
+        "Quantity": 30067
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "9",
+        "Quantity": 29819
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "90",
+        "Quantity": 490
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "90",
+        "Quantity": 536
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "90",
+        "Quantity": 624
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "90",
+        "Quantity": 420
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "90",
+        "Quantity": 622
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "91",
+        "Quantity": 410
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "91",
+        "Quantity": 440
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "91",
+        "Quantity": 382
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "91",
+        "Quantity": 477
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "91",
+        "Quantity": 369
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "92",
+        "Quantity": 313
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "92",
+        "Quantity": 375
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "92",
+        "Quantity": 325
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "92",
+        "Quantity": 318
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "92",
+        "Quantity": 409
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "93",
+        "Quantity": 283
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "93",
+        "Quantity": 280
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "93",
+        "Quantity": 278
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "93",
+        "Quantity": 234
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "93",
+        "Quantity": 280
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "94",
+        "Quantity": 190
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "94",
+        "Quantity": 237
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "94",
+        "Quantity": 190
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "94",
+        "Quantity": 217
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "94",
+        "Quantity": 208
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "95",
+        "Quantity": 178
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "95",
+        "Quantity": 162
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "95",
+        "Quantity": 159
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "95",
+        "Quantity": 146
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "95",
+        "Quantity": 166
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "96",
+        "Quantity": 123
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "96",
+        "Quantity": 152
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "96",
+        "Quantity": 114
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "96",
+        "Quantity": 114
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "96",
+        "Quantity": 124
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "97",
+        "Quantity": 79
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "97",
+        "Quantity": 99
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "97",
+        "Quantity": 92
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "97",
+        "Quantity": 93
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "97",
+        "Quantity": 90
+    },
+    {
+        "Territory": "IT",
+        "Year": 2019,
+        "Sex": "Female",
+        "Age": "98",
+        "Quantity": 95
+    },
+    {
+        "Territory": "IT",
+        "Year": 2020,
+        "Sex": "Female",
+        "Age": "98",
+        "Quantity": 63
+    },
+    {
+        "Territory": "IT",
+        "Year": 2021,
+        "Sex": "Female",
+        "Age": "98",
+        "Quantity": 75
+    },
+    {
+        "Territory": "IT",
+        "Year": 2022,
+        "Sex": "Female",
+        "Age": "98",
+        "Quantity": 100
+    },
+    {
+        "Territory": "IT",
+        "Year": 2023,
+        "Sex": "Female",
+        "Age": "98",
+        "Quantity": 79
     },
     {
         "Territory": "IT",

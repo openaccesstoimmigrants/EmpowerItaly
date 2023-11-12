@@ -4,6 +4,8 @@
 
     * Added `placeholder` and `priority` attribute to image in `Hero.tsx`
 
+    * Updated `Footer.tsx` with conditional links rendering.
+
 2023-03-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Updated `Numbers.tsx` with function to fetch and display data.

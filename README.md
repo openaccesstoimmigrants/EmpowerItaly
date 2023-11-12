@@ -77,7 +77,6 @@ When it comes to the data itself, SDMX-JSON is a widely adopted format. It is a 
 By leveraging the power of SDMX metadata and data formats, analysts and researchers can access standardized and interoperable data, enabling more efficient and accurate analysis, comparison, and sharing of statistical information across organizations and domains.
 
 ### SDMX Information Model (SDMX-IM): Data Structures
-
 The SDMX Information model provides a way of modelling statistical data, structural metadata, reference metadata and the data exchange processes by the representation of concepts, relationships, constraints, rules, and operations to specify data semantics for a chosen statistical domain.
 Content oriented guidelines are a set of propositions to harmonize the application of SDMX information model to provide concrete solutions for the interoperability in the exchange of data and metadata between organisations. 
 
@@ -85,33 +84,31 @@ A DSD (key family) specifies a set of descriptor concepts (concepts that describ
 
 Most of the concepts are actually SDMX Cross Domain Concepts, of the SDMX Content Oriented Guidelines (COG), which should be applied wherever possible.
 
-
-3.4.2 Code Lists
+### Code Lists
 In order to be able to exchange and understand data, it needs to be declared, what the possible values for each concept are. Besides the possibility to define text formats for free text values, which are usually used for attributes, the commonly used approach is to attach lists of values.
 Such a list of possible values is known as a ‘code list’. Each value on that list has a languageindependent abbreviation - a ‘code’ - and a language-specific description. This helps us avoid problems of translation in describing the data: the code can be translated into descriptions in any language without having to change the code associated with the data itself.  Wherever possible, the values for code lists are taken from international standards; such as those proposed in the SDMX Content-Oriented Guidelines or other internationally standardized ones (for example ISO-code lists for countries and currencies).
 
-Example query to explore the meaining of the values of a specific dimension: `http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_STATCIV2/`
-
+Example query to explore the meaining of the values of a specific dimension: `https://esploradati.istat.it/SDMXWS/rest/codelist/IT1/CL_STATCIV2/`
 
 [SDMX self-learning package No. 4 Student book - Data Structure Definition](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details)
 
 ### ISTAT and SDMX
+The Italian National Institute of Statistics (ISTAT) allows access to its [data warehouse](https://esploradati.istat.it/databrowser/#/en) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/), updated, enriched with our tests and considerations.
 
-The National Institute of Statistics (ISTAT) allows access to its data warehouse (http://dati.istat.it/) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/) and enriched with our tests.
-
-There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: http://sdmx.istat.it/SDMXWS/.
+There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: https://esploradati.istat.it/SDMXWS/.
 
 ### How to query the APIs
-
 The base URL for access is http://sdmx.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
 
 To test the APIs and explore the results we used [Postman API platform](https://www.postman.com/).
 
 ### Accessing Metadata
-
 This is the URL structure for accessing metadata:
 
 http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
+
+⚠️ The endpoint is been updated while working on the project, the actual one is:
+https://esploradati.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
 
 Some notes:
 - `resource` (required): the resource you want to query (including `categorisation`, `categoryscheme`, `codelist`, `conceptscheme`, `contentconstraint`, `dataflow`, and `datastructure`).
@@ -123,7 +120,7 @@ Some notes:
   - `detail`: the desired level of information. Possible values are `allstubs`, `referencestubs`, `allcompletestubs`, `referencecompletestubs`, `referencepartial, and `full`. The default is `full`.
   - `references`: the related references to be returned. Possible values are `none`, `parents`, `parentsandsiblings`, `children`, `descendants`, `all`, and `any`. The default is `none`.
 
-An example is retrieving the `dataflows`, which is the list of queryable data flows. The URL for retrieving it is http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1. From URL we found the dataset we needed, with ID 28_185.
+An example is retrieving the `dataflows`, which is the list of queryable data flows. The URL for retrieving it is https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1. From URL we found the dataset we needed, with ID 28_185.
 
 ### Applying Filters
 
@@ -132,47 +129,47 @@ To obtain the correct dimensions of the dataset, it is useful to apply filters, 
 The ID is specified in the dataflow. Referring back to the previous information, the ID referenced in the datastructure for immigrations is `DCIS_MIGRAZIONI`.
 
 For our example the query will be:
-`http://sdmx.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_MIGRAZIONI/`
+`https://esploradati.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_MIGRAZIONI/`
 
 By querying the API, we will obtain an XML output that includes the `structure:DimensionList` tag, which contains the list of dimensions, i.e., the data schema of the dataset. In our case, the dimensions are as follows: `FREQ`, `ETA_NUM`, `PAESE_CITTAD`, `TERR_DEST`, `REF_AREA_0`, `STATO_EST_DEST`, `STATO_EST_PROV`, `TIPO_TRASF`, `SESSO`, `TIPO_INDDEM`.
 
-What is the meaning of these abbreviations?
+**What is the meaning of these abbreviations?**
 The answer to this question is provided by the metadata resource - the package - called `codelist`. It can be queried by ID, but we need to know the IDs of the various fields, which are written in the XML file mentioned above.
 
-For example, for the "FREQ" field, we read <Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />, which means that the corresponding ID in the codelist is "CL_FREQ". The URL to be used to retrieve information about this field is another metadata query URL: http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
+For example, for the `FREQ` field, we read <Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />, which means that the corresponding ID in the codelist is "CL_FREQ". The URL to be used to retrieve information about this field is another metadata query URL: http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
 
-The output will be an XML file, where it states that it represents the "Frequency". The XML also contains the possible values for this dimension, which for "CL_FREQ" correspond to the underlying pairs of ID and value.
+The output will be an XML file, where it states that it represents the "Frequency". The XML also contains the possible values for this dimension, which for `CL_FREQ` correspond to the underlying pairs of ID and value.
 
 #### Which codes/values are available to filter a specific dataflow by dimension?
 
 We can explore the values available for each dimension with this query:
-`http://sdmx.istat.it/SDMXWS/rest/availableconstraint/28_185`
+`https://esploradati.istat.it/SDMXWS/rest/availableconstraint/28_185`
 
-The output is an XML file, where, for example, it can be seen that for this specific dataflow, the available value for the dimension FREQ (Frequency) is A, which represents annual frequency.
+The output is an XML file, where, for example, it can be seen that for this specific dataflow, the available value for the dimension `FREQ` (Frequency) is `A`, which represents annual frequency.
 
 #### Build the URL to filter a dataflow, perform an attribute query
 
 An attribute query should list the attribute values in the URL following this pattern:
 
-`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/fieldValue1.fieldValue2.fieldValue3/`
+`https://esploradati.istat.it/SDMXWS/rest/data/flowRef/fieldValue1.fieldValue2.fieldValue3/`
 
 The example above shows a data structure with three fields. The field values should be separated by a dot (.) character. If a value is not specified, no filter will be applied for that field/dimension. Therefore, an URL like:
 
-`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../`
+`https://esploradati.istat.it/SDMXWS/rest/data/flowRef/../`
 
 is equivalent to not applying any filter.
 
 For the dataflow we are using in this guide, an example could be filtering for all immigrats to Italy (not divided by province), coming from Africa, of every age and of both sexs:
 
-`http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.AFR.ITTOT.ITTOT....9.`
+`https://esploradati.istat.it/SDMXWS/rest/data/28_185/.TOTAL.AFR.ITTOT.ITTOT....9.`
 
 Since one of our goals is to provide new datasets and visulize them, we can query the numbers of all immigrants, divided by year, for each continent:
 
-`http://sdmx.istat.it/SDMXWS/rest/data/28_185/.TOTAL.EU27_FOR+EUR_NEU27+AFR+ASI+AME+OCE.ITTOT.ITTOT....9.`
+`https://esploradati.istat.it/SDMXWS/rest/data/28_185/.TOTAL.EU27_FOR+EUR_NEU27+AFR+ASI+AME+OCE.ITTOT.ITTOT....9.`
 
 By using these queries, we can collect different datasets from just one source.
 
-With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `D1_cleaning.ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
+With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `D2_migrations(2012-2021).ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
 
 To display the data in our React app, we simply save a constant with the URL of our GitHub repository that points to our new [JSON file in raw version](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json).
 
