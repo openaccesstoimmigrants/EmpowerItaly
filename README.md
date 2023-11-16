@@ -363,27 +363,32 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
 
-### *ISTAT*
-
 ### *Immigrants.Stat*
   - Format: Excel, CSV, SDMX
   - Metadata: Not provided
   - URI: 
-    - [Activity rate of foreign citizens]()
-    - [Presence of foreigners divided by industry sector]()
+    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
+    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
   - Provenance:
+    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
+    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
 
 ### *I.Stat*
-  - Format: Excel, CSV, SDMX, JSON
+  - Format: Excel, CSV, SDMX
   - Metadata:
   - URI:
-    - [Unemployment rate between italians and foreigners]
+    - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
   - Provenance:
+    - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
 
 ### *IstatData*
   - Format: Excel, CSV, SDMX, JSON
   - Metadata:
   - URI:
+    - Resident foreign population by region 2019-2023
+    - Resident foreign population by region 2001-2019
+    - Total immigrants to Italy divided by continents
+    - Italian resident municipal population
   - Provenance:
 
 ### *EUROSTAT*
