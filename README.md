@@ -407,7 +407,17 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 11. MANIFESTO
 ### How to be creative and at the same time provide a good Open Data Project?
-We relied on simple yet strong principles.
+#### We relied on simple yet strong principles - known as the zen code principles.
 
-1. TRANSPARENCY: We let the data talk - if the dataset presents some aspects that make us suspicious, we try to dive deep into the question - at worst, we tried.
-2. TRANSPARENCY:  
+1. Prioritize simplicity in code for better performance and maintainability.
+2. Embrace complexity but avoid over-engineering to maintain application efficiency.
+3. Be explicit in code and communication for scalable code and transparent collaboration.
+4. Prefer immutable states in code for clarity and maintainability.
+5. Foster horizontal relationships in teams for better interactions and feature design.
+6. Prioritize rhythm over volume in development for agile, resource-efficient solutions.
+7. Treat errors explicitly in both code and human processes for continuous improvement.
+8. Ensure solutions are easy to explain, indicating clear design understanding and effectiveness.
+
+#### Furthermore, we tried to make the two worlds dialogue: the literature and the code one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPLAINABILITY OF DATA**.
+
+
