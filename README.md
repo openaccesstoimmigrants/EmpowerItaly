@@ -404,3 +404,10 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 ## 9. Visualization
 
 ## 10. RDF assertion of the metadata
+
+## 11. MANIFESTO
+### How to be creative and at the same time provide a good Open Data Project?
+We relied on simple yet strong principles.
+
+1. TRANSPARENCY: We let the data talk - if the dataset presents some aspects that make us suspicious, we try to dive deep into the question - at worst, we tried.
+2. TRANSPARENCY:  
