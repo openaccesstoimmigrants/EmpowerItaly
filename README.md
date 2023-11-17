@@ -405,7 +405,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 10. RDF assertion of the metadata
 
-## 11. MANIFESTO
+## 11. AN OPEN DATA MANIFESTO
 ### How to be creative and at the same time provide a good Open Data Project?
 #### We relied on simple yet strong principles - known as the zen code principles.
 
