@@ -12,7 +12,7 @@ This is what we can call the "divergent phase" - following the double diamond ap
 
 
  ## **[WHO]** 
-Apart from continue communication and brainstorm moments, this part has been under the responsibility of Camila and Giusy.
+Apart from continue communication and brainstorm moments, this part has been under the responsibility of @camilasamurai and @teragramgius
 
 ## **[HOW]** 
 Libraries and Frameworks we used in this section:
