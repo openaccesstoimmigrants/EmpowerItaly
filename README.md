@@ -418,6 +418,6 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 7. Treat errors explicitly in both code and human processes for continuous improvement.
 8. Ensure solutions are easy to explain, indicating clear design understanding and effectiveness.
 
-#### Furthermore, we tried to make the two worlds dialogue: the literature and the code one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPLAINABILITY OF DATA**.
+#### Furthermore, we tried to make the two worlds dialogue: the literature and the code one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPRESSIVENESS OF CODE**. Simply put, code readability refers to how easily one can understand the purpose of the code. It relies on the effective use of programming skills, such as appropriately naming variables and adding comments.
 
 
