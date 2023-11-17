@@ -406,8 +406,10 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 ## 10. RDF assertion of the metadata
 
 ## 11. AN OPEN DATA MANIFESTO
-### How to be creative and at the same time provide a good Open Data Project?
-#### We relied on simple yet strong principles - known as the zen code principles.
+### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
+
+#### We tried to make the two worlds dialogue: the humanities and the digital one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPRESSIVENESS OF CODE**. Simply put, code readability refers to how easily one can understand the purpose of the code. It relies on the effective use of programming skills, such as appropriately naming variables and adding comments. <br>
+#### Finally, we relied on simple yet strong principles - known as the zen code principles - we leave here a brief hint of them. <br>
 
 1. Prioritize simplicity in code for better performance and maintainability.
 2. Embrace complexity but avoid over-engineering to maintain application efficiency.
@@ -418,6 +420,5 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 7. Treat errors explicitly in both code and human processes for continuous improvement.
 8. Ensure solutions are easy to explain, indicating clear design understanding and effectiveness.
 
-#### Furthermore, we tried to make the two worlds dialogue: the literature and the code one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPRESSIVENESS OF CODE**. Simply put, code readability refers to how easily one can understand the purpose of the code. It relies on the effective use of programming skills, such as appropriately naming variables and adding comments.
 
 
