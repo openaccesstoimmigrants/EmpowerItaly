@@ -8,10 +8,11 @@
 As you will have the opportunity to see on the website, the mashup phase is less about reaching a 'conclusive point' about our thesis and more about opening up borders of expectations about data, to find reach insights and useful points for a change of perspective about data. <br>
 This is what we can call the "divergent phase" - following the double diamond approach. <br>
 
-[![Double Diamond](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/9bbe2f6cce87dcdd5ea438c6ed4f69fcc2100e65/_img/Double_diamond.png)]
+[](https://upload.wikimedia.org/wikipedia/commons/b/bd/Double_diamond.png)
+
 
  ## **[WHO]** 
-Apart from continue communication and brainstorm moments, this part has been under the responsibility of Camila and Giusy.
+Apart from continue communication and brainstorm moments, this part has been under the responsibility of and [Camila](https://github.com/camilasamurai) and [Giusy](https://github.com/teragramgius)
 
 ## **[HOW]** 
 Libraries and Frameworks we used in this section:
