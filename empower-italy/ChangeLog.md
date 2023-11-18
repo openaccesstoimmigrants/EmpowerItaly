@@ -1,3 +1,7 @@
+2023-18-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    * Updated `Footer.tsx` links.
+
 2023-11-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Updated `Header.tsx` with active link style.
@@ -11,8 +15,6 @@
     * Updated `Numbers.tsx` with function to fetch and display data.
 
     * Improved components CSS and upadated `global.css`.
-
-2023-03-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Added escape rule in `eslintrc.json`.
 
