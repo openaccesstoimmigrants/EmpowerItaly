@@ -62,7 +62,25 @@ For our datasets, since we are dealing with data related to Italy, our main sour
 
 For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: [IstatData](https://esploradati.istat.it/databrowser/#/en). We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) [ISO standard](https://www.iso.org/standard/52500.html).
 
-As ancillary datasets in order to give more context to our hypothesis questions, the EUROSTAT was the main provider.
+As ancillary datasets were used in order to give more context to our hypothesis questions, the [EUROSTAT](// Only change code below this line
+class Thermostat{
+  constructor(temperature){
+    this._temperature = temperature;
+  }
+  get temperature(){
+     this._temperature = (5/9 * (this._temperature - 32));
+     return this._temperature;
+  }
+  set temperature(NewTemp){
+    this._temperature = (NewTemp * 9.0 / 5 + 32);
+  }
+}
+// Only change code above this line
+
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+temp = thermos.temperature; // 26 in Celsius) was the main provider.
 
 ### SDMX: A Design Choice
 SDMX is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources. The more organizations using it, the more useful SDMX becomes. Since it has become the preferred standard for data and metadata exchange by the global statistical community, its potential is enormous. SDMX comes in several "flavors" or sub-formats, including SDMX-ML Generic, SDMX-ML Compact (also referred to as SDMX-ML Structure Specific), SDMX-JSON, and SDMX-EDI. Among these, SDMX-JSON is the most compact and efficient. However, packing all that data as tightly as possible has led to a complex structure that is difficult to interpret.
@@ -246,7 +264,7 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | --- | --- |
 | Source | [EUROSTAT](https://ec.europa.eu/eurostat) |
 | Title | [Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%)](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
-| Last data update | 14/09/2023 23:00 | 
+| Viewed in date |  | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
 ### *D5 - Acticity rate of foreign citizens*
@@ -254,7 +272,7 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Activity rate: Data by gender, highest level of education attained - foreigners](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_2,1.0) |
-| Last data update | - - | 
+| Viewed in date | - - | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
 ### *D6 - Presence of foreigners divided by industry sector*
@@ -262,7 +280,7 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Employment (thousands) - Nace 2007 - professional status, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
-| Last data update | - - | 
+| Viewed in date | - - | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
 
 ### *D7 - Unemployment rate between italians and foreigners*
@@ -270,21 +288,8 @@ Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Unemployment Rate - Highest level of education attained, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0) |
-| Last data update | - - | 
+| Viewed in date | - - | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
-
-### **D5 - Citizenship foreign resident population**
-
-Source: **Istat (IstatData)**
-Title: **Stranieri residenti al 1° gennaio - Cittadinanza | esident foreigners on 1st January - Citizenship**
-Viewed in date (DD/MM/YY): **15/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019700&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019700&refresh=true&language=EN)
-
-https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0
 
 ## 4. Quality analysis of the datasets
 
@@ -303,6 +308,9 @@ This section considers the requirements, established according to the "Linee gui
 | D2 | NO - See point 1 | YES | YES | YES |
 | D3 |  |  |  |  |
 | D4 |  |  |  |  |
+| D5 |  |  |  |  |
+| D6 |  |  |  |  |
+| D7 |  |  |  |  |
 
 1. The dataset does not complain with the accuracy standard because…
 
@@ -314,40 +322,40 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ### 5.1. Legal Checklist
 
-|  | To check | D1 | D2 | D3 | D4 |
-| --- | --- | --- | --- | --- | --- |
-| 1. Privacy issues | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |  |  |  | Y |
-|  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. |  |  |  | Y |
-|  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? |  |  |  | Y |
-|  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? |  |  |  | Y |
-|  | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |  |  |  | Y |
-|  | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  | N |
-|  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? |  |  |  | Y |
-|  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? |  |  |  | Y |
-|  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? |  |  |  | Y |
-|  | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |  |  |  |  |
-| 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? |  |  |  |  |
-|  | 2.2 Are you the owner of the dataset? Who is the owner? |  |  |  |  |
-|  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? |  |  |  |  |
-|  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? |  |  |  |  |
-| 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? |  |  |  |  |
-|  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |
-|  | 3.3 Do you release the API (in case you have) with an open source license no |  |  |  |  |
-| 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |
-|  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |  |  |  |  |
-|  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? |  |  |  |  |
-|  | 4.4 Do you check if there are some limitations concerning the public interest ? |  |  |  |  |
-|  | 4.5 Do you check the international law limitations ? |  |  |  |  |
-|  | 4.6 Do you check the INSPIRE law limitations for the spatial data? |  |  |  |  |
-| 5. Economical Conditions | 5.1 Do you check that the dataset could be released for free ? |  |  |  |  |
-|  | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |  |  |  |  |
-|  | 5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |  |  |  |  |
-|  | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? |  |  |  |  |
-|  | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? |  |  |  |  |
-| 6. Temporary aspects | 6.1 Do you have a temporary policy for updating the dataset ? |  |  |  |  |
-|  | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ? |  |  |  |  |
-|  | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ? |  |  |  |  |
-|  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? |  |  |  |  |
+|  | To check | D1 | D2 | D3 | D4 | D5 | D6 | D7 |
+| --- | --- | --- | --- | --- | --- | --- | -- | --- |
+| 1. Privacy issues | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |  |  |  | Y |   |   |   |
+|  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. |  |  |  | Y |   |   |   |
+|  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? |  |  |  | Y |   |   |   |
+|  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? |  |  |  | Y |   |   |   |
+|  | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |  |  |  | Y |   |   |   |
+|  | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  | N |   |   |   |
+|  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? |  |  |  | Y |   |   |   |
+|  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? |  |  |  | Y |   |   |   |
+|  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? |  |  |  | Y |   |   |   |
+|  | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |  |  |  |  |   |   |   |
+| 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? |  |  |  |  |   |   |   |
+|  | 2.2 Are you the owner of the dataset? Who is the owner? |  |  |  |  |   |   |   |
+|  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? |  |  |  |  |   |   |   |
+|  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? |  |  |  |  |   |   |   |
+| 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? |  |  |  |  |   |   |   |
+|  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |   |   |   |
+|  | 3.3 Do you release the API (in case you have) with an open source license no |  |  |  |  |   |   |   |
+| 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |   |   |   |
+|  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |  |  |  |  |   |   |   |
+|  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? |  |  |  |  |   |   |   |
+|  | 4.4 Do you check if there are some limitations concerning the public interest ? |  |  |  |  |   |   |   |
+|  | 4.5 Do you check the international law limitations ? |  |  |  |  |   |   |   |
+|  | 4.6 Do you check the INSPIRE law limitations for the spatial data? |  |  |  |  |   |   |   |
+| 5. Economical Conditions | 5.1 Do you check that the dataset could be released for free ? |  |  |  |  |   |   |   |
+|  | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |  |  |  |  |   |   |   |
+|  | 5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |  |  |  |  |   |   |   |
+|  | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? |  |  |  |  |   |   |   |
+|  | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? |  |  |  |  |   |   |   |
+| 6. Temporary aspects | 6.1 Do you have a temporary policy for updating the dataset ? |  |  |  |  |   |   |   |
+|  | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ? |  |  |  |  |   |   |   |
+|  | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ? |  |  |  |  |   |   |   |
+|  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? |  |  |  |  |   |   |   |
 
 ### 5.2 Licenses
 
@@ -355,27 +363,32 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
 
-### *ISTAT*
-
 ### *Immigrants.Stat*
   - Format: Excel, CSV, SDMX
   - Metadata: Not provided
   - URI: 
-    - [Activity rate of foreign citizens]()
-    - [Presence of foreigners divided by industry sector]()
+    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
+    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
   - Provenance:
+    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
+    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
 
 ### *I.Stat*
-  - Format: Excel, CSV, SDMX, JSON
+  - Format: Excel, CSV, SDMX
   - Metadata:
   - URI:
-    - [Unemployment rate between italians and foreigners]
+    - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
   - Provenance:
+    - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
 
 ### *IstatData*
   - Format: Excel, CSV, SDMX, JSON
   - Metadata:
   - URI:
+    - Resident foreign population by region 2019-2023
+    - Resident foreign population by region 2001-2019
+    - Total immigrants to Italy divided by continents
+    - Italian resident municipal population
   - Provenance:
 
 ### *EUROSTAT*
@@ -391,3 +404,21 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 ## 9. Visualization
 
 ## 10. RDF assertion of the metadata
+
+## 11. AN OPEN DATA MANIFESTO
+### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
+
+#### We tried to make the two worlds dialogue: the humanities and the digital one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPRESSIVENESS OF CODE**. Simply put, code readability refers to how easily one can understand the purpose of the code. It relies on the effective use of programming skills, such as appropriately naming variables and adding comments. <br>
+#### Finally, we relied on simple yet strong principles - known as the zen code principles - we leave here a brief hint of them. <br>
+
+1. Prioritize simplicity in code for better performance and maintainability.
+2. Embrace complexity but avoid over-engineering to maintain application efficiency.
+3. Be explicit in code and communication for scalable code and transparent collaboration.
+4. Prefer immutable states in code for clarity and maintainability.
+5. Foster horizontal relationships in teams for better interactions and feature design.
+6. Prioritize rhythm over volume in development for agile, resource-efficient solutions.
+7. Treat errors explicitly in both code and human processes for continuous improvement.
+8. Ensure solutions are easy to explain, indicating clear design understanding and effectiveness.
+
+
+
