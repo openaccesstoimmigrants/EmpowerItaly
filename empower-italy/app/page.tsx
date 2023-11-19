@@ -6,6 +6,7 @@ import NumbersResidents from "@/components/NumbersResidents";
 import BarChart from "@/components/BarChart";
 import NumbersAge from "@/components/NumbersAge";
 import Conclusions from "@/components/Conclusions";
+import BubbleChartMashUp from "@/components/BubbleChartMashUp";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <NumbersResidents />
       <BarChart />
       <NumbersAge />
+      <BubbleChartMashUp />
       <Conclusions />
     </main>
   )

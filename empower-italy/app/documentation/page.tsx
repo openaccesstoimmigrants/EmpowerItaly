@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import { HERO_DATA } from "@/app/lib/data"
+import DocSidebar from "@/components/DocSidebar"
 
 export default function page() {
 
@@ -12,7 +13,7 @@ export default function page() {
                 <article className="max-w-7xl m-auto">
                     <div className="grid grid-cols-12 gap-6 h-full relative">
                         <div className="bg-orange-100 col-span-3 sticky top-0 max-h-40">
-                            Bla Bla
+                            <DocSidebar />
                         </div>
                         <div className="bg-indigo-100 col-span-9 min-h-[2000px]">
                             Bla Bla

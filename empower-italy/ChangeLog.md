@@ -1,6 +1,12 @@
+2023-19-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    * Added ChartJs with `yarn add chart.js react-chartjs-2`.
+
 2023-18-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Updated `Footer.tsx` links.
+
+    * Testing `next-mdx-remote` added with `yarn add next-mdx-remote`
 
 2023-11-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
