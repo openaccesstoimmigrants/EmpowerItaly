@@ -397,6 +397,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
   - URI:
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
   - Provenance:
+    - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
 
 
 ## 8. Sustainability of updating the datasets over time
