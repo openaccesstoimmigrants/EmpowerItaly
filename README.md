@@ -118,6 +118,8 @@ For the ISTAT SDMX Toolkit: https://sdmxistattoolkit.github.io/
 
 There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: https://esploradati.istat.it/SDMXWS/.
 
+To retrieve all the datasets available on Istat: https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1
+
 ### How to query the APIs
 The base URL for access is https://esploradati.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
 
@@ -202,7 +204,8 @@ To display the data in our React app, we simply save a constant with the URL of 
 | License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
 | Format | **SDMX-ML** |
 | Metadata | Provided in SDMX |
-| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0) | 
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0) |
+|  |  |
 
 This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.
 
@@ -215,7 +218,8 @@ This dataset was used to see the total number of resident immigrants, the averag
 | License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
 | Format | **SDMX-ML** |
 | Metadata | Provided in SDMX |
-| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0) | 
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0) |
+|  |  |
 
 This dataset was needed to implement D1(a) results with data relative to year 2018.
 
@@ -229,6 +233,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | Format | **SDMX-ML** |
 | Metadata | Provided in SDMX |
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0) |
+|  |  |
 
 ### D3 - Italian resident municipal population
 |  |  |
@@ -240,6 +245,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | Format | **SDMX-ML** |
 | Metadata | Provided in SDMX |
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0) |
+|  |  |
 
 ### D4 - Level of education of foreign citizens
 |  |  |
@@ -251,6 +257,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | Format | **-** |
 | Metadata | - |
 | URI | [LINK]() |
+|  |  |
 
 ### D5 - Acticity rate of foreign citizens
 |  |  |
@@ -261,7 +268,8 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | **-** |
 | Metadata | - |
-| URI | [LINK]() | 
+| URI | [LINK]() |
+|  |  |
 
 ### D6 - Presence of foreigners divided by industry sector
 |  |  |
@@ -273,6 +281,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | Format | **-** |
 | Metadata | - |
 | URI | [LINK]() |
+|  |  |
 
 ### D7 - Unemployment rate between italians and foreigners
 |  |  |
@@ -283,7 +292,20 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | **-** |
 | Metadata | - |
-| URI | [LINK]() | 
+| URI | [LINK]() |
+|  |  | 
+
+### D8 - Annual average households income
+|  |  |
+| --- | --- |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
+| Title | **Net income - Reddito netto** |
+| Viewed in date | 06/10/23 | 
+| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
+| Format | **SDMX-ML** |
+| Metadata | Provided in SDMX |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,HOU,1.0/HOU_INCOME/DCCV_REDNETFAMFONTERED/IT1,32_292_DF_DCCV_REDNETFAMFONTERED_9,1.0) |
+|  |  |
 
 ## 4. Quality analysis of the datasets
 
