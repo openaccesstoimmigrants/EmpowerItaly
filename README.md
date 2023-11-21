@@ -108,24 +108,24 @@ Such a list of possible values is known as a ‘code list’. Each value on that
 
 Example query to explore the meaining of the values of a specific dimension: `https://esploradati.istat.it/SDMXWS/rest/codelist/IT1/CL_STATCIV2/`
 
+For more on this topic: 
 [SDMX self-learning package No. 4 Student book - Data Structure Definition](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details)
 
 ### ISTAT and SDMX
-The Italian National Institute of Statistics (ISTAT) allows access to its [data warehouse](https://esploradati.istat.it/databrowser/#/en) through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/), updated, enriched with our tests and considerations.
+The Italian National Institute of Statistics (ISTAT) allows access to its data warehouse, [IstatDati](https://esploradati.istat.it/databrowser/#/en), through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from [OnData](https://ondata.github.io/guida-api-istat/), updated, enriched with our tests and considerations.
+
+For the ISTAT SDMX Toolkit: https://sdmxistattoolkit.github.io/
 
 There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: https://esploradati.istat.it/SDMXWS/.
 
 ### How to query the APIs
-The base URL for access is http://sdmx.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
+The base URL for access is https://esploradati.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
 
 To test the APIs and explore the results we used [Postman API platform](https://www.postman.com/).
 
 ### Accessing Metadata
 This is the URL structure for accessing metadata:
 
-http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
-
-⚠️ The endpoint is been updated while working on the project, the actual one is:
 https://esploradati.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
 
 Some notes:
@@ -187,109 +187,103 @@ Since one of our goals is to provide new datasets and visulize them, we can quer
 
 By using these queries, we can collect different datasets from just one source.
 
-With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook called `D2_migrations(2012-2021).ipynb`. The cleaned data is saved in a dedicated folder named 'Clean'.
+With this technique, we obtain an SDMX-ML file in XML format. We then transform it to JSON and clean it in the dedicated Jupyter Notebook. The cleaned data is saved in a dedicated folder named 'Clean'.
 
 To display the data in our React app, we simply save a constant with the URL of our GitHub repository that points to our new [JSON file in raw version](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json).
 
-### Dataset n.
+# DATASETS
 
-Source, Title, Viewed in date, Link
-License
-Metadata (Provided or Not provided)
-Content description
-
-### **D1(a) - Resident foreign population by region 2019-2023**
-
-Source: **Istat (IstatData)**
-Title: **Stranieri residenti al 1° gennaio | Resident foreigners on 1st January**
-Viewed in date (DD/MM/YY): **10/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
+### D1(a) - Resident foreign population by region 2019-2023
+|  |  |
+| --- | --- |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
+| Title | **Resident foreigners on 1st January - Stranieri residenti al 1° gennaio** |
+| Viewed in date | 10/09/23 | 
+| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
+| Format | **SDMX-ML** |
+| Metadata | Provided in SDMX |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0) | 
 
 This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.
 
-### **D1(b) - Resident foreign population by region 2001-2019**
-
-Source: **Istat (IstatData)**
-Title: **Popolazione residente ricostruita - Anni 2001-2019 | Estimated resident population - Years 2001-2019**
-Viewed in date (DD/MM/YY): **02/11/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=7779937&refresh=true&language=EN)
+### D1(b) - Resident foreign population by region 2001-2019
+|  |  |
+| --- | --- |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
+| Title | **Estimated resident population - Years 2001-2019 - Popolazione residente ricostruita - Anni 2001-2019** |
+| Viewed in date | 04/10/23 | 
+| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
+| Format | **SDMX-ML** |
+| Metadata | Provided in SDMX |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0) | 
 
 This dataset was needed to implement D1(a) results with data relative to year 2018.
 
-### **D2 - Total immigrants to Italy divided by continents**
+### D2 - Total immigrants to Italy by continent and region
+|  |  |
+| --- | --- |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
+| Title | **Migration (Transfer of residence) - Migrazioni (Trasferimenti di residenza)** |
+| Viewed in date | 06/10/23 | 
+| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
+| Format | **SDMX-ML** |
+| Metadata | Provided in SDMX |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0) |
 
-Source: **Istat (IstatData)**
-Title: **Migrazioni (Trasferimenti di residenza) | Migration (Transfer of residence)**
-Viewed in date (DD/MM/YY): **30/05/23**
-Link: [https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0](https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
+### D3 - Italian resident municipal population
+|  |  |
+| --- | --- |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
+| Title | **Resident population on 1st January - Popolazione residente al 1° gennaio** |
+| Viewed in date | 08/10/23 | 
+| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
+| Format | **SDMX-ML** |
+| Metadata | Provided in SDMX |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0) |
 
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019400&refresh=true&language=IT](http://siqual.istat.it/SIQual/visualizza.do?id=0019400&refresh=true&language=IT)
-
-From [SDMX Roadmap2025](https://sdmx.org/wp-content/uploads/SDMX_roadmap2025_FINAL.pdf), in the paragraph "Making data usage easier via SDMX (Simplification)" we can read at point 4:
-The 2020 SDMX roadmap put a lot of emphasis on the exploration of links between SDMX and other standards (e.g. XBRL, RDF, DDI etc.). The new roadmap calls for follow-up implementation actions for improving cataloguing, navigation and discoverability (e.g. the publication of SDMX metadata assets as Linked Open Data, DCAT or Schema.org catalogues), as well as the exploration of how SDMX may relate to emerging standards for new use cases (e.g. Big Data/Microdata, Internet of Things etc.).
-
-Content description: **The process makes it possible to quantify the non-EU foreigners who are legally present in Italy according to their socio-demographic characteristics and to measure the incoming flows (new permits issued during the year).**
-
-### **D3 - Italian resident municipal population**
-
-Source: **Istat (IstatData)**
-Title: **Popolazione residente al 1° gennaio | Resident population  on 1st January**
-Viewed in date (DD/MM/YY): **13/06/23**
-Link: [https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
-
-License: **Creative Commons License – Attribution – 3.0 (CC BY) -** [https://www.istat.it/en/legal-notice](https://www.istat.it/en/legal-notice)
-
-Metadata: Provided in [SDMX](https://developers.italia.it/en/api/istat-sdmx-rest.html) and descriptive text at [http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN](http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=EN)
-
-
-
-
-
-
-
--- TODO: Fix datasets from here ------------------------------------------------
-
-### *D4 - Level of education of foreign citizens*
-|  | Dataset Source Information |
+### D4 - Level of education of foreign citizens
+|  |  |
 | --- | --- |
 | Source | [EUROSTAT](https://ec.europa.eu/eurostat) |
 | Title | [Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%)](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
 | Viewed in date |  | 
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Format | **-** |
+| Metadata | - |
+| URI | [LINK]() |
 
-### *D5 - Acticity rate of foreign citizens*
-|  | Dataset Source Information |
+### D5 - Acticity rate of foreign citizens
+|  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Activity rate: Data by gender, highest level of education attained - foreigners](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_2,1.0) |
 | Viewed in date | - - | 
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Format | **-** |
+| Metadata | - |
+| URI | [LINK]() | 
 
-### *D6 - Presence of foreigners divided by industry sector*
-|  | Dataset Source Information |
+### D6 - Presence of foreigners divided by industry sector
+|  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Employment (thousands) - Nace 2007 - professional status, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
 | Viewed in date | - - | 
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Format | **-** |
+| Metadata | - |
+| URI | [LINK]() |
 
-### *D7 - Unemployment rate between italians and foreigners*
-|  | Dataset Source Information |
+### D7 - Unemployment rate between italians and foreigners
+|  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
 | Title | [Unemployment Rate - Highest level of education attained, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0) |
 | Viewed in date | - - | 
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Format | **-** |
+| Metadata | - |
+| URI | [LINK]() | 
 
 ## 4. Quality analysis of the datasets
 

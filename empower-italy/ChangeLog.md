@@ -1,5 +1,7 @@
 2023-19-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
+    * Created `BubbleChartMashUp.tsx` but data weren't definitive.
+
     * Added ChartJs with `yarn add chart.js react-chartjs-2`.
 
 2023-18-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>

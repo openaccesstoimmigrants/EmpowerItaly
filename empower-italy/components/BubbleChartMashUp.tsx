@@ -12,76 +12,104 @@ import { Bubble } from 'react-chartjs-2';
 
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend);
 
-
-export default function BubbleChartMashUp() {
-
-    // Fetch the data relative to MASHUP_1
-    const [mashupData, setMashupData] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState<string | null>(null);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                // Fetch Italians age data
-                const mashupDataResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP_1/mashup_1.json");
-                if (!mashupDataResponse.ok) {
-                    throw new Error("Network response was not ok.");
-                }
-
-            } catch (error) {
-                console.error("Error fetching data:", error);
-                setError("An error occurred while fetching data.");
-                setLoading(false);
-            }
-        };
-
-        fetchData();
-    }, []);
-
-    return (
-        <section id='scatterplot-mashup'  className="pb-6">
-            <article className="max-w-7xl m-auto">
-                <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-7 grid">
-                        <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">MASH UP</h1>
-                        {/* <Bubble data={chartData} options={chartOptions} /> */}
-                    </div>
-                </div>
-            </article>
-        </section>
-    );
+interface ChartDataItem {
+    Year: number;
+    total_x: number;
+    total_y: number;
+    Citizenship: string;
 }
 
+export default function BubbleChartMashUp() {
+  const [chartData, setChartData] = useState<Array<ChartDataItem> | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const mashupDataResponse = await fetch("https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP_1/mashup_1.json");
+        if (!mashupDataResponse.ok) {
+          throw new Error("Network response was not ok.");
+        }
+        const jsonData: ChartDataItem[] = await mashupDataResponse.json();
+        setChartData(jsonData);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        setError("An error occurred while fetching data.");
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
 
-// export const options = {
-//   scales: {
-//     y: {
-//       beginAtZero: true,
-//     },
-//   },
-// };
+  const chartOptions = {
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'Year'
+        }
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'total_x'
+        }
+      }
+    }
+  };
 
-// export const data = {
-//   datasets: [
-//     {
-//       label: 'Red dataset',
-//       data: Array.from({ length: 50 }, () => ({
-//         x: faker.datatype.number({ min: -100, max: 100 }),
-//         y: faker.datatype.number({ min: -100, max: 100 }),
-//         r: faker.datatype.number({ min: 5, max: 20 }),
-//       })),
-//       backgroundColor: 'rgba(255, 99, 132, 0.5)',
-//     },
-//     {
-//       label: 'Blue dataset',
-//       data: Array.from({ length: 50 }, () => ({
-//         x: faker.datatype.number({ min: -100, max: 100 }),
-//         y: faker.datatype.number({ min: -100, max: 100 }),
-//         r: faker.datatype.number({ min: 5, max: 20 }),
-//       })),
-//       backgroundColor: 'rgba(53, 162, 235, 0.5)',
-//     },
-//   ],
-// };
+  // Separate data into two datasets based on 'Citizenship'
+  const foreignerData = chartData?.filter(item => item.Citizenship === 'foreign');
+  const italianData = chartData?.filter(item => item.Citizenship === 'italian');
+
+  const foreignerBubbleData = foreignerData?.map(item => ({
+    x: item.Year,
+    y: item.total_y,
+    r: item.total_x
+  }));
+
+  const italianBubbleData = italianData?.map(item => ({
+    x: item.Year,
+    y: item.total_y,
+    r: item.total_x
+  }));
+
+  return (
+    <section id='scatterplot-mashup' className="pb-6">
+      <article className="max-w-7xl m-auto">
+        <div className="grid grid-cols-12 gap-6 h-full">
+          <div className="bg-indigo-100 rounded-2xl p-12 col-span-12">
+            <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">MASH UP</h1>
+            <div className='bg-gray-50 rounded-2xl p-12'>
+            {loading ? (
+              <p>Loading...</p>
+            ) : error ? (
+              <p>{error}</p>
+            ) : (
+              <Bubble
+                data={{
+                  datasets: [
+                    {
+                      label: 'Foreigners',
+                        backgroundColor: 'rgba(251, 146, 60, 0.5)',
+                      data: foreignerBubbleData || [],
+                    },
+                    {
+                      label: 'Italians',
+                        backgroundColor: 'rgba(129, 140, 248, 0.5)',
+                      data: italianBubbleData || [],
+                    }
+                  ]
+                }}
+                options={chartOptions}
+              />
+            )}
+          </div>
+        </div>
+        </div>
+      </article>
+    </section>
+  );
+}
