@@ -62,6 +62,25 @@ export const HERO_DATA = [
 ] as const;
 
 //
+// DOCUMENTATION LINKS
+//
+
+export const DOCUMENTATION_LINKS = [
+    {
+        name: "Introduction",
+        href: "#Introduction"
+    },
+    {
+        name: "Scenario",
+        href: "#Scenario"
+    },
+    {
+        name: "Datasets",
+        href: "#Datasets"
+    }
+];
+
+//
 // DATASETS METADATA
 //
 

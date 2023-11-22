@@ -15,7 +15,7 @@ export default function page() {
     const dataHeroDocumentation = HERO_DATA[1]
 
     return (
-        <main>
+        <main className="px-6 md:px-16 lg:px-22 m-auto">
             <Hero {...dataHeroDocumentation} />
             <section id="workflow" className="pb-6">
                 <article className="max-w-7xl m-auto animate-fade-in-down">

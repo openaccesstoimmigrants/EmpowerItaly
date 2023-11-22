@@ -6,6 +6,8 @@
 
     # Deleted `BarChart.tsx` and renamed `BarChart2.tsx`.
 
+    # Created `Documentation.tsx` and removed `DocSidebar.tsx`.
+
 2023-21-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     # Created `BarChart.tsx` from not well formatted JSON. Not properly working.

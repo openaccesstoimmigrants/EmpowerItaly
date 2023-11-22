@@ -1,24 +1,17 @@
 import Hero from "@/components/Hero"
-import { HERO_DATA } from "@/app/lib/data"
-import DocSidebar from "@/components/DocSidebar"
+import { DOCUMENTATION_LINKS, HERO_DATA } from "@/app/lib/data"
+import Documentation from "@/components/Documentation"
 
 export default function page() {
 
     const dataHeroDocumentation = HERO_DATA[2]
 
     return (
-        <main>
+        <main  className="px-6 md:px-16 lg:px-22 m-auto">
             <Hero {...dataHeroDocumentation} />
             <section id="documentation" className="pb-6">
                 <article className="max-w-7xl m-auto">
-                    <div className="grid grid-cols-12 gap-6 h-full relative">
-                        <div className="bg-orange-100 col-span-3 sticky top-0 max-h-40">
-                            <DocSidebar />
-                        </div>
-                        <div className="bg-indigo-100 col-span-9 min-h-[2000px]">
-                            Bla Bla
-                        </div>
-                    </div>
+                    <Documentation links={DOCUMENTATION_LINKS} />
                 </article>
             </section>
         </main>

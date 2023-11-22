@@ -15,12 +15,13 @@ import { Bar } from 'react-chartjs-2';
 ChartJS.register(BarElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
 interface OccupationData {
-    Occupations: string;
-    Year: number;
-    Value: number;
+    occupation: string;
+    year: string;
+    value: number;
 }
 
-export default function BarChart() {
+export default function HorizontalBarChart() {
+
     const [jsonData, setJsonData] = useState<OccupationData[]>([]);
 
     useEffect(() => {
@@ -43,24 +44,19 @@ export default function BarChart() {
     }, []);
 
 
-    const groupedData: Record<number, Record<string, number[]>> = {};
+    const years = Array.from(new Set(jsonData.map(item => item.year.toString())));
+    const occupations = Array.from(new Set(jsonData.map(item => item.occupation)));
 
-    // Group values by year and education level
+    const groupedData: Record<string, Record<string, number[]>> = {};
     jsonData.forEach(item => {
-        if (!groupedData[item.Year]) {
-            groupedData[item.Year] = {};
+        if (!groupedData[item.occupation]) {
+            groupedData[item.occupation] = {};
         }
-        if (!groupedData[item.Year][item.Occupations]) {
-            groupedData[item.Year][item.Occupations] = [];
+        if (!groupedData[item.occupation][item.year]) {
+            groupedData[item.occupation][item.year] = [];
         }
-        groupedData[item.Year][item.Occupations].push(item.Value);
+        groupedData[item.occupation][item.year].push(item.value);
     });
-
-    const years = Object.keys(groupedData);
-
-    const educationLevels = Array.from(
-        new Set(jsonData.map(item => item.Occupations))
-    );
 
 
     // Define custom colors for bars
@@ -77,10 +73,13 @@ export default function BarChart() {
     ];
 
 
-    const datasets = educationLevels.map((level, index) => {
-        const data = years.map(year => groupedData[parseInt(year)][level]?.reduce((acc, val) => acc + val, 0) || 0);
+    const datasets = occupations.map((occupation, index) => {
+        const data = years.map(year => {
+            const total = groupedData[occupation][parseInt(year)]?.reduce((acc, val) => acc + val, 0) || 0;
+            return total;
+        });
         return {
-            label: level,
+            label: occupation,
             data,
             backgroundColor: customColors[index % customColors.length], // Assign custom colors
             borderColor: customBorderColors[index % customBorderColors.length], // Assign custom colors
@@ -96,17 +95,17 @@ export default function BarChart() {
     const options = {
         maintainAspectRatio: false,
         responsive: true,
+        indexAxis: 'y' as const,
         scales: {
             x: {
                 title: {
                     display: true,
-                    text: 'Year',
+                    text: 'Number of workers',
                 },
             },
             y: {
                 title: {
-                    display: true,
-                    text: 'Rate of Education Level',
+                    display: false,
                 },
                 suggestedMin: 0,
             },
@@ -115,7 +114,7 @@ export default function BarChart() {
 
     console.log(jsonData); // Check data in the console to ensure it's fetched
 
-function HorizontalBarChart() {
+
     return (
         <section id="barchart-education" className="pb-6">
             <article className="
@@ -153,7 +152,7 @@ function HorizontalBarChart() {
                                             text-indigo-900
                                             pb-8
                                 ">
-                                    Level of Education
+                                    Occupation distribution
                                 </h1>
                                 <p className="
                                             text-lg
@@ -183,5 +182,5 @@ function HorizontalBarChart() {
                     </div>
             </article>
         </section>
-    )}
+    )
 }

@@ -9,7 +9,7 @@ export default function DatasetsList() {
   const dataHeroDatasets = HERO_DATA[3]
 
   return (
-    <main>
+    <main className="px-6 md:px-16 lg:px-22 m-auto">
       <Hero {...dataHeroDatasets} />
       <Datasets />
     </main>
