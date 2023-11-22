@@ -95,37 +95,114 @@ export default function Numbers() {
     return (
         <section id="numbers-demographic" className="pb-6">
             <article className="max-w-7xl m-auto">
-                <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-7 grid">
-                        <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">TOTAL RESIDENT FOREIGNERS</h1>
+                <div className="
+                            grid
+                            grid-cols-12
+                            gap-6
+                            h-full">
+                    <div className="
+                                bg-indigo-100
+                                rounded-2xl
+                                p-8
+                                md:p-12
+                                col-span-12
+                                lg:col-span-7
+                                grid
+                                hover:drop-shadow-md
+                                transition-all
+                                delay-200
+                    ">
+                        <h1 className="
+                                    font-bold
+                                    text-2xl
+                                    md:text-4xl
+                                    text-indigo-900
+                                    uppercase
+                                    pb-8
+                        ">
+                            TOTAL RESIDENT FOREIGNERS
+                        </h1>
                         {/* conditional rendering */}
                         {loading ? (
-                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
+                            <p className="
+                                        font-bold
+                                        text-5xl
+                                        md:text-7xl 
+                                        text-indigo-600
+                            ">
+                                Loading...
+                            </p>
                         ) : error ? (
-                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
+                            <p className="
+                                        font-bold
+                                        text-5xl
+                                        md:text-7xl 
+                                        text-indigo-600
+                            ">
+                            {error}
+                        </p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{totalWithCommas}</p> 
+                                <p className="
+                                            font-bold
+                                            text-6xl
+                                            md:text-7xl
+                                            text-indigo-600
+                                ">
+                                    {totalWithCommas}
+                                </p> 
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">in Italy in 2022</p>
-                        <Link href="/" className="place-self-end type-button">
-                            Source
+                        <p className="
+                                    font-bold
+                                    text-3xl
+                                    md:text-4xl
+                                    text-indigo-600
+                        ">
+                            in Italy in 2022
+                        </p>
+                        <Link href="/datasets" className="place-self-end type-button">
+                            Source DX
                         </Link>
                     </div>
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-5 grid">
-                        <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">THEY REPRESENT THE</h1>
+                    <div className="
+                                bg-indigo-100
+                                rounded-2xl
+                                p-8
+                                md:p-12
+                                col-span-12
+                                lg:col-span-5
+                                grid
+                                hover:drop-shadow-md
+                                transition-all
+                                delay-200
+                    ">
+                        <h1 className="
+                                    font-bold
+                                    text-2xl
+                                    md:text-4xl
+                                    text-indigo-900
+                                    uppercase
+                                    pb-8
+                        ">
+                            THEY REPRESENT THE
+                        </h1>
                         {/* conditional rendering */}
                         {loading ? (
-                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
                         ) : error ? (
-                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">{error}</p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{percentage}%</p> 
+                                <p className="font-bold text-6xl md:text-7xl text-indigo-600">{percentage}%</p> 
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">of the Italian population</p>
+                        <p className="
+                                    font-bold
+                                    text-3xl
+                                    md:text-4xl
+                                    text-indigo-600
+                        ">of the Italian population</p>
                         <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>

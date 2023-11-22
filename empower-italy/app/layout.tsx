@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
         <Header links={HEADER_LINKS} />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>

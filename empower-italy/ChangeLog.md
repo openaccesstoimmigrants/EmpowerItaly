@@ -1,6 +1,10 @@
 2023-22-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
+    # All home components responsive.
+
     # Created `BarChart2.tsx` to test well formatted JSON.
+
+    # Deleted `BarChart.tsx` and renamed `BarChart2.tsx`.
 
 2023-21-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 

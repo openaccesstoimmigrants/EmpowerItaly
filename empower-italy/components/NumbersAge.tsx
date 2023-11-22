@@ -83,36 +83,38 @@ export default function Numbers() {
         <section id="numbers-demographic" className="pb-6">
             <article className="max-w-7xl m-auto">
                 <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-6 grid">
-                        <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">ITALIANS MEDIUM AGE</h1>
+                    <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-6 grid                                 hover:drop-shadow-md
+                                transition-all
+                                delay-200">
+                        <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">ITALIANS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (
-                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
                         ) : error ? (
-                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">{error}</p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{italiansMediumAge !== null ? italiansMediumAge.toFixed(1) : "N/A"}</p> {/* If null display N/A */}
+                                <p className="font-bold text-6xl md:text-7xl text-indigo-600">{italiansMediumAge !== null ? italiansMediumAge.toFixed(1) : "N/A"}</p> {/* If null display N/A */}
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">one of world's highest</p>
+                        <p className="font-bold text-3xl md:text-4xl text-indigo-600">one of world's highest</p>
                         <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>
                     </div>
-                    <div className="bg-indigo-100 rounded-2xl p-12 col-span-6 grid">
-                        <h1 className="font-bold text-4xl text-indigo-900 uppercase pb-8">IMMIGRANTS MEDIUM AGE</h1>
+                    <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-6 grid hover:drop-shadow-md transition-all delay-200">
+                        <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">IMMIGRANTS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (
-                            <p className="font-bold text-7xl text-indigo-600">Loading...</p>
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
                         ) : error ? (
-                            <p className="font-bold text-7xl text-indigo-600">{error}</p>        
+                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">{error}</p>        
                         ) : (
                             <>
-                                <p className="font-bold text-7xl text-indigo-600">{immigrantsMediumAge !== null ? immigrantsMediumAge.toFixed(1) : "N/A"}</p> 
+                                <p className="font-bold text-6xl md:text-7xl text-indigo-600">{immigrantsMediumAge !== null ? immigrantsMediumAge.toFixed(1) : "N/A"}</p> 
                             </>
                         )}
-                        <p className="font-bold text-4xl text-indigo-600">in line with world's medium</p>
+                        <p className="font-bold text-3xl md:text-4xl text-indigo-600">in line with world's medium</p>
                         <Link href="/" className="place-self-end type-button">
                             Source
                         </Link>

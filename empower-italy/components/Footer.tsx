@@ -8,23 +8,23 @@ export default function Footer() {
     const segment = useSelectedLayoutSegment();
 
     return (
-        <section id="footer" className="pb-6">
+        <section id="footer" className="pb-6 px-6 md:px-16 lg:px-22 m-auto">
             <article className="max-w-7xl m-auto">
                 <div className="grid grid-cols-12 gap-6 h-full">
 
-                    <Link href={`${segment}` === 'workflow' ? '/' : '/workflow'} className="group col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
+                    <Link href={`${segment}` === 'workflow' ? '/' : '/workflow'} className="group col-span-12 lg:col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
                         <p className="font-bold text-4xl text-indigo-600 uppercase group-hover:text-gray-50 transition-all">
                             Go to {`${segment}` === 'workflow' ? 'home' : 'workflow'}
                         </p>
                     </Link>
 
-                    <Link href={`${segment}` === 'documentation' ? '/' : '/documentation'} className="group col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
+                    <Link href={`${segment}` === 'documentation' ? '/' : '/documentation'} className="group col-span-12 lg:col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
                         <p className="font-bold text-4xl text-indigo-600 uppercase group-hover:text-gray-50 transition-all">
                             Go to {`${segment}` === 'documentation' ? 'home' : 'documentation'}
                         </p>
                     </Link>
 
-                    <Link href={`${segment}` === 'datasets' ? '/' : '/datasets'} className="group col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
+                    <Link href={`${segment}` === 'datasets' ? '/' : '/datasets'} className="group col-span-12 lg:col-span-4 border-2 border-indigo-600 rounded-2xl p-12 hover:bg-indigo-600 transition-all">
                         <p className="font-bold text-4xl text-indigo-600 uppercase group-hover:text-gray-50 transition-all">
                             Go to {`${segment}` === 'datasets' ? 'home' : 'datasets'}
                         </p>
