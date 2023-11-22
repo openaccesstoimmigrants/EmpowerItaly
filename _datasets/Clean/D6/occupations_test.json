@@ -1,0 +1,44 @@
+[
+    {
+        "occupation": "A-D",
+        "year": "2018",
+        "value": 40.666
+    },
+    {
+        "occupation": "A-D",
+        "year": "2019",
+        "value": 40.666
+    },    {
+        "occupation": "A-D",
+        "year": "2020",
+        "value": 40.666
+    },    {
+        "occupation": "A-D",
+        "year": "2021",
+        "value": 40.666
+    },    {
+        "occupation": "A-D",
+        "year": "2022",
+        "value": 40.666
+    },    {
+        "occupation": "E-G",
+        "year": "2018",
+        "value": 40.666
+    },    {
+        "occupation": "E-G",
+        "year": "2019",
+        "value": 40.666
+    },    {
+        "occupation": "E-G",
+        "year": "2020",
+        "value": 40.666
+    },    {
+        "occupation": "E-G",
+        "year": "2021",
+        "value": 40.666
+    },    {
+        "occupation": "E-G",
+        "year": "2022",
+        "value": 40.666
+    }
+]
