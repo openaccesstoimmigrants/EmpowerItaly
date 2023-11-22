@@ -1,470 +1,470 @@
 {
     "IT": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "26919"
+            "YEAR": "2003",
+            "NET-INCOME": "26919"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "27857"
+            "YEAR": "2004",
+            "NET-INCOME": "27857"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "28020"
+            "YEAR": "2005",
+            "NET-INCOME": "28020"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "29144"
+            "YEAR": "2006",
+            "NET-INCOME": "29144"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "29663"
+            "YEAR": "2007",
+            "NET-INCOME": "29663"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "30090"
+            "YEAR": "2008",
+            "NET-INCOME": "30090"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "30502"
+            "YEAR": "2009",
+            "NET-INCOME": "30502"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "30220"
+            "YEAR": "2010",
+            "NET-INCOME": "30220"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "30236"
+            "YEAR": "2011",
+            "NET-INCOME": "30236"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "29579"
+            "YEAR": "2012",
+            "NET-INCOME": "29579"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "29473"
+            "YEAR": "2013",
+            "NET-INCOME": "29473"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "29472"
+            "YEAR": "2014",
+            "NET-INCOME": "29472"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "29988"
+            "YEAR": "2015",
+            "NET-INCOME": "29988"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "30595"
+            "YEAR": "2016",
+            "NET-INCOME": "30595"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "31393"
+            "YEAR": "2017",
+            "NET-INCOME": "31393"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "31641"
+            "YEAR": "2018",
+            "NET-INCOME": "31641"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "33106"
+            "YEAR": "2019",
+            "NET-INCOME": "33106"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "32812"
+            "YEAR": "2020",
+            "NET-INCOME": "32812"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "33798"
+            "YEAR": "2021",
+            "NET-INCOME": "33798"
         }
     ],
     "ITC": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "28952"
+            "YEAR": "2003",
+            "NET-INCOME": "28952"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "30416"
+            "YEAR": "2004",
+            "NET-INCOME": "30416"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "30147"
+            "YEAR": "2005",
+            "NET-INCOME": "30147"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "31171"
+            "YEAR": "2006",
+            "NET-INCOME": "31171"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "31594"
+            "YEAR": "2007",
+            "NET-INCOME": "31594"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "32337"
+            "YEAR": "2008",
+            "NET-INCOME": "32337"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "33135"
+            "YEAR": "2009",
+            "NET-INCOME": "33135"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "33392"
+            "YEAR": "2010",
+            "NET-INCOME": "33392"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "33317"
+            "YEAR": "2011",
+            "NET-INCOME": "33317"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "32901"
+            "YEAR": "2012",
+            "NET-INCOME": "32901"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "32390"
+            "YEAR": "2013",
+            "NET-INCOME": "32390"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "32888"
+            "YEAR": "2014",
+            "NET-INCOME": "32888"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "32680"
+            "YEAR": "2015",
+            "NET-INCOME": "32680"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "33268"
+            "YEAR": "2016",
+            "NET-INCOME": "33268"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "34211"
+            "YEAR": "2017",
+            "NET-INCOME": "34211"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "34642"
+            "YEAR": "2018",
+            "NET-INCOME": "34642"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "36224"
+            "YEAR": "2019",
+            "NET-INCOME": "36224"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "36018"
+            "YEAR": "2020",
+            "NET-INCOME": "36018"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "37647"
+            "YEAR": "2021",
+            "NET-INCOME": "37647"
         }
     ],
     "ITD": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "29386"
+            "YEAR": "2003",
+            "NET-INCOME": "29386"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "30132"
+            "YEAR": "2004",
+            "NET-INCOME": "30132"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "30529"
+            "YEAR": "2005",
+            "NET-INCOME": "30529"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "31942"
+            "YEAR": "2006",
+            "NET-INCOME": "31942"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "32427"
+            "YEAR": "2007",
+            "NET-INCOME": "32427"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "33111"
+            "YEAR": "2008",
+            "NET-INCOME": "33111"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "33007"
+            "YEAR": "2009",
+            "NET-INCOME": "33007"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "33548"
+            "YEAR": "2010",
+            "NET-INCOME": "33548"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "33120"
+            "YEAR": "2011",
+            "NET-INCOME": "33120"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "32547"
+            "YEAR": "2012",
+            "NET-INCOME": "32547"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "32746"
+            "YEAR": "2013",
+            "NET-INCOME": "32746"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "32783"
+            "YEAR": "2014",
+            "NET-INCOME": "32783"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "33852"
+            "YEAR": "2015",
+            "NET-INCOME": "33852"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "34678"
+            "YEAR": "2016",
+            "NET-INCOME": "34678"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "35386"
+            "YEAR": "2017",
+            "NET-INCOME": "35386"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "35165"
+            "YEAR": "2018",
+            "NET-INCOME": "35165"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "37046"
+            "YEAR": "2019",
+            "NET-INCOME": "37046"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "36418"
+            "YEAR": "2020",
+            "NET-INCOME": "36418"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "38340"
+            "YEAR": "2021",
+            "NET-INCOME": "38340"
         }
     ],
     "ITE": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "28840"
+            "YEAR": "2003",
+            "NET-INCOME": "28840"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "29729"
+            "YEAR": "2004",
+            "NET-INCOME": "29729"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "30003"
+            "YEAR": "2005",
+            "NET-INCOME": "30003"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "31509"
+            "YEAR": "2006",
+            "NET-INCOME": "31509"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "31936"
+            "YEAR": "2007",
+            "NET-INCOME": "31936"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "32132"
+            "YEAR": "2008",
+            "NET-INCOME": "32132"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "32543"
+            "YEAR": "2009",
+            "NET-INCOME": "32543"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "31950"
+            "YEAR": "2010",
+            "NET-INCOME": "31950"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "31910"
+            "YEAR": "2011",
+            "NET-INCOME": "31910"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "30818"
+            "YEAR": "2012",
+            "NET-INCOME": "30818"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "30750"
+            "YEAR": "2013",
+            "NET-INCOME": "30750"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "30376"
+            "YEAR": "2014",
+            "NET-INCOME": "30376"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "31147"
+            "YEAR": "2015",
+            "NET-INCOME": "31147"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "32006"
+            "YEAR": "2016",
+            "NET-INCOME": "32006"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "32945"
+            "YEAR": "2017",
+            "NET-INCOME": "32945"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "32988"
+            "YEAR": "2018",
+            "NET-INCOME": "32988"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "34588"
+            "YEAR": "2019",
+            "NET-INCOME": "34588"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "33837"
+            "YEAR": "2020",
+            "NET-INCOME": "33837"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "34555"
+            "YEAR": "2021",
+            "NET-INCOME": "34555"
         }
     ],
     "ITF": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "22834"
+            "YEAR": "2003",
+            "NET-INCOME": "22834"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "23308"
+            "YEAR": "2004",
+            "NET-INCOME": "23308"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "23703"
+            "YEAR": "2005",
+            "NET-INCOME": "23703"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "24683"
+            "YEAR": "2006",
+            "NET-INCOME": "24683"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "25281"
+            "YEAR": "2007",
+            "NET-INCOME": "25281"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "25508"
+            "YEAR": "2008",
+            "NET-INCOME": "25508"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "25862"
+            "YEAR": "2009",
+            "NET-INCOME": "25862"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "25123"
+            "YEAR": "2010",
+            "NET-INCOME": "25123"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "25451"
+            "YEAR": "2011",
+            "NET-INCOME": "25451"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "24639"
+            "YEAR": "2012",
+            "NET-INCOME": "24639"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "24632"
+            "YEAR": "2013",
+            "NET-INCOME": "24632"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "24450"
+            "YEAR": "2014",
+            "NET-INCOME": "24450"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "25206"
+            "YEAR": "2015",
+            "NET-INCOME": "25206"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "25615"
+            "YEAR": "2016",
+            "NET-INCOME": "25615"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "26089"
+            "YEAR": "2017",
+            "NET-INCOME": "26089"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "26393"
+            "YEAR": "2018",
+            "NET-INCOME": "26393"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "27470"
+            "YEAR": "2019",
+            "NET-INCOME": "27470"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "27189"
+            "YEAR": "2020",
+            "NET-INCOME": "27189"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "27467"
+            "YEAR": "2021",
+            "NET-INCOME": "27467"
         }
     ],
     "ITG": [
         {
-            "TIME_PERIOD": "2003",
-            "ObsValue": "21742"
+            "YEAR": "2003",
+            "NET-INCOME": "21742"
         },
         {
-            "TIME_PERIOD": "2004",
-            "ObsValue": "22657"
+            "YEAR": "2004",
+            "NET-INCOME": "22657"
         },
         {
-            "TIME_PERIOD": "2005",
-            "ObsValue": "22854"
+            "YEAR": "2005",
+            "NET-INCOME": "22854"
         },
         {
-            "TIME_PERIOD": "2006",
-            "ObsValue": "23295"
+            "YEAR": "2006",
+            "NET-INCOME": "23295"
         },
         {
-            "TIME_PERIOD": "2007",
-            "ObsValue": "24065"
+            "YEAR": "2007",
+            "NET-INCOME": "24065"
         },
         {
-            "TIME_PERIOD": "2008",
-            "ObsValue": "23981"
+            "YEAR": "2008",
+            "NET-INCOME": "23981"
         },
         {
-            "TIME_PERIOD": "2009",
-            "ObsValue": "24447"
+            "YEAR": "2009",
+            "NET-INCOME": "24447"
         },
         {
-            "TIME_PERIOD": "2010",
-            "ObsValue": "22693"
+            "YEAR": "2010",
+            "NET-INCOME": "22693"
         },
         {
-            "TIME_PERIOD": "2011",
-            "ObsValue": "23167"
+            "YEAR": "2011",
+            "NET-INCOME": "23167"
         },
         {
-            "TIME_PERIOD": "2012",
-            "ObsValue": "22787"
+            "YEAR": "2012",
+            "NET-INCOME": "22787"
         },
         {
-            "TIME_PERIOD": "2013",
-            "ObsValue": "22893"
+            "YEAR": "2013",
+            "NET-INCOME": "22893"
         },
         {
-            "TIME_PERIOD": "2014",
-            "ObsValue": "22564"
+            "YEAR": "2014",
+            "NET-INCOME": "22564"
         },
         {
-            "TIME_PERIOD": "2015",
-            "ObsValue": "23014"
+            "YEAR": "2015",
+            "NET-INCOME": "23014"
         },
         {
-            "TIME_PERIOD": "2016",
-            "ObsValue": "23153"
+            "YEAR": "2016",
+            "NET-INCOME": "23153"
         },
         {
-            "TIME_PERIOD": "2017",
-            "ObsValue": "24065"
+            "YEAR": "2017",
+            "NET-INCOME": "24065"
         },
         {
-            "TIME_PERIOD": "2018",
-            "ObsValue": "24934"
+            "YEAR": "2018",
+            "NET-INCOME": "24934"
         },
         {
-            "TIME_PERIOD": "2019",
-            "ObsValue": "25851"
+            "YEAR": "2019",
+            "NET-INCOME": "25851"
         },
         {
-            "TIME_PERIOD": "2020",
-            "ObsValue": "26780"
+            "YEAR": "2020",
+            "NET-INCOME": "26780"
         },
         {
-            "TIME_PERIOD": "2021",
-            "ObsValue": "26409"
+            "YEAR": "2021",
+            "NET-INCOME": "26409"
         }
     ]
 }

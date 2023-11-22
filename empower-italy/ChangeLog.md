@@ -1,3 +1,11 @@
+2023-22-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    # Created `BarChart2.tsx` to test well formatted JSON.
+
+2023-21-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    # Created `BarChart.tsx` from not well formatted JSON. Not properly working.
+
 2023-19-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     * Created `BubbleChartMashUp.tsx` but data weren't definitive.

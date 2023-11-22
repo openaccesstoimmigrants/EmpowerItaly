@@ -1,0 +1,77 @@
+[
+  {
+    "Year": 2018,
+    "EducationLevel": "Primary School",
+    "Value": 50.3
+  },
+  {
+    "Year": 2019,
+    "EducationLevel": "Primary School",
+    "Value": 50.1
+  },
+  {
+    "Year": 2020,
+    "EducationLevel": "Primary School",
+    "Value": 50.3
+  },
+  {
+    "Year": 2021,
+    "EducationLevel": "Primary School",
+    "Value": 49.2
+  },
+  {
+    "Year": 2022,
+    "EducationLevel": "Primary School",
+    "Value": 47.6
+  },
+  {
+    "Year": 2018,
+    "EducationLevel": "Secondary School",
+    "Value": 37.0
+  },
+  {
+    "Year": 2019,
+    "EducationLevel": "Secondary School",
+    "Value": 37.3
+  },
+  {
+    "Year": 2020,
+    "EducationLevel": "Secondary School",
+    "Value": 37.5
+  },
+  {
+    "Year": 2021,
+    "EducationLevel": "Secondary School",
+    "Value": 38.9
+  },
+  {
+    "Year": 2022,
+    "EducationLevel": "Secondary School",
+    "Value": 40.2
+  },
+  {
+    "Year": 2018,
+    "EducationLevel": "Tertiary School",
+    "Value": 12.7
+  },
+  {
+    "Year": 2019,
+    "EducationLevel": "Tertiary School",
+    "Value": 12.6
+  },
+  {
+    "Year": 2020,
+    "EducationLevel": "Tertiary School",
+    "Value": 12.2
+  },
+  {
+    "Year": 2021,
+    "EducationLevel": "Tertiary School",
+    "Value": 11.9
+  },
+  {
+    "Year": 2022,
+    "EducationLevel": "Tertiary School",
+    "Value": 12.2
+  }
+]
