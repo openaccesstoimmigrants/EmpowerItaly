@@ -15,9 +15,9 @@ import { Bar } from 'react-chartjs-2';
 ChartJS.register(BarElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
 interface OccupationData {
-    occupation: string;
-    year: string;
-    value: number;
+    Occupation: string;
+    Year: string;
+    Value: number;
 }
 
 export default function HorizontalBarChart() {
@@ -27,7 +27,7 @@ export default function HorizontalBarChart() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D6/occupations_test.json');
+                const response = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D6/occupations_rate.json');
                 if (!response.ok) {
                     throw new Error("Network response was not ok.")
                 }
@@ -44,32 +44,38 @@ export default function HorizontalBarChart() {
     }, []);
 
 
-    const years = Array.from(new Set(jsonData.map(item => item.year.toString())));
-    const occupations = Array.from(new Set(jsonData.map(item => item.occupation)));
+    const years = Array.from(new Set(jsonData.map(item => item.Year.toString())));
+    const occupations = Array.from(new Set(jsonData.map(item => item.Occupation)));
 
     const groupedData: Record<string, Record<string, number[]>> = {};
     jsonData.forEach(item => {
-        if (!groupedData[item.occupation]) {
-            groupedData[item.occupation] = {};
+        if (!groupedData[item.Occupation]) {
+            groupedData[item.Occupation] = {};
         }
-        if (!groupedData[item.occupation][item.year]) {
-            groupedData[item.occupation][item.year] = [];
+        if (!groupedData[item.Occupation][item.Year]) {
+            groupedData[item.Occupation][item.Year] = [];
         }
-        groupedData[item.occupation][item.year].push(item.value);
+        groupedData[item.Occupation][item.Year].push(item.Value);
     });
 
 
     // Define custom colors for bars
     const customColors = [
-        'rgba(254, 215, 170, 0.6)',
-        'rgba(251, 146, 60, 0.6)',
-        'rgba(234, 88, 12, 0.6)',
+        'rgba(244, 63, 94, 0.6)', // rose
+        'rgba(217, 70, 239, 0.6)', // fucsia
+        'rgba(139, 92, 246, 0.6)', // violet
+        'rgba(59, 130, 246, 0.6)', // blue
+        'rgba(6, 182, 212, 0.6)', // cyan
+        'rgba(16, 185, 129, 0.6)', // emerald
     ];
 
     const customBorderColors = [
-        'rgba(254, 215, 170, 1)',
-        'rgba(251, 146, 60, 1)',
-        'rgba(234, 88, 12, 1)',
+        'rgba(244, 63, 94, 0.6)', // rose
+        'rgba(217, 70, 239, 0.6)', // fucsia
+        'rgba(139, 92, 246, 0.6)', // violet
+        'rgba(59, 130, 246, 0.6)', // blue
+        'rgba(6, 182, 212, 0.6)', // cyan
+        'rgba(16, 185, 129, 0.6)', // emerald
     ];
 
 
@@ -96,6 +102,12 @@ export default function HorizontalBarChart() {
         maintainAspectRatio: false,
         responsive: true,
         indexAxis: 'y' as const,
+        // plugins: {
+        //     legend: {
+        //         position: 'right' as const,
+        //         align: 'start' as const,
+        //     }
+        // },
         scales: {
             x: {
                 title: {
@@ -112,8 +124,7 @@ export default function HorizontalBarChart() {
         },
     };
 
-    console.log(jsonData); // Check data in the console to ensure it's fetched
-
+    // console.log(jsonData); // Check data in the console to ensure it's fetched
 
     return (
         <section id="barchart-education" className="pb-6">
@@ -136,7 +147,6 @@ export default function HorizontalBarChart() {
                                     row-span-4
                                     hover:drop-shadow-md
                                     transition-all
-                                    delay-200
                         ">
                             <div className="
                                         grid
@@ -166,7 +176,7 @@ export default function HorizontalBarChart() {
                                                             relative
                                                             m-auto
                                                             w-full
-                                                            h-[32rem]
+                                                            h-[42rem]
                                                             bg-gray-50
                                                             rounded-xl
                                                             px-2 py-6

@@ -8,7 +8,7 @@ import NumbersAge from "@/components/NumbersAge";
 import Conclusions from "@/components/Conclusions";
 import BubbleChartMashUp from "@/components/BubbleChartMashUp";
 import HorizontalBarChart from "@/components/HorizontalBarChart";
-
+import Map from "@/components/Map";
 
 
 
@@ -22,6 +22,7 @@ export default function Home() {
       <Intro />
       <Hypothesis />
       <NumbersResidents />
+      <Map />
       <BarChart />
       <NumbersAge />
       <HorizontalBarChart />

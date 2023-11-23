@@ -32,7 +32,6 @@ export default function Intro() {
                             lg:order-last
                             hover:drop-shadow-md
                             transition-all
-                            delay-200
                 ">
                     {/* `grid` class is needed to use `place-self-end` on the button */}
 

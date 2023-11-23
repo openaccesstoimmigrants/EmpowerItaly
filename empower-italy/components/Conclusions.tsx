@@ -6,7 +6,7 @@ export default function Conclusion() {
       <section id="conclusions" className="pb-6">
         <article className="max-w-7xl m-auto">
             <div className="grid grid-cols-12 gap-6 h-full">
-                <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-8 grid                                     hover:drop-shadow-md transition-all delay-200"> {/* `grid` class is needed to use `place-self-end` on the button */}
+                <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-8 grid                                     hover:drop-shadow-md transition-all"> {/* `grid` class is needed to use `place-self-end` on the button */}
                     <h1 className="font-bold text-5xl md:text-6xl text-indigo-900 pb-8">Our conclusions</h1>
                     <p>Placerat in maecenas iaculis at lacus enim. Nibh lorem phasellus tortor eu diam adipiscing a facilisis scelerisque. Turpis pellentesque tristique tellus vitae. Consectetur egestas ut faucibus in nam. Neque ipsum tristique pulvinar faucibus lorem dignissim auctor. Dignissim aliquam diam dis mattis felis ligula. Et aliquet elementum amet at.
                     </p>

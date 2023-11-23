@@ -110,7 +110,6 @@ export default function Numbers() {
                                 grid
                                 hover:drop-shadow-md
                                 transition-all
-                                delay-200
                     ">
                         <h1 className="
                                     font-bold
@@ -175,7 +174,6 @@ export default function Numbers() {
                                 grid
                                 hover:drop-shadow-md
                                 transition-all
-                                delay-200
                     ">
                         <h1 className="
                                     font-bold

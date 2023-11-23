@@ -83,9 +83,16 @@ export default function Numbers() {
         <section id="numbers-demographic" className="pb-6">
             <article className="max-w-7xl m-auto">
                 <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-6 grid                                 hover:drop-shadow-md
+                    <div className="
+                                bg-indigo-100
+                                rounded-2xl
+                                p-8 md:p-12
+                                col-span-12
+                                lg:col-span-6
+                                grid
+                                hover:drop-shadow-md
                                 transition-all
-                                delay-200">
+                    ">
                         <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">ITALIANS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (
@@ -102,7 +109,7 @@ export default function Numbers() {
                             Source
                         </Link>
                     </div>
-                    <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-6 grid hover:drop-shadow-md transition-all delay-200">
+                    <div className="bg-indigo-100 rounded-2xl p-8 md:p-12 col-span-12 lg:col-span-6 grid hover:drop-shadow-md transition-all">
                         <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">IMMIGRANTS MEDIUM AGE</h1>
                         {/* conditional rendering */}
                         {loading ? (

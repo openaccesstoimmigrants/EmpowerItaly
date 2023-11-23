@@ -123,7 +123,7 @@ export default function BarChart() {
         },
     };
 
-    console.log(jsonData); // Check data in the console to ensure it's fetched
+    // console.log(jsonData); // Check data in the console to ensure it's fetched
 
     return (
         <section id="barchart-education" className="pb-6">
@@ -146,7 +146,6 @@ export default function BarChart() {
                                     row-span-4
                                     hover:drop-shadow-md
                                     transition-all
-                                    delay-200
                         ">
                             <div className="
                                         grid

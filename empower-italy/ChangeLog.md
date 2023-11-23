@@ -1,3 +1,12 @@
+2023-23-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+    # Fixed `HorizontalBarChart.tsx`.
+
+    # Added packages `leaflet` with `yarn add leaflet` and `yarn add react-leaflet`
+        and `yarn add -D @types/leaflet` for typescript support.
+
+    # Test map on `Map.tsx`.
+
 2023-22-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
     # All home components responsive.
