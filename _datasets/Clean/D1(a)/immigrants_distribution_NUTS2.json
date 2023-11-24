@@ -1,0 +1,737 @@
+[
+    {
+        "Territory": "ITC1",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 411083
+    },
+    {
+        "Territory": "ITC1",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 411936
+    },
+    {
+        "Territory": "ITC1",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 417279
+    },
+    {
+        "Territory": "ITC1",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 411095
+    },
+    {
+        "Territory": "ITC1",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 414239
+    },
+    {
+        "Territory": "ITC2",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 8084
+    },
+    {
+        "Territory": "ITC2",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 8129
+    },
+    {
+        "Territory": "ITC2",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 8395
+    },
+    {
+        "Territory": "ITC2",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 8090
+    },
+    {
+        "Territory": "ITC2",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 8004
+    },
+    {
+        "Territory": "ITC3",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 137806
+    },
+    {
+        "Territory": "ITC3",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 139509
+    },
+    {
+        "Territory": "ITC3",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 149862
+    },
+    {
+        "Territory": "ITC3",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 145465
+    },
+    {
+        "Territory": "ITC3",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 146601
+    },
+    {
+        "Territory": "ITC4",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 1130587
+    },
+    {
+        "Territory": "ITC4",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 1149065
+    },
+    {
+        "Territory": "ITC4",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 1190889
+    },
+    {
+        "Territory": "ITC4",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 1155393
+    },
+    {
+        "Territory": "ITC4",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 1165102
+    },
+    {
+        "Territory": "ITH1",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 48952
+    },
+    {
+        "Territory": "ITH1",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 50129
+    },
+    {
+        "Territory": "ITH1",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 56494
+    },
+    {
+        "Territory": "ITH1",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 51593
+    },
+    {
+        "Territory": "ITH1",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 51723
+    },
+    {
+        "Territory": "ITH2",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 46507
+    },
+    {
+        "Territory": "ITH2",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 47007
+    },
+    {
+        "Territory": "ITH2",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 49265
+    },
+    {
+        "Territory": "ITH2",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 45797
+    },
+    {
+        "Territory": "ITH2",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 44449
+    },
+    {
+        "Territory": "ITH3",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 481916
+    },
+    {
+        "Territory": "ITH3",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 485972
+    },
+    {
+        "Territory": "ITH3",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 509420
+    },
+    {
+        "Territory": "ITH3",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 493119
+    },
+    {
+        "Territory": "ITH3",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 494079
+    },
+    {
+        "Territory": "ITH4",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 105902
+    },
+    {
+        "Territory": "ITH4",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 107265
+    },
+    {
+        "Territory": "ITH4",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 114863
+    },
+    {
+        "Territory": "ITH4",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 113151
+    },
+    {
+        "Territory": "ITH4",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 115585
+    },
+    {
+        "Territory": "ITH5",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 529580
+    },
+    {
+        "Territory": "ITH5",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 537590
+    },
+    {
+        "Territory": "ITH5",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 562257
+    },
+    {
+        "Territory": "ITH5",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 549820
+    },
+    {
+        "Territory": "ITH5",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 548755
+    },
+    {
+        "Territory": "ITI1",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 396301
+    },
+    {
+        "Territory": "ITI1",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 398111
+    },
+    {
+        "Territory": "ITI1",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 425931
+    },
+    {
+        "Territory": "ITI1",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 406508
+    },
+    {
+        "Territory": "ITI1",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 406742
+    },
+    {
+        "Territory": "ITI2",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 92827
+    },
+    {
+        "Territory": "ITI2",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 92399
+    },
+    {
+        "Territory": "ITI2",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 92537
+    },
+    {
+        "Territory": "ITI2",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 89663
+    },
+    {
+        "Territory": "ITI2",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 89009
+    },
+    {
+        "Territory": "ITI3",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 130903
+    },
+    {
+        "Territory": "ITI3",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 130595
+    },
+    {
+        "Territory": "ITI3",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 130462
+    },
+    {
+        "Territory": "ITI3",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 126820
+    },
+    {
+        "Territory": "ITI3",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 127294
+    },
+    {
+        "Territory": "ITI4",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 626748
+    },
+    {
+        "Territory": "ITI4",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 629171
+    },
+    {
+        "Territory": "ITI4",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 635569
+    },
+    {
+        "Territory": "ITI4",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 618142
+    },
+    {
+        "Territory": "ITI4",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 615108
+    },
+    {
+        "Territory": "ITF1",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 84611
+    },
+    {
+        "Territory": "ITF1",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 83504
+    },
+    {
+        "Territory": "ITF1",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 82568
+    },
+    {
+        "Territory": "ITF1",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 80988
+    },
+    {
+        "Territory": "ITF1",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 80963
+    },
+    {
+        "Territory": "ITF2",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 13297
+    },
+    {
+        "Territory": "ITF2",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 12768
+    },
+    {
+        "Territory": "ITF2",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 11591
+    },
+    {
+        "Territory": "ITF2",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 11463
+    },
+    {
+        "Territory": "ITF2",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 11907
+    },
+    {
+        "Territory": "ITF3",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 252228
+    },
+    {
+        "Territory": "ITF3",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 254791
+    },
+    {
+        "Territory": "ITF3",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 249548
+    },
+    {
+        "Territory": "ITF3",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 239990
+    },
+    {
+        "Territory": "ITF3",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 241008
+    },
+    {
+        "Territory": "ITF4",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 132092
+    },
+    {
+        "Territory": "ITF4",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 133690
+    },
+    {
+        "Territory": "ITF4",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 134440
+    },
+    {
+        "Territory": "ITF4",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 135173
+    },
+    {
+        "Territory": "ITF4",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 138689
+    },
+    {
+        "Territory": "ITF5",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 22210
+    },
+    {
+        "Territory": "ITF5",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 22569
+    },
+    {
+        "Territory": "ITF5",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 22011
+    },
+    {
+        "Territory": "ITF5",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 22184
+    },
+    {
+        "Territory": "ITF5",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 23419
+    },
+    {
+        "Territory": "ITF6",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 104735
+    },
+    {
+        "Territory": "ITF6",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 103395
+    },
+    {
+        "Territory": "ITF6",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 92996
+    },
+    {
+        "Territory": "ITF6",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 93257
+    },
+    {
+        "Territory": "ITF6",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 94203
+    },
+    {
+        "Territory": "ITG1",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 187543
+    },
+    {
+        "Territory": "ITG1",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 189713
+    },
+    {
+        "Territory": "ITG1",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 186195
+    },
+    {
+        "Territory": "ITG1",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 184605
+    },
+    {
+        "Territory": "ITG1",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 184761
+    },
+    {
+        "Territory": "ITG2",
+        "Year": 2019,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 52246
+    },
+    {
+        "Territory": "ITG2",
+        "Year": 2020,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 52329
+    },
+    {
+        "Territory": "ITG2",
+        "Year": 2021,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 49322
+    },
+    {
+        "Territory": "ITG2",
+        "Year": 2022,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 48400
+    },
+    {
+        "Territory": "ITG2",
+        "Year": 2023,
+        "Sex": "Total",
+        "Age": "TOTAL",
+        "Quantity": 48617
+    }
+]

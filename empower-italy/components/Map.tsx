@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, GeoJSON, TileLayer, useMap } from 'react-leaflet'
 
-
 interface GeoJSONFeature {
   type: string;
   properties: {
@@ -24,57 +23,52 @@ export default function Map() {
 
   const [geojsonData, setGeojsonData] = useState<any>(null);
 
-  useEffect(() => {
-    const fetchGeoJSON = async () => {
-      try {
-        const responseGeoJSON = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/map.geojson');
-        const responsePopulation = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1(b)/combined_immigrants_distribution.json');
-        if (!responseGeoJSON.ok || !responsePopulation.ok) {
-          throw new Error('Network response was not ok.');
-        }
-        const dataGeoJSON = await responseGeoJSON.json();
-        const dataPopulation = await responsePopulation.json();
-
-        console.log('GeoJSON data:', dataGeoJSON);
-        console.log('Population data:', dataPopulation);
-
-        if (Array.isArray(dataGeoJSON.features)) {
-          const updatedGeoJSON = {
-            type: 'FeatureCollection',
-            features: dataGeoJSON.features
-              .filter((feature: GeoJSONFeature) => feature.properties.Year === 2022)
-              .map((feature: GeoJSONFeature) => {
-                const region = feature.properties.NUTS2;
-
-                const populationData = dataPopulation.find((data: any) => data.Territory === region);
-
-                if (populationData) {
-                  const population = populationData.Quantity || 0;
-                  return {
-                    ...feature,
-                    properties: {
-                      ...feature.properties,
-                      Quantity: population,
-                    },
-                  };
-                } else {
-                  console.error(`Population data not found for region: ${region}`);
-                  return feature;
-                }
-              }),
-          };
-
-          setGeojsonData(updatedGeoJSON);
-          console.log(updatedGeoJSON);
-        } else {
-          console.error('Features array not found or not an array.');
-        }
-      } catch (error) {
-        console.error('Error fetching GeoJSON data:', error);
+  const fetchData = async () => {
+    try {
+      const responseGeoJSON = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/map.geojson');
+      const responsePopulation = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1(b)/immigrants_distribution_NUTS2.json');
+      
+      if (!responseGeoJSON.ok || !responsePopulation.ok) {
+        throw new Error('Network response was not ok.');
       }
-    };
 
-    fetchGeoJSON();
+      const dataGeoJSON = await responseGeoJSON.json();
+      const dataPopulation = await responsePopulation.json();
+
+      const updatedGeoJSON = {
+        type: 'FeatureCollection',
+        features: dataGeoJSON.features
+          .filter((feature: GeoJSONFeature) => feature.properties.Year === 2022) // Filter by the desired year
+          .map((feature: GeoJSONFeature) => {
+            const region = feature.properties.NUTS2;
+
+          const populationData = dataPopulation.find((data: any) => data.Territory === region);
+
+          if (populationData) {
+            const population = populationData.Quantity || 0;
+            return {
+              ...feature,
+              properties: {
+                ...feature.properties,
+                Quantity: population,
+              },
+            };
+          } else {
+            console.error(`Population data not found for region: ${region}`);
+            return feature;
+          }
+        }),
+      };
+
+      setGeojsonData(updatedGeoJSON);
+      console.log(updatedGeoJSON);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
   }, []);
 
   const getColor = (population: number): string => {
@@ -152,7 +146,7 @@ export default function Map() {
                                                             px-2 py-6
                                                             
                             ">
-                              <MapContainer center={[41.872, 12.567]} zoom={6} scrollWheelZoom={false} style={{ height: '70vh' }}>
+                              <MapContainer center={[41.872, 12.567]} zoom={6} scrollWheelZoom={false} style={{ height: '40rem' }}>
                                 <TileLayer
                                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
