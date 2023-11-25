@@ -1,5 +1,11 @@
 2023-23-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
+    # `Map.tsx` updated, to check the year been displayed.
+
+    # Created `Legend.tsx` to handle the legend in the map.
+
+2023-23-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
     # Fixed `HorizontalBarChart.tsx`.
 
     # Added packages `leaflet` with `yarn add leaflet` and `yarn add react-leaflet`

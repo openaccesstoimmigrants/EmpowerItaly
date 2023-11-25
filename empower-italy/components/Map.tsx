@@ -2,94 +2,114 @@
 
 import { useEffect, useState } from "react";
 import 'leaflet/dist/leaflet.css';
-import { MapContainer, GeoJSON, TileLayer, useMap } from 'react-leaflet'
+import { MapContainer, GeoJSON, TileLayer } from 'react-leaflet'
+import Legend from '@/components/Legend';
 
 interface GeoJSONFeature {
-  type: string;
-  properties: {
-    NUTS2: string,
-    Year: number,
-    Sex: string,
-    Age: string,
-    Quantity: number
-  };
   geometry: {
-    type: string;
     coordinates: any;
+    type: string;
   };
+  properties: {
+    COD_REG: string,
+    COD_RIP: number,
+    NUTS2: string,
+    Nome: string,
+    Quantity?: number; // Added Quantity as an optional field
+  };
+  type: string;
 }
 
 export default function Map() {
 
   const [geojsonData, setGeojsonData] = useState<any>(null);
 
-  const fetchData = async () => {
-    try {
-      const responseGeoJSON = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/map.geojson');
-      const responsePopulation = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1(b)/immigrants_distribution_NUTS2.json');
-      
-      if (!responseGeoJSON.ok || !responsePopulation.ok) {
-        throw new Error('Network response was not ok.');
-      }
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const responseGeoJSON = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/map.geojson');
+        const responsePopulation = await fetch('https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/D1(a)/immigrants_distribution_NUTS2.json');
 
-      const dataGeoJSON = await responseGeoJSON.json();
-      const dataPopulation = await responsePopulation.json();
+        if (!responseGeoJSON.ok || !responsePopulation.ok) {
+          throw new Error('Network response was not ok.');
+        }
 
-      const updatedGeoJSON = {
-        type: 'FeatureCollection',
-        features: dataGeoJSON.features
-          .filter((feature: GeoJSONFeature) => feature.properties.Year === 2022) // Filter by the desired year
-          .map((feature: GeoJSONFeature) => {
+        const dataGeoJSON = await responseGeoJSON.json();
+        const dataPopulation = await responsePopulation.json();
+
+        const updatedGeoJSON = {
+          type: 'FeatureCollection',
+          features: dataGeoJSON.features.map((feature: GeoJSONFeature) => {
             const region = feature.properties.NUTS2;
 
-          const populationData = dataPopulation.find((data: any) => data.Territory === region);
+            const populationData = dataPopulation.find((data: any) => data.Territory === region);
 
-          if (populationData) {
-            const population = populationData.Quantity || 0;
-            return {
-              ...feature,
-              properties: {
-                ...feature.properties,
-                Quantity: population,
-              },
-            };
-          } else {
-            console.error(`Population data not found for region: ${region}`);
-            return feature;
-          }
-        }),
-      };
+            if (populationData) {
+              const population = populationData.Quantity || 0;
+              return {
+                ...feature,
+                properties: {
+                  ...feature.properties,
+                  Quantity: population,
+                },
+              };
+            } else {
+              console.error(`Population data not found for region: ${region}`);
+              return feature;
+            }
+          }),
+        };
 
-      setGeojsonData(updatedGeoJSON);
-      console.log(updatedGeoJSON);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
+        setGeojsonData(updatedGeoJSON);
 
-  useEffect(() => {
+        console.log('UpdatedGeoJSON:', updatedGeoJSON);
+        console.log('Data Geo JSON:', dataGeoJSON);
+        console.log('Data Population:', dataPopulation);
+
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
     fetchData();
   }, []);
 
   const getColor = (population: number): string => {
-    return population > 50000 ? '#800026' :
-           population > 30000 ? '#BD0026' :
-           population > 10000 ? '#E31A1C' :
-           '#FC4E2A';
+    return population > 1000000 ? 'rgb(124 45 18)' :
+          population > 700000 ? 'rgb(154 52 18)' :
+          population > 500000 ? 'rgb(194 65 12)' :
+          population > 300000 ? 'rgb(234 88 12)' :
+          population > 100000 ? 'rgb(249 115 22)' :
+          population > 70000 ? 'rgb(251 146 60)' :
+          population > 50000 ? 'rgb(253 186 116)' :
+          population > 30000 ? 'rgb(254 215 170)' :
+          population > 10000 ? 'rgb(255 237 213)' :
+          'rgb(255 237 213)';
+  };
+
+  const onEachFeature = (feature: any, layer: any) => {
+    if (feature.properties && feature.properties.Nome && feature.properties.Quantity) {
+      layer.bindTooltip(
+        `Region: ${feature.properties.Nome}<br>Population: ${feature.properties.Quantity}`,
+        {
+          sticky: true,
+        }
+      );
+    }
   };
 
   const style = (feature: any) => {
-    const population = feature.properties.Quantity;
+    const population = feature.properties.Quantity || 0;
     return {
       fillColor: getColor(population),
       weight: 1,
-      opacity: 1,
+      opacity: 0.5,
       color: 'white',
-      dashArray: '3',
+      dashArray: '',
       fillOpacity: 0.7,
     };
   };
-
+ 
   return (
         <section id="barchart-education" className="pb-6">
             <article className="
@@ -140,21 +160,25 @@ export default function Map() {
                                                             relative
                                                             m-auto
                                                             w-full
-                                                            h-[42rem]
+                                                            h-[46rem]
                                                             bg-gray-50
                                                             rounded-xl
                                                             px-2 py-6
                                                             
                             ">
-                              <MapContainer center={[41.872, 12.567]} zoom={6} scrollWheelZoom={false} style={{ height: '40rem' }}>
+                              <MapContainer center={[41.872, 12.567]} zoom={6} scrollWheelZoom={false} style={{ height: '44rem' }}>
                                 <TileLayer
                                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                  // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                  url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png"
+                                  // url="https://api.mapbox.com/styles/v1/renzrenz/ckkpj99tm0zei17p7s2a9hamh/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmVuenJlbnoiLCJhIjoiY2trcGo3cHRtMGRpcTJ1czE2bWE5bnd2biJ9.cFUxoodeOiS16_Na8xFm9Q"
                                 />
-                                  {geojsonData && geojsonData.length > 0 && (
-                                    <GeoJSON data={geojsonData} style={style} />
+                                <Legend />
+                                  {geojsonData && (
+                                    <GeoJSON data={geojsonData} style={style} onEachFeature={onEachFeature} />
                                   )}
                               </MapContainer>
+
                             </div>
                         </div>
                     </div>
