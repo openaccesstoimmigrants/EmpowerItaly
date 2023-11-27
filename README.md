@@ -309,6 +309,15 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 
 ## 4. Quality analysis of the datasets
 
+The division among Italian regions is to be intented as follows, according to ISTAT:
+the North, the Center and the South. <br>
+
+The North includes the regions of the North-West (Liguria, Lombardy, Piedmont, Valle d'Aosta) and those of the North-East (Emilia-Romagna, Friuli Venezia Giulia, Trentino-Alto Adige, Veneto).
+<br>
+The Center includes the regions of Lazio, Marche, Tuscany and Umbria.
+<br>
+The South includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
+
 ### 4.1 Information quality
 
 This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID [https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati)). The four characteristics to control the level of information quality are:
