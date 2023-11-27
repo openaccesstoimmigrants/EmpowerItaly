@@ -195,7 +195,12 @@ To display the data in our React app, we simply save a constant with the URL of 
 
 # DATASETS
 
-NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.
+**NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.** <br>
+#### NUTS suddivision  <br>
+The regional division belonging to NUTS level 1 do not correspond to administrative or purely geographical entities, but it is a subdivision only statistical and macroeconomic, despite being on the same NUTS level as the states of Germany or Wales, Scotland, Northern Ireland and regions of England in the United Kingdom. <br>
+Sometimes you may find another type of division, i.e. that englobing the Isole in the Mezzogiorno. This is possible, since ISTAT does this,
+
+
 ### D1(a) - Resident foreign population by region 2019-2023
 |  |  |
 | --- | --- |
