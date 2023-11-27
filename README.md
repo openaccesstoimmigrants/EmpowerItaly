@@ -195,6 +195,7 @@ To display the data in our React app, we simply save a constant with the URL of 
 
 # DATASETS
 
+NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.
 ### D1(a) - Resident foreign population by region 2019-2023
 |  |  |
 | --- | --- |
