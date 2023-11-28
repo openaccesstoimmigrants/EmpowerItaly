@@ -1,0 +1,36 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit/>.
+@prefix dct <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix owl <http://www.w3.org/2002/07/owl#> .
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix prov <http://www.w3.org/ns/prov#> .
+
+<http://openacesstoimmigrants.github.io/openaccesstoimmigrants/resource/Dataset/EmpowerItaly>
+	a dcatapit:Dataset , dcat:Dataset ;
+	dct:identifier "EmpowerItaly:MASHUP1" ;
+	dct:title "SEBuCCI"@en ;
+	dct:description "Dataset of EmpowerItaly Project (Does the number of immigrants arrival impact on the labour market?) It contains information about activity and unmployment rates in the italian labour market from foreign citizens."@en ;
+	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+	dct:subject <http://eurovoc.europa.eu/668> , <http://eurovoc.europa.eu/c_9a9e5627> , <http://eurovoc.europa.eu/5309>; #education , monitoring report , building safety
+	dct:issued "2018-11-20"^^xsd:date ;
+	dct:modified "2018-11-20"^^xsd:date ;
+	dcat:keyword "education" , "monitoring report" , "building safety", "istruzione" , "relazione di monitoraggio" , "sicurezza degli edifici";
+	owl:versionInfo "0.1.0" ; 
+	dct:rightsHolder <http://sebucci.github.io/resource/Amministrazione/sebucciGroup> ;
+	dct:publisher <http://sebucci.github.io/resource/Amministrazione/sebucciGroup> ;
+	dct:creator <http://sebucci.github.io/resource/Amministrazione/sebucciGroup> ;
+	dct:license <http://creativecommons.org/licenses/by/4.0> ;
+	prov:wasDerivedFrom <http://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?datasetId=DS0500VALUTAZIONE_ESITI_STA> ;
+	prov:wasDerivedFrom <http://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?datasetId=DS0280EDICONSICUREZZASTA> ;
+	prov:wasDerivedFrom <http://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?datasetId=DS0540RUBRICA_VAL> ;
+	prov:wasDerivedFrom <http://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?datasetId=DS0400SCUANAGRAFESTAT> ;
+	dcat:distribution <http://sebucci.github.io/resource/Distribuzione/SEBuCCI-RDFXML> ;
+	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+	dcat:contactPoint <http://sebucci.github.io/resource/PuntoContatto/contactPointSEBuCCI> ;
+	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
+	dct:temporal <http://sebucci.github.io/resource/PeriodoTemporale/periodTimeSEBuCCI> ;
+	dct:spatial <http://www.geonames.org/3170831/> , <http://www.geonames.org/3174618/> , <http://www.geonames.org/3164604/> ,  <http://www.geonames.org/3176525/> , <http://www.geonames.org/3174725/> , <http://www.geonames.org/3177401/> , <http://www.geonames.org/3165361/> , <http://www.geonames.org/3174004/> , <http://www.geonames.org/3165048/> , <http://www.geonames.org/3174976/> , <http://www.geonames.org/3183560/> , <http://www.geonames.org/3173222/> , <http://www.geonames.org/3181042/> , <http://www.geonames.org/3169778/> , <http://www.geonames.org/3182306/>, <http://www.geonames.org/2525468/> , <http://www.geonames.org/2523119/> , <http://www.geonames.org/2523228/s> .
+
