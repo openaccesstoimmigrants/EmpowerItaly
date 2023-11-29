@@ -408,9 +408,9 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ### 5.2 Licenses
 
-<b>Immigrants.stat</b>:
+<b>Immigrants.stat</b>: On the direct page that data is available to be explored and reused no disclaimers is at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data the find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it.
 
-<b>I.stat</b>:
+<b>I.stat</b>: 
 
 <b>IstatData</b>:
 
