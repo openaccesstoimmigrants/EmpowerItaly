@@ -261,49 +261,63 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 |  |  |
 | --- | --- |
 | Source | [EUROSTAT](https://ec.europa.eu/eurostat) |
-| Title | [Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%)](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
-| Viewed in date |  | 
+| Title | Population by educational attainment level, sex, age, country of birth and NUTS 2 regions (%) |
+| Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | **-** |
-| Metadata | - |
-| URI | [LINK]() |
+| Format | CSV |
+| Metadata | [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm) |
+| URI | [LINK](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en) |
 |  |  |
 
-### D5 - Acticity rate of foreign citizens
+This dataset was used in order to understand the educational level attained by foreigners in Italy. The levels considered in this dataset are:
+  - Primary (ED0-2): Less than primary, primary and lower secondary education
+  - Secondary (ED3_4): Upper secondary and post-secondary non-tertiary education
+  - Tertiary (ED5-8): Tertiary education
+See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm)
+
+### D5 - Acticity rate between foreigners and italians
 |  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
-| Title | [Activity rate: Data by gender, highest level of education attained - foreigners](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_3,1.0) |
-| Viewed in date | - - | 
+| Title | Highest level of education attained, ctizenship |
+| Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | **-** |
-| Metadata | - |
-| URI | [LINK]() |
+| Format | CSV |
+| Metadata | Not provided |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_3,1.0) |
 |  |  |
+
+This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.
+See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.istat.it/it/files/2016/01/Glossario1.pdf)
 
 ### D6 - Presence of foreigners divided by industry sector
 |  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
-| Title | [Employment (thousands) - Nace 2007 - professional status, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
-| Viewed in date | - - | 
+| Title | Employment (thousands) - Nace 2007 - professional status, citizenship |
+| Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | **-** |
-| Metadata | - |
-| URI | [LINK]() |
+| Format | CSV |
+| Metadata | Not provided |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
 |  |  |
 
-### D7 - Unemployment rate between italians and foreigners
+This dataset was retrieved in order to understand what are the sector in which foreigners work the most in Italy.
+See more in [LINK](https://www4.istat.it/it/strumenti/definizioni-e-classificazioni/ateco-2007)
+
+### D7 - Unemployment rate between foreigners and italians
 |  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
-| Title | [Unemployment Rate - Highest level of education attained, citizenship](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0) |
-| Viewed in date | - - | 
+| Title | Unemployment Rate - Highest level of education attained, citizenship |
+| Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | **-** |
-| Metadata | - |
-| URI | [LINK]() |
+| Format | CSV |
+| Metadata | Not provided |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0) |
 |  |  | 
+
+This dataset was retrieved in order to understand the unemployment rates between foreigners and italians.
 
 ### D8 - Annual average households income
 |  |  |
@@ -393,6 +407,14 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 |  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? |  |  |  |  |   |   |   |
 
 ### 5.2 Licenses
+
+<b>Immigrants.stat</b>:
+
+<b>I.stat</b>:
+
+<b>IstatData</b>:
+
+<b>EUROSTAT</b>:
 
 ## 6. Ethics analysis
 
