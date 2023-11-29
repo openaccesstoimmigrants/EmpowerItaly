@@ -354,14 +354,16 @@ This section considers the requirements, established according to the "Linee gui
 |  | Accuracy | Coherence | Completeness | Curentness |
 | --- | --- | --- | --- | --- |
 | D1 | YES | YES | YES | YES |
-| D2 | NO - See point 1 | YES | YES | YES |
+| D2 | NO | YES | YES | YES |
 | D3 |  |  |  |  |
-| D4 |  |  |  |  |
-| D5 |  |  |  |  |
+| D4 |  |  | NO - See point 1 and 2 | NO - See point 2 |
+| D5 |  |  | NO |  |
 | D6 |  |  |  |  |
 | D7 |  |  |  |  |
 
-1. The dataset does not complain with the accuracy standard because…
+1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
+
+2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the NUTS2 classification and for this reason it is not accurate as it could be. 
 
 ## 5. Legal analysis (privacy, license, purpose, etc.)
 
