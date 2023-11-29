@@ -1,0 +1,452 @@
+[
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "foreign",
+    "Year": "2018",
+    "PrimarySchool": 15.1556266667,
+    "TertiarySchool": 10.8040806667,
+    "total": 14.4532273333,
+    "SecondarySchool": 14.83671
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "foreign",
+    "Year": "2019",
+    "PrimarySchool": 13.5684366667,
+    "TertiarySchool": 11.434287,
+    "total": 14.8460583333,
+    "SecondarySchool": 17.514611
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "foreign",
+    "Year": "2020",
+    "PrimarySchool": 13.1537456667,
+    "TertiarySchool": 8.6245346667,
+    "total": 12.7785246667,
+    "SecondarySchool": 13.5420316667
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "foreign",
+    "Year": "2021",
+    "PrimarySchool": 13.2418526667,
+    "TertiarySchool": 18.1025996667,
+    "total": 15.1945003333,
+    "SecondarySchool": 16.5862913333
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "foreign",
+    "Year": "2022",
+    "PrimarySchool": 12.7239673333,
+    "TertiarySchool": 12.505329,
+    "total": 12.98038,
+    "SecondarySchool": 13.3771996667
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "italian",
+    "Year": "2018",
+    "PrimarySchool": 11.3566053333,
+    "TertiarySchool": 4.9868976667,
+    "total": 8.676383,
+    "SecondarySchool": 9.3777203333
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "italian",
+    "Year": "2019",
+    "PrimarySchool": 9.8270923333,
+    "TertiarySchool": 5.1020606667,
+    "total": 7.718597,
+    "SecondarySchool": 8.1931936667
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "italian",
+    "Year": "2020",
+    "PrimarySchool": 10.372889,
+    "TertiarySchool": 5.0247843333,
+    "total": 7.6299363333,
+    "SecondarySchool": 7.821124
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "italian",
+    "Year": "2021",
+    "PrimarySchool": 11.1007086667,
+    "TertiarySchool": 4.150024,
+    "total": 7.694963,
+    "SecondarySchool": 8.114135
+  },
+  {
+    "Territory": "Centro (I)",
+    "Citizenship": "italian",
+    "Year": "2022",
+    "PrimarySchool": 8.462975,
+    "TertiarySchool": 3.3699466667,
+    "total": 6.0591233333,
+    "SecondarySchool": 6.5001673333
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "foreign",
+    "Year": "2018",
+    "PrimarySchool": 15.5702743333,
+    "TertiarySchool": 17.18999,
+    "total": 16.0469196667,
+    "SecondarySchool": 16.9642626667
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "foreign",
+    "Year": "2019",
+    "PrimarySchool": 16.924579,
+    "TertiarySchool": 16.8367576667,
+    "total": 17.526526,
+    "SecondarySchool": 19.2470726667
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "foreign",
+    "Year": "2020",
+    "PrimarySchool": 19.0207086667,
+    "TertiarySchool": 17.9504873333,
+    "total": 18.8713933333,
+    "SecondarySchool": 18.68959
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "foreign",
+    "Year": "2021",
+    "PrimarySchool": 20.9286536667,
+    "TertiarySchool": 19.874336,
+    "total": 20.8080926667,
+    "SecondarySchool": 20.727722
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "foreign",
+    "Year": "2022",
+    "PrimarySchool": 19.0002056667,
+    "TertiarySchool": 17.563798,
+    "total": 18.971048,
+    "SecondarySchool": 19.2294233333
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "italian",
+    "Year": "2018",
+    "PrimarySchool": 24.2157276667,
+    "TertiarySchool": 11.0387613333,
+    "total": 18.5664543333,
+    "SecondarySchool": 17.2542036667
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "italian",
+    "Year": "2019",
+    "PrimarySchool": 23.1703303333,
+    "TertiarySchool": 10.296681,
+    "total": 17.6611786667,
+    "SecondarySchool": 16.6854883333
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "italian",
+    "Year": "2020",
+    "PrimarySchool": 21.7806183333,
+    "TertiarySchool": 9.218436,
+    "total": 16.0741883333,
+    "SecondarySchool": 14.9017
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "italian",
+    "Year": "2021",
+    "PrimarySchool": 21.7335783333,
+    "TertiarySchool": 8.411085,
+    "total": 16.175574,
+    "SecondarySchool": 15.629899
+  },
+  {
+    "Territory": "Mezzogiorno",
+    "Citizenship": "italian",
+    "Year": "2022",
+    "PrimarySchool": 19.364638,
+    "TertiarySchool": 6.8126866667,
+    "total": 14.076778,
+    "SecondarySchool": 13.592164
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "foreign",
+    "Year": "2018",
+    "PrimarySchool": 14.4915306667,
+    "TertiarySchool": 9.1374133333,
+    "total": 13.1310913333,
+    "SecondarySchool": 12.7818686667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "foreign",
+    "Year": "2019",
+    "PrimarySchool": 13.519575,
+    "TertiarySchool": 10.391808,
+    "total": 12.2232713333,
+    "SecondarySchool": 11.1922283333
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "foreign",
+    "Year": "2020",
+    "PrimarySchool": 12.1798546667,
+    "TertiarySchool": 10.897149,
+    "total": 12.0093066667,
+    "SecondarySchool": 12.1333236667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "foreign",
+    "Year": "2021",
+    "PrimarySchool": 12.3675123333,
+    "TertiarySchool": 11.0268516667,
+    "total": 12.2643543333,
+    "SecondarySchool": 12.4957826667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "foreign",
+    "Year": "2022",
+    "PrimarySchool": 10.4211016667,
+    "TertiarySchool": 8.3872453333,
+    "total": 9.7689993333,
+    "SecondarySchool": 9.4570036667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "italian",
+    "Year": "2018",
+    "PrimarySchool": 7.66305,
+    "TertiarySchool": 3.3359263333,
+    "total": 5.5996973333,
+    "SecondarySchool": 5.5468326667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "italian",
+    "Year": "2019",
+    "PrimarySchool": 7.54857,
+    "TertiarySchool": 3.097107,
+    "total": 5.1703826667,
+    "SecondarySchool": 4.8818663333
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "italian",
+    "Year": "2020",
+    "PrimarySchool": 6.9548536667,
+    "TertiarySchool": 3.2240073333,
+    "total": 5.1357526667,
+    "SecondarySchool": 5.1201056667
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "italian",
+    "Year": "2021",
+    "PrimarySchool": 7.227654,
+    "TertiarySchool": 2.975011,
+    "total": 5.0872003333,
+    "SecondarySchool": 4.995005
+  },
+  {
+    "Territory": "Nord",
+    "Citizenship": "italian",
+    "Year": "2022",
+    "PrimarySchool": 6.3885683333,
+    "TertiarySchool": 2.391241,
+    "total": 4.3551846667,
+    "SecondarySchool": 4.2544523333
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "foreign",
+    "Year": "2018",
+    "PrimarySchool": 15.381984,
+    "TertiarySchool": 9.8198673333,
+    "total": 13.479952,
+    "SecondarySchool": 12.6192943333
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "foreign",
+    "Year": "2019",
+    "PrimarySchool": 14.406747,
+    "TertiarySchool": 10.068177,
+    "total": 12.4555716667,
+    "SecondarySchool": 11.210479
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "foreign",
+    "Year": "2020",
+    "PrimarySchool": 12.0205176667,
+    "TertiarySchool": 11.9871813333,
+    "total": 11.8972703333,
+    "SecondarySchool": 11.7546283333
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "foreign",
+    "Year": "2021",
+    "PrimarySchool": 11.0211236667,
+    "TertiarySchool": 9.3343876667,
+    "total": 10.495161,
+    "SecondarySchool": 10.3157896667
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "foreign",
+    "Year": "2022",
+    "PrimarySchool": 10.0301823333,
+    "TertiarySchool": 6.2084076667,
+    "total": 8.8288863333,
+    "SecondarySchool": 8.4713543333
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "italian",
+    "Year": "2018",
+    "PrimarySchool": 6.6784133333,
+    "TertiarySchool": 3.139968,
+    "total": 4.9412713333,
+    "SecondarySchool": 4.849491
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "italian",
+    "Year": "2019",
+    "PrimarySchool": 6.202183,
+    "TertiarySchool": 3.2483606667,
+    "total": 4.4548786667,
+    "SecondarySchool": 4.127024
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "italian",
+    "Year": "2020",
+    "PrimarySchool": 6.316249,
+    "TertiarySchool": 3.2606836667,
+    "total": 4.8763946667,
+    "SecondarySchool": 4.9271956667
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "italian",
+    "Year": "2021",
+    "PrimarySchool": 6.39721,
+    "TertiarySchool": 2.7773066667,
+    "total": 4.5295543333,
+    "SecondarySchool": 4.4362896667
+  },
+  {
+    "Territory": "Nord-est",
+    "Citizenship": "italian",
+    "Year": "2022",
+    "PrimarySchool": 5.598281,
+    "TertiarySchool": 2.2091576667,
+    "total": 3.837501,
+    "SecondarySchool": 3.730644
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "foreign",
+    "Year": "2018",
+    "PrimarySchool": 13.94255,
+    "TertiarySchool": 8.6572543333,
+    "total": 12.8830176667,
+    "SecondarySchool": 12.920238
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "foreign",
+    "Year": "2019",
+    "PrimarySchool": 12.9746003333,
+    "TertiarySchool": 10.642936,
+    "total": 12.051909,
+    "SecondarySchool": 11.1757506667
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "foreign",
+    "Year": "2020",
+    "PrimarySchool": 12.2773526667,
+    "TertiarySchool": 9.9287196667,
+    "total": 12.0962746667,
+    "SecondarySchool": 12.508222
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "foreign",
+    "Year": "2021",
+    "PrimarySchool": 13.2247126667,
+    "TertiarySchool": 12.4710106667,
+    "total": 13.5963713333,
+    "SecondarySchool": 14.408137
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "foreign",
+    "Year": "2022",
+    "PrimarySchool": 10.6729363333,
+    "TertiarySchool": 10.163093,
+    "total": 10.498555,
+    "SecondarySchool": 10.377461
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "italian",
+    "Year": "2018",
+    "PrimarySchool": 8.359876,
+    "TertiarySchool": 3.4741703333,
+    "total": 6.087053,
+    "SecondarySchool": 6.0883586667
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "italian",
+    "Year": "2019",
+    "PrimarySchool": 8.4793926667,
+    "TertiarySchool": 2.9877563333,
+    "total": 5.7002883333,
+    "SecondarySchool": 5.4687883333
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "italian",
+    "Year": "2020",
+    "PrimarySchool": 7.4081536667,
+    "TertiarySchool": 3.1971976667,
+    "total": 5.3284833333,
+    "SecondarySchool": 5.2682043333
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "italian",
+    "Year": "2021",
+    "PrimarySchool": 7.8058013333,
+    "TertiarySchool": 3.1203913333,
+    "total": 5.4976466667,
+    "SecondarySchool": 5.419123
+  },
+  {
+    "Territory": "Nord-ovest",
+    "Citizenship": "italian",
+    "Year": "2022",
+    "PrimarySchool": 6.9459236667,
+    "TertiarySchool": 2.522901,
+    "total": 4.7366433333,
+    "SecondarySchool": 4.6533653333
+  }
+]
