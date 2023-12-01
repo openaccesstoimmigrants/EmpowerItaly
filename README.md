@@ -15,6 +15,7 @@
 Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impact by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
 
 We acknowledge that immigration is a complex topic that requires a multidimensional approach. Therefore, we focus on the contribution of migrants to the national economy as our main research question. Specifically, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] our hypothesis question explores how much active foreigners are in the labour market and even if they are, we want to know if they are the ones more impacted or no by unempoyment rates . We aim to investigate in which regions of Italy immigrants are more present as well as the industries they work the most. And finally we want to understand if there's any kind of possible correlation among the Growth rate (GDP) of Italy x Activity rate of immigrants and Italians x Unemployment rate between immigrants and Italians.
+
 ## 2. Scenario
 
 EmpowerItaly aligns data from various sources to generate insights about the past migrational numbers in Italy and understand were currently immigrants are concentrated the most. Specifically, we are interested in how the number of entrants has changed over time, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy. 
@@ -22,9 +23,13 @@ EmpowerItaly aligns data from various sources to generate insights about the pas
 In order to obtain an exhaustive picture of the phenomenon, we will align:
 
 1. Immigrants' nationality and distribution
-2. Compare the educational level of both Italians and immigrants [RETREIVE INFO ABOUT ITALIAN'S ED LEVEL]
-3. Average salary and criminal rate per region [IS THE CRIMINAL RATE REALLY RELEVANT FOR THE ANALYSIS?]
-4. Employment and unemployment rate [REMEMBER TO RETRIEVE EMPLYMENT DATA]
+2. Immigrants educational level
+3. Industry sector in which immigrants are present
+4. Activity rate between immigrants and Italians
+5. Unemployment rate between immigrants and Italians
+6. GDP rate in Italy
+7. Annual average households income
+
 
 ### 2.1. The Open Data scenario
 
@@ -62,24 +67,6 @@ For our datasets, since we are dealing with data related to Italy, our main sour
 For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: [IstatData](https://esploradati.istat.it/databrowser/#/en). We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) [ISO standard](https://www.iso.org/standard/52500.html).
 
 As ancillary datasets were used in order to give more context to our hypothesis questions, the [EUROSTAT](// Only change code below this line
-class Thermostat{
-  constructor(temperature){
-    this._temperature = temperature;
-  }
-  get temperature(){
-     this._temperature = (5/9 * (this._temperature - 32));
-     return this._temperature;
-  }
-  set temperature(NewTemp){
-    this._temperature = (NewTemp * 9.0 / 5 + 32);
-  }
-}
-// Only change code above this line
-
-const thermos = new Thermostat(76); // Setting in Fahrenheit scale
-let temp = thermos.temperature; // 24.44 in Celsius
-thermos.temperature = 26;
-temp = thermos.temperature; // 26 in Celsius) was the main provider.
 
 ### SDMX: A Design Choice
 SDMX is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources. The more organizations using it, the more useful SDMX becomes. Since it has become the preferred standard for data and metadata exchange by the global statistical community, its potential is enormous. SDMX comes in several "flavors" or sub-formats, including SDMX-ML Generic, SDMX-ML Compact (also referred to as SDMX-ML Structure Specific), SDMX-JSON, and SDMX-EDI. Among these, SDMX-JSON is the most compact and efficient. However, packing all that data as tightly as possible has led to a complex structure that is difficult to interpret.
@@ -274,7 +261,7 @@ This dataset was used in order to understand the educational level attained by f
   - Tertiary (ED5-8): Tertiary education
 See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm)
 
-### D5 - Acticity rate between foreigners and italians
+### D5 - Activity rate between foreigners and italians
 |  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
@@ -366,11 +353,11 @@ This section considers the requirements, established according to the "Linee gui
 | --- | --- | --- | --- | --- |
 | D1 | YES | YES | YES | YES |
 | D2 | NO | YES | YES | YES |
-| D3 |  |  |  |  |
-| D4 |  |  | NO - See point 1 and 2 | NO - See point 2 |
-| D5 |  |  | NO |  |
-| D6 |  |  |  |  |
-| D7 |  |  |  |  |
+| D3 |  | YES |  | YES |
+| D4 |  | YES | NO - See point 1 and 2 | NO - See point 2 |
+| D5 |  | YES | NO | YES |
+| D6 |  | YES |  | YES |
+| D7 |  | YES |  | YES |
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
 
@@ -386,12 +373,12 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 |  | To check | D1 | D2 | D3 | D4 | D5 | D6 | D7 |
 | --- | --- | --- | --- | --- | --- | --- | -- | --- |
-| 1. Privacy issues | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |  |  |  | Y |   |   |   |
-|  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. |  |  |  | Y |   |   |   |
-|  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? |  |  |  | Y |   |   |   |
-|  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? |  |  |  | Y |   |   |   |
-|  | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |  |  |  | Y |   |   |   |
-|  | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  | N |   |   |   |
+| 1. Privacy issues | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? | Y | Y | Y | Y | Y | Y | Y |
+| Y | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | N | N | N | N | N | N | N |
+| N | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  | N |   |   |   |
 |  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? |  |  |  | Y |   |   |   |
 |  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? |  |  |  | Y |   |   |   |
 |  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? |  |  |  | Y |   |   |   |
