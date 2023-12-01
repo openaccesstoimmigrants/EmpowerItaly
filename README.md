@@ -44,11 +44,11 @@ We believe in Open Data and want to integrate our project into the larger pictur
 
 To achieve our goal, we will follow this procedure:
 
-1. **Define your research question:** Clarify the specific aspect of immigrant entrepreneurship [IS IT REALLY ABOUT ENTREPRENEURSHIP?] we want to investigate. Refine our hypothesis question and determine the variables and data needed to address it.
-2. **Gather data:** Identify relevant data sources that provide information on immigrant entrepreneurship in Italy. Look for datasets that include details on immigrant-owned businesses, employment generated, sectors, and other relevant factors. Ensure the data is reliable and covers the desired time period.
+1. **Define your research question:** Clarify the specific aspect of immigrant presence and activity we want to investigate. Refine our hypothesis question and determine the variables and data needed to address it.
+2. **Gather data:** Identify relevant data sources that provide information on immigrant labour activity in Italy. Look for datasets that include details on sectors, and other relevant factors. Ensure the data is reliable and covers the desired time period.
 3. **Data preprocessing:** Clean and preprocess the data to ensure it's in a suitable format for analysis. This may involve handling missing values, addressing outliers, standardizing variables, and performing data transformations as needed.
-4. **Data exploration and analysis:** Conduct exploratory data analysis to gain insights into the characteristics of immigrant entrepreneurship in Italy. Visualize the data using charts, graphs, and statistical summaries. Perform appropriate statistical analyses to test your hypothesis and identify any significant patterns or correlations.
-5. **Interpretation and findings:** Analyze the results of our data analysis and interpret their implications. Discuss any observed trends, patterns, or relationships between immigrant entrepreneurship and economic growth in Italy. Highlight the positive contributions of immigrant entrepreneurs and their impact on job creation and innovation.
+4. **Data exploration and analysis:** Conduct exploratory data analysis to gain insights into the characteristics of immigrant labour contribution in Italy. Visualize the data using charts, graphs, and statistical summaries. Perform appropriate statistical analyses to test your hypothesis and identify any significant patterns or correlations.
+5. **Interpretation and findings:** Analyze the results of our data analysis and interpret their implications. Discuss any observed trends, patterns, or relationships between immigrant entrepreneurship and economic growth in Italy. 
 6. **Draw conclusions:** Based on our findings, draw conclusions about the role of immigrant entrepreneurship in Italy's economy. Discuss the potential benefits and resources that immigrants bring to the country through their entrepreneurial activities. Consider the limitations of our study and any recommendations for further research.
 7. **Document our project:** Create a clear and well-structured report or presentation summarizing our project, including the research question, methodology, data sources, analysis techniques, and key findings. We cite our sources appropriately and include visualizations to enhance understanding.
 
@@ -456,6 +456,11 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
   - Provenance:
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
 
+### *OECD*
+  - Format: Excel
+  - Metadata:
+  - URI:
+  - Provenance:
 
 ## 8. Sustainability of updating the datasets over time
 
