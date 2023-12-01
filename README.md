@@ -442,10 +442,10 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
   - Format: Excel, CSV, SDMX, JSON
   - Metadata:
   - URI:
-    - Resident foreign population by region 2019-2023
-    - Resident foreign population by region 2001-2019
-    - Total immigrants to Italy divided by continents
-    - Italian resident municipal population
+    - [Resident foreign population by region 2019-2023](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
+    - [Resident foreign population by region 2001-2019](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
+    - [Total immigrants to Italy divided by continents](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
+    - [Italian resident municipal population](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
   - Provenance:
 
 ### *EUROSTAT*
