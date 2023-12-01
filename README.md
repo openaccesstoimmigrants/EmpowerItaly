@@ -331,6 +331,18 @@ This dataset was retrieved in order to understand the unemployment rates between
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,HOU,1.0/HOU_INCOME/DCCV_REDNETFAMFONTERED/IT1,32_292_DF_DCCV_REDNETFAMFONTERED_9,1.0) |
 |  |  |
 
+### D9 - GDP (Growth rate)
+|  |  |
+| --- | --- |
+| Source | [OECD](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
+| Title | **Gross Domestic Product (GDP)** |
+| Viewed in date | 29/11/2023 |
+| License |  |
+| Format | CSV, XML, SDMX, Excel, PC-Axis |
+| URI | [LINK](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
+|  |  |
+
+
 ## 4. Quality analysis of the datasets
 
 The division among Italian regions is to be intented as follows, according to ISTAT:
