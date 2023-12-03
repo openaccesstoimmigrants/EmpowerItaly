@@ -468,7 +468,20 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 10. RDF assertion of the metadata
 
-## 11. AN OPEN DATA MANIFESTO
+## LICENSE
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## 11. OUR WORK PRAXIS
 ### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
 
 #### We tried to make the two worlds dialogue: the humanities and the digital one. In this sense, we tried not to polarize a vision over the other - always for the sake of one main principle: **EXPRESSIVENESS OF CODE**. Simply put, code readability refers to how easily one can understand the purpose of the code. It relies on the effective use of programming skills, such as appropriately naming variables and adding comments. <br>
