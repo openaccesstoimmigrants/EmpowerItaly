@@ -13,7 +13,7 @@ interface CitizenshipData {
 
 export default function Countries() {
 
-    const [topCitizenships, setTopCitizenships] = useState<string[]>([]);
+    const [topCitizenships, setTopCitizenships] = useState<{ citizenship: string; population: number; }[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
@@ -33,7 +33,7 @@ export default function Countries() {
             // CHECK FOR THE CITIZENSHIP WITH THE LARGER NUMBER OF POPULATION
             // Group by citizenship and calculate total population for each citizenship
             const citizenshipMap = new Map<string, number>();
-            jsonData.forEach((entry) => {
+            filteredData.forEach((entry) => {
             const currentPopulation = citizenshipMap.get(entry.CITIZENSHIP) || 0;
             citizenshipMap.set(entry.CITIZENSHIP, currentPopulation + entry.POPULATION);
             });
@@ -44,7 +44,10 @@ export default function Countries() {
             );
 
             // Get the top 10 citizenships
-            const topCitizenships = sortedCitizenships.slice(0, 10).map((entry) => entry[0]);
+            const topCitizenships = sortedCitizenships.slice(0, 10).map((entry) => ({
+                citizenship: entry[0],
+                population: entry[1],
+            }))
 
             setTopCitizenships(topCitizenships);
 
@@ -83,8 +86,10 @@ export default function Countries() {
                         ) : (
                             <>
                                 <ul className="text-2xl md:text-4xl text-indigo-600">
-                                {topCitizenships.map((citizenship, index) => (
-                                    <li key={index}>{citizenship}</li>
+                                {topCitizenships.map((item, index) => (
+                                    <li key={index}>
+                                        {item.citizenship} {item.population.toLocaleString()}
+                                    </li>
                                 ))}
                                 </ul>
                             </>

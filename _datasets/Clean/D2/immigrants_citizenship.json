@@ -5295,34 +5295,6 @@
         "TERRITORY": "IT",
         "YEAR": 2019,
         "SEX": "9",
-        "CITIZENSHIP": "WORLD",
-        "POPULATION": 4996158
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2020,
-        "SEX": "9",
-        "CITIZENSHIP": "WORLD",
-        "POPULATION": 5039637
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2021,
-        "SEX": "9",
-        "CITIZENSHIP": "WORLD",
-        "POPULATION": 5171894
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2022,
-        "SEX": "9",
-        "CITIZENSHIP": "WORLD",
-        "POPULATION": 5030716
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2019,
-        "SEX": "9",
         "CITIZENSHIP": "Samoa",
         "POPULATION": 46
     },
@@ -5374,34 +5346,6 @@
         "SEX": "9",
         "CITIZENSHIP": "X95",
         "POPULATION": 37064
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2019,
-        "SEX": "9",
-        "CITIZENSHIP": "XEUR_NEU28_OTH",
-        "POPULATION": 1008904
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2020,
-        "SEX": "9",
-        "CITIZENSHIP": "XEUR_NEU28_OTH",
-        "POPULATION": 995809
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2021,
-        "SEX": "9",
-        "CITIZENSHIP": "XEUR_NEU28_OTH",
-        "POPULATION": 1055135
-    },
-    {
-        "TERRITORY": "IT",
-        "YEAR": 2022,
-        "SEX": "9",
-        "CITIZENSHIP": "XEUR_NEU28_OTH",
-        "POPULATION": 1008506
     },
     {
         "TERRITORY": "IT",
