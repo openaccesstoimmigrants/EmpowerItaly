@@ -270,7 +270,7 @@ See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esm
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | CSV |
 | Metadata | Not provided |
-| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_TAXATVT1/IT1,150_916_DF_DCCV_TAXATVT1_3,1.0) |
+| URI | [LINK]() |
 |  |  |
 
 This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.
