@@ -37,27 +37,35 @@ export default function Map() {
         const dataGeoJSON = await responseGeoJSON.json();
         const dataPopulation = await responsePopulation.json();
 
+        const year = 2022; // Define the year you want to filter
+
+        const filteredPopulationData = dataPopulation.filter((item: any) => item.Year === year);
+
         const updatedGeoJSON = {
           type: 'FeatureCollection',
-          features: dataGeoJSON.features.map((feature: GeoJSONFeature) => {
-            const region = feature.properties.NUTS2;
+          features: dataGeoJSON.features
+            .filter((feature: GeoJSONFeature) => {
+              const region = feature.properties.NUTS2;
+              return filteredPopulationData.some((data: any) => data.Territory === region);
+            })
+            .map((feature: GeoJSONFeature) => {
+              const region = feature.properties.NUTS2;
+              const populationData = filteredPopulationData.find((data: any) => data.Territory === region);
 
-            const populationData = dataPopulation.find((data: any) => data.Territory === region);
-
-            if (populationData) {
-              const population = populationData.Quantity || 0;
-              return {
-                ...feature,
-                properties: {
-                  ...feature.properties,
-                  Quantity: population,
-                },
-              };
-            } else {
-              console.error(`Population data not found for region: ${region}`);
-              return feature;
-            }
-          }),
+              if (populationData) {
+                const population = populationData.Quantity || 0;
+                return {
+                  ...feature,
+                  properties: {
+                    ...feature.properties,
+                    Quantity: population,
+                  },
+                };
+              } else {
+                console.error(`Population data not found for region: ${region}`);
+                return feature;
+              }
+            }),
         };
 
         setGeojsonData(updatedGeoJSON);

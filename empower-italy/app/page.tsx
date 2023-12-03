@@ -9,6 +9,7 @@ import Conclusions from "@/components/Conclusions";
 import BubbleChartMashUp from "@/components/BubbleChartMashUp";
 import HorizontalBarChart from "@/components/HorizontalBarChart";
 import Map from "@/components/Map";
+import Countries from "@/components/Countries";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Hypothesis />
       <NumbersResidents />
       <Map />
+      <Countries />
       <BarChart />
       <NumbersAge />
       <HorizontalBarChart />

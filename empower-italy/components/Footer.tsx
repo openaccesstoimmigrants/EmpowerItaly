@@ -39,6 +39,7 @@ export default function Footer() {
                         <ul className="flex items-center gap-x-6 text-indigo-600 font-bold uppercase">
                             <li>Contact</li>
                             <li>Disclaimer</li>
+                                <p>https://support.wepik.com/s/article/Attribution?language=en_US</p>
                             <li>References</li>
                             <li>License</li>
                         </ul>

@@ -1,0 +1,5546 @@
+[
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "999",
+        "POPULATION": 583
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "999",
+        "POPULATION": 538
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "999",
+        "POPULATION": 431
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "999",
+        "POPULATION": 621
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Andorra",
+        "POPULATION": 10
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Andorra",
+        "POPULATION": 12
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Andorra",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Andorra",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "United Arab Emirates",
+        "POPULATION": 16
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "United Arab Emirates",
+        "POPULATION": 15
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "United Arab Emirates",
+        "POPULATION": 67
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "United Arab Emirates",
+        "POPULATION": 20
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Afghanistan",
+        "POPULATION": 10600
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Afghanistan",
+        "POPULATION": 11121
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Afghanistan",
+        "POPULATION": 12198
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Afghanistan",
+        "POPULATION": 13547
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Antigua and Barbuda",
+        "POPULATION": 14
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Antigua and Barbuda",
+        "POPULATION": 13
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Antigua and Barbuda",
+        "POPULATION": 16
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Antigua and Barbuda",
+        "POPULATION": 12
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Albania",
+        "POPULATION": 423212
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Albania",
+        "POPULATION": 421591
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Albania",
+        "POPULATION": 433171
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Albania",
+        "POPULATION": 419987
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Armenia",
+        "POPULATION": 1166
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Armenia",
+        "POPULATION": 1214
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Armenia",
+        "POPULATION": 1351
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Armenia",
+        "POPULATION": 1387
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Angola",
+        "POPULATION": 1223
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Angola",
+        "POPULATION": 1198
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Angola",
+        "POPULATION": 1247
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Angola",
+        "POPULATION": 1108
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Argentina",
+        "POPULATION": 8169
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Argentina",
+        "POPULATION": 9117
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Argentina",
+        "POPULATION": 9091
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Argentina",
+        "POPULATION": 10522
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Austria",
+        "POPULATION": 6068
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Austria",
+        "POPULATION": 6078
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Austria",
+        "POPULATION": 6501
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Austria",
+        "POPULATION": 6103
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Australia",
+        "POPULATION": 1675
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Australia",
+        "POPULATION": 1749
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Australia",
+        "POPULATION": 1720
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Australia",
+        "POPULATION": 1421
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Azerbaijan",
+        "POPULATION": 450
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Azerbaijan",
+        "POPULATION": 552
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Azerbaijan",
+        "POPULATION": 915
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Azerbaijan",
+        "POPULATION": 906
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bosnia and Herzegovina",
+        "POPULATION": 22944
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bosnia and Herzegovina",
+        "POPULATION": 21911
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bosnia and Herzegovina",
+        "POPULATION": 21442
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bosnia and Herzegovina",
+        "POPULATION": 21234
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Barbados",
+        "POPULATION": 15
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Barbados",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Barbados",
+        "POPULATION": 20
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Barbados",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bangladesh",
+        "POPULATION": 131023
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bangladesh",
+        "POPULATION": 138895
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bangladesh",
+        "POPULATION": 158020
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bangladesh",
+        "POPULATION": 159003
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Belgium",
+        "POPULATION": 5636
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Belgium",
+        "POPULATION": 5824
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Belgium",
+        "POPULATION": 6063
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Belgium",
+        "POPULATION": 5771
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Burkina Faso",
+        "POPULATION": 14051
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Burkina Faso",
+        "POPULATION": 13979
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Burkina Faso",
+        "POPULATION": 14217
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Burkina Faso",
+        "POPULATION": 14167
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bulgaria",
+        "POPULATION": 56593
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bulgaria",
+        "POPULATION": 56645
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bulgaria",
+        "POPULATION": 50355
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bulgaria",
+        "POPULATION": 49205
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahrain",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahrain",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahrain",
+        "POPULATION": 413
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahrain",
+        "POPULATION": 22
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Burundi",
+        "POPULATION": 613
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Burundi",
+        "POPULATION": 653
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Burundi",
+        "POPULATION": 655
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Burundi",
+        "POPULATION": 651
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Benin",
+        "POPULATION": 2533
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Benin",
+        "POPULATION": 2528
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Benin",
+        "POPULATION": 2549
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Benin",
+        "POPULATION": 2463
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Brunei Darussalam",
+        "POPULATION": 8
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Brunei Darussalam",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Brunei Darussalam",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Brunei Darussalam",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bolivia, Plurinational State of",
+        "POPULATION": 13277
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bolivia, Plurinational State of",
+        "POPULATION": 13141
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bolivia, Plurinational State of",
+        "POPULATION": 13272
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bolivia, Plurinational State of",
+        "POPULATION": 12924
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Brazil",
+        "POPULATION": 49445
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Brazil",
+        "POPULATION": 51790
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Brazil",
+        "POPULATION": 50666
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Brazil",
+        "POPULATION": 47318
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahamas",
+        "POPULATION": 13
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahamas",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahamas",
+        "POPULATION": 19
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bahamas",
+        "POPULATION": 16
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Bhutan",
+        "POPULATION": 23
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Bhutan",
+        "POPULATION": 20
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Bhutan",
+        "POPULATION": 142
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Bhutan",
+        "POPULATION": 23
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Botswana",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Botswana",
+        "POPULATION": 11
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Botswana",
+        "POPULATION": 22
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Botswana",
+        "POPULATION": 14
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Belarus",
+        "POPULATION": 8704
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Belarus",
+        "POPULATION": 8808
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Belarus",
+        "POPULATION": 9269
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Belarus",
+        "POPULATION": 8811
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Belize",
+        "POPULATION": 36
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Belize",
+        "POPULATION": 20
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Belize",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Belize",
+        "POPULATION": 11
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Canada",
+        "POPULATION": 2116
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Canada",
+        "POPULATION": 2170
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Canada",
+        "POPULATION": 2397
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Canada",
+        "POPULATION": 1987
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo, The Democratic Republic of the",
+        "POPULATION": 3433
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo, The Democratic Republic of the",
+        "POPULATION": 3522
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo, The Democratic Republic of the",
+        "POPULATION": 3479
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo, The Democratic Republic of the",
+        "POPULATION": 3435
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Central African Republic",
+        "POPULATION": 192
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Central African Republic",
+        "POPULATION": 176
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Central African Republic",
+        "POPULATION": 180
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Central African Republic",
+        "POPULATION": 168
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo",
+        "POPULATION": 3082
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo",
+        "POPULATION": 3084
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo",
+        "POPULATION": 2888
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Congo",
+        "POPULATION": 2813
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Switzerland",
+        "POPULATION": 7693
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Switzerland",
+        "POPULATION": 7703
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Switzerland",
+        "POPULATION": 8153
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Switzerland",
+        "POPULATION": 7646
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "C\u00f4te d'Ivoire",
+        "POPULATION": 31001
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "C\u00f4te d'Ivoire",
+        "POPULATION": 30038
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "C\u00f4te d'Ivoire",
+        "POPULATION": 29673
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "C\u00f4te d'Ivoire",
+        "POPULATION": 28385
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Chile",
+        "POPULATION": 3028
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Chile",
+        "POPULATION": 3017
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Chile",
+        "POPULATION": 3335
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Chile",
+        "POPULATION": 3013
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Cameroon",
+        "POPULATION": 15170
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Cameroon",
+        "POPULATION": 15329
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Cameroon",
+        "POPULATION": 15581
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Cameroon",
+        "POPULATION": 15013
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "China",
+        "POPULATION": 283430
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "China",
+        "POPULATION": 288923
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "China",
+        "POPULATION": 330495
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "China",
+        "POPULATION": 300216
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Colombia",
+        "POPULATION": 17539
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Colombia",
+        "POPULATION": 18053
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Colombia",
+        "POPULATION": 19848
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Colombia",
+        "POPULATION": 19025
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Costa Rica",
+        "POPULATION": 474
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Costa Rica",
+        "POPULATION": 476
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Costa Rica",
+        "POPULATION": 562
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Costa Rica",
+        "POPULATION": 523
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Cuba",
+        "POPULATION": 21417
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Cuba",
+        "POPULATION": 22311
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Cuba",
+        "POPULATION": 22958
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Cuba",
+        "POPULATION": 21499
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Cabo Verde",
+        "POPULATION": 3984
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Cabo Verde",
+        "POPULATION": 3961
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Cabo Verde",
+        "POPULATION": 4078
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Cabo Verde",
+        "POPULATION": 3694
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Cyprus",
+        "POPULATION": 224
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Cyprus",
+        "POPULATION": 247
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Cyprus",
+        "POPULATION": 376
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Cyprus",
+        "POPULATION": 278
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Czechia",
+        "POPULATION": 5467
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Czechia",
+        "POPULATION": 5392
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Czechia",
+        "POPULATION": 5408
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Czechia",
+        "POPULATION": 5171
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Germany",
+        "POPULATION": 35422
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Germany",
+        "POPULATION": 35316
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Germany",
+        "POPULATION": 35091
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Germany",
+        "POPULATION": 32984
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Djibouti",
+        "POPULATION": 25
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Djibouti",
+        "POPULATION": 24
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Djibouti",
+        "POPULATION": 26
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Djibouti",
+        "POPULATION": 24
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Denmark",
+        "POPULATION": 1987
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Denmark",
+        "POPULATION": 2018
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Denmark",
+        "POPULATION": 1938
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Denmark",
+        "POPULATION": 1854
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominica",
+        "POPULATION": 957
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominica",
+        "POPULATION": 1024
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominica",
+        "POPULATION": 1076
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominica",
+        "POPULATION": 1076
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominican Republic",
+        "POPULATION": 28208
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominican Republic",
+        "POPULATION": 29111
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominican Republic",
+        "POPULATION": 30255
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Dominican Republic",
+        "POPULATION": 28812
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Algeria",
+        "POPULATION": 18507
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Algeria",
+        "POPULATION": 18468
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Algeria",
+        "POPULATION": 18538
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Algeria",
+        "POPULATION": 17998
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Ecuador",
+        "POPULATION": 74661
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Ecuador",
+        "POPULATION": 72644
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Ecuador",
+        "POPULATION": 72193
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Ecuador",
+        "POPULATION": 66590
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Estonia",
+        "POPULATION": 1211
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Estonia",
+        "POPULATION": 1245
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Estonia",
+        "POPULATION": 1196
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Estonia",
+        "POPULATION": 1163
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Egypt",
+        "POPULATION": 119864
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Egypt",
+        "POPULATION": 128095
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Egypt",
+        "POPULATION": 139569
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Egypt",
+        "POPULATION": 140322
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Eritrea",
+        "POPULATION": 8141
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Eritrea",
+        "POPULATION": 8035
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Eritrea",
+        "POPULATION": 6912
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Eritrea",
+        "POPULATION": 6575
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Spain",
+        "POPULATION": 24936
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Spain",
+        "POPULATION": 25954
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Spain",
+        "POPULATION": 32637
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Spain",
+        "POPULATION": 26417
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Ethiopia",
+        "POPULATION": 6976
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Ethiopia",
+        "POPULATION": 6897
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Ethiopia",
+        "POPULATION": 6917
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Ethiopia",
+        "POPULATION": 6358
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Finland",
+        "POPULATION": 1635
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Finland",
+        "POPULATION": 1664
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Finland",
+        "POPULATION": 1738
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Finland",
+        "POPULATION": 1575
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Fiji",
+        "POPULATION": 21
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Fiji",
+        "POPULATION": 23
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Fiji",
+        "POPULATION": 28
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Fiji",
+        "POPULATION": 23
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Micronesia, Federated States of",
+        "POPULATION": 36
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Micronesia, Federated States of",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "France",
+        "POPULATION": 29008
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "France",
+        "POPULATION": 29721
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "France",
+        "POPULATION": 31354
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "France",
+        "POPULATION": 28735
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Gabon",
+        "POPULATION": 382
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Gabon",
+        "POPULATION": 396
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Gabon",
+        "POPULATION": 467
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Gabon",
+        "POPULATION": 464
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Grenada",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Grenada",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Grenada",
+        "POPULATION": 11
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Grenada",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Georgia",
+        "POPULATION": 15021
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Georgia",
+        "POPULATION": 15667
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Georgia",
+        "POPULATION": 18272
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Georgia",
+        "POPULATION": 22907
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Ghana",
+        "POPULATION": 49797
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Ghana",
+        "POPULATION": 49543
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Ghana",
+        "POPULATION": 50778
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Ghana",
+        "POPULATION": 48280
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Gambia",
+        "POPULATION": 22075
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Gambia",
+        "POPULATION": 21336
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Gambia",
+        "POPULATION": 22213
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Gambia",
+        "POPULATION": 21826
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea",
+        "POPULATION": 12728
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea",
+        "POPULATION": 12213
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea",
+        "POPULATION": 12255
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea",
+        "POPULATION": 11796
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Equatorial Guinea",
+        "POPULATION": 210
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Equatorial Guinea",
+        "POPULATION": 193
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Equatorial Guinea",
+        "POPULATION": 199
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Equatorial Guinea",
+        "POPULATION": 191
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Greece",
+        "POPULATION": 7431
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Greece",
+        "POPULATION": 7627
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Greece",
+        "POPULATION": 7243
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Greece",
+        "POPULATION": 6893
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Guatemala",
+        "POPULATION": 808
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Guatemala",
+        "POPULATION": 837
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Guatemala",
+        "POPULATION": 938
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Guatemala",
+        "POPULATION": 905
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea-Bissau",
+        "POPULATION": 2298
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea-Bissau",
+        "POPULATION": 2252
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea-Bissau",
+        "POPULATION": 2325
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Guinea-Bissau",
+        "POPULATION": 2290
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Guyana",
+        "POPULATION": 29
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Guyana",
+        "POPULATION": 32
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Guyana",
+        "POPULATION": 35
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Guyana",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Honduras",
+        "POPULATION": 2287
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Honduras",
+        "POPULATION": 2461
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Honduras",
+        "POPULATION": 3047
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Honduras",
+        "POPULATION": 3123
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Croatia",
+        "POPULATION": 16591
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Croatia",
+        "POPULATION": 16285
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Croatia",
+        "POPULATION": 17362
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Croatia",
+        "POPULATION": 15754
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Haiti",
+        "POPULATION": 322
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Haiti",
+        "POPULATION": 306
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Haiti",
+        "POPULATION": 350
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Haiti",
+        "POPULATION": 336
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Hungary",
+        "POPULATION": 8015
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Hungary",
+        "POPULATION": 7927
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Hungary",
+        "POPULATION": 7973
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Hungary",
+        "POPULATION": 7598
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Indonesia",
+        "POPULATION": 2765
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Indonesia",
+        "POPULATION": 2923
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Indonesia",
+        "POPULATION": 3256
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Indonesia",
+        "POPULATION": 3056
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Ireland",
+        "POPULATION": 2937
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Ireland",
+        "POPULATION": 3076
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Ireland",
+        "POPULATION": 3219
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Ireland",
+        "POPULATION": 3347
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Israel",
+        "POPULATION": 2082
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Israel",
+        "POPULATION": 2130
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Israel",
+        "POPULATION": 2222
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Israel",
+        "POPULATION": 1770
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "India",
+        "POPULATION": 147153
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "India",
+        "POPULATION": 153209
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "India",
+        "POPULATION": 165512
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "India",
+        "POPULATION": 162492
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Iraq",
+        "POPULATION": 5028
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Iraq",
+        "POPULATION": 5408
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Iraq",
+        "POPULATION": 6035
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Iraq",
+        "POPULATION": 6043
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Iran, Islamic Republic of",
+        "POPULATION": 11837
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Iran, Islamic Republic of",
+        "POPULATION": 12866
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Iran, Islamic Republic of",
+        "POPULATION": 14262
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Iran, Islamic Republic of",
+        "POPULATION": 14009
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Iceland",
+        "POPULATION": 140
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Iceland",
+        "POPULATION": 141
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Iceland",
+        "POPULATION": 231
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Iceland",
+        "POPULATION": 148
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Jamaica",
+        "POPULATION": 122
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Jamaica",
+        "POPULATION": 116
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Jamaica",
+        "POPULATION": 191
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Jamaica",
+        "POPULATION": 128
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Jordan",
+        "POPULATION": 1579
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Jordan",
+        "POPULATION": 1524
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Jordan",
+        "POPULATION": 1616
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Jordan",
+        "POPULATION": 1438
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Japan",
+        "POPULATION": 7471
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Japan",
+        "POPULATION": 7481
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Japan",
+        "POPULATION": 7863
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Japan",
+        "POPULATION": 6855
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Kenya",
+        "POPULATION": 2315
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Kenya",
+        "POPULATION": 2416
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Kenya",
+        "POPULATION": 2608
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Kenya",
+        "POPULATION": 2486
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Kyrgyzstan",
+        "POPULATION": 1531
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Kyrgyzstan",
+        "POPULATION": 1597
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Kyrgyzstan",
+        "POPULATION": 1824
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Kyrgyzstan",
+        "POPULATION": 1946
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Cambodia",
+        "POPULATION": 191
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Cambodia",
+        "POPULATION": 192
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Cambodia",
+        "POPULATION": 239
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Cambodia",
+        "POPULATION": 197
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Kiribati",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Kiribati",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Kiribati",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Kiribati",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Comoros",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Comoros",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Comoros",
+        "POPULATION": 19
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Comoros",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Kitts and Nevis",
+        "POPULATION": 6
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Kitts and Nevis",
+        "POPULATION": 6
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Kitts and Nevis",
+        "POPULATION": 11
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Kitts and Nevis",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Democratic People's Republic of",
+        "POPULATION": 120
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Democratic People's Republic of",
+        "POPULATION": 104
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Democratic People's Republic of",
+        "POPULATION": 195
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Democratic People's Republic of",
+        "POPULATION": 73
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Republic of",
+        "POPULATION": 3602
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Republic of",
+        "POPULATION": 3783
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Republic of",
+        "POPULATION": 4255
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Korea, Republic of",
+        "POPULATION": 3553
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Kuwait",
+        "POPULATION": 104
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Kuwait",
+        "POPULATION": 37
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Kuwait",
+        "POPULATION": 101
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Kuwait",
+        "POPULATION": 66
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Kazakhstan",
+        "POPULATION": 1764
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Kazakhstan",
+        "POPULATION": 1853
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Kazakhstan",
+        "POPULATION": 2249
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Kazakhstan",
+        "POPULATION": 1924
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Lao People's Democratic Republic",
+        "POPULATION": 64
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Lao People's Democratic Republic",
+        "POPULATION": 69
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Lao People's Democratic Republic",
+        "POPULATION": 71
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Lao People's Democratic Republic",
+        "POPULATION": 60
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Lebanon",
+        "POPULATION": 3798
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Lebanon",
+        "POPULATION": 3855
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Lebanon",
+        "POPULATION": 4374
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Lebanon",
+        "POPULATION": 4082
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Lucia",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Lucia",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Lucia",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Lucia",
+        "POPULATION": 11
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Liechtenstein",
+        "POPULATION": 19
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Liechtenstein",
+        "POPULATION": 19
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Liechtenstein",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Liechtenstein",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Sri Lanka",
+        "POPULATION": 104763
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Sri Lanka",
+        "POPULATION": 107598
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Sri Lanka",
+        "POPULATION": 112018
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Sri Lanka",
+        "POPULATION": 108069
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Liberia",
+        "POPULATION": 1374
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Liberia",
+        "POPULATION": 1274
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Liberia",
+        "POPULATION": 1326
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Liberia",
+        "POPULATION": 1144
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Lesotho",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Lesotho",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Lesotho",
+        "POPULATION": 15
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Lesotho",
+        "POPULATION": 10
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Lithuania",
+        "POPULATION": 5140
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Lithuania",
+        "POPULATION": 5249
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Lithuania",
+        "POPULATION": 5126
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Lithuania",
+        "POPULATION": 4995
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Luxembourg",
+        "POPULATION": 242
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Luxembourg",
+        "POPULATION": 255
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Luxembourg",
+        "POPULATION": 326
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Luxembourg",
+        "POPULATION": 263
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Latvia",
+        "POPULATION": 2861
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Latvia",
+        "POPULATION": 2886
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Latvia",
+        "POPULATION": 2906
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Latvia",
+        "POPULATION": 2731
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Libya",
+        "POPULATION": 2477
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Libya",
+        "POPULATION": 2667
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Libya",
+        "POPULATION": 2741
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Libya",
+        "POPULATION": 2642
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Morocco",
+        "POPULATION": 406112
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Morocco",
+        "POPULATION": 414249
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Morocco",
+        "POPULATION": 428947
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Morocco",
+        "POPULATION": 420172
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Monaco",
+        "POPULATION": 23
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Monaco",
+        "POPULATION": 24
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Monaco",
+        "POPULATION": 320
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Monaco",
+        "POPULATION": 36
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Moldova, Republic of",
+        "POPULATION": 122762
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Moldova, Republic of",
+        "POPULATION": 118516
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Moldova, Republic of",
+        "POPULATION": 122667
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Moldova, Republic of",
+        "POPULATION": 114914
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Montenegro",
+        "POPULATION": 2200
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Montenegro",
+        "POPULATION": 1942
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Montenegro",
+        "POPULATION": 1832
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Montenegro",
+        "POPULATION": 1942
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Madagascar",
+        "POPULATION": 1457
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Madagascar",
+        "POPULATION": 1514
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Madagascar",
+        "POPULATION": 1580
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Madagascar",
+        "POPULATION": 1510
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Marshall Islands",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Marshall Islands",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Marshall Islands",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Marshall Islands",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "North Macedonia",
+        "POPULATION": 60581
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "North Macedonia",
+        "POPULATION": 55816
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "North Macedonia",
+        "POPULATION": 55771
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "North Macedonia",
+        "POPULATION": 53443
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mali",
+        "POPULATION": 20078
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mali",
+        "POPULATION": 19350
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mali",
+        "POPULATION": 20015
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mali",
+        "POPULATION": 20008
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Myanmar",
+        "POPULATION": 330
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Myanmar",
+        "POPULATION": 324
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Myanmar",
+        "POPULATION": 333
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Myanmar",
+        "POPULATION": 328
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mongolia",
+        "POPULATION": 169
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mongolia",
+        "POPULATION": 196
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mongolia",
+        "POPULATION": 269
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mongolia",
+        "POPULATION": 236
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritania",
+        "POPULATION": 772
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritania",
+        "POPULATION": 728
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritania",
+        "POPULATION": 779
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritania",
+        "POPULATION": 731
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Malta",
+        "POPULATION": 718
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Malta",
+        "POPULATION": 712
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Malta",
+        "POPULATION": 698
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Malta",
+        "POPULATION": 719
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritius",
+        "POPULATION": 5622
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritius",
+        "POPULATION": 5465
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritius",
+        "POPULATION": 5405
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mauritius",
+        "POPULATION": 5047
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Maldives",
+        "POPULATION": 15
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Maldives",
+        "POPULATION": 15
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Maldives",
+        "POPULATION": 16
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Maldives",
+        "POPULATION": 14
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Malawi",
+        "POPULATION": 63
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Malawi",
+        "POPULATION": 62
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Malawi",
+        "POPULATION": 68
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Malawi",
+        "POPULATION": 65
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mexico",
+        "POPULATION": 4348
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mexico",
+        "POPULATION": 4567
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mexico",
+        "POPULATION": 5316
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mexico",
+        "POPULATION": 4767
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Malaysia",
+        "POPULATION": 500
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Malaysia",
+        "POPULATION": 494
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Malaysia",
+        "POPULATION": 568
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Malaysia",
+        "POPULATION": 504
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Mozambique",
+        "POPULATION": 320
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Mozambique",
+        "POPULATION": 340
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Mozambique",
+        "POPULATION": 396
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Mozambique",
+        "POPULATION": 352
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Namibia",
+        "POPULATION": 22
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Namibia",
+        "POPULATION": 20
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Namibia",
+        "POPULATION": 52
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Namibia",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Niger",
+        "POPULATION": 1629
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Niger",
+        "POPULATION": 1628
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Niger",
+        "POPULATION": 1904
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Niger",
+        "POPULATION": 1649
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Nigeria",
+        "POPULATION": 114096
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Nigeria",
+        "POPULATION": 113049
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Nigeria",
+        "POPULATION": 119089
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Nigeria",
+        "POPULATION": 119435
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Nicaragua",
+        "POPULATION": 675
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Nicaragua",
+        "POPULATION": 700
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Nicaragua",
+        "POPULATION": 798
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Nicaragua",
+        "POPULATION": 775
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Netherlands",
+        "POPULATION": 8184
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Netherlands",
+        "POPULATION": 8283
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Netherlands",
+        "POPULATION": 10092
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Netherlands",
+        "POPULATION": 8367
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Norway",
+        "POPULATION": 1049
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Norway",
+        "POPULATION": 1068
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Norway",
+        "POPULATION": 1314
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Norway",
+        "POPULATION": 1024
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Nepal",
+        "POPULATION": 1654
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Nepal",
+        "POPULATION": 1705
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Nepal",
+        "POPULATION": 1910
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Nepal",
+        "POPULATION": 1692
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "New Zealand",
+        "POPULATION": 320
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "New Zealand",
+        "POPULATION": 345
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "New Zealand",
+        "POPULATION": 368
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "New Zealand",
+        "POPULATION": 318
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "OCE",
+        "POPULATION": 2120
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "OCE",
+        "POPULATION": 2213
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "OCE",
+        "POPULATION": 2256
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "OCE",
+        "POPULATION": 1859
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Oman",
+        "POPULATION": 29
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Oman",
+        "POPULATION": 35
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Oman",
+        "POPULATION": 48
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Oman",
+        "POPULATION": 18
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Panama",
+        "POPULATION": 349
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Panama",
+        "POPULATION": 348
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Panama",
+        "POPULATION": 397
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Panama",
+        "POPULATION": 334
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Peru",
+        "POPULATION": 91859
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Peru",
+        "POPULATION": 91662
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Peru",
+        "POPULATION": 96546
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Peru",
+        "POPULATION": 94131
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Papua New Guinea",
+        "POPULATION": 36
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Papua New Guinea",
+        "POPULATION": 26
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Papua New Guinea",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Papua New Guinea",
+        "POPULATION": 31
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Philippines",
+        "POPULATION": 158049
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Philippines",
+        "POPULATION": 157665
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Philippines",
+        "POPULATION": 165443
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Philippines",
+        "POPULATION": 158997
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Pakistan",
+        "POPULATION": 116631
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Pakistan",
+        "POPULATION": 121609
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Pakistan",
+        "POPULATION": 135520
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Pakistan",
+        "POPULATION": 134182
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Poland",
+        "POPULATION": 88803
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Poland",
+        "POPULATION": 86743
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Poland",
+        "POPULATION": 77779
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Poland",
+        "POPULATION": 74981
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Palestine, State of",
+        "POPULATION": 1133
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Palestine, State of",
+        "POPULATION": 1036
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Palestine, State of",
+        "POPULATION": 1078
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Palestine, State of",
+        "POPULATION": 1246
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Portugal",
+        "POPULATION": 6275
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Portugal",
+        "POPULATION": 6476
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Portugal",
+        "POPULATION": 6924
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Portugal",
+        "POPULATION": 6583
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Palau",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Palau",
+        "POPULATION": 2
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Palau",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Paraguay",
+        "POPULATION": 1713
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Paraguay",
+        "POPULATION": 1750
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Paraguay",
+        "POPULATION": 1812
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Paraguay",
+        "POPULATION": 1814
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Qatar",
+        "POPULATION": 8
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Qatar",
+        "POPULATION": 64
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Qatar",
+        "POPULATION": 101
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Qatar",
+        "POPULATION": 37
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Romania",
+        "POPULATION": 1143859
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Romania",
+        "POPULATION": 1145718
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Romania",
+        "POPULATION": 1076412
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Romania",
+        "POPULATION": 1083771
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Serbia",
+        "POPULATION": 35578
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Serbia",
+        "POPULATION": 33322
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Serbia",
+        "POPULATION": 32898
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Serbia",
+        "POPULATION": 31342
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Russian Federation",
+        "POPULATION": 36512
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Russian Federation",
+        "POPULATION": 37424
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Russian Federation",
+        "POPULATION": 39746
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Russian Federation",
+        "POPULATION": 36982
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Rwanda",
+        "POPULATION": 485
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Rwanda",
+        "POPULATION": 529
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Rwanda",
+        "POPULATION": 574
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Rwanda",
+        "POPULATION": 557
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Saudi Arabia",
+        "POPULATION": 154
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Saudi Arabia",
+        "POPULATION": 155
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Saudi Arabia",
+        "POPULATION": 734
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Saudi Arabia",
+        "POPULATION": 142
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Solomon Islands",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Solomon Islands",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Solomon Islands",
+        "POPULATION": 6
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Solomon Islands",
+        "POPULATION": 5
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Seychelles",
+        "POPULATION": 424
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Seychelles",
+        "POPULATION": 415
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Seychelles",
+        "POPULATION": 394
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Seychelles",
+        "POPULATION": 339
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Sudan",
+        "POPULATION": 2337
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Sudan",
+        "POPULATION": 2390
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Sudan",
+        "POPULATION": 2382
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Sudan",
+        "POPULATION": 2444
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Sweden",
+        "POPULATION": 3046
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Sweden",
+        "POPULATION": 3159
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Sweden",
+        "POPULATION": 3195
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Sweden",
+        "POPULATION": 3033
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Singapore",
+        "POPULATION": 199
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Singapore",
+        "POPULATION": 195
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Singapore",
+        "POPULATION": 235
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Singapore",
+        "POPULATION": 203
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovenia",
+        "POPULATION": 2445
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovenia",
+        "POPULATION": 2391
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovenia",
+        "POPULATION": 3929
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovenia",
+        "POPULATION": 3191
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovakia",
+        "POPULATION": 8113
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovakia",
+        "POPULATION": 7976
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovakia",
+        "POPULATION": 9014
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Slovakia",
+        "POPULATION": 7849
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Sierra Leone",
+        "POPULATION": 2199
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Sierra Leone",
+        "POPULATION": 2102
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Sierra Leone",
+        "POPULATION": 2143
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Sierra Leone",
+        "POPULATION": 1993
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "San Marino",
+        "POPULATION": 1193
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "San Marino",
+        "POPULATION": 1132
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "San Marino",
+        "POPULATION": 2108
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "San Marino",
+        "POPULATION": 1288
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Senegal",
+        "POPULATION": 105277
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Senegal",
+        "POPULATION": 106198
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Senegal",
+        "POPULATION": 111092
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Senegal",
+        "POPULATION": 110763
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Somalia",
+        "POPULATION": 8626
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Somalia",
+        "POPULATION": 8515
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Somalia",
+        "POPULATION": 7629
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Somalia",
+        "POPULATION": 8370
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Suriname",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Suriname",
+        "POPULATION": 10
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Suriname",
+        "POPULATION": 12
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Suriname",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Sao Tome and Principe",
+        "POPULATION": 32
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Sao Tome and Principe",
+        "POPULATION": 28
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Sao Tome and Principe",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Sao Tome and Principe",
+        "POPULATION": 27
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "El Salvador",
+        "POPULATION": 15437
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "El Salvador",
+        "POPULATION": 16270
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "El Salvador",
+        "POPULATION": 20038
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "El Salvador",
+        "POPULATION": 20608
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Syrian Arab Republic",
+        "POPULATION": 6049
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Syrian Arab Republic",
+        "POPULATION": 6356
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Syrian Arab Republic",
+        "POPULATION": 6633
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Syrian Arab Republic",
+        "POPULATION": 6109
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Eswatini",
+        "POPULATION": 26
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Eswatini",
+        "POPULATION": 17
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Eswatini",
+        "POPULATION": 16
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Eswatini",
+        "POPULATION": 13
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Chad",
+        "POPULATION": 490
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Chad",
+        "POPULATION": 453
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Chad",
+        "POPULATION": 413
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Chad",
+        "POPULATION": 422
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Togo",
+        "POPULATION": 5710
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Togo",
+        "POPULATION": 5605
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Togo",
+        "POPULATION": 5655
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Togo",
+        "POPULATION": 5442
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Thailand",
+        "POPULATION": 5578
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Thailand",
+        "POPULATION": 5692
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Thailand",
+        "POPULATION": 5992
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Thailand",
+        "POPULATION": 5449
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Tajikistan",
+        "POPULATION": 57
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Tajikistan",
+        "POPULATION": 66
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Tajikistan",
+        "POPULATION": 83
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Tajikistan",
+        "POPULATION": 67
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Timor-Leste",
+        "POPULATION": 131
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Timor-Leste",
+        "POPULATION": 88
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Timor-Leste",
+        "POPULATION": 115
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Timor-Leste",
+        "POPULATION": 87
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkmenistan",
+        "POPULATION": 53
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkmenistan",
+        "POPULATION": 58
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkmenistan",
+        "POPULATION": 74
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkmenistan",
+        "POPULATION": 65
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Tunisia",
+        "POPULATION": 90615
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Tunisia",
+        "POPULATION": 93350
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Tunisia",
+        "POPULATION": 97407
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Tunisia",
+        "POPULATION": 99002
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Tonga",
+        "POPULATION": 9
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Tonga",
+        "POPULATION": 13
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Tonga",
+        "POPULATION": 12
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Tonga",
+        "POPULATION": 13
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkey",
+        "POPULATION": 18780
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkey",
+        "POPULATION": 19168
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkey",
+        "POPULATION": 20999
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Turkey",
+        "POPULATION": 18930
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Trinidad and Tobago",
+        "POPULATION": 44
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Trinidad and Tobago",
+        "POPULATION": 41
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Trinidad and Tobago",
+        "POPULATION": 57
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Trinidad and Tobago",
+        "POPULATION": 39
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Tuvalu",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Tuvalu",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Tuvalu",
+        "POPULATION": 1
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Taiwan, Province of China",
+        "POPULATION": 615
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Taiwan, Province of China",
+        "POPULATION": 642
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Taiwan, Province of China",
+        "POPULATION": 636
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Taiwan, Province of China",
+        "POPULATION": 598
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Tanzania, United Republic of",
+        "POPULATION": 1124
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Tanzania, United Republic of",
+        "POPULATION": 1143
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Tanzania, United Republic of",
+        "POPULATION": 1193
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Tanzania, United Republic of",
+        "POPULATION": 1194
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Ukraine",
+        "POPULATION": 227867
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Ukraine",
+        "POPULATION": 228560
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Ukraine",
+        "POPULATION": 235953
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Ukraine",
+        "POPULATION": 225307
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Uganda",
+        "POPULATION": 527
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Uganda",
+        "POPULATION": 557
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Uganda",
+        "POPULATION": 587
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Uganda",
+        "POPULATION": 573
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "UK",
+        "POPULATION": 27857
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "UK",
+        "POPULATION": 29654
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "UK",
+        "POPULATION": 30325
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "UK",
+        "POPULATION": 28355
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "United States",
+        "POPULATION": 14966
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "United States",
+        "POPULATION": 15393
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "United States",
+        "POPULATION": 18837
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "United States",
+        "POPULATION": 14496
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Uruguay",
+        "POPULATION": 1193
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Uruguay",
+        "POPULATION": 1251
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Uruguay",
+        "POPULATION": 1283
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Uruguay",
+        "POPULATION": 1170
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Uzbekistan",
+        "POPULATION": 1078
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Uzbekistan",
+        "POPULATION": 1128
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Uzbekistan",
+        "POPULATION": 1214
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Uzbekistan",
+        "POPULATION": 1103
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Holy See (Vatican City State)",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Holy See (Vatican City State)",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Holy See (Vatican City State)",
+        "POPULATION": 22
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Holy See (Vatican City State)",
+        "POPULATION": 26
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Vincent and the Grenadines",
+        "POPULATION": 5
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Vincent and the Grenadines",
+        "POPULATION": 7
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Vincent and the Grenadines",
+        "POPULATION": 6
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Saint Vincent and the Grenadines",
+        "POPULATION": 5
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Venezuela, Bolivarian Republic of",
+        "POPULATION": 8981
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Venezuela, Bolivarian Republic of",
+        "POPULATION": 10316
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Venezuela, Bolivarian Republic of",
+        "POPULATION": 12145
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Venezuela, Bolivarian Republic of",
+        "POPULATION": 12033
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Viet Nam",
+        "POPULATION": 1335
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Viet Nam",
+        "POPULATION": 1455
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Viet Nam",
+        "POPULATION": 1731
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Viet Nam",
+        "POPULATION": 1575
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Vanuatu",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Vanuatu",
+        "POPULATION": 3
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Vanuatu",
+        "POPULATION": 5
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Vanuatu",
+        "POPULATION": 4
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "WORLD",
+        "POPULATION": 4996158
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "WORLD",
+        "POPULATION": 5039637
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "WORLD",
+        "POPULATION": 5171894
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "WORLD",
+        "POPULATION": 5030716
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Samoa",
+        "POPULATION": 46
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Samoa",
+        "POPULATION": 46
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Samoa",
+        "POPULATION": 46
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Samoa",
+        "POPULATION": 39
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "X95",
+        "POPULATION": 39630
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "X95",
+        "POPULATION": 38645
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "X95",
+        "POPULATION": 38860
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "X95",
+        "POPULATION": 37064
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "XEUR_NEU28_OTH",
+        "POPULATION": 1008904
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "XEUR_NEU28_OTH",
+        "POPULATION": 995809
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "XEUR_NEU28_OTH",
+        "POPULATION": 1055135
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "XEUR_NEU28_OTH",
+        "POPULATION": 1008506
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "XSD_S",
+        "POPULATION": 82
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "XSD_S",
+        "POPULATION": 98
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "XSD_S",
+        "POPULATION": 112
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "XSD_S",
+        "POPULATION": 111
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Yemen",
+        "POPULATION": 270
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Yemen",
+        "POPULATION": 285
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Yemen",
+        "POPULATION": 308
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Yemen",
+        "POPULATION": 263
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "South Africa",
+        "POPULATION": 631
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "South Africa",
+        "POPULATION": 658
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "South Africa",
+        "POPULATION": 769
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "South Africa",
+        "POPULATION": 706
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Zambia",
+        "POPULATION": 222
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Zambia",
+        "POPULATION": 238
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Zambia",
+        "POPULATION": 262
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Zambia",
+        "POPULATION": 255
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2019,
+        "SEX": "9",
+        "CITIZENSHIP": "Zimbabwe",
+        "POPULATION": 182
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2020,
+        "SEX": "9",
+        "CITIZENSHIP": "Zimbabwe",
+        "POPULATION": 197
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2021,
+        "SEX": "9",
+        "CITIZENSHIP": "Zimbabwe",
+        "POPULATION": 260
+    },
+    {
+        "TERRITORY": "IT",
+        "YEAR": 2022,
+        "SEX": "9",
+        "CITIZENSHIP": "Zimbabwe",
+        "POPULATION": 225
+    }
+]
