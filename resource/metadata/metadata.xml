@@ -56,7 +56,7 @@
   </dcatapit:Catalog>
 
 
-  <!-- D1 -->
+  <!-- D1(a) -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -91,20 +91,18 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
 
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0</prov:wasDerivedFrom>
+    <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019</dct:hasPart>
 
     <dcat:keyword>resident</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:keyword>regional</dcat:keyword>
     <owl:versionInfo="0.1.0"></owl:versionInfo>
-    <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023/json2"/>
-  
-  
+    <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023/json2"/>  
   </dcatapit:Dataset>
 
-  <!-- D3 -->
+  <!-- D1(b) -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -113,8 +111,10 @@
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019</dct:landingpage>
     <dct:description>This dataset was needed to implement D1(a) results with data relative to year 2018.</dct:description>
     <dct:identifier>:d1(b)---resident-foreign-population-by-region-2001-2019</dct:identifier>
+    
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -122,20 +122,24 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <dcatapit:Agent rdf:about="https://github.com/openaccesstoimmigrants">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier/>
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0</prov:wasDerivedFrom>
+    <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023</dct:hasPart>
     <dcat:keyword>resident</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:keyword>regional</dcat:keyword>
