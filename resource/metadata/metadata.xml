@@ -695,6 +695,7 @@
   
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d8---annual-average-households-income/json10">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D8/net%5Fincome%5Fby%5Fregions%5Fdata.json"/>
+    
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -702,13 +703,16 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+    
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">net-income-by-regions-data</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d9---gdp-(growth-rate)/csv11">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D9/gdp%5Fgrowth%5Frate.csv"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -716,13 +720,16 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="CSV"/>
     <dct:description>CSV format file for interoperability</dct:description>
     <dct:title xml:lang="en">gdp-growth-rate</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/md1---activity-&amp;-unemployment-rate--between-foreigners-and-italians/json12">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/MD1/activity%5Funemployment.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -730,11 +737,16 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">activity-unemployment</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+
+
+  <!-- Concept Clarification -->
+
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
     <skos:prefLabel>Popolazione e società</skos:prefLabel>
   </skos:Concept>
