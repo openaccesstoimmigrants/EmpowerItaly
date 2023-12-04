@@ -547,9 +547,12 @@
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/md1---activity-&amp;-unemployment-rate--between-foreigners-and-italians/json12"/>
   </dcatapit:Dataset>
-  
+
+
+  <!-- Distribution, License, Format, Description-->
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023/json2">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D1(a)/immigrants%5Fdemographic.json"/>
+    
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -557,13 +560,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+    
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">immigrants-demographic</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+
+
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019/json3">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D1(b)/combined%5Fimmigrants%5Fdistribution.json"/>
+    
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -571,13 +578,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+    
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">combined-immigrants-distribution</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d2---total-immigrants-to-italy-by-continent-and-region/csv4">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D2/continent%5Fdata.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -585,13 +596,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="CSV"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">continent-data</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d3---italian-resident-municipal-population/json5">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D3/resident%5Fitalian%5Fpopulation.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -599,13 +614,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">resident-italian-population</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d4---level-of-education-of-foreign-citizens/json6">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D4/level%5Fof%5Feducation.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -613,13 +632,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">level-of-education</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d5---activity-rate-between-foreigners-and-italians/json7">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D5/activity%5Frate.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -627,13 +650,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">activity-rate</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d6---presence-of-foreigners-divided-by-industry-sector/json8">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D6/occupations%5Frate.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -641,13 +668,17 @@
         <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
       </dcatapit:LicenseDocument>
     </dct:license>
+  
     <dct:format rdf:resource="JSON"/>
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">occupations-rate</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d7---unemployment-rate-between-foreigners-and-italians/json9">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D7/unemployment%5Frate.json"/>
+  
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -656,10 +687,12 @@
       </dcatapit:LicenseDocument>
     </dct:license>
     <dct:format rdf:resource="JSON"/>
+  
     <dct:description>JSON format file for interoperability</dct:description>
     <dct:title xml:lang="en">unemployment-rate</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
+  
   <dcatapit:Distribution rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d8---annual-average-households-income/json10">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/%5Fdatasets/Clean/D8/net%5Fincome%5Fby%5Fregions%5Fdata.json"/>
     <dct:license>
