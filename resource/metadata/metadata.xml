@@ -231,14 +231,16 @@
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
-    
+
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0</prov:wasDerivedFrom>
     <dcat:keyword>municipal</dcat:keyword>
     <dcat:keyword>population</dcat:keyword>
     <dcat:keyword>Italian</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d3---italian-resident-municipal-population/json5"/>
   </dcatapit:Dataset>
   
-  <!-- D6 -->
+
+  <!-- D4 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d4---level-of-education-of-foreign-citizens">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
@@ -247,8 +249,10 @@
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d4---level-of-education-of-foreign-citizens</dct:landingpage>
     <dct:description>This dataset was used in order to understand the educational level attained by foreigners in Italy. The levels considered in this dataset are: Primary (ED0-2), inglobing less than primary, primary and lower secondary education. Secondary (ED3:4), inglobing upper secondary and post-secondary non-tertiary education. Tertiary (ED5-8), inglobing tertiary education.</dct:description>
     <dct:identifier>:d4---level-of-education-of-foreign-citizens</dct:identifier>
+    
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -256,6 +260,7 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -264,18 +269,22 @@
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100217"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-13</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en</prov:wasDerivedFrom>
     <dcat:keyword>education</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d4---level-of-education-of-foreign-citizens/json6"/>
   </dcatapit:Dataset>
 
-  <!-- D1 -->
+
+  <!-- D5 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d5---activity-rate-between-foreigners-and-italians">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -285,6 +294,7 @@
     <dct:description>This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.</dct:description>
     <dct:identifier>:d5---activity-rate-between-foreigners-and-italians</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -293,6 +303,7 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -301,17 +312,21 @@
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100232"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-03</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en</prov:wasDerivedFrom>
     <dcat:keyword>employment</dcat:keyword>
     <dcat:keyword>activity</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d5---activity-rate-between-foreigners-and-italians/json7"/>
   </dcatapit:Dataset>
+
 
   <!-- D6 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d6---presence-of-foreigners-divided-by-industry-sector">
@@ -323,6 +338,7 @@
     <dct:description>This dataset was retrieved in order to understand what are the sector in which foreigners work the most in Italy.</dct:description>
     <dct:identifier>:d6---presence-of-foreigners-divided-by-industry-sector</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -331,6 +347,7 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -339,19 +356,23 @@
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100233"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0</prov:wasDerivedFrom>
     <dcat:keyword>industry</dcat:keyword>
     <dcat:keyword>sector</dcat:keyword>
     <dcat:keyword>activity</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d6---presence-of-foreigners-divided-by-industry-sector/json8"/>
   </dcatapit:Dataset>
 
-  <!-- D1 -->
+
+  <!-- D7 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d7---unemployment-rate-between-foreigners-and-italians">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -361,6 +382,7 @@
     <dct:description>This dataset was retrieved in order to understand the unemployment rates between foreigners and italians.</dct:description>
     <dct:identifier>:d7---unemployment-rate-between-foreigners-and-italians</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -369,6 +391,7 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -377,16 +400,22 @@
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100233"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0</prov:wasDerivedFrom>
     <dcat:keyword>unemployment</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d7---unemployment-rate-between-foreigners-and-italians/json9"/>
   </dcatapit:Dataset>
+
+
+  <!-- D8 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d8---annual-average-households-income">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
