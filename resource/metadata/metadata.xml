@@ -91,6 +91,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
+    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
 
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0</prov:wasDerivedFrom>
     <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019</dct:hasPart>
@@ -101,6 +102,7 @@
     <owl:versionInfo="0.1.0"></owl:versionInfo>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023/json2"/>  
   </dcatapit:Dataset>
+
 
   <!-- D1(b) -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019">
@@ -137,7 +139,8 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    
+    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0</prov:wasDerivedFrom>
     <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023</dct:hasPart>
     <dcat:keyword>resident</dcat:keyword>
@@ -147,7 +150,7 @@
   </dcatapit:Dataset>
   
 
-  <!-- D4 -->
+  <!-- D2 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d2---total-immigrants-to-italy-by-continent-and-region">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
@@ -156,8 +159,10 @@
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d2---total-immigrants-to-italy-by-continent-and-region</dct:landingpage>
     <dct:description>This dataset was used to see the original provenance of foreigners in Italy.</dct:description>
     <dct:identifier>:d2---total-immigrants-to-italy-by-continent-and-region</dct:identifier>
+    
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -165,6 +170,7 @@
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -173,19 +179,23 @@
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0</prov:wasDerivedFrom>
     <dcat:keyword>continent</dcat:keyword>
     <dcat:keyword>region</dcat:keyword>
     <dcat:keyword>immigrants</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d2---total-immigrants-to-italy-by-continent-and-region/csv4"/>
   </dcatapit:Dataset>
 
-  <!-- D5 -->
+
+  <!-- D3 -->
   <dcatapit:Dataset rdf:about="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d3---italian-resident-municipal-population">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
