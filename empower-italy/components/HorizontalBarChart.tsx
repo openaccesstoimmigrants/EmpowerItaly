@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import {
     Chart as ChartJS,
     BarElement,
@@ -189,6 +190,9 @@ export default function HorizontalBarChart() {
                                 )}
                             </div>
                         </div>
+                        <Link href="/" className="place-self-end type-button">
+                            Source DX
+                        </Link>
                     </div>
             </article>
         </section>
