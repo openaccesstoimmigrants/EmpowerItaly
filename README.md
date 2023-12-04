@@ -10,15 +10,15 @@
 
 ## Content:
 1. [Introduction](#1-introduction)
-2. [Scenario](#2-scenario)
+2. [Scenario](#2-scenario)\
    2.1[The Open Data Scenario](#21-the-open-data-scenario)\
    2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)\
    2.3[How EmpowerItaly can contribute to E-Governance](#23-how-empoweritaly-can-contribute-to-e-governance)\
 3. [Original datasets and mashup datasets](#3-original-datasets-and-mashup-datasets)
-   [Datasets](#datasets)
-4. [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)
+   [Datasets](#datasets)\
+4. [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)\
    4.1 [Information Quality](#41-information-quality)\
-5. [Legal Analysis](#5-legal-analysis-privacy-license-purpose-etc)
+5. [Legal Analysis](#5-legal-analysis-privacy-license-purpose-etc)\
    5.1 [Legal Checklist](#51-legal-checklist)\
    5.2 [Licenses](#52-licenses)\
 6. [Ethics](#6-ethics-analysis)
