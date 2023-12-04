@@ -1,6 +1,6 @@
 # Open Access
 
-# EmpowerItaly: Exploring Immigrants' Contribution to Italian Economic Growth
+# EmpowerItaly: Exploring Immigrants and Italians disparities in the labour market
 
 ## Hypothesis questions:
 
@@ -465,6 +465,14 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 ## 8. Sustainability of updating the datasets over time
 
 ## 9. Visualization
+
+Throughout the visualizations presented in the project is possible to perceive the constant presence of the chosen time span to be investigated, from 2018 to 2022, since it's a more recent scenario to look at with an event that impacted profoundly the world economy: the COVID-19 pandemic.
+
+For this reason, the charts presented are either a bar chart or a line one. Since those are the ones facilitaing one's understanding regarding data over time. 
+
+<i>Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
+
+And by observing it, it's possible to notice an interesting matter specially among the years 2020-2022. For most part of groups divided by education, there's an increse on the unemployment rate between 2020 and 2021 and afterwards a decrease. 
 
 ## 10. RDF assertion of the metadata
 
