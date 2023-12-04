@@ -1,874 +1,1034 @@
 {
     "center": {
-        "High": [
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.16,
-                "ACTIVITY_RATE": 70.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 13.57,
-                "ACTIVITY_RATE": 70.62
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 13.15,
-                "ACTIVITY_RATE": 66.4
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.24,
-                "ACTIVITY_RATE": 66.44
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 12.72,
-                "ACTIVITY_RATE": 68.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 11.36,
-                "ACTIVITY_RATE": 52.89
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 9.83,
-                "ACTIVITY_RATE": 52.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 10.37,
-                "ACTIVITY_RATE": 49.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.1,
-                "ACTIVITY_RATE": 50.52
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 8.46,
-                "ACTIVITY_RATE": 51.61
-            }
-        ],
-        "Medium": [
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.16,
-                "ACTIVITY_RATE": 70.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 13.57,
-                "ACTIVITY_RATE": 70.62
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 13.15,
-                "ACTIVITY_RATE": 66.4
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.24,
-                "ACTIVITY_RATE": 66.44
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 12.72,
-                "ACTIVITY_RATE": 68.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 11.36,
-                "ACTIVITY_RATE": 52.89
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 9.83,
-                "ACTIVITY_RATE": 52.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 10.37,
-                "ACTIVITY_RATE": 49.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.1,
-                "ACTIVITY_RATE": 50.52
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 8.46,
-                "ACTIVITY_RATE": 51.61
-            }
-        ],
-        "Low": [
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.16,
-                "ACTIVITY_RATE": 70.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 13.57,
-                "ACTIVITY_RATE": 70.62
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 13.15,
-                "ACTIVITY_RATE": 66.4
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.24,
-                "ACTIVITY_RATE": 66.44
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 12.72,
-                "ACTIVITY_RATE": 68.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 11.36,
-                "ACTIVITY_RATE": 52.89
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 9.83,
-                "ACTIVITY_RATE": 52.15
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 10.37,
-                "ACTIVITY_RATE": 49.99
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.1,
-                "ACTIVITY_RATE": 50.52
-            },
-            {
-                "TERRITORY": "center",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 8.46,
-                "ACTIVITY_RATE": 51.61
-            }
-        ]
+        "foreign": {
+            "Low": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 15.16,
+                    "ACTIVITY_RATE": 70.99
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 13.57,
+                    "ACTIVITY_RATE": 70.62
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 13.15,
+                    "ACTIVITY_RATE": 66.4
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 13.24,
+                    "ACTIVITY_RATE": 66.44
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 12.72,
+                    "ACTIVITY_RATE": 68.15
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 14.84,
+                    "ACTIVITY_RATE": 75.71
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 17.51,
+                    "ACTIVITY_RATE": 76.78
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 13.54,
+                    "ACTIVITY_RATE": 70.11
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 16.59,
+                    "ACTIVITY_RATE": 73.1
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 13.38,
+                    "ACTIVITY_RATE": 72.93
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 10.8,
+                    "ACTIVITY_RATE": 77.12
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 11.43,
+                    "ACTIVITY_RATE": 75.94
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 8.62,
+                    "ACTIVITY_RATE": 68.67
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 18.1,
+                    "ACTIVITY_RATE": 71.38
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 12.51,
+                    "ACTIVITY_RATE": 74.44
+                }
+            ]
+        },
+        "italian": {
+            "Low": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 11.36,
+                    "ACTIVITY_RATE": 52.89
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 9.83,
+                    "ACTIVITY_RATE": 52.15
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 10.37,
+                    "ACTIVITY_RATE": 49.99
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 11.1,
+                    "ACTIVITY_RATE": 50.52
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 8.46,
+                    "ACTIVITY_RATE": 51.61
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 9.38,
+                    "ACTIVITY_RATE": 71.42
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 8.19,
+                    "ACTIVITY_RATE": 71.0
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 7.82,
+                    "ACTIVITY_RATE": 69.85
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 8.11,
+                    "ACTIVITY_RATE": 70.4
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 6.5,
+                    "ACTIVITY_RATE": 71.83
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 4.99,
+                    "ACTIVITY_RATE": 83.55
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 5.1,
+                    "ACTIVITY_RATE": 83.87
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 5.02,
+                    "ACTIVITY_RATE": 82.42
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 4.15,
+                    "ACTIVITY_RATE": 83.9
+                },
+                {
+                    "TERRITORY": "center",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.37,
+                    "ACTIVITY_RATE": 83.92
+                }
+            ]
+        }
     },
     "south and islands": {
-        "High": [
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.57,
-                "ACTIVITY_RATE": 66.1
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 16.92,
-                "ACTIVITY_RATE": 66.06
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 19.02,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 20.93,
-                "ACTIVITY_RATE": 63.32
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.0,
-                "ACTIVITY_RATE": 63.44
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 24.22,
-                "ACTIVITY_RATE": 41.58
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 23.17,
-                "ACTIVITY_RATE": 40.64
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 21.78,
-                "ACTIVITY_RATE": 38.81
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 21.73,
-                "ACTIVITY_RATE": 39.7
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.36,
-                "ACTIVITY_RATE": 40.33
-            }
-        ],
-        "Medium": [
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.57,
-                "ACTIVITY_RATE": 66.1
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 16.92,
-                "ACTIVITY_RATE": 66.06
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 19.02,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 20.93,
-                "ACTIVITY_RATE": 63.32
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.0,
-                "ACTIVITY_RATE": 63.44
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 24.22,
-                "ACTIVITY_RATE": 41.58
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 23.17,
-                "ACTIVITY_RATE": 40.64
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 21.78,
-                "ACTIVITY_RATE": 38.81
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 21.73,
-                "ACTIVITY_RATE": 39.7
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.36,
-                "ACTIVITY_RATE": 40.33
-            }
-        ],
-        "Low": [
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.57,
-                "ACTIVITY_RATE": 66.1
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 16.92,
-                "ACTIVITY_RATE": 66.06
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 19.02,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 20.93,
-                "ACTIVITY_RATE": 63.32
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.0,
-                "ACTIVITY_RATE": 63.44
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 24.22,
-                "ACTIVITY_RATE": 41.58
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 23.17,
-                "ACTIVITY_RATE": 40.64
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 21.78,
-                "ACTIVITY_RATE": 38.81
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 21.73,
-                "ACTIVITY_RATE": 39.7
-            },
-            {
-                "TERRITORY": "south and islands",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 19.36,
-                "ACTIVITY_RATE": 40.33
-            }
-        ]
+        "foreign": {
+            "Low": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 15.57,
+                    "ACTIVITY_RATE": 66.1
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 16.92,
+                    "ACTIVITY_RATE": 66.06
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 19.02,
+                    "ACTIVITY_RATE": 61.72
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 20.93,
+                    "ACTIVITY_RATE": 63.32
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 19.0,
+                    "ACTIVITY_RATE": 63.44
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 16.96,
+                    "ACTIVITY_RATE": 67.19
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 19.25,
+                    "ACTIVITY_RATE": 63.18
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 18.69,
+                    "ACTIVITY_RATE": 57.0
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 20.73,
+                    "ACTIVITY_RATE": 59.35
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 19.23,
+                    "ACTIVITY_RATE": 61.26
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 17.19,
+                    "ACTIVITY_RATE": 71.54
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 16.84,
+                    "ACTIVITY_RATE": 65.84
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 17.95,
+                    "ACTIVITY_RATE": 55.01
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 19.87,
+                    "ACTIVITY_RATE": 58.84
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 17.56,
+                    "ACTIVITY_RATE": 60.24
+                }
+            ]
+        },
+        "italian": {
+            "Low": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 24.22,
+                    "ACTIVITY_RATE": 41.58
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 23.17,
+                    "ACTIVITY_RATE": 40.64
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 21.78,
+                    "ACTIVITY_RATE": 38.81
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 21.73,
+                    "ACTIVITY_RATE": 39.7
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 19.36,
+                    "ACTIVITY_RATE": 40.33
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 17.25,
+                    "ACTIVITY_RATE": 59.86
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 16.69,
+                    "ACTIVITY_RATE": 60.15
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 14.9,
+                    "ACTIVITY_RATE": 57.09
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 15.63,
+                    "ACTIVITY_RATE": 58.79
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 13.59,
+                    "ACTIVITY_RATE": 59.49
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 11.04,
+                    "ACTIVITY_RATE": 74.64
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 10.3,
+                    "ACTIVITY_RATE": 75.1
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 9.22,
+                    "ACTIVITY_RATE": 74.37
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 8.41,
+                    "ACTIVITY_RATE": 75.41
+                },
+                {
+                    "TERRITORY": "south and islands",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 6.81,
+                    "ACTIVITY_RATE": 75.94
+                }
+            ]
+        }
     },
     "north-east": {
-        "High": [
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.38,
-                "ACTIVITY_RATE": 67.47
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 14.41,
-                "ACTIVITY_RATE": 67.7
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.02,
-                "ACTIVITY_RATE": 62.69
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.02,
-                "ACTIVITY_RATE": 63.91
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.03,
-                "ACTIVITY_RATE": 65.2
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 6.68,
-                "ACTIVITY_RATE": 55.56
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 6.2,
-                "ACTIVITY_RATE": 55.3
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 6.32,
-                "ACTIVITY_RATE": 54.45
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 6.4,
-                "ACTIVITY_RATE": 54.17
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 5.6,
-                "ACTIVITY_RATE": 55.0
-            }
-        ],
-        "Medium": [
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.38,
-                "ACTIVITY_RATE": 67.47
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 14.41,
-                "ACTIVITY_RATE": 67.7
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.02,
-                "ACTIVITY_RATE": 62.69
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.02,
-                "ACTIVITY_RATE": 63.91
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.03,
-                "ACTIVITY_RATE": 65.2
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 6.68,
-                "ACTIVITY_RATE": 55.56
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 6.2,
-                "ACTIVITY_RATE": 55.3
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 6.32,
-                "ACTIVITY_RATE": 54.45
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 6.4,
-                "ACTIVITY_RATE": 54.17
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 5.6,
-                "ACTIVITY_RATE": 55.0
-            }
-        ],
-        "Low": [
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 15.38,
-                "ACTIVITY_RATE": 67.47
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 14.41,
-                "ACTIVITY_RATE": 67.7
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.02,
-                "ACTIVITY_RATE": 62.69
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 11.02,
-                "ACTIVITY_RATE": 63.91
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.03,
-                "ACTIVITY_RATE": 65.2
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 6.68,
-                "ACTIVITY_RATE": 55.56
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 6.2,
-                "ACTIVITY_RATE": 55.3
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 6.32,
-                "ACTIVITY_RATE": 54.45
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 6.4,
-                "ACTIVITY_RATE": 54.17
-            },
-            {
-                "TERRITORY": "north-east",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 5.6,
-                "ACTIVITY_RATE": 55.0
-            }
-        ]
+        "foreign": {
+            "Low": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 15.38,
+                    "ACTIVITY_RATE": 67.47
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 14.41,
+                    "ACTIVITY_RATE": 67.7
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 12.02,
+                    "ACTIVITY_RATE": 62.69
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 11.02,
+                    "ACTIVITY_RATE": 63.91
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 10.03,
+                    "ACTIVITY_RATE": 65.2
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 12.62,
+                    "ACTIVITY_RATE": 79.71
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 11.21,
+                    "ACTIVITY_RATE": 79.94
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 11.75,
+                    "ACTIVITY_RATE": 77.88
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 10.32,
+                    "ACTIVITY_RATE": 77.88
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 8.47,
+                    "ACTIVITY_RATE": 77.52
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 9.82,
+                    "ACTIVITY_RATE": 76.49
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 10.07,
+                    "ACTIVITY_RATE": 76.94
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 11.99,
+                    "ACTIVITY_RATE": 75.44
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 9.33,
+                    "ACTIVITY_RATE": 77.04
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 6.21,
+                    "ACTIVITY_RATE": 78.28
+                }
+            ]
+        },
+        "italian": {
+            "Low": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 6.68,
+                    "ACTIVITY_RATE": 55.56
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 6.2,
+                    "ACTIVITY_RATE": 55.3
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 6.32,
+                    "ACTIVITY_RATE": 54.45
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 6.4,
+                    "ACTIVITY_RATE": 54.17
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 5.6,
+                    "ACTIVITY_RATE": 55.0
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 4.85,
+                    "ACTIVITY_RATE": 76.66
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 4.13,
+                    "ACTIVITY_RATE": 77.45
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 4.93,
+                    "ACTIVITY_RATE": 74.92
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 4.44,
+                    "ACTIVITY_RATE": 74.41
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 3.73,
+                    "ACTIVITY_RATE": 76.07
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.14,
+                    "ACTIVITY_RATE": 85.72
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.25,
+                    "ACTIVITY_RATE": 85.44
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.26,
+                    "ACTIVITY_RATE": 83.74
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 2.78,
+                    "ACTIVITY_RATE": 85.3
+                },
+                {
+                    "TERRITORY": "north-east",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 2.21,
+                    "ACTIVITY_RATE": 86.23
+                }
+            ]
+        }
     },
     "north-west": {
-        "High": [
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 13.94,
-                "ACTIVITY_RATE": 68.8
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 12.97,
-                "ACTIVITY_RATE": 68.6
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.28,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.22,
-                "ACTIVITY_RATE": 65.33
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.67,
-                "ACTIVITY_RATE": 66.03
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 8.36,
-                "ACTIVITY_RATE": 55.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 8.48,
-                "ACTIVITY_RATE": 56.0
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 7.41,
-                "ACTIVITY_RATE": 53.64
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 7.81,
-                "ACTIVITY_RATE": 54.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 6.95,
-                "ACTIVITY_RATE": 54.74
-            }
-        ],
-        "Medium": [
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 13.94,
-                "ACTIVITY_RATE": 68.8
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 12.97,
-                "ACTIVITY_RATE": 68.6
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.28,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.22,
-                "ACTIVITY_RATE": 65.33
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.67,
-                "ACTIVITY_RATE": 66.03
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 8.36,
-                "ACTIVITY_RATE": 55.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 8.48,
-                "ACTIVITY_RATE": 56.0
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 7.41,
-                "ACTIVITY_RATE": 53.64
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 7.81,
-                "ACTIVITY_RATE": 54.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 6.95,
-                "ACTIVITY_RATE": 54.74
-            }
-        ],
-        "Low": [
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 13.94,
-                "ACTIVITY_RATE": 68.8
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 12.97,
-                "ACTIVITY_RATE": 68.6
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 12.28,
-                "ACTIVITY_RATE": 61.72
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 13.22,
-                "ACTIVITY_RATE": 65.33
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "foreign",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 10.67,
-                "ACTIVITY_RATE": 66.03
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2018,
-                "UNEMPLOYMENT_RATE": 8.36,
-                "ACTIVITY_RATE": 55.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2019,
-                "UNEMPLOYMENT_RATE": 8.48,
-                "ACTIVITY_RATE": 56.0
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2020,
-                "UNEMPLOYMENT_RATE": 7.41,
-                "ACTIVITY_RATE": 53.64
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2021,
-                "UNEMPLOYMENT_RATE": 7.81,
-                "ACTIVITY_RATE": 54.16
-            },
-            {
-                "TERRITORY": "north-west",
-                "CITIZENSHIP": "italian",
-                "YEAR": 2022,
-                "UNEMPLOYMENT_RATE": 6.95,
-                "ACTIVITY_RATE": 54.74
-            }
-        ]
+        "foreign": {
+            "Low": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 13.94,
+                    "ACTIVITY_RATE": 68.8
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 12.97,
+                    "ACTIVITY_RATE": 68.6
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 12.28,
+                    "ACTIVITY_RATE": 61.72
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 13.22,
+                    "ACTIVITY_RATE": 65.33
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 10.67,
+                    "ACTIVITY_RATE": 66.03
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 12.92,
+                    "ACTIVITY_RATE": 77.31
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 11.18,
+                    "ACTIVITY_RATE": 77.11
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 12.51,
+                    "ACTIVITY_RATE": 72.24
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 14.41,
+                    "ACTIVITY_RATE": 74.89
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 10.38,
+                    "ACTIVITY_RATE": 76.27
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 8.66,
+                    "ACTIVITY_RATE": 76.83
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 10.64,
+                    "ACTIVITY_RATE": 76.54
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 9.93,
+                    "ACTIVITY_RATE": 68.04
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 12.47,
+                    "ACTIVITY_RATE": 72.85
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "foreign",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 10.16,
+                    "ACTIVITY_RATE": 75.13
+                }
+            ]
+        },
+        "italian": {
+            "Low": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 8.36,
+                    "ACTIVITY_RATE": 55.16
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 8.48,
+                    "ACTIVITY_RATE": 56.0
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 7.41,
+                    "ACTIVITY_RATE": 53.64
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 7.81,
+                    "ACTIVITY_RATE": 54.16
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Low",
+                    "UNEMPLOYMENT_RATE": 6.95,
+                    "ACTIVITY_RATE": 54.74
+                }
+            ],
+            "Medium": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 6.09,
+                    "ACTIVITY_RATE": 75.26
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 5.47,
+                    "ACTIVITY_RATE": 74.96
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 5.27,
+                    "ACTIVITY_RATE": 73.17
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 5.42,
+                    "ACTIVITY_RATE": 73.8
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "Medium",
+                    "UNEMPLOYMENT_RATE": 4.65,
+                    "ACTIVITY_RATE": 74.82
+                }
+            ],
+            "High": [
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2018,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.47,
+                    "ACTIVITY_RATE": 86.44
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2019,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 2.99,
+                    "ACTIVITY_RATE": 86.26
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2020,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.2,
+                    "ACTIVITY_RATE": 84.66
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2021,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 3.12,
+                    "ACTIVITY_RATE": 85.74
+                },
+                {
+                    "TERRITORY": "north-west",
+                    "CITIZENSHIP": "italian",
+                    "YEAR": 2022,
+                    "EDU_LEVEL": "High",
+                    "UNEMPLOYMENT_RATE": 2.52,
+                    "ACTIVITY_RATE": 86.36
+                }
+            ]
+        }
     }
 }
