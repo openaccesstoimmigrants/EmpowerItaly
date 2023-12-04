@@ -8,17 +8,24 @@
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
-## for me: https://noi-italia.istat.it/pagina.php?L=0&categoria=4&dove=ITALIA
-
+## Content:
+1. [Introduction](#1-introduction)
+2. [Scenario](#2-scenario)
+  2.1[The Open Data Scenario]()
+  2.2[The aims of EmpowerItaly]()
+  2.3[How EmpowerItaly can contribute to E-Governance](#23-how-empoweritaly-can-contribute-to-e-governance)
+3. [Original datasets and mashup datasets](#3-original-datasets-and-mashup-datasets)
+4. [Datasets](#datasets)
+  4.1 [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)
 ## 1. Introduction
 
-Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impact by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
+Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impacted by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
 
 We acknowledge that immigration is a complex topic that requires a multidimensional approach. Therefore, we focus on the contribution of migrants to the national economy as our main research question. Specifically, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] our hypothesis question explores how much active foreigners are in the labour market and even if they are, we want to know if they are the ones more impacted or no by unempoyment rates . We aim to investigate in which regions of Italy immigrants are more present as well as the industries they work the most. And finally we want to understand if there's any kind of possible correlation among the Growth rate (GDP) of Italy x Activity rate of immigrants and Italians x Unemployment rate between immigrants and Italians.
 
 ## 2. Scenario
 
-EmpowerItaly aligns data from various sources to generate insights about the past migrational numbers in Italy and understand were currently immigrants are concentrated the most. Specifically, we are interested in how the number of entrants has changed over time, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy. 
+EmpowerItaly aligns data from various sources to generate insights about the past migrational numbers in Italy and understand were currently immigrants are concentrated the most. Specifically, we are interested in how much the immigrant population represents in the country and what's the usual level of education they present. Additionally, we aim to analyze the activity rate as well as unemployment rate in Italy's economy. 
 
 In order to obtain an exhaustive picture of the phenomenon, we will align:
 
@@ -180,16 +187,6 @@ With this technique, we obtain an SDMX-ML file in XML format. We then transform 
 To display the data in our React app, we simply save a constant with the URL of our GitHub repository that points to our new [JSON file in raw version](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/.ipynb_checkpoints/continent_data-checkpoint.json).
 
 # DATASETS
-
-**NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.** <br>
-#### NUTS 1 Nomenclature
-
-
-The regional division belonging to NUTS level 1 do not correspond to administrative or purely geographical entities, but it is a subdivision only statistical and macroeconomic, despite being on the same NUTS level as the states of Germany or Wales, Scotland, Northern Ireland and regions of England in the United Kingdom.
-
-
-Sometimes you may find another type of division, i.e. Mezzogiorno englobing the Isole. This is possible, since ISTAT does this,
-
 
 ### D1(a) - Resident foreign population by region 2019-2023
 |  |  |
@@ -361,7 +358,17 @@ This section considers the requirements, established according to the "Linee gui
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
 
-2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the NUTS2 classification and for this reason it is not accurate as it could be. 
+2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
+
+**NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.** <br>
+#### NUTS 1 Nomenclature
+
+
+The regional division belonging to NUTS level 1 do not correspond to administrative or purely geographical entities, but it is a subdivision only statistical and macroeconomic, despite being on the same NUTS level as the states of Germany or Wales, Scotland, Northern Ireland and regions of England in the United Kingdom.
+
+
+Sometimes you may find another type of division, i.e. Mezzogiorno englobing the islands, since is what seems to be the ISTAT standard.
+
 
 ## 5. Legal analysis (privacy, license, purpose, etc.)
 
@@ -474,8 +481,6 @@ For this reason, the charts presented are either a bar chart or a line one. Sinc
 
 And by observing it, it's possible to notice an interesting matter specially among the years 2020-2022. For most part of groups divided by education, there's an increse on the unemployment rate between 2020 and 2021 and afterwards a decrease. But in 2020 the unemployment was already pretty much lower than previous years. Hence, there's a decrease in employment in the country as also pointed by OECD in [this article](https://issuu.com/oecd.publishing/docs/italy-oecd-economic-outlook-november-2023).
 
-What makes us think that, if there's any factor impacting negatively the labour market, that would not be the number of immigrants arriving in Italy, because they're the most impacted by unemployment rates even though being very active and showing a small increase in the percentage of higher educated immigrants.
-
 ## 10. RDF assertion of the metadata
 
 ## LICENSE
@@ -507,4 +512,6 @@ This work is licensed under a
 8. Ensure solutions are easy to explain, indicating clear design understanding and effectiveness.
 
 
+## 12. CONCLUSIONS
 
+What makes us think that, if there's any factor impacting negatively the labour market, that would not be the number of immigrants arriving in Italy, because they're the most impacted by unemployment rates even though being very active and showing a small increase in the percentage of higher educated immigrants.
