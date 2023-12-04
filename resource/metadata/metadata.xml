@@ -202,13 +202,12 @@
     <dct:license/>
     <dct:title xml:lang="en">D3 - Italian resident municipal population</dct:title>
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d3---italian-resident-municipal-population</dct:landingpage>
-    <dct:description>L'impegno del sistema italiano di protezione civile nell'assistenza umanitaria.
-Dall'inizio dell'emergenza, il Dipartimento della Protezione Civile sta garantendo assistenza umanitaria all'Ucraina e ai Paesi interessati dai consistenti flussi di profughi in fuga dal conflitto sia nell'ambito del Meccanismo Unionale di Protezione Civile, sia di accordi bilaterali.
-Sulla base delle richieste di assistenza internazionale, il Dipartimento coordina la ricognizione e l'invio delle risorse disponibili di Componenti, Strutture operative e soggetti concorrenti del Servizio Nazionale di Protezione Civile.
-Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione medica MedEvac-Medical Evacuation – anche con modulo DisEvac-Disability Evacuation – di pazienti con necessità di assistenza specialistica, trasportati in Italia e ricoverati in diversi centri nazionali.</dct:description>
+    <dct:description></dct:description>
     <dct:identifier>:d3---italian-resident-municipal-population</dct:identifier>
+    
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -216,6 +215,7 @@ Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione
         <foaf:name>EmpowerItaly Catalog Project</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -224,12 +224,14 @@ Nell'ambito dell'emergenza, il Dipartimento sta inoltre garantendo l'evacuazione
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+    
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dcat:keyword>municipal</dcat:keyword>
     <dcat:keyword>population</dcat:keyword>
     <dcat:keyword>Italian</dcat:keyword>
