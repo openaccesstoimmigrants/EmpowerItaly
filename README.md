@@ -396,15 +396,15 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 |  | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. | Y | Y | Y | Y | Y | Y | Y |
 |  | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? | Y | Y | Y | Y | Y | Y | Y |
 |  | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them? | Y | Y | Y | Y | Y | Y | Y |
-| Y | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | N | N | N | N | N | N | N |
-| N | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? |  |  |  | N |   |   |   |
-|  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? |  |  |  | Y |   |   |   |
-|  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? |  |  |  | Y |   |   |   |
-|  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? |  |  |  | Y |   |   |   |
-|  | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |  |  |  |  |   |   |   |
-| 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? |  |  |  |  |   |   |   |
-|  | 2.2 Are you the owner of the dataset? Who is the owner? |  |  |  |  |   |   |   |
-|  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? |  |  |  |  |   |   |   |
+|  | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out? | N | N | N | N | N | N | N |
+|  | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system? | Y | Y | Y | Y | Y | Y | Y |
+|  | 1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) | Y | Y | Y | Y | Y | Y | Y |
+| 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? | N | N | N | N | N | N | N |
+|  | 2.2 Are you the owner of the dataset? Who is the owner? | N | N | N | N | N | N | N |
+|  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | Y | Y | Y | Y | Y | Y | Y |
 |  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? |  |  |  |  |   |   |   |
 | 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? |  |  |  |  |   |   |   |
 |  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |   |   |   |
