@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, GeoJSON, TileLayer } from 'react-leaflet'
 import Legend from '@/components/Legend';
@@ -119,78 +120,65 @@ export default function Map() {
   };
  
   return (
-        <section id="barchart-education" className="pb-6">
-            <article className="
-                            max-w-7xl
-                            m-auto
-            ">
-                <div className="
-                            m-full
-                            gap-6
-                            h-full
-                            animate-fade-in-down
-                ">
+    <div className="
+                bg-indigo-100
+                rounded-2xl
+                p-8 md:p-12
+                col-span-12
+                lg:col-span-7
+                grid
+                hover:drop-shadow-md
+                transition-all
+    ">
 
-                        <div className="
-                                    bg-indigo-100
-                                    rounded-2xl
-                                    p-8
-                                    md:p-12
-                                    row-span-4
-                                    hover:drop-shadow-md
-                                    transition-all
-                        ">
-                            <div className="
-                                        grid
-                                        grid-cols-1
-                                        lg:grid-cols-2
-                                        gap-6
-                                        pb-6
-                            ">
-                                <h1 className="
-                                            font-bold
-                                            text-4xl
-                                            lg:text-6xl
-                                            text-indigo-900
-                                            pb-8
-                                ">
-                                    Map
-                                </h1>
-                                <p className="
-                                            text-lg
-                                ">
-                                    Lorem lorem
-                                </p>
-
-                            </div>
-
-                            <div id="chart-container" className="
-                                                            relative
-                                                            m-auto
-                                                            w-full
-                                                            h-[46rem]
-                                                            bg-gray-50
-                                                            rounded-xl
-                                                            px-2 py-6
-                                                            
-                            ">
-                              <MapContainer center={[41.872, 12.567]} zoom={6} scrollWheelZoom={false} style={{ height: '44rem' }}>
-                                <TileLayer
-                                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                  // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                  url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png"
-                                  // url="https://api.mapbox.com/styles/v1/renzrenz/ckkpj99tm0zei17p7s2a9hamh/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmVuenJlbnoiLCJhIjoiY2trcGo3cHRtMGRpcTJ1czE2bWE5bnd2biJ9.cFUxoodeOiS16_Na8xFm9Q"
-                                />
-                                <Legend />
-                                  {geojsonData && (
-                                    <GeoJSON data={geojsonData} style={style} onEachFeature={onEachFeature} />
-                                  )}
-                              </MapContainer>
-
-                            </div>
-                        </div>
-                    </div>
-            </article>
-        </section>
+      <div className="
+                  grid
+                  grid-cols-1
+                  lg:grid-cols-2
+                  gap-6
+                  pb-6
+      ">
+        <h1 className="
+                    font-bold
+                    text-4xl
+                    lg:text-6xl
+                    text-indigo-900
+                    pb-8
+        ">
+            Map
+        </h1>
+        <p className="
+                    text-lg
+        ">
+            Lorem lorem
+        </p>
+      </div>
+      <div id="chart-container" className="
+                                      relative
+                                      m-auto
+                                      w-full
+                                      h-[46rem]
+                                      bg-gray-50
+                                      rounded-xl
+                                      px-2 py-6
+                                      
+      ">
+        <MapContainer center={[41.872, 12.567]} zoom={5.5} scrollWheelZoom={false} style={{ height: '44rem' }}>
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png"
+            // url="https://api.mapbox.com/styles/v1/renzrenz/ckkpj99tm0zei17p7s2a9hamh/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoicmVuenJlbnoiLCJhIjoiY2trcGo3cHRtMGRpcTJ1czE2bWE5bnd2biJ9.cFUxoodeOiS16_Na8xFm9Q"
+          />
+          <Legend />
+            {geojsonData && (
+              <GeoJSON data={geojsonData} style={style} onEachFeature={onEachFeature} />
+            )}
+        </MapContainer>
+      </div>
+      <Link href="/" className="place-self-end type-button">
+          Source DX
+      </Link>
+    </div>
   )
 }

@@ -23,8 +23,14 @@ export default function Home() {
       <Intro />
       <Hypothesis />
       <NumbersResidents />
-      <Map />
-      <Countries />
+        <section id="distribution-demographic" className="pb-6">
+            <article className="max-w-7xl m-auto">
+                <div className="grid grid-cols-12 gap-6 h-full">
+                  <Countries />
+                  <Map />
+                </div>
+            </article>
+        </section>
       <BarChart />
       <NumbersAge />
       <HorizontalBarChart />

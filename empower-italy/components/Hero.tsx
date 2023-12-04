@@ -28,6 +28,8 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
                                     col-span-12
                                     lg:col-span-7
                                     lg:row-span-4
+                                    hover:drop-shadow-md
+                                    transition-all
                         ">
                             <h1 className="
                                         font-bold
@@ -50,6 +52,8 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
                                     col-span-12
                                     lg:col-span-5
                                     lg:row-span-1
+                                    hover:drop-shadow-md
+                                    transition-all
                         ">
                             <h2 className="
                                         text-2xl
@@ -61,7 +65,16 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
                                 {payoff}
                             </h2>
                         </div>
-                        <div className="hidden lg:block bg-orange-400 rounded-2xl lg:col-span-2 lg:row-span-1">
+                        <div className="
+                                    hidden
+                                    lg:block
+                                    bg-orange-400
+                                    rounded-2xl
+                                    lg:col-span-2
+                                    lg:row-span-1
+                                    hover:drop-shadow-md
+                                    transition-all
+                        ">
                             <p className="text-8xl font-black text-gray-50 text-center translate-y-2">✱</p>
                         </div>
                     </div>

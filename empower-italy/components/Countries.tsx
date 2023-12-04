@@ -64,44 +64,36 @@ export default function Countries() {
 
 
     return (
-        <section id="numbers-demographic" className="pb-6">
-            <article className="max-w-7xl m-auto">
-                <div className="grid grid-cols-12 gap-6 h-full">
-                    <div className="
-                                bg-indigo-100
-                                rounded-2xl
-                                p-8 md:p-12
-                                col-span-12
-                                lg:col-span-6
-                                grid
-                                hover:drop-shadow-md
-                                transition-all
-                    ">
-                        <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">TOP 10 CITIZENSHIP</h1>
-                        {/* conditional rendering */}
-                        {loading ? (
-                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
-                        ) : error ? (
-                            <p className="font-bold text-5xl md:text-7xl text-indigo-600">{error}</p>        
-                        ) : (
-                            <>
-                                <ul className="text-2xl md:text-4xl text-indigo-600">
-                                {topCitizenships.map((item, index) => (
-                                    <li key={index}>
-                                        {item.citizenship} {item.population.toLocaleString()}
-                                    </li>
-                                ))}
-                                </ul>
-                            </>
-                        )}
-
-                        <Link href="/" className="place-self-end type-button">
-                            Source
-                        </Link>
-                    </div>
-                </div>
-            </article>
-        </section>
+        <div className="
+                    bg-indigo-100
+                    rounded-2xl
+                    p-8 md:p-12
+                    col-span-12
+                    lg:col-span-5
+                    grid
+                    hover:drop-shadow-md
+                    transition-all
+        ">
+            <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">TOP 10 CITIZENSHIP</h1>
+            {/* conditional rendering */}
+            {loading ? (
+                <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
+            ) : error ? (
+                <p className="font-bold text-5xl md:text-7xl text-indigo-600">{error}</p>        
+            ) : (
+                <ul className="text-indigo-600">
+                {topCitizenships.map((item, index) => (
+                    <li key={index}  className="flex items-baseline pb-2">
+                        <p className="font-bold text-2xl md:text-4xl w-2/3">{item.citizenship}</p>
+                        <p className="w-1/3 text-right">{item.population.toLocaleString()}</p>
+                    </li>
+                ))}
+                </ul>
+            )}
+            <Link href="/" className="place-self-end type-button">
+                Source DX
+            </Link>
+        </div>
     )
 }
 

@@ -1,10 +1,16 @@
-2023-23-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+2023-04-12␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+* `Map.tsx` and `Countries.tsx` displayed together in home.
+
+* Created `MashUp.tsx` component.
+
+2023-03-12␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
 * `Map.tsx` updated, filtering just 2022.
 
 * Created `Countries.tsx` to show top 10 immigrant citizenships in 2022.
 
-2023-23-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+2023-25-11␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
 * `Map.tsx` updated, to check the year been displayed.
 
