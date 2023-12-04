@@ -65,7 +65,7 @@
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023</dct:landingpage>
     <dct:description>This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.</dct:description>
     
-    <dct:identifier>:EMPOWERITALY:D.1(a)</dct:identifier>
+    <dct:identifier>EMPOWERITALY:D.1(a)</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
     <dct:rightsHolder>
