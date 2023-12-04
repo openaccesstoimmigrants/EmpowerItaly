@@ -64,36 +64,44 @@
     <dct:title xml:lang="en">D1(a) - Resident foreign population by region 2019-2023</dct:title>
     <dct:landingpage>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023</dct:landingpage>
     <dct:description>This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.</dct:description>
-    
     <dct:identifier>EMPOWERITALY:D.1(a)</dct:identifier>
+    
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="">
+      <dcatapit:Agent rdf:about="https://github.com/openaccesstoimmigrants">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier/>
-
-        <foaf:name>EmpowerItaly Catalog Project</foaf:name>
+        <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
+    
     <dct:publisher>
-      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <dcatapit:Agent rdf:about="https://github.com/openaccesstoimmigrants">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <dct:identifier/>
         <foaf:name>OpenAccessToImmigrants</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
+
     <dct:subject rdf:resource="http://eurovoc.europa.eu/100210"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
     <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+
+    <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0</prov:wasDerivedFrom>
+
     <dcat:keyword>resident</dcat:keyword>
     <dcat:keyword>foreigner</dcat:keyword>
     <dcat:keyword>regional</dcat:keyword>
+    <owl:versionInfo="0.1.0"></owl:versionInfo>
     <dcat:distribution rdf:resource="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023/json2"/>
+  
+  
   </dcatapit:Dataset>
 
   <!-- D3 -->
