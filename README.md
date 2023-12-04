@@ -11,12 +11,24 @@
 ## Content:
 1. [Introduction](#1-introduction)
 2. [Scenario](#2-scenario)
-  2.1[The Open Data Scenario]()
-  2.2[The aims of EmpowerItaly]()
-  2.3[How EmpowerItaly can contribute to E-Governance](#23-how-empoweritaly-can-contribute-to-e-governance)
+   2.1[The Open Data Scenario](#21-the-open-data-scenario)
+   2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)
+   2.3[How EmpowerItaly can contribute to E-Governance](#23-how-empoweritaly-can-contribute-to-e-governance)
 3. [Original datasets and mashup datasets](#3-original-datasets-and-mashup-datasets)
-4. [Datasets](#datasets)
-  4.1 [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)
+   [Datasets](#datasets)
+4. [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)
+   4.1 [Information Quality](#41-information-quality)
+5. [Legal Analysis](#5-legal-analysis-privacy-license-purpose-etc)
+   5.1 [Legal Checklist](#51-legal-checklist)
+   5.2 [Licenses](#52-licenses)
+6. [Ethics](#6-ethics-analysis)
+7. [Technical Analysis](#7-technical-analysis-formats-metadata-uri-provenance)
+8. [Sustainability of updating the datasets over time](#8-sustainability-of-updating-the-datasets-over-time)
+9. [Visualization](#9-visualization)
+10. [RDF Assertation of Metadata](#10-rdf-assertion-of-the-metadata)
+11. [Our Work Praxis](#11-our-work-praxis)
+12. [Conclusions](#12-conclusions)
+
 ## 1. Introduction
 
 Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impacted by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
