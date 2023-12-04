@@ -67,7 +67,7 @@
     <dct:identifier>EMPOWERITALY:D.1(a)</dct:identifier>
     
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="https://github.com/openaccesstoimmigrants">
@@ -91,7 +91,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
 
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0</prov:wasDerivedFrom>
     <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(b)---resident-foreign-population-by-region-2001-2019</dct:hasPart>
@@ -115,7 +115,7 @@
     <dct:identifier>:d1(b)---resident-foreign-population-by-region-2001-2019</dct:identifier>
     
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -139,7 +139,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
 
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0</prov:wasDerivedFrom>
     <dct:requires>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/resource/metadata/d1(a)---resident-foreign-population-by-region-2019-2023</dct:hasPart>
@@ -161,7 +161,7 @@
     <dct:identifier>:d2---total-immigrants-to-italy-by-continent-and-region</dct:identifier>
     
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -185,7 +185,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0</prov:wasDerivedFrom>
     <dcat:keyword>continent</dcat:keyword>
@@ -206,7 +206,7 @@
     <dct:identifier>:d3---italian-resident-municipal-population</dct:identifier>
     
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -230,7 +230,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
 
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0</prov:wasDerivedFrom>
     <dcat:keyword>municipal</dcat:keyword>
@@ -251,7 +251,7 @@
     <dct:identifier>:d4---level-of-education-of-foreign-citizens</dct:identifier>
     
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
@@ -275,7 +275,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-09-13</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en</prov:wasDerivedFrom>
     <dcat:keyword>education</dcat:keyword>
@@ -295,7 +295,7 @@
     <dct:identifier>:d5---activity-rate-between-foreigners-and-italians</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -318,7 +318,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-03</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en</prov:wasDerivedFrom>
     <dcat:keyword>employment</dcat:keyword>
@@ -339,7 +339,7 @@
     <dct:identifier>:d6---presence-of-foreigners-divided-by-industry-sector</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -362,7 +362,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0</prov:wasDerivedFrom>
     <dcat:keyword>industry</dcat:keyword>
@@ -383,7 +383,7 @@
     <dct:identifier>:d7---unemployment-rate-between-foreigners-and-italians</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -406,7 +406,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0</prov:wasDerivedFrom>
     <dcat:keyword>unemployment</dcat:keyword>
@@ -426,7 +426,7 @@
     <dct:identifier>:d8---annual-average-households-income</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -449,7 +449,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,HOU,1.0/HOU_INCOME/DCCV_REDNETFAMFONTERED/IT1,32_292_DF_DCCV_REDNETFAMFONTERED_9,1.0</prov:wasDerivedFrom>
     <dcat:keyword>annual</dcat:keyword>
@@ -470,7 +470,7 @@
     <dct:identifier>:d9---gdp-(growth-rate)</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -493,7 +493,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasDerivedFrom>https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1</prov:wasDerivedFrom>
     <dcat:keyword>gdp</dcat:keyword>
@@ -514,7 +514,7 @@
     <dct:identifier>:md1---activity-&amp;-unemployment-rate--between-foreigners-and-italians</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     <dct:rightsHolder>
       <dcatapit:Agent rdf:about="">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -537,7 +537,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-12-01</dct:issued>
-    <dcat:contactPoint rdf:resource="www.empoweritaly.com"/>
+    <dcat:contactPoint rdf:resource="https://www.empoweritaly.com"/>
     
     <prov:wasGeneratedBy>https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/tree/main/1.MASHUP</prov:wasGeneratedBy>
     <prov:wasDerivedFrom>https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0</prov:wasDerivedFrom>
@@ -746,7 +746,6 @@
 
 
   <!-- Concept Clarification -->
-
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
     <skos:prefLabel>Popolazione e società</skos:prefLabel>
   </skos:Concept>
@@ -814,7 +813,9 @@
     <skos:prefLabel xml:lang="it">4406 occupazione</skos:prefLabel>
   </skos:Concept>
 
-<dcatapit:Organization rdf:about="www.empoweritaly.com">
+
+<!-- www.empoweritaly.org -->
+<dcatapit:Organization rdf:about="https://www.empoweritaly.com/about">
   <rdf:type rdf:resource="vcard:Organization"/>
   <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
@@ -822,8 +823,6 @@
   <rdf:type rdf:resource="vcard:Kind"/>
   <vcard:fn>OpenAccessToImmigrants</vcard:fn>
   <vcard:hasEmail rdf:resource="giusy.grieco.info@gmail.com"/>
-  <vcard:hasTelephone/>
-  <vcard:hasURL rdf:resource="www.empoweritaly.com"/>
+  <vcard:hasURL rdf:resource="https://www.empoweritaly.com"/>
 </dcatapit:Organization>
-
 </rdf:RDF>
