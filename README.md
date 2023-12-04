@@ -437,7 +437,23 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ## 6. Ethics analysis
 
-## 7. Technical analysis (formats, metadata, URI, provenance)
+## 7. Technical analysis (formats, metadata, URI, provenance) WIP WIP WIP
+This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
+
+
+Adhering to the specifications outlined in the DCAT-AP_IT standard as recommended by AGID's guidelines for the valorization of public information heritage, and to facilitate data harvesting, each and every used dataset and all of the generated mashup datasets have been meticulously documented through metadata enriching format RDF/XML.
+Following the Open Data indications by AGID, our statistical data are presented and made available in both csv and json format, as they were used in the data scraping and visualization testing phase.
+Additionally, all datasets and metadata enrichment are available via download icons in the website.
+
+
+The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID. 
+[---]
+
+
+A comprehensive documentation about the quality assessment and the metadating profile  of the outputs, can be found in our comprehensive documentation, and downloadable as Jupyter Notebooks.
+
+
+It has been established that ["The conservation system is logically distinct from the document management system" ] (https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst); for this reason, we have to say that the project data preparation process that we took into consideration does not include the "conservation and historicization" step, as we will not return to it in the future, eventually making data non-reusable. [...]
 
 ### *Immigrants.Stat*
   - Format: Excel, CSV, SDMX
