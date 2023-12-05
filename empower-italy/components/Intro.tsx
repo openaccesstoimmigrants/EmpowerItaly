@@ -40,7 +40,9 @@ export default function Intro() {
                                 text-4xl
                                 md:text-6xl
                                 text-indigo-900
-                                pb-8">About the project</h1>
+                                pb-8">
+                        About the project
+                    </h1>
                     <p>EmpowerItaly aligns data from various sources to generate insights about past and current migrational flows throughout Italy. Specifically, we are interested in how the number of entrants has changed over time, and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy.</p>
 
                     <button className="place-self-end outline-button">

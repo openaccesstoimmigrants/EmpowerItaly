@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import {
     Chart as ChartJS,
     BarElement,
@@ -144,6 +145,7 @@ export default function BarChart() {
                                     p-8
                                     md:p-12
                                     row-span-4
+                                    grid
                                     hover:drop-shadow-md
                                     transition-all
                         ">
@@ -187,6 +189,9 @@ export default function BarChart() {
                                     <p>Loading...</p>
                                 )}
                             </div>
+                    <Link href="/" className="place-self-end type-button">
+                        Source DX
+                    </Link>
                         </div>
                     </div>
             </article>

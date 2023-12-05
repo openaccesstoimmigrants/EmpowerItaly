@@ -94,7 +94,7 @@ export default function Numbers() {
 
     return (
         <section id="numbers-demographic" className="pb-6">
-            <article className="max-w-7xl m-auto">
+            <article className="max-w-7xl m-auto animate-fade-in-down">
                 <div className="
                             grid
                             grid-cols-12

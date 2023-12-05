@@ -24,7 +24,7 @@ export default function Home() {
       <Hypothesis />
       <NumbersResidents />
         <section id="distribution-demographic" className="pb-6">
-            <article className="max-w-7xl m-auto">
+            <article className="max-w-7xl m-auto animate-fade-in-down">
                 <div className="grid grid-cols-12 gap-6 h-full">
                   <Countries />
                   <Map />
