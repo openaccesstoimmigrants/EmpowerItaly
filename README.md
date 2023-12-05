@@ -495,7 +495,7 @@ For this reason, the charts presented are either a bar chart or a line one. Sinc
 
 <i>Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
 
-And by observing it, it's possible to notice an interesting matter specially among the years 2020-2022. For most part of groups divided by education, there's an increse on the unemployment rate between 2020 and 2021 and afterwards a decrease. But in 2020 the unemployment was already pretty much lower than previous years. Hence, there's a decrease in employment in the country as also pointed by OECD in [this article](https://issuu.com/oecd.publishing/docs/italy-oecd-economic-outlook-november-2023).
+And by observing it, it's possible to notice an interesting matter specially among the years 2020-2022. For most part of groups divided by education, there's an increse on the unemployment rate between 2020 and 2021 and afterwards a decrease. But in 2020 the unemployment was already pretty much lower than previous years. Hence, there's a decrease in unemployment in the country as also pointed by OECD in [this article](https://issuu.com/oecd.publishing/docs/italy-oecd-economic-outlook-november-2023).
 
 ## 10. RDF assertion of the metadata
 
