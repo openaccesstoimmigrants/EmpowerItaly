@@ -205,12 +205,12 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 |  |  |
 | --- | --- |
 | Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
-| Title | **Migration (Transfer of residence) - Migrazioni (Trasferimenti di residenza)** |
+| Title | **Country of citizenship |  Paese di cittadinanza** |
 | Viewed in date | 06/10/23 | 
 | License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
 | Format | **SDMX-ML** |
 | Metadata | Provided in SDMX |
-| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0) |
+| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0) |
 |  |  |
 
 ### D3 - Italian resident municipal population
@@ -424,6 +424,20 @@ The datasets presented by the institution don't have a regular date to be publis
 - when re-use involves modifications to the data or text, this must be stated clearly to the end user of the information.
 
 ## 6. Ethics analysis
+
+<b>Immigrants.stat:</b> The ISTAT organization is compliant with statistical secrecy forms part of the broader principle of personal data protection as provided for by the Ethical code of conduct concerning the protection of personal data (d.lgs. n. 196/03) (Legislative Decree no. 196/03) and specifically Annex A3, "Ethical code for the processing of personal data for statistical purposes within Sistan".
+
+Respondents are not obliged to provide information when it comes to sensitive data or data relating to criminal records. If data contain anything that could be used to recognize individuals, the same is used in agregated form so it's impossible to identify that person.
+
+The data controller with regard to processing of personal data is Istat; the data managers are the Institute's central directors who may be contacted by data subjects to exercise their rights; the data processors are all staff who carry out data entry and processing tasks.
+
+<b>I.stat:</b> The same applied to Immigrants.stat can be considered here since the sources are under the same institution management.
+
+<b>IstatData:</b> The same applied to Immigrants.stat can be considered here since the sources are under the same institution management.
+
+<b>EUROSTAT:</b> The European Statistics Code of Practice (CoP) is the cornerstone of the quality framework for EUROSTAT and sets the standards for developing, producing and disseminating European statistics. 
+
+The institutional is also very clear about the fact of not making microd-data available to the public, but it can be shared under request. 
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
 This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
