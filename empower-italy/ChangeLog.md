@@ -1,3 +1,7 @@
+2023-05-12␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
+
+* `MashUp.tsx` completed.
+
 2023-04-12␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
 * `Map.tsx` and `Countries.tsx` displayed together in home.

@@ -71,9 +71,9 @@ export default function Map() {
 
         setGeojsonData(updatedGeoJSON);
 
-        console.log('UpdatedGeoJSON:', updatedGeoJSON);
-        console.log('Data Geo JSON:', dataGeoJSON);
-        console.log('Data Population:', dataPopulation);
+        // console.log('UpdatedGeoJSON:', updatedGeoJSON);
+        // console.log('Data Geo JSON:', dataGeoJSON);
+        // console.log('Data Population:', dataPopulation);
 
       } catch (error) {
         console.error('Error fetching data:', error);

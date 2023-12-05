@@ -132,6 +132,7 @@ export default function HorizontalBarChart() {
             <article className="
                             max-w-7xl
                             m-auto
+                            animate-fade-in-down
             ">
                 <div className="
                             m-full
@@ -146,6 +147,7 @@ export default function HorizontalBarChart() {
                                     p-8
                                     md:p-12
                                     row-span-4
+                                    grid
                                     hover:drop-shadow-md
                                     transition-all
                         ">
@@ -189,10 +191,10 @@ export default function HorizontalBarChart() {
                                     <p>Loading...</p>
                                 )}
                             </div>
-                        </div>
                         <Link href="/" className="place-self-end type-button">
                             Source DX
                         </Link>
+                        </div>
                     </div>
             </article>
         </section>

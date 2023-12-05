@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Hypothesis() {
   return (
       <section id="hypothesis" className="pb-6">
-        <article className="max-w-7xl m-auto">
+        <article className="max-w-7xl m-auto animate-fade-in-down">
             <div className="
                         grid
                         grid-cols-12
@@ -17,6 +17,8 @@ export default function Hypothesis() {
                             md:p-12
                             col-span-12
                             lg:col-span-7
+                            hover:drop-shadow-md
+                            transition-all
                 ">
                     <h1 className="
                                 font-bold
@@ -38,6 +40,8 @@ export default function Hypothesis() {
                             md:p-12
                             col-span-12
                             lg:col-span-5
+                            hover:drop-shadow-md
+                            transition-all
                 ">
                     <h1 className="
                                 font-bold
