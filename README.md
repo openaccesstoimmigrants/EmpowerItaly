@@ -427,17 +427,22 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ### 5.2 Licenses
 
-<b>Immigrants.stat</b>: On the direct page that data is available to be explored and reused no disclaimers is at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data the find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it.
+<b>Immigrants.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.O.
 
-<b>I.stat</b>: 
+The datasets presented by the institution don't have a regular date to be published, as they are made public when surveys are concluded. [See here](https://www.istat.it/en/analysis-and-products/datasets). Besides the fact there isn't a specific date in which data is published, for most of the datasets it was possible to find data regarding the first semesters of the current year, 2023.
 
-<b>IstatData</b>:
+<b>I.stat</b>: The same information presented for Immigrants.stat can be considered for this very same item.
 
-<b>EUROSTAT</b>:
+<b>IstatData</b>: The same information presented for Immigrants.stat can be considered for this very same item.
+
+<b>EUROSTAT</b>: Data in the database are updated twice a day at 11:00 and 23:00, Central European Time (CET). Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes. All statistical data, metadata, content of web pages or other dissemination tools, official publications and other documents published on its website, with the exceptions listed below, can be reused without any payment or written licence provided that:
+
+- the source is indicated as Eurostat;
+- when re-use involves modifications to the data or text, this must be stated clearly to the end user of the information.
 
 ## 6. Ethics analysis
 
-## 7. Technical analysis (formats, metadata, URI, provenance) WIP WIP WIP
+## 7. Technical analysis (formats, metadata, URI, provenance)
 This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
 
 
@@ -511,19 +516,6 @@ And by observing it, it's possible to notice an interesting matter specially amo
 
 ## 10. RDF assertion of the metadata
 
-## LICENSE
-
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-
 ## 11. OUR WORK PRAXIS
 ### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
 
@@ -543,3 +535,16 @@ This work is licensed under a
 ## 12. CONCLUSIONS
 
 What makes us think that, if there's any factor impacting negatively the labour market, that would not be the number of immigrants arriving in Italy, because they're the most impacted by unemployment rates even though being very active and showing a small increase in the percentage of higher educated immigrants.
+
+## LICENSE
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
