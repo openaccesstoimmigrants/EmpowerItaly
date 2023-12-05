@@ -88,14 +88,10 @@ For these reasons, we decided to select our datasets, whenever possible, from an
 As ancillary datasets were used in order to give more context to our hypothesis questions, the [EUROSTAT](// Only change code below this line
 
 ### SDMX: A Design Choice
-SDMX is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources. The more organizations using it, the more useful SDMX becomes. Since it has become the preferred standard for data and metadata exchange by the global statistical community, its potential is enormous. SDMX comes in several "flavors" or sub-formats, including SDMX-ML Generic, SDMX-ML Compact (also referred to as SDMX-ML Structure Specific), SDMX-JSON, and SDMX-EDI. Among these, SDMX-JSON is the most compact and efficient. However, packing all that data as tightly as possible has led to a complex structure that is difficult to interpret.
+SDMX (Statistical Data and Metadata eXchange) is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources.
 
 ### SDMX Metadata and Data Format
-SDMX (Statistical Data and Metadata eXchange) is not only about exchanging data but also about exchanging metadata, which provides information about the structure and meaning of the data. SDMX metadata includes details such as concepts, dimensions, attributes, and codes, enabling better understanding and interpretation of the data.
-
-SDMX-ML (SDMX Markup Language) is the XML-based format used for representing SDMX metadata. It provides a standardized way to describe the structure and characteristics of datasets, making it easier to share and interpret metadata across different systems and organizations.
-
-When it comes to the data itself, SDMX-JSON is a widely adopted format. It is a compact and efficient representation of statistical data in JSON (JavaScript Object Notation) format. SDMX-JSON organizes data into datasets, series, observations, and dimensions, following a hierarchical structure. This format allows for easy parsing and manipulation of data while maintaining its integrity and semantic meaning.
+SDMX is not only about exchanging data but also about exchanging metadata, which provides information about the structure and meaning of the data. SDMX metadata includes details such as concepts, dimensions, attributes, and codes, enabling better understanding and interpretation of the data.
 
 By leveraging the power of SDMX metadata and data formats, analysts and researchers can access standardized and interoperable data, enabling more efficient and accurate analysis, comparison, and sharing of statistical information across organizations and domains.
 
@@ -106,12 +102,6 @@ Content oriented guidelines are a set of propositions to harmonize the applicati
 A DSD (key family) specifies a set of descriptor concepts (concepts that describe and identify a set of data). It tells which concepts are dimensions (identification and description), and which are attributes (just description), and it gives the attachment level for each of these concepts, based on the packaging structure (Data Set, Group, Series/Section, Observation) as well as their status (mandatory versus conditional). It also specifies which code lists provide possible values for the dimensions, as well as the possible values for the attributes, either as code lists or as free text fields. A data structure definition can be used to describe time series data, cross-sectional and multidimensional table data.
 
 Most of the concepts are actually SDMX Cross Domain Concepts, of the SDMX Content Oriented Guidelines (COG), which should be applied wherever possible.
-
-### Code Lists
-In order to be able to exchange and understand data, it needs to be declared, what the possible values for each concept are. Besides the possibility to define text formats for free text values, which are usually used for attributes, the commonly used approach is to attach lists of values.
-Such a list of possible values is known as a ‘code list’. Each value on that list has a languageindependent abbreviation - a ‘code’ - and a language-specific description. This helps us avoid problems of translation in describing the data: the code can be translated into descriptions in any language without having to change the code associated with the data itself.  Wherever possible, the values for code lists are taken from international standards; such as those proposed in the SDMX Content-Oriented Guidelines or other internationally standardized ones (for example ISO-code lists for countries and currencies).
-
-Example query to explore the meaining of the values of a specific dimension: `https://esploradati.istat.it/SDMXWS/rest/codelist/IT1/CL_STATCIV2/`
 
 For more on this topic: 
 [SDMX self-learning package No. 4 Student book - Data Structure Definition](https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details)
