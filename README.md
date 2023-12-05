@@ -337,6 +337,16 @@ This dataset was retrieved in order to understand the unemployment rates between
 | URI | [LINK](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
 |  |  |
 
+### D10 - MD1 (Activity rate and Unemployment rate)
+|  |  |
+| --- | --- |
+| Source | [Empwer Italy](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
+| Title | **Activity rate and Unemployment rate by level of education** |
+| Viewed in date | 29/11/2023 |
+| License | CC BY 4.0 |
+| Format | CSV |
+| URI | [LINK](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP/mashup.json) |
+|  |  |
 
 ## 4. Quality analysis of the datasets
 
