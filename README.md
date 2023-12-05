@@ -85,7 +85,7 @@ For our datasets, since we are dealing with data related to Italy, our main sour
 
 For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: [IstatData](https://esploradati.istat.it/databrowser/#/en). We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) [ISO standard](https://www.iso.org/standard/52500.html).
 
-As ancillary datasets were used in order to give more context to our hypothesis questions, the [EUROSTAT](// Only change code below this line
+Also, EUROSTAT was the complementary source used in our project, in which the used dataset was retreived in CSV.
 
 ### SDMX: A Design Choice
 SDMX (Statistical Data and Metadata eXchange) is sponsored by organizations such as the World Bank, OECD, and IMF. It standardizes the formats, structures, and coding of data and metadata, as well as data exchange processes. As a result, it greatly facilitates data exchange and the consolidation of data from multiple sources.
@@ -119,23 +119,6 @@ To retrieve all the datasets available on Istat: https://esploradati.istat.it/SD
 The base URL for access is https://esploradati.istat.it/SDMXWS/rest/. From this, you can query the metadata and data using an HTTP GET request, practically from any client.
 
 To test the APIs and explore the results we used [Postman API platform](https://www.postman.com/).
-
-### Accessing Metadata
-This is the URL structure for accessing metadata:
-
-https://esploradati.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
-
-Some notes:
-- `resource` (required): the resource you want to query (including `categorisation`, `categoryscheme`, `codelist`, `conceptscheme`, `contentconstraint`, `dataflow`, and `datastructure`).
-- `agencyID`: the identifier of the agency exposing the data (here it is IT1).
-- `resourceID`: the ID of the resource you want to query (some examples will be provided later).
-- `version`: the version of the artifact you want to query.
-- `itemID`: the ID of the element (for element schemes) or hierarchy (for hierarchical code lists) to be returned.
-- `queryStringParameters`:
-  - `detail`: the desired level of information. Possible values are `allstubs`, `referencestubs`, `allcompletestubs`, `referencecompletestubs`, `referencepartial, and `full`. The default is `full`.
-  - `references`: the related references to be returned. Possible values are `none`, `parents`, `parentsandsiblings`, `children`, `descendants`, `all`, and `any`. The default is `none`.
-
-An example is retrieving the `dataflows`, which is the list of queryable data flows. The URL for retrieving it is https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1. From URL we found the dataset we needed, with ID 28_185.
 
 ### Applying Filters
 
