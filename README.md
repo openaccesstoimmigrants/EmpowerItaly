@@ -265,7 +265,7 @@ See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://w
 | Title | Employment (thousands) - Nace 2007 - professional status, citizenship |
 | Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | CSV |
+| Format | SDMX |
 | Metadata | Not provided |
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
 |  |  |
@@ -348,12 +348,14 @@ This section considers the requirements, established according to the "Linee gui
 | D3 |  | YES |  | YES |
 | D4 |  | YES | NO - See point 1 and 2 | NO - See point 2 |
 | D5 |  | YES | NO | YES |
-| D6 |  | YES |  | YES |
+| D6 | NO - See point 3 | YES | YES | YES |
 | D7 |  | YES |  | YES |
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
 
 2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
+
+3. The dataset presented in the institutional portal presented rounded numbers and had as unit of measurement thousands, which looks quite missleading since it's not accurate to round up a number of individuals.
 
 **NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.** <br>
 #### NUTS 1 Nomenclature
@@ -448,12 +450,7 @@ Following the Open Data indications by AGID, our statistical data are presented 
 Additionally, all datasets and metadata enrichment are available via download icons in the website.
 
 
-The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID. 
-[---]
-
-
-A comprehensive documentation about the quality assessment and the metadating profile  of the outputs, can be found in our comprehensive documentation, and downloadable as Jupyter Notebooks.
-
+The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID.
 
 It has been established that ["The conservation system is logically distinct from the document management system" ] (https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst); for this reason, we have to say that the project data preparation process that we took into consideration does not include the "conservation and historicization" step, as we will not return to it in the future, eventually making data non-reusable. [...]
 
@@ -484,6 +481,10 @@ It has been established that ["The conservation system is logically distinct fro
     - [Total immigrants to Italy divided by continents](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
     - [Italian resident municipal population](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
   - Provenance:
+    - [Resident foreign population by region 2019-2023](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
+    - [Resident foreign population by region 2001-2019](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
+    - [Total immigrants to Italy divided by continents](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
+    - [Italian resident municipal population](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
 
 ### *EUROSTAT*
   - Format: Excel, CSV, SDMX, JSON
@@ -492,12 +493,6 @@ It has been established that ["The conservation system is logically distinct fro
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
   - Provenance:
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
-
-### *OECD*
-  - Format: Excel
-  - Metadata:
-  - URI:
-  - Provenance:
 
 ## 8. Sustainability of updating the datasets over time
 
