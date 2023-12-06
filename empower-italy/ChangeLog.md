@@ -2,6 +2,8 @@
 
 * `MashUp.tsx` completed.
 
+* Created `info` page with `page.tsx` inside.
+
 2023-04-12␣␣Stefano Renzetti␣␣<stefano.renzetti3@studio.unibo.it>
 
 * `Map.tsx` and `Countries.tsx` displayed together in home.

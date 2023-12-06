@@ -231,20 +231,26 @@ export default function MashUp() {
                                 <div className="flex text-lg pb-6">
                                     <div className="p-4 font-bold text-indigo-600">
                                         <label htmlFor="territorySelect" className="text-indigo-900">Select Territory:</label>
-                                        <select id="territorySelect" className="text-gray-50 bg-indigo-300 hover:bg-indigo-500 focus:ring-2 focus:outline-none focus:ring-indigo-200 font-medium rounded-lg px-5 py-2 m-2 text-center inline-flex items-center" onChange={handleTerritoryChange} value={selectedTerritory}>
-                                            <option value="center">Center</option>
-                                            <option value="south and islands">South and Islands</option>
-                                            <option value="north-east">North-East</option>
-                                            <option value="north-west">North-West</option>
-                                        </select>
+                                        <div className="relative inline-flex">
+                                            <svg className="w-3 h-3 absolute top-[40%] right-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="rgb(249 250 251)" fill-rule="nonzero"/></svg>
+                                            <select id="territorySelect" className="text-gray-50 bg-indigo-300 hover:bg-indigo-500 focus:ring-2 focus:outline-none focus:ring-indigo-200 font-medium rounded-lg pl-4 pr-7 py-2 m-2 text-center inline-flex items-center appearance-none" onChange={handleTerritoryChange} value={selectedTerritory}>
+                                                <option value="center">Center</option>
+                                                <option value="south and islands">South and Islands</option>
+                                                <option value="north-east">North-East</option>
+                                                <option value="north-west">North-West</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div className="p-4 font-bold text-indigo-600">
                                         <label htmlFor="levelSelect" className="text-indigo-900">Select Educational Level:</label>
-                                        <select id="levelSelect" className="text-gray-50 bg-indigo-300 hover:bg-indigo-500 focus:ring-2 focus:outline-none focus:ring-indigo-200 font-medium rounded-lg px-5 py-2 m-2 text-center inline-flex items-center" onChange={handleLevelChange} value={selectedLevel}>
-                                            <option value="High">High</option>
-                                            <option value="Medium">Medium</option>
-                                            <option value="Low">Low</option>
-                                        </select>
+                                        <div className="relative inline-flex">
+                                            <svg className="w-3 h-3 absolute top-[40%] right-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="rgb(249 250 251)" fill-rule="nonzero"/></svg>
+                                            <select id="levelSelect" className="text-gray-50 bg-indigo-300 hover:bg-indigo-500 focus:ring-2 focus:outline-none focus:ring-indigo-200 font-medium rounded-lg pl-4 pr-7 py-2 m-2 text-center inline-flex items-center appearance-none" onChange={handleLevelChange} value={selectedLevel}>
+                                                <option value="High">High</option>
+                                                <option value="Medium">Medium</option>
+                                                <option value="Low">Low</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="h-[32rem] m-2">

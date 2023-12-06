@@ -23,6 +23,10 @@ export const HEADER_LINKS = [
     {
         name: "Datasets",
         href: "/datasets"
+    },
+    {
+        name: "Info",
+        href: "/info"
     }
 ];
 

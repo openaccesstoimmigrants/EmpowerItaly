@@ -17,7 +17,7 @@ export default function Header({ links }: HeaderProps) {
     const segment = useSelectedLayoutSegment();
 
     return (
-        <header className="w-full p-6 m-auto animate-fade-in-down">
+        <header className="w-full p-6 m-auto animate-fade-in-down pb-12">
             <div className="flex justify-between">
                 <Link href="/" className="font-bold text-xl text-indigo-600">
                     EmpowerItaly
@@ -33,9 +33,9 @@ export default function Header({ links }: HeaderProps) {
                         ))}
                     </ul>
                 </nav>
-                <button className="outline-button">
+                <Link href="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants" target="_blank" className="outline-button">
                     Github
-                </button>
+                </Link>
             </div>
         </header>
 
