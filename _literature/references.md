@@ -26,25 +26,3 @@ An example, focusing on the Italian case, showcasing graphs that illustrate the 
 
 ## [How does immigration affect the U.S. economy?](https://thesciencebehindit.org/how-does-immigration-affect-the-u-s-economy/)
 This source answers key questions briefly. "Research shows that the arrival of immigrants with skills complementary to those of native workers may increase earnings for those native workers. For example, if foreign-born construction workers enter the market, causing construction workers’ wages to decrease, construction companies often respond by hiring more construction workers. That can trigger a need for more supervisors to oversee and coordinate the larger workforce, which, in turn, increases the demand for—and therefore the wages of—the supervisors."
-
-## AI HINTS
-We can create more than one graph to present our hypothesis, and in that case, we could include:
-- A line graph showing the total number of immigrant arrivals over the years.
-- A bar chart or line graph depicting the unemployment rate or labor force participation rate over the same time period.
-- A scatter plot to visualize the relationship between immigrant arrivals and the employment rate or wage levels.
-In this case, we will need data on `Unemployment Rate`, `Total Arrivals`, and/or `Wage Levels`, and probably also `GDP Rate`.
-
-Creating a single graph that effectively represents the relationship between the number of immigrant arrivals, the unemployment rate, and GDP can be challenging due to the different scales and units of these variables. However, we can create a composite graph with multiple y-axes to display these variables together.
-
-Here's a general approach to create a composite graph to represent the relationship between immigrant arrivals, the unemployment rate, and GDP:
-
-Time Period: Use a common time period for your data to ensure a meaningful comparison. This could be years or quarters.
-
-Scaling: Normalize the data to bring them to a common scale. For example, you could use Z-scores or min-max scaling to standardize the variables.
-
-Graph Type: Choose a graph type that accommodates multiple y-axes. A line chart or a dual-axis chart would be suitable.
-
-Y-Axes: Create separate y-axes for each variable. One for immigrant arrivals, one for the unemployment rate, and one for GDP.
-
-Keep in mind that while a composite graph can provide a high-level view of the relationships between these variables, it may not capture all the nuances and interactions. It's important to supplement this with other graphs and statistical analysis in your project documentation to provide a comprehensive answer to your research question.
-
