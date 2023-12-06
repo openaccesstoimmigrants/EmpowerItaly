@@ -1,452 +1,256 @@
-[
-  {
-    "Occupation": "A",
-    "Year": "2018",
-    "Value": 147.69
-  },
-  {
-    "Occupation": "A",
-    "Year": "2019",
-    "Value": 157.453
-  },
-  {
-    "Occupation": "A",
-    "Year": "2020",
-    "Value": 161.05
-  },
-  {
-    "Occupation": "A",
-    "Year": "2021",
-    "Value": 164.842
-  },
-  {
-    "Occupation": "A",
-    "Year": "2022",
-    "Value": 154.819
-  },
-  {
-    "Occupation": "A",
-    "Year": "2018",
-    "Value": 142.448
-  },
-  {
-    "Occupation": "A",
-    "Year": "2019",
-    "Value": 151.532
-  },
-  {
-    "Occupation": "A",
-    "Year": "2020",
-    "Value": 155.468
-  },
-  {
-    "Occupation": "A",
-    "Year": "2021",
-    "Value": 155.319
-  },
-  {
-    "Occupation": "A",
-    "Year": "2022",
-    "Value": 146.445
-  },
-  {
-    "Occupation": "F",
-    "Year": "2018",
-    "Value": 57.197
-  },
-  {
-    "Occupation": "F",
-    "Year": "2019",
-    "Value": 58.518
-  },
-  {
-    "Occupation": "F",
-    "Year": "2020",
-    "Value": 57.494
-  },
-  {
-    "Occupation": "F",
-    "Year": "2021",
-    "Value": 58.415
-  },
-  {
-    "Occupation": "F",
-    "Year": "2022",
-    "Value": 63.055
-  },
-  {
-    "Occupation": "F",
-    "Year": "2018",
-    "Value": 170.404
-  },
-  {
-    "Occupation": "F",
-    "Year": "2019",
-    "Value": 163.825
-  },
-  {
-    "Occupation": "F",
-    "Year": "2020",
-    "Value": 158.688
-  },
-  {
-    "Occupation": "F",
-    "Year": "2021",
-    "Value": 163.501
-  },
-  {
-    "Occupation": "F",
-    "Year": "2022",
-    "Value": 179.517
-  },
-  {
-    "Occupation": "F",
-    "Year": "2018",
-    "Value": 227.601
-  },
-  {
-    "Occupation": "F",
-    "Year": "2019",
-    "Value": 222.343
-  },
-  {
-    "Occupation": "F",
-    "Year": "2020",
-    "Value": 216.182
-  },
-  {
-    "Occupation": "F",
-    "Year": "2021",
-    "Value": 221.916
-  },
-  {
-    "Occupation": "F",
-    "Year": "2022",
-    "Value": 242.572
-  },
-  {
-    "Occupation": "A",
-    "Year": "2018",
-    "Value": 5.242
-  },
-  {
-    "Occupation": "A",
-    "Year": "2019",
-    "Value": 5.921
-  },
-  {
-    "Occupation": "A",
-    "Year": "2020",
-    "Value": 5.582
-  },
-  {
-    "Occupation": "A",
-    "Year": "2021",
-    "Value": 9.523
-  },
-  {
-    "Occupation": "A",
-    "Year": "2022",
-    "Value": 8.374
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2018",
-    "Value": 216.693
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2019",
-    "Value": 222.454
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2020",
-    "Value": 187.293
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2021",
-    "Value": 195.805
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2022",
-    "Value": 213.184
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2018",
-    "Value": 355.217
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2019",
-    "Value": 362.511
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2020",
-    "Value": 310.873
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2021",
-    "Value": 305.883
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2022",
-    "Value": 357.938
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2018",
-    "Value": 644.878
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2019",
-    "Value": 667.577
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2020",
-    "Value": 639.707
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2021",
-    "Value": 646.459
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2022",
-    "Value": 696.225
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2018",
-    "Value": 571.069
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2019",
-    "Value": 592.826
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2020",
-    "Value": 560.939
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2021",
-    "Value": 567.62
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2022",
-    "Value": 610.986
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2018",
-    "Value": 73.809
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2019",
-    "Value": 74.752
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2020",
-    "Value": 78.768
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2021",
-    "Value": 78.839
-  },
-  {
-    "Occupation": "B-F",
-    "Year": "2022",
-    "Value": 85.239
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2018",
-    "Value": 1328.138
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2019",
-    "Value": 1332.22
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2020",
-    "Value": 1216.094
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2021",
-    "Value": 1249.987
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2022",
-    "Value": 1310.242
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2018",
-    "Value": 132.537
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2019",
-    "Value": 130.827
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2020",
-    "Value": 103.858
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2021",
-    "Value": 105.514
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2022",
-    "Value": 121.472
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2018",
-    "Value": 1544.831
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2019",
-    "Value": 1554.674
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2020",
-    "Value": 1403.387
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2021",
-    "Value": 1445.793
-  },
-  {
-    "Occupation": "G-U",
-    "Year": "2022",
-    "Value": 1523.426
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2018",
-    "Value": 84.156
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2019",
-    "Value": 91.627
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2020",
-    "Value": 83.435
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2021",
-    "Value": 90.291
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2022",
-    "Value": 91.713
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2018",
-    "Value": 1057.076
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2019",
-    "Value": 1061.337
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2020",
-    "Value": 988.656
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2021",
-    "Value": 1034.396
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2022",
-    "Value": 1044.016
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2018",
-    "Value": 487.755
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2019",
-    "Value": 493.337
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2020",
-    "Value": 414.731
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2021",
-    "Value": 411.397
-  },
-  {
-    "Occupation": "GI",
-    "Year": "2022",
-    "Value": 479.41
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2018",
-    "Value": 972.921
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2019",
-    "Value": 969.71
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2020",
-    "Value": 905.221
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2021",
-    "Value": 944.104
-  },
-  {
-    "Occupation": "J-U",
-    "Year": "2022",
-    "Value": 952.304
-  }
-]
+{
+    "foreign": [
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2018",
+            "VALUE": 417
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2019",
+            "VALUE": 445
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2020",
+            "VALUE": 424
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2021",
+            "VALUE": 425
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2022",
+            "VALUE": 454
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2018",
+            "VALUE": 1057
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2019",
+            "VALUE": 1061
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2020",
+            "VALUE": 989
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2021",
+            "VALUE": 1034
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2022",
+            "VALUE": 1044
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2018",
+            "VALUE": 488
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2019",
+            "VALUE": 493
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2020",
+            "VALUE": 415
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2021",
+            "VALUE": 411
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2022",
+            "VALUE": 479
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2018",
+            "VALUE": 148
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2019",
+            "VALUE": 157
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2020",
+            "VALUE": 161
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2021",
+            "VALUE": 165
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2022",
+            "VALUE": 155
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2018",
+            "VALUE": 228
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2019",
+            "VALUE": 222
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2020",
+            "VALUE": 216
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2021",
+            "VALUE": 222
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2022",
+            "VALUE": 243
+        }
+    ],
+    "italian": [
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2018",
+            "VALUE": 4186
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2019",
+            "VALUE": 4213
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2020",
+            "VALUE": 4173
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2021",
+            "VALUE": 4153
+        },
+        {
+            "OCCUPATION": "industry",
+            "YEAR": "2022",
+            "VALUE": 4203
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2018",
+            "VALUE": 10367
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2019",
+            "VALUE": 10465
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2020",
+            "VALUE": 10192
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2021",
+            "VALUE": 10288
+        },
+        {
+            "OCCUPATION": "other services activity",
+            "YEAR": "2022",
+            "VALUE": 10431
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2018",
+            "VALUE": 4203
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2019",
+            "VALUE": 4217
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2020",
+            "VALUE": 3960
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2021",
+            "VALUE": 3898
+        },
+        {
+            "OCCUPATION": "trade, hotels and restaurants",
+            "YEAR": "2022",
+            "VALUE": 4063
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2018",
+            "VALUE": 712
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2019",
+            "VALUE": 738
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2020",
+            "VALUE": 744
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2021",
+            "VALUE": 749
+        },
+        {
+            "OCCUPATION": "agriculture, forestry and fishing",
+            "YEAR": "2022",
+            "VALUE": 720
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2018",
+            "VALUE": 1153
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2019",
+            "VALUE": 1097
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2020",
+            "VALUE": 1112
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2021",
+            "VALUE": 1209
+        },
+        {
+            "OCCUPATION": "construction",
+            "YEAR": "2022",
+            "VALUE": 1308
+        }
+    ]
+}
