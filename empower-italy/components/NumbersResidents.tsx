@@ -161,7 +161,7 @@ export default function Numbers() {
                             in Italy in 2022
                         </p>
                         <Link href="/datasets" className="place-self-end type-button">
-                            Source DX
+                            Sources: D1(a) and D1(b)
                         </Link>
                     </div>
                     <div className="
@@ -183,7 +183,7 @@ export default function Numbers() {
                                     uppercase
                                     pb-8
                         ">
-                            THEY REPRESENT THE
+                            THEY REPRESENT
                         </h1>
                         {/* conditional rendering */}
                         {loading ? (
@@ -201,8 +201,8 @@ export default function Numbers() {
                                     md:text-4xl
                                     text-indigo-600
                         ">of the Italian population</p>
-                        <Link href="/" className="place-self-end type-button">
-                            Source
+                        <Link href="datasets" className="place-self-end type-button">
+                            Source: D2
                         </Link>
                     </div>
                 </div>

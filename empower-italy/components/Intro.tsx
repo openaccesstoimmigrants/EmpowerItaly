@@ -43,7 +43,9 @@ export default function Intro() {
                                 pb-8">
                         About the project
                     </h1>
-                    <p>EmpowerItaly aligns data from various sources to generate insights about past and current migrational flows throughout Italy. Specifically, we are interested in how the number of entrants has changed over time, and in analyzing where people are moving to and from. Additionally, we aim to analyze the level of education to explore active participation in Italy's economy.</p>
+                    <p>
+                        Acknowledging the complexity of immigration, our focus is on evaluating the active engagement of foreign individuals within Italy's labor market. Our aim is to ascertain whether immigrants experience a disproportionate impact from unemployment rates and the extent of this disparity. Our investigation seeks to pinpoint the regions in Italy with higher concentrations of immigrants and the key industries where they are predominantly employed. We have compared the labor force participation and unemployment rates between foreigners and Italians to observe and analyze any disparities that exist. 
+                    </p>
 
                     <button className="place-self-end outline-button">
                         <Link href="/documentation">See documentation</Link>

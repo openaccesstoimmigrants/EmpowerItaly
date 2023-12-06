@@ -1,10 +1,10 @@
 # Open Access
 
-# EmpowerItaly: Exploring Immigrants and Italians disparities in the labour market
+# EmpowerItaly: Exploring Immigrants and Italians disparities in the labor market
 
 ## Hypothesis questions:
 
-## Does the number of immigrants impact on the labor market?
+## How significant is the disparity between Italians and foreigners in the labor market?
 
 ### This hypothesis question addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
@@ -33,7 +33,7 @@
 
 Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impacted by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
 
-We acknowledge that immigration is a complex topic that requires a multidimensional approach. Therefore, we focus on the contribution of migrants to the national economy as our main research question. Specifically, [REVISE THIS AND CHECK IF ITS COMPLIANT WITH DATA] our hypothesis question explores how much active foreigners are in the labour market and even if they are, we want to know if they are the ones more impacted or no by unempoyment rates . We aim to investigate in which regions of Italy immigrants are more present as well as the industries they work the most. And finally we want to understand if there's any kind of possible correlation among the Growth rate (GDP) of Italy x Activity rate of immigrants and Italians x Unemployment rate between immigrants and Italians.
+Acknowledging the complexity of immigration, our focus is on evaluating the active engagement of foreign individuals within Italy's labor market. Our aim is to ascertain whether immigrants experience a disproportionate impact from unemployment rates and the extent of this disparity. Our investigation seeks to pinpoint the regions in Italy with higher concentrations of immigrants and the key industries where they are predominantly employed. We have compared the labor force participation and unemployment rates between foreigners and Italians to observe and analyze any disparities that exist.
 
 ## 2. Scenario
 

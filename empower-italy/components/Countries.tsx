@@ -74,7 +74,7 @@ export default function Countries() {
                     hover:drop-shadow-md
                     transition-all
         ">
-            <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">TOP 10 CITIZENSHIP</h1>
+            <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">Top 10 citizenships</h1>
             {/* conditional rendering */}
             {loading ? (
                 <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
@@ -91,7 +91,7 @@ export default function Countries() {
                 </ul>
             )}
             <Link href="/" className="place-self-end type-button">
-                Source DX
+                Source: D2
             </Link>
         </div>
     )

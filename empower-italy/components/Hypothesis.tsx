@@ -27,7 +27,7 @@ export default function Hypothesis() {
                                 text-indigo-900
                                 pb-8
                     ">
-                        Does the number of immigrant impact on the labor market?
+                        How significant is the disparity between Italians and foreigners in the labor market?
                     </h1>
                     <p>
                         For our datasets, since we are dealing with data related to Italy, our main source is <Link href="https://www.istat.it/en/" className="font-bold">Istat</Link>, the Italian National Institute of Statistics, a public research organization that has been the main producer of official statistics since 1926, serving citizens and policy-makers.
@@ -52,7 +52,7 @@ export default function Hypothesis() {
                     ">
                         Who is an immigrant in our context?
                     </h1>
-                    <p>We will refer to foreign or immigrant residence as a person with foreign or stateless citizenship who has their habitual residence in the accommodation or cohabitation that is subject to the survey and who meets the requirements for registration in the registry.</p>
+                    <p>We define a foreign or immigrant resident as an individual possessing foreign or stateless citizenship, whose habitual residence is within the surveyed accommodation or cohabitation. This definition encompasses individuals who meet the criteria for registration in the official registry.</p>
                 </div>
             </div>
         </article>

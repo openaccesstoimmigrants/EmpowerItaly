@@ -162,13 +162,14 @@ export default function BarChart() {
                                             lg:text-6xl
                                             text-indigo-900
                                             pb-8
+                                            pr-2
                                 ">
-                                    Level of Education
+                                    Immigrants Level of Education
                                 </h1>
                                 <p className="
                                             text-lg
                                 ">
-                                    Lorem lorem
+                                    Over the observed time span, there hasn't been a substantial change; however, there is a minor increase in the attainment of Secondary School degrees.
                                 </p>
 
                             </div>
@@ -190,7 +191,7 @@ export default function BarChart() {
                                 )}
                             </div>
                     <Link href="/" className="place-self-end type-button">
-                        Source DX
+                        Source: D4
                     </Link>
                         </div>
                     </div>

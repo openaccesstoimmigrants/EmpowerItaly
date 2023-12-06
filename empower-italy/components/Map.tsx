@@ -138,19 +138,28 @@ export default function Map() {
                   gap-6
                   pb-6
       ">
+        <div>
         <h1 className="
                     font-bold
                     text-4xl
-                    lg:text-6xl
+                    lg:text-5xl
                     text-indigo-900
-                    pb-8
         ">
-            Map
+            Immigrants distribution
         </h1>
-        <p className="
-                    text-lg
+        <h2  className="
+                    font-bold
+                    text-2xl
+                    md:text-3xl
+                    text-indigo-900
         ">
-            Lorem lorem
+            in 2022
+        </h2>
+        </div>
+        <p className="
+                    text-md
+        ">
+            The map above shows immigrants distribution throughout the country. This gives context to further analysis regarding where the existing disparities take place.
         </p>
       </div>
       <div id="chart-container" className="
@@ -177,7 +186,7 @@ export default function Map() {
         </MapContainer>
       </div>
       <Link href="/" className="place-self-end type-button">
-          Source DX
+          Source: D2
       </Link>
     </div>
   )

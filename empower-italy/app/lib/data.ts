@@ -36,8 +36,8 @@ export const HEADER_LINKS = [
 
 export const HERO_DATA = [
     {
-        title: "Exploring Immigrants' Contribution to Italian Economic Growth",
-        paragraph: "We investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.",
+        title: "Exploring Immigrants and Italians disparities in the labour market",
+        paragraph: "The project addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.",
         imageSrc: hero,
         payoff: "An open data project",
         layoutOrder: true
