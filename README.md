@@ -12,8 +12,7 @@
 1. [Introduction](#1-introduction)
 2. [Scenario](#2-scenario)\
    2.1[The Open Data Scenario](#21-the-open-data-scenario)\
-   2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)\
-   2.3[How EmpowerItaly can contribute to E-Governance](#23-how-empoweritaly-can-contribute-to-e-governance)
+   2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)
 3. [Original datasets and mashup datasets](#3-original-datasets-and-mashup-datasets)\
    [Datasets](#datasets)
 4. [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)\
@@ -52,7 +51,11 @@ In order to obtain an exhaustive picture of the phenomenon, we will align:
 
 ### 2.1. The Open Data scenario
 
-We believe in Open Data and want to integrate our project into the larger picture proposed by the United Nations and the [17 Sustainable Development Goals (SDGs)](notion://www.notion.so/%5B%3Chttps://www.un.org/sustainabledevelopment/sustainable-development-goals/%3E%5D(%3Chttps://www.un.org/sustainabledevelopment/sustainable-development-goals/%3E)), which were developed by an Open Working Group of 30 member states over a two-year process. The SDGs are designed to balance the three dimensions of sustainable development: economic, social, and environmental. Open Data can help achieve the SDGs by providing critical information on natural resources, government operations, public services, and population demographics. These insights can inform national priorities and help determine the most effective paths for action on national issues. In particular, for our project, we refer to the 16th goal: ***Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.*** The kind of government transparency provided by Open Data is critical to making institutions more accountable and inclusive.
+We believe in Open Data and want to integrate our project into the larger picture proposed by the United Nations and the [17 Sustainable Development Goals (SDGs)](notion://www.notion.so/%5B%3Chttps://www.un.org/sustainabledevelopment/sustainable-development-goals/%3E%5D(%3Chttps://www.un.org/sustainabledevelopment/sustainable-development-goals/%3E)), which were developed by an Open Working Group of 30 member states over a two-year process. 
+
+The SDGs are designed to balance the three dimensions of sustainable development: economic, social, and environmental. Open Data can help achieve the SDGs by providing critical information on natural resources, government operations, public services, and population demographics. These insights can inform national priorities and help determine the most effective paths for action on national issues. 
+
+In particular, for our project, we refer to the 16th goal: ***Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.*** The kind of government transparency provided by Open Data is critical to making institutions more accountable and inclusive.
 
 ### 2.2. The aims of EmpowerItaly
 
@@ -70,13 +73,6 @@ To achieve our goal, we will follow this procedure:
 5. **Interpretation and findings:** Analyze the results of our data analysis and interpret their implications. Discuss any observed trends, patterns, or relationships between immigrant entrepreneurship and economic growth in Italy. 
 6. **Draw conclusions:** Based on our findings, draw conclusions about the role of immigrant entrepreneurship in Italy's economy. Discuss the potential benefits and resources that immigrants bring to the country through their entrepreneurial activities. Consider the limitations of our study and any recommendations for further research.
 7. **Document our project:** Create a clear and well-structured report or presentation summarizing our project, including the research question, methodology, data sources, analysis techniques, and key findings. We cite our sources appropriately and include visualizations to enhance understanding.
-
-### 2.3 How EmpowerItaly can contribute to E-Governance
-
-In the context of E-Governance, EmpowerItaly might play a role in:
-
-- raising awareness over the real status of immigration in Italy in order to promote ***inclusive societies for sustainable development***.
-- ecc
 
 ## 3. Original datasets and mashup datasets
 
@@ -205,7 +201,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 |  |  |
 | --- | --- |
 | Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
-| Title | **Country of citizenship |  Paese di cittadinanza** |
+| Title | **Country of citizenship (Paese di cittadinanza)** |
 | Viewed in date | 06/10/23 | 
 | License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
 | Format | **SDMX-ML** |
@@ -261,7 +257,7 @@ See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://w
 ### D6 - Presence of foreigners and Italians divided by industry sector
 |  |  |
 | --- | --- |
-| Source | [ISTAT](https://www.istat.it/en/) |
+| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
 | Title | Employment (thousands) - Nace 2007 - professional status, citizenship |
 | Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
@@ -300,22 +296,27 @@ This dataset was retrieved in order to understand the unemployment rates between
 
 ## 4. Quality analysis of the datasets
 
-In any case the dataset can’t be used for re-identifying the person
+<b>I.Stat:</b> The institution doesn't publish data regularly but ensures that quality tools have been developed in order to improve the quality of statistical processes and products, consistently with Istat's mission and according to the framework of the European Statistical System. The methodologies used for data quality can be [seen here](https://www4.istat.it/en/tools/data-quality) and the datasets can’t be used for re-identifying the person.
 
-When retrieving info regarding gender in subregions ISTAT does not provide thta, only total numbers
+The division among Italian regions presented by ISTAT is to be intented as follows:
 
-The division among Italian regions is to be intented as follows, according to ISTAT:
-the North, the Center and the South. <br>
+ - North: includes the regions of the North-West (Liguria, Lombardy, Piedmont, Valle d'Aosta) and those of the North-East (Emilia-Romagna, Friuli Venezia Giulia, Trentino-Alto Adige, Veneto).
+ - Center: includes the regions of Lazio, Marche, Tuscany and Umbria.
+ - South: includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
 
-The North includes the regions of the North-West (Liguria, Lombardy, Piedmont, Valle d'Aosta) and those of the North-East (Emilia-Romagna, Friuli Venezia Giulia, Trentino-Alto Adige, Veneto).
-<br>
-The Center includes the regions of Lazio, Marche, Tuscany and Umbria.
-<br>
-The South includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
+<b>EUROSTAT:</b> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the [quality declaration of the European Statistical System (ESS)](http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428). 
+
+The same guarantees the following pilars as data quality:
+
+ - *Independence:* statistics produced in an independent, impartial and professional manner
+ - *Relevance:* statistics produced based on user need
+ - *Reliability:* statistics accuratly and reliably portray reality
+ - *Comparability:* statistics are coherent and comparable between countries over time
+ - *Accessibility:* statistics are easily accessible and clearly explained
 
 ### 4.1 Information quality
 
-This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID [https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati)). The four characteristics to control the level of information quality are:
+This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by [AGID](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
 - **Accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
 - **Coherence** - the data, and its attributes are not contradictory to other data regarding the context of the use of the owner administration;
@@ -384,7 +385,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 
 ### 5.2 Licenses
 
-<b>I.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.O.
+<b>I.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.0.
 
 The datasets presented by the institution don't have a regular date to be published, as they are made public when surveys are concluded. [See here](https://www.istat.it/en/analysis-and-products/datasets). Besides the fact there isn't a specific date in which data is published, for most of the datasets it was possible to find data regarding the first semesters of the current year, 2023.
 
@@ -403,7 +404,7 @@ Respondents are not obliged to provide information when it comes to sensitive da
 
 The data controller with regard to processing of personal data is Istat; the data managers are the Institute's central directors who may be contacted by data subjects to exercise their rights; the data processors are all staff who carry out data entry and processing tasks.
 
-<b>IstatData:</b> The same applied to Immigrants.stat can be considered here since the sources are under the same institution management.
+<b>IstatData:</b> The same applied to I.stat can be considered here since the sources are under the same institution management.
 
 <b>EUROSTAT:</b> The European Statistics Code of Practice (CoP) is the cornerstone of the quality framework for EUROSTAT and sets the standards for developing, producing and disseminating European statistics. 
 
@@ -473,7 +474,8 @@ For this reason, the charts presented are either a bar chart or a line one. Sinc
 <i> Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
 
 ## 10. RDF assertion of the metadata
-N.B. Additional information and reconstructed metadata about source datasets can be found in the technical and legal analysis here in the documentation. 
+_This section is strictly related to the Technical and Ethical Analysis. For more, consult point 4 and 5 of this documentation_
+
 
 This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector information by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines, which pertain to the opening of data and the reuse of public sector information, are mandated by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, implementing the European Directive EU 2019/1024 (commonly referred to as the Open Data Directive).
 
@@ -484,8 +486,6 @@ In alignment with the specifications outlined in the DCAT-AP_IT standard, as rec
 The analysis, description, and utilization of source datasets aim to facilitate exploitation not only through RDF/XML serialization but also by adhering to AGID's recommended metadata quality assessment across four main levels.
 
 It is worth noting that our data preparation process, as considered in this project, excludes the 'conservation and historicization' step. As articulated in ["The conservation system is logically distinct from the document management system"](https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst), we affirm that our approach does not include this step, as the project's data is not intended for future return, ensuring its non-reusability.
-
-
 
 ## 11. OUR WORK PRAXIS
 ### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
