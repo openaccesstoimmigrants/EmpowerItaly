@@ -474,8 +474,8 @@ For this reason, the charts presented are either a bar chart or a line one. Sinc
 <i> Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
 
 ## 10. RDF assertion of the metadata
+_This section is strictly related to the Technical and Ethical Analysis. For more, consult point 4 and 5 of this documentation_
 
-N.B. Additional information and reconstructed metadata about source datasets can be found in the technical and legal analysis here in the documentation. 
 
 This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector information by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines, which pertain to the opening of data and the reuse of public sector information, are mandated by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, implementing the European Directive EU 2019/1024 (commonly referred to as the Open Data Directive).
 
