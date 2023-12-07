@@ -252,7 +252,7 @@ See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esm
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | CSV |
 | Metadata | Not provided |
-| URI | [LINK](http://stra-dati.istat.it//Index.aspx?QueryId=64215) |
+| URI | [LINK](http://dati.istat.it//Index.aspx?QueryId=64369) |
 |  |  |
 
 This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.
@@ -266,7 +266,7 @@ See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://w
 | Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | SDMX |
-| Metadata | Not provided |
+| Metadata | Provided in SDMX |
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
 |  |  |
 
@@ -325,12 +325,12 @@ This section considers the requirements, established according to the "Linee gui
 |  | Accuracy | Coherence | Completeness | Curentness |
 | --- | --- | --- | --- | --- |
 | D1 | YES | YES | YES | YES |
-| D2 | NO | YES | YES | YES |
+| D2 | YES | YES | YES | YES |
 | D3 | YES | YES | YES | YES |
-| D4 | YES | YES | NO - See point 1 and 2 | NO - See point 2 |
-| D5 | NO | YES | NO | YES |
+| D4 | YES | YES | YES | YES |
+| D5 | NO - See point 2 | YES | NO - See point 2 | YES |
 | D6 | NO - See point 3 | YES | YES | YES |
-| D7 | NO | YES | YES | YES |
+| D7 | NO - See point 1 and 2 | YES | NO - See point 1 | YES |
 | MD1 | YES | YES | YES | YES |
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
@@ -338,16 +338,6 @@ This section considers the requirements, established according to the "Linee gui
 2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
 
 3. The dataset presented in the institutional portal presented rounded numbers and had as unit of measurement thousands, which looks quite missleading since it's not accurate to round up a number of individuals.
-
-**NB: The following datasets taken into consideration are already part of a process of aggregration by ISTAT- meaning, they may represent rates, and they take into consideration the triple regional division of Nord, Sud and Centro.** <br>
-#### NUTS 1 Nomenclature
-
-
-The regional division belonging to NUTS level 1 do not correspond to administrative or purely geographical entities, but it is a subdivision only statistical and macroeconomic, despite being on the same NUTS level as the states of Germany or Wales, Scotland, Northern Ireland and regions of England in the United Kingdom.
-
-
-Sometimes you may find another type of division, i.e. Mezzogiorno englobing the islands, since is what seems to be the ISTAT standard.
-
 
 ## 5. Legal analysis (privacy, license, purpose, etc.)
 
@@ -376,31 +366,29 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? | Y | Y | Y | Y | Y | Y | Y |
 |  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? | Y | Y | Y | Y | Y | Y | Y |
 |  | 3.3 Do you release the API (in case you have) with an open source license no | Y | Y | Y | Y | Y | Y |   |
-| 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |   |   |   |
-|  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |  |  |  |  |   |   |   |
-|  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? |  |  |  |  |   |   |   |
-|  | 4.4 Do you check if there are some limitations concerning the public interest ? |  |  |  |  |   |   |   |
-|  | 4.5 Do you check the international law limitations ? |  |  |  |  |   |   |   |
-|  | 4.6 Do you check the INSPIRE law limitations for the spatial data? |  |  |  |  |   |   |   |
-| 5. Economical Conditions | 5.1 Do you check that the dataset could be released for free ? |  |  |  |  |   |   |   |
-|  | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |  |  |  |  |   |   |   |
-|  | 5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |  |  |  |  |   |   |   |
-|  | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? |  |  |  |  |   |   |   |
-|  | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? |  |  |  |  |   |   |   |
-| 6. Temporary aspects | 6.1 Do you have a temporary policy for updating the dataset ? |  |  |  |  |   |   |   |
-|  | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ? |  |  |  |  |   |   |   |
-|  | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ? |  |  |  |  |   |   |   |
-|  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? |  |  |  |  |   |   |   |
+| 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? | Y | Y | Y | Y | Y | Y | Y |
+|  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 4.4 Do you check if there are some limitations concerning the public interest ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 4.5 Do you check the international law limitations ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 4.6 Do you check the INSPIRE law limitations for the spatial data? | Y | Y | Y | Y | Y | Y | Y |
+| 5. Economical Conditions | 5.1 Do you check that the dataset could be released for free ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”? | Y | Y | Y | Y | Y | Y | Y |
+|  | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation? | Y | Y | Y | Y | Y | Y | Y |
+| 6. Temporary aspects | 6.1 Do you have a temporary policy for updating the dataset ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)? | N | N | N | N | N | N | N |
 
 ### 5.2 Licenses
 
-<b>Immigrants.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.O.
+<b>I.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen [here](https://www.istat.it/en/legal-notice). For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.O.
 
 The datasets presented by the institution don't have a regular date to be published, as they are made public when surveys are concluded. [See here](https://www.istat.it/en/analysis-and-products/datasets). Besides the fact there isn't a specific date in which data is published, for most of the datasets it was possible to find data regarding the first semesters of the current year, 2023.
 
-<b>I.stat</b>: The same information presented for Immigrants.stat can be considered for this very same item.
-
-<b>IstatData</b>: The same information presented for Immigrants.stat can be considered for this very same item.
+<b>IstatData</b>: The same information presented for I.stat can be considered for this very same item.
 
 <b>EUROSTAT</b>: Data in the database are updated twice a day at 11:00 and 23:00, Central European Time (CET). Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes. All statistical data, metadata, content of web pages or other dissemination tools, official publications and other documents published on its website, with the exceptions listed below, can be reused without any payment or written licence provided that:
 
@@ -409,13 +397,11 @@ The datasets presented by the institution don't have a regular date to be publis
 
 ## 6. Ethics analysis
 
-<b>Immigrants.stat:</b> The ISTAT organization is compliant with statistical secrecy forms part of the broader principle of personal data protection as provided for by the Ethical code of conduct concerning the protection of personal data (d.lgs. n. 196/03) (Legislative Decree no. 196/03) and specifically Annex A3, "Ethical code for the processing of personal data for statistical purposes within Sistan".
+<b>I.stat:</b> The ISTAT organization is compliant with statistical secrecy forms part of the broader principle of personal data protection as provided for by the Ethical code of conduct concerning the protection of personal data (d.lgs. n. 196/03) (Legislative Decree no. 196/03) and specifically Annex A3, "Ethical code for the processing of personal data for statistical purposes within Sistan".
 
 Respondents are not obliged to provide information when it comes to sensitive data or data relating to criminal records. If data contain anything that could be used to recognize individuals, the same is used in agregated form so it's impossible to identify that person.
 
 The data controller with regard to processing of personal data is Istat; the data managers are the Institute's central directors who may be contacted by data subjects to exercise their rights; the data processors are all staff who carry out data entry and processing tasks.
-
-<b>I.stat:</b> The same applied to Immigrants.stat can be considered here since the sources are under the same institution management.
 
 <b>IstatData:</b> The same applied to Immigrants.stat can be considered here since the sources are under the same institution management.
 
@@ -424,6 +410,7 @@ The data controller with regard to processing of personal data is Istat; the dat
 The institutional is also very clear about the fact of not making microd-data available to the public, but it can be shared under request. 
 
 ## 7. Technical analysis (formats, metadata, URI, provenance)
+
 This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
 
 
@@ -435,48 +422,46 @@ Additionally, all datasets and metadata enrichment are available via download ic
 The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID.
 
 It has been established that ["The conservation system is logically distinct from the document management system" ] (https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst); for this reason, we have to say that the project data preparation process that we took into consideration does not include the "conservation and historicization" step, as we will not return to it in the future, eventually making data non-reusable. [...]
-
-### *Immigrants.Stat*
-  - Format: Excel, CSV, SDMX
-  - Metadata: Not provided
-  - URI: 
-    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
-    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
-  - Provenance:
-    - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
-    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
-
+  
 ### *I.Stat*
   - Format: Excel, CSV, SDMX
-  - Metadata:
+  - Metadata: 
   - URI:
     - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
+    - [Activity rate of foreign citizens](http://dati.istat.it//Index.aspx?QueryId=64369)
   - Provenance:
     - [Unemployment rate between italians and foreigners](http://dati.istat.it//Index.aspx?QueryId=64217)
+    - [Activity rate of foreign citizens](http://dati.istat.it//Index.aspx?QueryId=64369)
 
 ### *IstatData*
   - Format: Excel, CSV, SDMX, JSON
-  - Metadata:
+  - Metadata: Provided in SDMX
   - URI:
     - [Resident foreign population by region 2019-2023](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
     - [Resident foreign population by region 2001-2019](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
     - [Total immigrants to Italy divided by continents](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
     - [Italian resident municipal population](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
+    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
   - Provenance:
     - [Resident foreign population by region 2019-2023](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0)
     - [Resident foreign population by region 2001-2019](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0)
     - [Total immigrants to Italy divided by continents](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0)
     - [Italian resident municipal population](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0)
+    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
 
 ### *EUROSTAT*
   - Format: Excel, CSV, SDMX, JSON
-  - Metadata:
+  - Metadata: [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm)
   - URI:
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
   - Provenance:
     - [Level of education of foreign citizens](https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en)
 
 ## 8. Sustainability of updating the datasets over time
+
+The Empower Italy datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
+
+If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our [GitHub](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants) project. Submitted files will undergo review, and if found accurate, they will be added to the project.
 
 ## 9. Visualization
 
