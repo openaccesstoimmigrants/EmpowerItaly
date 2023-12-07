@@ -258,7 +258,7 @@ See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esm
 This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.
 See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.istat.it/it/files/2016/01/Glossario1.pdf)
 
-### D6 - Presence of foreigners divided by industry sector
+### D6 - Presence of foreigners and Italians divided by industry sector
 |  |  |
 | --- | --- |
 | Source | [ISTAT](https://www.istat.it/en/) |
@@ -287,7 +287,7 @@ See more in [LINK](https://www4.istat.it/it/strumenti/definizioni-e-classificazi
 
 This dataset was retrieved in order to understand the unemployment rates between foreigners and italians.
 
-### D8 - MD1 (Activity rate and Unemployment rate)
+### MD1 - (Activity rate and Unemployment rate)
 |  |  |
 | --- | --- |
 | Source | [Empower Italy](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_datasets/Clean/MASHUP/mashup.json) |
@@ -331,6 +331,7 @@ This section considers the requirements, established according to the "Linee gui
 | D5 | NO | YES | NO | YES |
 | D6 | NO - See point 3 | YES | YES | YES |
 | D7 | NO | YES | YES | YES |
+| MD1 | YES | YES | YES | YES |
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
 
@@ -373,8 +374,8 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 |  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | Y | Y | Y | Y | Y | Y | Y |
 |  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? | Y | Y | Y | Y | Y | Y | Y |
 | 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? | Y | Y | Y | Y | Y | Y | Y |
-|  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |   |   |   |
-|  | 3.3 Do you release the API (in case you have) with an open source license no |  |  |  |  |   |   |   |
+|  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? | Y | Y | Y | Y | Y | Y | Y |
+|  | 3.3 Do you release the API (in case you have) with an open source license no | Y | Y | Y | Y | Y | Y |   |
 | 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |   |   |   |
 |  | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |  |  |  |  |   |   |   |
 |  | 4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ? |  |  |  |  |   |   |   |
