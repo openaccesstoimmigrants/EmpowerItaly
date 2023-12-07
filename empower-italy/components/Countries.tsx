@@ -74,7 +74,18 @@ export default function Countries() {
                     hover:drop-shadow-md
                     transition-all
         ">
-            <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase pb-8">Top 10 citizenships</h1>
+        <div>
+        <h1 className="font-bold text-2xl md:text-4xl text-indigo-900 uppercase">Top 10 citizenships</h1>
+        <h2  className="
+                    font-bold
+                    text-2xl
+                    md:text-3xl
+                    text-indigo-900
+                    pb-8
+        ">
+            in 2022
+        </h2>
+        </div>
             {/* conditional rendering */}
             {loading ? (
                 <p className="font-bold text-5xl md:text-7xl text-indigo-600">Loading...</p>
@@ -84,7 +95,7 @@ export default function Countries() {
                 <ul className="text-indigo-600">
                 {topCitizenships.map((item, index) => (
                     <li key={index}  className="flex items-baseline pb-2">
-                        <p className="font-bold text-2xl md:text-4xl w-2/3">{item.citizenship}</p>
+                        <p className="font-bold text-2xl md:text-3xl w-2/3">{item.citizenship}</p>
                         <p className="w-1/3 text-right">{item.population.toLocaleString()}</p>
                     </li>
                 ))}

@@ -204,12 +204,12 @@ export default function MashUp() {
                                         text-indigo-900
                                         pb-8
                             ">
-                                MashUp
+                                Mash Up
                             </h1>
                             <p className="
                                         text-lg
                             ">
-                                Lorem lorem
+                                Observing the mashup visualization is interesting to notice that immigrants with a low level of education (less than primary, primary and lower secondary school) always show a high activity rate compared to Italians. And only in the South and Islands showing a smaller unemployment rate compared to natives.
                             </p>
                         </div>
                         <div id="chart-container" className="
@@ -246,9 +246,9 @@ export default function MashUp() {
                                         <div className="relative inline-flex">
                                             <svg className="w-3 h-3 absolute top-[40%] right-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="rgb(249 250 251)" fill-rule="nonzero"/></svg>
                                             <select id="levelSelect" className="text-gray-50 bg-indigo-300 hover:bg-indigo-500 focus:ring-2 focus:outline-none focus:ring-indigo-200 font-medium rounded-lg pl-4 pr-7 py-2 m-2 text-center inline-flex items-center appearance-none" onChange={handleLevelChange} value={selectedLevel}>
-                                                <option value="High">High</option>
-                                                <option value="Medium">Medium</option>
-                                                <option value="Low">Low</option>
+                                                <option value="High">Tertiary</option>
+                                                <option value="Medium">Secondary</option>
+                                                <option value="Low">Primary</option>
                                             </select>
                                         </div>
                                     </div>
@@ -259,8 +259,8 @@ export default function MashUp() {
                             </>
                         )}
                         </div>
-                        <Link href="/" className="place-self-end type-button">
-                            Source DX
+                        <Link href="/datasets" className="place-self-end type-button">
+                            Source MASHUP
                         </Link>
                     </div>
                 </div>
