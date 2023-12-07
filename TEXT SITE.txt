@@ -1,0 +1,85 @@
+HOMEPAGE
+
+MashUp Chart
+
+In the chart above the activity and unemployment rate were put together in order to understand the disparities among natives and foreigners in the 4 sub-divisions used by ISTAT and among 3 levels of education in the time span of five years.
+
+DOCUMENTATION PAGE
+
+TITLE SUGGESTION: The aims of EmpowerItaly
+
+Find in this page all the description of the work performed in this project.
+
+DATASETS PAGE
+
+TITLE SUGGESTION: How open is the data used?
+
+Find below all the information needed in order to understand the nuances of what makes data open and if it follows FAIR principles.
+
+WORKFLOW PAGE
+
+TITLE SUGGESTION: EmpowerItaly methodologies
+
+Find here information of the realization of the steps made in this project
+
+FORMULATING HYPOTHESIS 
+
+Since the beginning it was our goal to make a study regarding the presence of immigrants in Italy, but since it can be sometimes such a delicate matter, it was hard to define a feasible research question.
+
+Previously our interest went towards aspects of the labour market and education, specifically we wanted to know if the position occupied by foreigners in the labour market was equivalent to their level of education. But it was quite hard to find the proper data in which we could match those aspects in regions inside Italy.
+
+So, the decision made was to formulate a proper hypothesis in the exploratory phase of the data found.
+
+SEARCHING DATA
+
+The data providers of the project, ISTAT and EUROSTAT, have rich data warehouses providing then a reliable source of information for students and many other companies. Specially, ISTAT in its older data explorer dedicated a exclusive page with respect to immigrants in Italy, which was also of great help for us. 
+
+The amount of data found was impressive and while developing the project there were many changes we could notice coming from those institutions. The main changes seen by us was on their main pages providing data. ISTAT has been doing the transition from it's [old data explorer](http://dati.istat.it/) to the [new one](https://esploradati.istat.it/databrowser/#/). OECD which was considered in other phases are disabling their data explorer by the end of this year to direct users to its new version with clearer visualization of metadata. 
+
+Hence, the lack of datasets was not a problem  while evolving in the project.
+
+CLEANING AND MASHUP
+
+In the cleaning phase the same procedure was followed for most of the datasets. Understanding what was the dataset displaying and what kind of values could be used to be put together. Also making what was retrieved was compliant to what we saw on the data explorers.
+
+VISUALIZATION
+
+Indeed one of the most important steps in the project since data need to speak for itself. Our visualization process followed the principles of keeping it as simple as possible but also giving the user a choice of selecting what he/she wants to see being displayed.
+
+OPEN DATA PRACTICES
+
+This project follows the FAIR principles of data and everything done is available for use. We encourage users to reach out if something not compliant with those principles has been found.
+
+AFTERLIFE
+
+The Empower Italy datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
+
+If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our GitHub project. Submitted files will undergo review, and if found accurate, they will be added to the project.
+
+AI SUGGESTIONS:
+
+WORKFLOW PAGE
+
+**TITLE: EmpowerItaly Methodologies**
+
+Explore the Project's Progress
+
+**FORMULATING HYPOTHESIS**
+
+From the project's inception, our aim was to conduct a comprehensive study on the presence of immigrants in Italy. Given the sensitivity of the topic, framing a viable research question posed a challenge. Initially, our focus centered on aspects of the labor market and education, specifically examining whether the professional positions held by foreigners corresponded with their educational qualifications. However, the scarcity of relevant data at the regional level in Italy prompted us to transition into the exploratory phase, where we formulated a well-defined hypothesis.
+
+**SEARCHING DATA**
+
+The project leveraged data from reputable sources, namely ISTAT and EUROSTAT, both housing extensive data repositories beneficial for students and various organizations. Notably, ISTAT's dedicated page on immigrant statistics in Italy, accessible through its older data explorer, proved invaluable. Despite encountering dynamic changes in the data presentation methods of these institutions during the project's development, such as ISTAT's transition from its [old data explorer](http://dati.istat.it/) to the [new one](https://esploradati.istat.it/databrowser/#/), the abundance of data remained consistent, ensuring a robust foundation for our analysis. Additionally, organizations like OECD, previously considered in earlier project phases, underwent transitions in their data explorer interfaces.
+
+**CLEANING AND MASHUP**
+
+During the cleaning phase, a standardized procedure was applied to most datasets. This involved understanding the content of each dataset, identifying relevant values, and ensuring alignment with the information available on the respective data explorer platforms.
+
+**VISUALIZATION**
+
+An integral aspect of the project, the visualization process adhered to the principles of simplicity and user choice. Our goal was to allow the data to speak for itself, presenting it in a straightforward manner while providing users the flexibility to select the information they wished to view.
+
+**OPEN DATA PRACTICES**
+
+This project adheres to the FAIR principles of data—ensuring data is Findable, Accessible, Interoperable, and Reusable. All project materials are made openly available, and we welcome user feedback to address any deviations from these principles.
