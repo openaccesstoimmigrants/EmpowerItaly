@@ -12,7 +12,7 @@
 1. [Introduction](#1-introduction)
 2. [Scenario](#2-scenario)\
    2.1[The Open Data Scenario](#21-the-open-data-scenario)\
-   2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)\
+   2.2[The aims of EmpowerItaly](#22-the-aims-of-empoweritaly)
 3. [Original datasets and mashup datasets](#3-original-datasets-and-mashup-datasets)\
    [Datasets](#datasets)
 4. [Quality Analysis of the datasets](#4-quality-analysis-of-the-datasets)\
@@ -304,19 +304,19 @@ The division among Italian regions presented by ISTAT is to be intented as follo
  - Center: includes the regions of Lazio, Marche, Tuscany and Umbria.
  - South: includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
 
-<b>EUROSTAT:</b> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the [quality declaration of the European Statistical System (ESS) ](http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428). 
+<b>EUROSTAT:</b> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the [quality declaration of the European Statistical System (ESS)](http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428). 
 
-The same guaranteed the following pilars as data quality:
+The same guarantees the following pilars as data quality:
 
- - Independence: statistics produced in an independent, impartial and professional manner
- - Relevance: statistics produced based on user need
- - Reliability: statistics accuratly and reliably portray reality
- - Comparability: statistics are coherent and comparable between countries over time
- - Accessibility: statistics are easily accessible and clearly explained
+ - *Independence:* statistics produced in an independent, impartial and professional manner
+ - *Relevance:* statistics produced based on user need
+ - *Reliability:* statistics accuratly and reliably portray reality
+ - *Comparability:* statistics are coherent and comparable between countries over time
+ - *Accessibility:* statistics are easily accessible and clearly explained
 
 ### 4.1 Information quality
 
-This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by (AGID)[https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati]. The four characteristics to control the level of information quality are:
+This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by [AGID](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
 - **Accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
 - **Coherence** - the data, and its attributes are not contradictory to other data regarding the context of the use of the owner administration;
