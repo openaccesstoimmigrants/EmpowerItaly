@@ -119,7 +119,7 @@ export default function BarChart() {
                     display: true,
                     text: 'Rate of Education Level',
                 },
-                suggestedMin: 0,
+                suggestedMin: 60,
             },
         },
     };

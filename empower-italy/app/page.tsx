@@ -7,7 +7,7 @@ import BarChart from "@/components/BarChart";
 import NumbersAge from "@/components/NumbersAge";
 import Conclusions from "@/components/Conclusions";
 import MashUp from "@/components/MashUp";
-import HorizontalBarChart from "@/components/HorizontalBarChart";
+import OccupationBarChart from "@/components/OccupationBarChart";
 import Map from "@/components/Map";
 import Countries from "@/components/Countries";
 
@@ -33,7 +33,7 @@ export default function Home() {
         </section>
       <BarChart />
       <NumbersAge />
-      <HorizontalBarChart />
+      <OccupationBarChart />
       <Conclusions />
       <MashUp />
     </main>
