@@ -418,10 +418,9 @@ Adhering to the specifications outlined in the DCAT-AP_IT standard as recommende
 Following the Open Data indications by AGID, our statistical data are presented and made available in both csv and json format, as they were used in the data scraping and visualization testing phase.
 Additionally, all datasets and metadata enrichment are available via download icons in the website.
 
-
 The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID.
 
-It has been established that ["The conservation system is logically distinct from the document management system" ] (https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst); for this reason, we have to say that the project data preparation process that we took into consideration does not include the "conservation and historicization" step, as we will not return to it in the future, eventually making data non-reusable. [...]
+It has been established that ["The conservation system is logically distinct from the document management system" ] (https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst); for this reason, we have to say that the project data preparation process that we took into consideration does not include the "conservation and historicization" step, as we will not return to it in the future, eventually making data non-reusable.
   
 ### *I.Stat*
   - Format: Excel, CSV, SDMX
@@ -474,6 +473,19 @@ For this reason, the charts presented are either a bar chart or a line one. Sinc
 <i> Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
 
 ## 10. RDF assertion of the metadata
+N.B. Additional information and reconstructed metadata about source datasets can be found in the technical and legal analysis here in the documentation. 
+
+This section has been written following the [Guidelines containing technical rules for data opening and reuse of public sector information by Agid](https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf). These guidelines, which pertain to the opening of data and the reuse of public sector information, are mandated by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, implementing the European Directive EU 2019/1024 (commonly referred to as the Open Data Directive).
+
+Adhering to the FAIR principles published by the GO FAIR Initiative during the development of the project, we strived to ensure the Findability, Accessibility, Interoperability, and Reusability of digital assets, emphasizing machine-actionability. In this regard, the overview of FAIR Principles provided by GO Fair has been employed as a checklist, aligned with AGID's guidelines, to thoroughly examine our project.
+
+In alignment with the specifications outlined in the DCAT-AP_IT standard, as recommended by AGID's guidelines for the valorization of public information heritage, and to facilitate data harvesting, each dataset used and all generated mashup datasets have undergone meticulous documentation in RDF/XML, enriching the metadata format. This approach is in accordance with the Open Data indications by AGID, wherein statistical data are presented and made available in both CSV and JSON formats, as employed in the data scraping and visualization testing phase. Furthermore, all datasets and metadata enrichments are easily accessible through download icons on the website.
+
+The analysis, description, and utilization of source datasets aim to facilitate exploitation not only through RDF/XML serialization but also by adhering to AGID's recommended metadata quality assessment across four main levels.
+
+It is worth noting that our data preparation process, as considered in this project, excludes the 'conservation and historicization' step. As articulated in ["The conservation system is logically distinct from the document management system"](https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst), we affirm that our approach does not include this step, as the project's data is not intended for future return, ensuring its non-reusability.
+
+
 
 ## 11. OUR WORK PRAXIS
 ### We agree on the Tech Stewardship Practice, since "Starting in 2015, a coalition of diverse engineers, technologists and creators began meeting around the question: **how can we ensure technology is beneficial for all?**" <br>
