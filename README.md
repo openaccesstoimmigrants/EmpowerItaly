@@ -31,9 +31,11 @@
 
 ## 1. Introduction
 
-Our project aims to provide an analysis of the phenomenon of immigration in Italy, but more specifically how either foreigners and Italians are impacted by the changes in the labour market. This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
+The project addresses the potential difference in unemployment rates betwwen immigrants and native italians. It allows to investigate the labour market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
 
-Acknowledging the complexity of immigration, our focus is on evaluating the active engagement of foreign individuals within Italy's labor market. Our aim is to ascertain whether immigrants experience a disproportionate impact from unemployment rates and the extent of this disparity. Our investigation seeks to pinpoint the regions in Italy with higher concentrations of immigrants and the key industries where they are predominantly employed. We have compared the labor force participation and unemployment rates between foreigners and Italians to observe and analyze any disparities that exist.
+This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like "[Siamo invasi dai migranti, la più grande tra le fake news](https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/)." Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article "[Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’](https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html)."
+
+Acknowledging the complexity of immigration, our focus is on evaluating the active engagement of foreign individuals within Italy's labour market. Our aim is to ascertain whether immigrants experience a disproportionate impact from unemployment rates and the extent of this disparity. Our investigation seeks to pinpoint the regions in Italy with higher concentrations of immigrants and the key industries where they are predominantly employed. We have compared the labor force participation and unemployment rates between foreigners and Italians to observe and analyze any disparities that exist.
 
 ## 2. Scenario
 
@@ -43,11 +45,9 @@ In order to obtain an exhaustive picture of the phenomenon, we will align:
 
 1. Immigrants' nationality and distribution
 2. Immigrants educational level
-3. Industry sector in which immigrants are present
+3. Industry sector in which immigrants and italians are present
 4. Activity rate between immigrants and Italians
 5. Unemployment rate between immigrants and Italians
-6. GDP rate in Italy
-7. Annual average households income
 
 
 ### 2.1. The Open Data scenario
@@ -252,7 +252,7 @@ See item 3.2 in [LINK](https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esm
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Format | CSV |
 | Metadata | Not provided |
-| URI | [LINK]() |
+| URI | [LINK](http://stra-dati.istat.it//Index.aspx?QueryId=64215) |
 |  |  |
 
 This dataset was used in order to understand the activity rates betweens italians and foreigners. As active citizens is understood to be the ones either looking for a occupation or already inserted in the labour market.
@@ -287,41 +287,22 @@ See more in [LINK](https://www4.istat.it/it/strumenti/definizioni-e-classificazi
 
 This dataset was retrieved in order to understand the unemployment rates between foreigners and italians.
 
-### D8 - Annual average households income
+### D8 - MD1 (Activity rate and Unemployment rate)
 |  |  |
 | --- | --- |
-| Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
-| Title | **Net income - Reddito netto** |
-| Viewed in date | 06/10/23 | 
-| License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
-| Format | **SDMX-ML** |
-| Metadata | Provided in SDMX |
-| URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,HOU,1.0/HOU_INCOME/DCCV_REDNETFAMFONTERED/IT1,32_292_DF_DCCV_REDNETFAMFONTERED_9,1.0) |
-|  |  |
-
-### D9 - GDP (Growth rate)
-|  |  |
-| --- | --- |
-| Source | [OECD](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
-| Title | **Gross Domestic Product (GDP)** |
-| Viewed in date | 29/11/2023 |
-| License |  |
-| Format | CSV, XML, SDMX, Excel, PC-Axis |
-| URI | [LINK](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
-|  |  |
-
-### D10 - MD1 (Activity rate and Unemployment rate)
-|  |  |
-| --- | --- |
-| Source | [Empwer Italy](https://stats.oecd.org/Index.aspx?DatasetCode=SNA_TABLE1) |
+| Source | [Empower Italy](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_datasets/Clean/MASHUP/mashup.json) |
 | Title | **Activity rate and Unemployment rate by level of education** |
 | Viewed in date | 29/11/2023 |
 | License | CC BY 4.0 |
-| Format | CSV |
+| Format | JSON |
 | URI | [LINK](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP/mashup.json) |
 |  |  |
 
 ## 4. Quality analysis of the datasets
+
+In any case the dataset can’t be used for re-identifying the person
+
+When retrieving info regarding gender in subregions ISTAT does not provide thta, only total numbers
 
 The division among Italian regions is to be intented as follows, according to ISTAT:
 the North, the Center and the South. <br>
@@ -345,11 +326,11 @@ This section considers the requirements, established according to the "Linee gui
 | --- | --- | --- | --- | --- |
 | D1 | YES | YES | YES | YES |
 | D2 | NO | YES | YES | YES |
-| D3 |  | YES |  | YES |
-| D4 |  | YES | NO - See point 1 and 2 | NO - See point 2 |
-| D5 |  | YES | NO | YES |
+| D3 | YES | YES | YES | YES |
+| D4 | YES | YES | NO - See point 1 and 2 | NO - See point 2 |
+| D5 | NO | YES | NO | YES |
 | D6 | NO - See point 3 | YES | YES | YES |
-| D7 |  | YES |  | YES |
+| D7 | NO | YES | YES | YES |
 
 1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
 
@@ -390,8 +371,8 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | 2. Intellectual Property Rights of the dataset | 2.1 Do you have created and generated the dataset ? | N | N | N | N | N | N | N |
 |  | 2.2 Are you the owner of the dataset? Who is the owner? | N | N | N | N | N | N | N |
 |  | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | Y | Y | Y | Y | Y | Y | Y |
-|  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? |  |  |  |  |   |   |   |
-| 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? |  |  |  |  |   |   |   |
+|  | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? | Y | Y | Y | Y | Y | Y | Y |
+| 3. License | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)? | Y | Y | Y | Y | Y | Y | Y |
 |  | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ? |  |  |  |  |   |   |   |
 |  | 3.3 Do you release the API (in case you have) with an open source license no |  |  |  |  |   |   |   |
 | 4. Limitations on public access | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |  |  |  |  |   |   |   |
@@ -459,10 +440,10 @@ It has been established that ["The conservation system is logically distinct fro
   - Metadata: Not provided
   - URI: 
     - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
-    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
+    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
   - Provenance:
     - [Activity rate of foreign citizens](http://stra-dati.istat.it//Index.aspx?QueryId=64215)
-    - [Presence of foreigners divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
+    - [Presence of foreigners and italians divided by industry sector](http://stra-dati.istat.it//Index.aspx?QueryId=64216)
 
 ### *I.Stat*
   - Format: Excel, CSV, SDMX
@@ -502,9 +483,9 @@ Throughout the visualizations presented in the project is possible to perceive t
 
 For this reason, the charts presented are either a bar chart or a line one. Since those are the ones facilitaing one's understanding regarding data over time. 
 
-<i>Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
+<i>Occupation by sector between Italians and immigrants:</i> The bar chart was chosen to display the different sectors in which Italians and foreigners are present, allowing the user to compare the numbers one sector at a time by choosing the options made available. 
 
-And by observing it, it's possible to notice an interesting matter specially among the years 2020-2022. For most part of groups divided by education, there's an increse on the unemployment rate between 2020 and 2021 and afterwards a decrease. But in 2020 the unemployment was already pretty much lower than previous years. Hence, there's a decrease in unemployment in the country as also pointed by OECD in [this article](https://issuu.com/oecd.publishing/docs/italy-oecd-economic-outlook-november-2023).
+<i> Mashup:</i> In the mashup line chart our goal was to make a more narrowed down visualition, making also possible for the user investigate for himself/herself the scenario regarding activity and unemployment rates between immigrants and italians based on their educational levels, so they could come up with conclusions just observing this data and choose among the available variables.
 
 ## 10. RDF assertion of the metadata
 
@@ -526,7 +507,13 @@ And by observing it, it's possible to notice an interesting matter specially amo
 
 ## 12. CONCLUSIONS
 
-What makes us think that, if there's any factor impacting negatively the labour market, that would not be the number of immigrants arriving in Italy, because they're the most impacted by unemployment rates even though being very active and showing a small increase in the percentage of higher educated immigrants.
+This project aimed at understanding significant differences between immigrants and Italians in the labour market, assessing the foreign distribution in the country, their level of education and making a comparison between these two groups in the industry sectors and in terms of activity and unemployment. In an overall it's clear the existence of a significant disparity. 
+
+Since the immigrant population is substantially smaller compared to the Italian one, they will consequently represent a smaller proportion in the labour market, but still they are always present in all the shown sectors and with further studies it could be understood if they complement the labour market when there's a lack of professionals in Italy or not.
+
+Observing the mashup visualization is interesting to notice that immigrants with a low level of education (less than primary, primary and lower secondary school) always show a high activity rate compared to Italians. And only in the South and Islands showing a smaller unemployment rate compared to natives.
+
+In all other cases, foreigners indeed face a higher unemployment rate even though being sometimes equally or more active than natives. We understand that there is a difference between those groups that can be explained by other factors not considered here, since the aspects of the labour market are too many to be covered in this project.
 
 ## LICENSE
 
