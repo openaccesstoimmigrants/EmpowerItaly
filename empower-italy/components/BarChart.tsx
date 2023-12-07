@@ -145,7 +145,7 @@ export default function BarChart() {
                                     p-8
                                     md:p-12
                                     row-span-4
-                                    grid
+                                    relative
                                     hover:drop-shadow-md
                                     transition-all
                         ">
@@ -181,7 +181,7 @@ export default function BarChart() {
                                                             h-[32rem]
                                                             bg-gray-50
                                                             rounded-xl
-                                                            px-2 py-6
+                                                            px-2 py-6 mb-12
                                                             
                             ">
                                 {jsonData.length > 0 ? (
@@ -190,9 +190,9 @@ export default function BarChart() {
                                     <p>Loading...</p>
                                 )}
                             </div>
-                    <Link href="/" className="place-self-end type-button">
-                        Source: D4
-                    </Link>
+                        <Link href="/" className="absolute bottom-10 right-12 type-button">
+                            Source: D4
+                        </Link>
                         </div>
                     </div>
             </article>

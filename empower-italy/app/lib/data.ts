@@ -36,7 +36,7 @@ export const HEADER_LINKS = [
 
 export const HERO_DATA = [
     {
-        title: "Exploring Immigrants and Italians disparities in the labour market",
+        title: "EmpowerItaly: Exploring Immigrants and Italians disparities in the labour market",
         paragraph: "The project addresses the potential difference in unemployment rates between immigrants and native Italians. It allows to investigate the labor market dynamics and assess whether there might be disparities in employment opportunities for immigrants.",
         imageSrc: hero,
         payoff: "An open data project",
@@ -126,47 +126,111 @@ export const DOCUMENTATION_LINKS = [
 
 export const DATASETS_OBJ = [
     {
-        id: "D1",
-        format: "SDMXML",
-        title: "Wonder Woman",
-        source: "Diana Prince",
-        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
-        license_link: "www.link.link",
-        metadata: "Provided in SDMXt",
-        link_dataset: "www.link.link",
-        description: "Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec."
+        id: "D1(a)",
+        format: "SDMX-ML",
+        title: "Resident foreigners on 1st January",
+        source: "IstatData",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Provided in SDMX",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0",
+        description: ""
+    },
+    {
+        id: "D1(b)",
+        format: "SDMX-ML",
+        title: "Estimated resident population - Years 2001-2019",
+        source: "IstatData",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Provided in SDMX",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0",
+        description: ""
     },
     {
         id: "D2",
-        format: "SDMXML",
-        title: "Wonder Woman",
-        source: "Diana Prince",
-        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
-        license_link: "www.link.link",
-        metadata: "Provided in SDMXt",
-        link_dataset: "www.link.link",
-        description: "Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec."
+        format: "SDMX-ML",
+        title: "Country of citizenship",
+        source: "IstatData",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Provided in SDMX",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRCIT1/IT1,29_317_DF_DCIS_POPSTRCIT1_1,1.0",
+        description: ""
     },
     {
         id: "D3",
-        format: "CSV",
-        title: "Wonder Woman",
-        source: "Diana Prince",
-        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
-        license_link: "www.link.link",
-        metadata: "Provided in SDMXt",
-        link_dataset: "www.link.link",
-        description: "Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec."
+        format: "SDMX-ML",
+        title: "Resident population on 1st January",
+        source: "IstatData",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Provided in SDMX",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0",
+        description: ""
     },
     {
         id: "D4",
-        format: "SDMXML",
-        title: "Wonder Woman",
-        source: "Diana Prince",
-        license: "Creative Commons License – Attribution – 3.0 (CC BY) Istat Legal Notice",
-        license_link: "www.link.link",
-        metadata: "Provided in SDMXt",
-        link_dataset: "www.link.link",
-        description: "Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec."
+        format: "CSV",
+        title: "Population by educational attainment level, sex, age, country of birth and NUTS 2 regions",
+        source: "EUROSTAT",
+        license: "CC BY 4.0",
+        license_link: "https://creativecommons.org/licenses/by/4.0/",
+        metadata: "Provided (see metadata)",
+        metadata_link: "https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm",
+        link_dataset: "https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en",
+        description: ""
+    },
+    {
+        id: "D5",
+        format: "CSV",
+        title: "Highest level of education attained, ctizenship",
+        source: "ISTAT",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Not provided",
+        metadata_link: "", 
+        link_dataset: "http://dati.istat.it//Index.aspx?QueryId=64369",
+        description: ""
+    },
+    {
+        id: "D6",
+        format: "SDMX-ML",
+        title: "Employment (thousands) - Nace 2007 - professional status, citizenship",
+        source: "IstatData",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0",
+        metadata: "Provided in SDMX",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0",
+        description: ""
+    },
+    {
+        id: "D7",
+        format: "CSV",
+        title: "Unemployment Rate - Highest level of education attained, citizenship",
+        source: "ISTAT",
+        license: "CC BY 3.0",
+        license_link: "https://creativecommons.org/licenses/by/3.0/",
+        metadata: "Not provided",
+        metadata_link: "",
+        link_dataset: "https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_UNEMPLOY/DCCV_TAXDISOCCU1/IT1,151_914_DF_DCCV_TAXDISOCCU1_3,1.0",
+        description: ""
+    },
+    {
+        id: "MD1",
+        format: "JSON",
+        title: "Activity rate and Unemployment rate by level of education",
+        source: "EmpowerItaly",
+        license: "CC BY 4.0",
+        license_link: "https://creativecommons.org/licenses/by/4.0/",
+        metadata: "",
+        metadata_link: "",
+        link_dataset: "https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP/mashup.json",
+        description: ""
     }
 ] as const;

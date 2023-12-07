@@ -52,7 +52,7 @@ This project follows the FAIR principles of data and everything done is availabl
 
 AFTERLIFE
 
-The Empower Italy datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
+The EmpowerItaly datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
 
 If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our GitHub project. Submitted files will undergo review, and if found accurate, they will be added to the project.
 

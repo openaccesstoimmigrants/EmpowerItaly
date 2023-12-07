@@ -47,7 +47,6 @@ export default function Documentation({ links }: DocumentationProps) {
                                 bg-indigo-100
                                 col-span-12
                                 lg:col-span-9
-                                min-h-[2000px]
                                 rounded-2xl
                                 p-8
                                 md:p-12
@@ -239,7 +238,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                            <strong>I.Stat:</strong> The institution doesn't publish data regularly but ensures that quality tools have been developed in order to improve the quality of statistical processes and products, consistently with Istat's mission and according to the framework of the European Statistical System. The methodologies used for data quality can be <Link className="font-bold underline" href=""></Link> [seen here](https://www4.istat.it/en/tools/data-quality) and the datasets can’t be used for re-identifying the person.
+                            <strong>I.Stat:</strong> The institution doesn't publish data regularly but ensures that quality tools have been developed in order to improve the quality of statistical processes and products, consistently with Istat's mission and according to the framework of the European Statistical System. The methodologies used for data quality can be <Link className="font-bold underline" href="https://www4.istat.it/en/tools/data-quality">seen here</Link> and the datasets can’t be used for re-identifying the person.
                             </p>
                             <p>                                  
                             The division among Italian regions presented by ISTAT is to be intented as follows:
@@ -250,7 +249,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             - South: includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
                             </p>
                             <p> 
-                            <strong>EUROSTAT:</strong> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the <Link className="font-bold underline" href=""></Link> [quality declaration of the European Statistical System (ESS)](http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428). 
+                            <strong>EUROSTAT:</strong> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the <Link className="font-bold underline" href="http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428">quality declaration of the European Statistical System (ESS)</Link>. 
                             </p>
                             <p> 
                             The same guarantees the following pilars as data quality:
@@ -278,9 +277,9 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                                This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by [AGID](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
+                                This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by <Link className="font-bold underline" href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati">AGID</Link>. The four characteristics to control the level of information quality are:
                             </p>
-                            <p>                                
+                            <p className="pb-2">                                
                             <ul className="ml-2 mt-2">
                                 <li>- <strong>Accuracy</strong> (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;</li>
                                 <li>- <strong>Coherence</strong> - the data, and its attributes are not contradictory to other data regarding the context of the use of the owner administration;</li>
@@ -288,7 +287,7 @@ export default function Documentation({ links }: DocumentationProps) {
                                 <li>- <strong>Currentness</strong> (or timeliness of updating) - the data, and its attributes is of the "right time" (it is updated) with respect to the procedure to which it refers.</li>
                             </ul>
                             </p>
-                            <p>
+
                             <table className="pb-2">
                             <tr>
                                 <th> </th>
@@ -354,12 +353,12 @@ export default function Documentation({ links }: DocumentationProps) {
                                 <td>YES</td>
                             </tr>
                             </table>
-                            </p>
-                            <p>
+
+                            <p className="pt-2">
                             1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
                             </p>
                             <p>                   
-                            2. The institution in general follows the current NUTS 2021 classification ([see here](https://ec.europa.eu/eurostat/web/nuts/background)) but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
+                            2. The institution in general follows the current NUTS 2021 classification <Link className="font-bold underline" href="https://ec.europa.eu/eurostat/web/nuts/background">(see here)</Link> but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
                             </p>
                             <p>
                             3. The dataset presented in the institutional portal presented rounded numbers and had as unit of measurement thousands, which looks quite missleading since it's not accurate to round up a number of individuals.
@@ -844,7 +843,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID.
                             </p>
                             <p>
-                            It has been established that [&quot;The conservation system is logically distinct from the document management system&quot; ] (<Link className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst</Link>); for this reason, we have to say that the project data preparation process that we took into consideration does not include the &quot;conservation and historicization&quot; step, as we will not return to it in the future, eventually making data non-reusable.
+                            It has been established that <Link className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">&quot;The conservation system is logically distinct from the document management system&quot;</Link>; for this reason, we have to say that the project data preparation process that we took into consideration does not include the &quot;conservation and historicization&quot; step, as we will not return to it in the future, eventually making data non-reusable.
                             </p>
 
                             <h3 className="                                        

@@ -8,7 +8,7 @@ import { HEADER_LINKS } from './lib/data'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Empower Italy',
+  title: 'EmpowerItaly',
   description: 'Open access project - UNIBO',
 }
 

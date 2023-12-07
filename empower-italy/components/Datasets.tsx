@@ -30,6 +30,7 @@ type DatasetProps = {
     license: string,
     license_link: string,
     metadata: string,
+    metadata_link: string,
     link_dataset: string,
     description: string
 };
@@ -42,24 +43,27 @@ function Dataset({
     license,
     license_link,
     metadata,
+    metadata_link,
     link_dataset,
     description
 }:DatasetProps) {
     return (
-        <div className="col-span-1 bg-indigo-100 rounded-2xl p-8 h-full relative hover:shadow-lg transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-105 ">
+        <div className="col-span-1 bg-indigo-100 rounded-2xl p-8 h-full relative hover:shadow-lg transition ease-in-out duration-500 hover:-translate-y-1 hover:scale-100">
             <span className="bg-indigo-600 text-gray-50 py-3 px-5 tracking-widest text-xs absolute right-4 top-4 rounded-full">{format}</span>
-            <h2 className="font-bold text-xl text-indigo-900 py-2">{id}</h2>
-            <h1 className="font-bold text-4xl text-indigo-900 pb-8">
+            <div className="pb-2">
+            <h2 className="font-bold text-xl text-indigo-900 pt-6 pb-2">{id}</h2>
+            <h1 className="font-bold text-3xl text-indigo-900 pb-8">
                 {title}
             </h1>
             <h3 className="font-bold text-indigo-900">SOURCE</h3>
             <p> {source} </p>
             <h3 className="font-bold text-indigo-900">LICENSE</h3>
-            <p> <Link href={license_link}>{license}</Link> </p>
+            <p> <Link href={license_link} target="_blank">{license}</Link> </p>
             <h3 className="font-bold text-indigo-900">METADATA</h3>
-            <p> {metadata} </p>
-            <Link href={link_dataset}>
-                <button className="flex items-center text-indigo-600 border-indigo-600 border-2 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded-full">
+            <p> <Link href={metadata_link} target="_blank"> {metadata}</Link> </p>
+            </div>
+            <Link href={link_dataset} target="_blank" className="absolute bottom-6 right-6">
+                <button className="flex items-center text-indigo-600 border-indigo-600 border-2 py-2 px-6 w-full focus:outline-none hover:bg-indigo-600 hover:text-gray-50 rounded-full">
                     Original URI 
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>

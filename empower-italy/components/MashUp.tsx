@@ -183,7 +183,7 @@ export default function MashUp() {
                     <div className="
                                 bg-indigo-100
                                 rounded-2xl
-                                grid
+                                relative
                                 p-8
                                 md:p-12
                                 row-span-4
@@ -209,7 +209,7 @@ export default function MashUp() {
                             <p className="
                                         text-lg
                             ">
-                                Observing the mashup visualization is interesting to notice that immigrants with a low level of education (less than primary, primary and lower secondary school) always show a high activity rate compared to Italians. And only in the South and Islands showing a smaller unemployment rate compared to natives.
+                                In the chart above the activity and unemployment rate were put together in order to understand the disparities among natives and foreigners in the 4 sub-divisions used by ISTAT and among 3 levels of education in the time span of five years.
                             </p>
                         </div>
                         <div id="chart-container" className="
@@ -218,7 +218,7 @@ export default function MashUp() {
                                                         w-full
                                                         bg-gray-50
                                                         rounded-xl
-                                                        px-2 py-6  
+                                                        px-2 py-6 mb-12  
                         ">
                         { loading ? (
                             <p>Loading...</p>
@@ -259,8 +259,8 @@ export default function MashUp() {
                             </>
                         )}
                         </div>
-                        <Link href="/datasets" className="place-self-end type-button">
-                            Source MASHUP
+                        <Link href="/datasets" className="absolute bottom-10 right-12 type-button">
+                            Source: MASHUP
                         </Link>
                     </div>
                 </div>

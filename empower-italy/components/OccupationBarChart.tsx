@@ -143,7 +143,7 @@ export default function OccupationBarChart() {
                             p-8
                             md:p-12
                             row-span-4
-                            grid
+                            relative
                             hover:drop-shadow-md
                             transition-all
                 ">
@@ -175,7 +175,7 @@ export default function OccupationBarChart() {
                                                     w-full
                                                     bg-gray-50
                                                     rounded-xl
-                                                    px-2 py-6  
+                                                    px-2 py-6 mb-12  
                     ">
                     { loading ? (
                         <p>Loading...</p>
@@ -207,6 +207,9 @@ export default function OccupationBarChart() {
                         </>
                     )}
                     </div>
+                    <Link href="/datasets" className="absolute bottom-10 right-12 type-button">
+                        Source: D6
+                    </Link>
                 </div>
             </div>
         </article>

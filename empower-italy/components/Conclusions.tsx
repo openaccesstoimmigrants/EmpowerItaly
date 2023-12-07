@@ -16,6 +16,9 @@ export default function Conclusion() {
                     Since the immigrant population is substantially smaller compared to the Italian one, they will consequently represent a smaller proportion in the labour market, but still they are always present in all the shown sectors and with further studies it could be understood if they complement the labour market when there's a lack of professionals in Italy or not.
                     </p>
                     <p>
+                    Observing the mashup visualization is interesting to notice that immigrants with a low level of education (less than primary, primary and lower secondary school) always show a high activity rate compared to Italians. And only in the South and Islands showing a smaller unemployment rate compared to natives.
+                    </p>
+                    <p>
                     Foreigners indeed face a higher unemployment rate even though being sometimes equally or more active than natives. We understand that there is a difference between those groups that can be explained by other factors not considered here, since the aspects of the labour market are too many to be covered in this project.
                     </p>
                     <button className="place-self-end outline-button">

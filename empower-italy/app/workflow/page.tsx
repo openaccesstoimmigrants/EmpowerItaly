@@ -24,10 +24,10 @@ export default function page() {
                     <div className="grid grid-cols-12 gap-6 h-full pb-6">
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Formulating Hypothesis</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>From the project's inception, our aim was to conduct a comprehensive study on the presence of immigrants in Italy. Given the sensitivity of the topic, framing a viable research question posed a challenge. Initially, our focus centered on aspects of the labor market and education, specifically examining whether the professional positions held by foreigners corresponded with their educational qualifications. However, the scarcity of relevant data at the regional level in Italy prompted us to transition into the exploratory phase, where we formulated a well-defined hypothesis.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Introduction">See documentation</Link>
                             </button>
                         </div>
                         <div className="col-span-4">
@@ -50,10 +50,10 @@ export default function page() {
                         </div>
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Searching Data</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>The project leveraged data from reputable sources, namely ISTAT and EUROSTAT, both housing extensive data repositories beneficial for students and various organizations. Notably, ISTAT's dedicated page on immigrant statistics in Italy, accessible through its older data explorer, proved invaluable. Despite encountering dynamic changes in the data presentation methods of these institutions during the project's development, such as ISTAT's transition from its [old data explorer](http://dati.istat.it/) to the [new one](https://esploradati.istat.it/databrowser/#/), the abundance of data remained consistent, ensuring a robust foundation for our analysis. Additionally, organizations like OECD, previously considered in earlier project phases, underwent transitions in their data explorer interfaces.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Datasets">See documentation</Link>
                             </button>
                         </div>
                     </div>
@@ -62,10 +62,10 @@ export default function page() {
                     <div className="grid grid-cols-12 gap-6 h-full pb-6">
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Cleaning and Mash up</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>During the cleaning phase, a standardized procedure was applied to most datasets. This involved understanding the content of each dataset, identifying relevant values, and ensuring alignment with the information available on the respective data explorer platforms.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Datasets">See documentation</Link>
                             </button>
                         </div>
                         <div className="col-span-4">
@@ -88,10 +88,10 @@ export default function page() {
                         </div>
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Visualization</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>An integral aspect of the project, the visualization process adhered to the principles of simplicity and user choice. Our goal was to allow the data to speak for itself, presenting it in a straightforward manner while providing users the flexibility to select the information they wished to view.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Visualization">See documentation</Link>
                             </button>
                         </div>
                     </div>
@@ -100,10 +100,10 @@ export default function page() {
                     <div className="grid grid-cols-12 gap-6 h-full pb-6">
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Open Data practices</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>This project adheres to the FAIR principles of data—ensuring data is Findable, Accessible, Interoperable, and Reusable. All project materials are made openly available, and we welcome user feedback to address any deviations from these principles.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Praxis">See documentation</Link>
                             </button>
                         </div>
                         <div className="col-span-4">
@@ -126,10 +126,13 @@ export default function page() {
                         </div>
                         <div className="bg-indigo-100 rounded-2xl p-12 col-span-8 grid"> {/* `grid` class is needed to use `place-self-end` on the button */}
                             <h1 className="font-bold text-6xl text-indigo-900 pb-8">Afterlife</h1>
-                            <p>Aliquam massa iaculis in sit felis. Diam bibendum fames lectus odio porttitor consectetur purus donec. Tellus nulla tortor a orci est. Nam cursus velit facilisis sed. Egestas bibendum eget semper sed cras pellentesque. Aenean ut iaculis vitae maecenas orci mattis porta lacus. Mauris ut purus id ipsum ultricies.</p>
+                            <p>The EmpowerItaly datasets compile data from catalogs concerning diverse aspects of the Italian labor market. Originating from a University of Bologna course, the catalog is not actively maintained anymore, but the datasets within it are managed by their respective institutions. Despite the catalog's lack of ongoing updates, our accessible scripts can be run on new files as needed.
+                            </p>
+                            <p>
+                            We encourage notification if newer versions of our input files are discovered, enabling us to update our files using our automated script. It's essential to highlight that our scripts are licensed under CC 4.0. We invite the community to contribute to our GitHub project by submitting updated files for review and potential inclusion, enhancing the dataset quality.</p>
 
                             <button className="place-self-end outline-button">
-                                <Link href="/documentation">See documentation</Link>
+                                <Link href="/documentation#Sustainability">See documentation</Link>
                             </button>
                         </div>
                     </div>

@@ -23,7 +23,7 @@ export default function Header({ links }: HeaderProps) {
                     EmpowerItaly
                 </Link>
                 <nav>
-                    <ul className="flex items-center gap-x-6 cursor-pointer">
+                    <ul className="hidden md:flex items-center gap-x-6 cursor-pointer">
                         {links.map((link) => ( 
                             <Link key={link.name} className={`/${segment}` === link.href ? 'nav-button-active' : 'nav-button'} href={link.href}>
                                 <li className="">

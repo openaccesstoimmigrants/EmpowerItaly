@@ -33,8 +33,8 @@ export default function Hero({ title, paragraph, imageSrc, payoff, layoutOrder }
                         ">
                             <h1 className="
                                         font-bold
-                                        text-5xl
-                                        lg:text-6xl
+                                        text-4xl
+                                        lg:text-5xl
                                         text-indigo-900
                                         pb-8
                             ">

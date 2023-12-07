@@ -181,7 +181,7 @@ To display the data in our React app, we simply save a constant with the URL of 
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0) |
 |  |  |
 
-This dataset was used to see the total number of resident immigrants, the average age and the distribution over the Italian territory. The first two data are related to year 2022, while the last, in conjunction with D1(b), respresent the distrubition on the italian territory from between 2018 and 2022.
+This dataset was utilized to analyze the aggregate count of resident immigrants, their average age, and their distribution across Italy. The first two sets of data pertain to the year 2022. However, the last dataset, in conjunction with D1(b), illustrates the distribution across Italian territories from 2018 to 2022.
 
 ### D1(b) - Resident foreign population by region 2001-2019
 |  |  |
@@ -201,7 +201,7 @@ This dataset was needed to implement D1(a) results with data relative to year 20
 |  |  |
 | --- | --- |
 | Source | [IstatData](https://esploradati.istat.it/databrowser/#/en) |
-| Title | **Country of citizenship (Paese di cittadinanza)** |
+| Title | **Country of citizenship - Paese di cittadinanza** |
 | Viewed in date | 06/10/23 | 
 | License | [CC BY 3.0 IT](https://creativecommons.org/licenses/by/3.0/it/) |
 | Format | **SDMX-ML** |
@@ -261,7 +261,7 @@ See more in [LINK](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://w
 | Title | Employment (thousands) - Nace 2007 - professional status, citizenship |
 | Viewed in date | 20/10/2023 | 
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Format | SDMX |
+| Format | SDMX-ML |
 | Metadata | Provided in SDMX |
 | URI | [LINK](https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,Z0500LAB,1.0/LAB_OFFER/LAB_OFF_EMPLOY/DCCV_OCCUPATIT1/DCCV_OCCUPATIT1_SECTECOACT/IT1,150_938_DF_DCCV_OCCUPATIT1_9,1.0) |
 |  |  |
@@ -283,12 +283,12 @@ See more in [LINK](https://www4.istat.it/it/strumenti/definizioni-e-classificazi
 
 This dataset was retrieved in order to understand the unemployment rates between foreigners and italians.
 
-### MD1 - (Activity rate and Unemployment rate)
+### MD1 - Activity rate and Unemployment rate
 |  |  |
 | --- | --- |
-| Source | [Empower Italy](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_datasets/Clean/MASHUP/mashup.json) |
+| Source | [EmpowerItaly](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_datasets/Clean/MASHUP/mashup.json) |
 | Title | **Activity rate and Unemployment rate by level of education** |
-| Viewed in date | 29/11/2023 |
+| Viewed in date | 02/12/2023 |
 | License | CC BY 4.0 |
 | Format | JSON |
 | URI | [LINK](https://raw.githubusercontent.com/openaccesstoimmigrants/openaccesstoimmigrants/main/_datasets/Clean/MASHUP/mashup.json) |
@@ -459,7 +459,7 @@ It has been established that ["The conservation system is logically distinct fro
 
 ## 8. Sustainability of updating the datasets over time
 
-The Empower Italy datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
+The EmpowerItaly datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
 
 If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our [GitHub](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants) project. Submitted files will undergo review, and if found accurate, they will be added to the project.
 
