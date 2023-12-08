@@ -461,7 +461,7 @@ It has been established that ["The conservation system is logically distinct fro
 
 The EmpowerItaly datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog's lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
 
-If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our [GitHub](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants) project. Submitted files will undergo review, and if found accurate, they will be added to the project.
+If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It's important to note that our scripts are licensed under CC BY-NC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our [GitHub](https://github.com/openaccesstoimmigrants/openaccesstoimmigrants) project. Submitted files will undergo review, and if found accurate, they will be added to the project.
 
 ## 9. Visualization
 
@@ -515,12 +515,12 @@ In all other cases, foreigners indeed face a higher unemployment rate even thoug
 
 ## LICENSE
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+Shield: [![CC BY-NC 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+[![CC BY-NC 4.0][cc-by-image]][cc-by]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png

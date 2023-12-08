@@ -69,7 +69,7 @@ export default function Documentation({ links }: DocumentationProps) {
                                 The project addresses the potential difference in unemployment rates betwwen immigrants and native italians. It allows to investigate the labour market dynamics and assess whether there might be disparities in employment opportunities for immigrants.
                             </p>
                             <p>
-                                This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like <Link className="font-bold underline" href="https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/">"Siamo invasi dai migranti, la più grande tra le fake news."</Link> Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article <Link className="font-bold underline" href="https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html">"Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’"</Link>.
+                                This topic is widely discussed by Italian politicians, but it is often based on assumptions rather than data. For instance, some people claim that "Italy has been invaded by migrants," as reported by articles like <Link target="_blank" className="font-bold underline" href="https://www.huffingtonpost.it/archivio/2017/06/28/news/siamo_invasi_dai_migranti_la_piu_grande_tra_le_fake_news-10640403/">"Siamo invasi dai migranti, la più grande tra le fake news."</Link> Other statements, like "an ethnic replacement is in act in order to delete Italian culture," are even more absurd, as reported by the article <Link target="_blank" className="font-bold underline" href="https://edition.cnn.com/2023/04/19/europe/italy-immigration-lollobrigida-intl/index.html">"Italian minister sparks fury for saying immigration leads to ‘ethnic replacement’"</Link>.
                             </p>
                             <p>
                                 Acknowledging the complexity of immigration, our focus is on evaluating the active engagement of foreign individuals within Italy's labour market. Our aim is to ascertain whether immigrants experience a disproportionate impact from unemployment rates and the extent of this disparity. Our investigation seeks to pinpoint the regions in Italy with higher concentrations of immigrants and the key industries where they are predominantly employed. We have compared the labor force participation and unemployment rates between foreigners and Italians to observe and analyze any disparities that exist.
@@ -115,7 +115,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                                We believe in Open Data and want to integrate our project into the larger picture proposed by the United Nations and the <Link className="font-bold underline" href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">17 Sustainable Development Goals (SDGs)</Link>, which were developed by an Open Working Group of 30 member states over a two-year process.
+                                We believe in Open Data and want to integrate our project into the larger picture proposed by the United Nations and the <Link target="_blank" className="font-bold underline" href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">17 Sustainable Development Goals (SDGs)</Link>, which were developed by an Open Working Group of 30 member states over a two-year process.
                             </p>
                             <p>
                                 The SDGs are designed to balance the three dimensions of sustainable development: economic, social, and environmental. Open Data can help achieve the SDGs by providing critical information on natural resources, government operations, public services, and population demographics. These insights can inform national priorities and help determine the most effective paths for action on national issues.
@@ -170,10 +170,10 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                                For our datasets, since we are dealing with data related to Italy, our main source was <Link className="font-bold underline" href="https://www.istat.it/en/">Istat</Link>, the Italian National Institute of Statistics, a public research organization that has been the main producer of official statistics since 1926, serving citizens and policy-makers. Istat provides different platforms, and sometimes it can be confusing to determine the correct source of data. For our topic, for example, we found, besides the official website, <Link className="font-bold underline" href="http://dati.istat.it/Index.aspx?lang=en">I.Stat</Link> and <Link className="font-bold underline" href="http://stra-dati.istat.it/?lang=en">Immigrants.Stat</Link>, both of which store data that can be useful for our project. However, they are not compliant with any standard shared format.
+                                For our datasets, since we are dealing with data related to Italy, our main source was <Link target="_blank" className="font-bold underline" href="https://www.istat.it/en/">Istat</Link>, the Italian National Institute of Statistics, a public research organization that has been the main producer of official statistics since 1926, serving citizens and policy-makers. Istat provides different platforms, and sometimes it can be confusing to determine the correct source of data. For our topic, for example, we found, besides the official website, <Link target="_blank" className="font-bold underline" href="http://dati.istat.it/Index.aspx?lang=en">I.Stat</Link> and <Link target="_blank" className="font-bold underline" href="http://stra-dati.istat.it/?lang=en">Immigrants.Stat</Link>, both of which store data that can be useful for our project. However, they are not compliant with any standard shared format.
                             </p>
                             <p>
-                                For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: <Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en">IstatData</Link>. We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) <Link className="font-bold underline" href="https://www.iso.org/standard/52500.html">ISO standard</Link>.
+                                For these reasons, we decided to select our datasets, whenever possible, from another new platform provided by Istat: <Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en">IstatData</Link>. We chose to prefer this data warehouse because it is compliant with the SDMX (Statistical Data and Metadata eXchange) <Link target="_blank" className="font-bold underline" href="https://www.iso.org/standard/52500.html">ISO standard</Link>.
                             </p>
                             <p>
                                 Also, EUROSTAT was the complementary source used in our project, in which the used dataset was retreived in CSV.
@@ -202,23 +202,20 @@ export default function Documentation({ links }: DocumentationProps) {
                             </p>
                             <p>
                                 For more on this topic: 
-                                <Link className="font-bold underline" href="https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details">SDMX self-learning package No. 4 Student book - Data Structure Definition</Link>.
+                                <Link target="_blank" className="font-bold underline" href="https://circabc.europa.eu/ui/group/8828dd71-a744-4914-b019-361aec02b6bb/library/836ed87f-e167-467f-9952-a72310e23676/details">SDMX self-learning package No. 4 Student book - Data Structure Definition</Link>.
                             </p>
                             <p>
                                 <h3 className="font-bold pt-2">ISTAT and SDMX</h3>
-                                The Italian National Institute of Statistics (ISTAT) allows access to its data warehouse, <Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en">IstatDati</Link>, through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from <Link className="font-bold underline" href="https://ondata.github.io/guida-api-istat/">OnData</Link>, updated, enriched with our tests and considerations.
+                                The Italian National Institute of Statistics (ISTAT) allows access to its data warehouse, <Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en">IstatDati</Link>, through various methods. The REST API access is not widely known, but it is very convenient, although poorly documented. The following istruction are taken from <Link target="_blank" className="font-bold underline" href="https://ondata.github.io/guida-api-istat/">OnData</Link>, updated, enriched with our tests and considerations.
                             </p>
                             <p>
-                                For the ISTAT SDMX Toolkit: <Link className="font-bold underline" href="https://sdmxistattoolkit.github.io/">https://sdmxistattoolkit.github.io/</Link>.
+                                For the ISTAT SDMX Toolkit: <Link target="_blank" className="font-bold underline" href="https://sdmxistattoolkit.github.io/">https://sdmxistattoolkit.github.io/</Link>.
                             </p>
                             <p>
-                                There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page: https://esploradati.istat.it/SDMXWS/.
+                                There is no dedicated documentation available on their official web service page or in the existing guides. However, there is a reference to "RESTful API" on this page:<Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/SDMXWS/">https://esploradati.istat.it/SDMXWS/</Link>.
                             </p>
                             <p>
-                                To retrieve all the datasets available on Istat: https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1
-                            </p>
-                            <p>
-                                For a an example of how to work with ISTAT's SDMX see on our <Link className="font-bold underline" href="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_scripts/D1(a)_resident-foreigners-demographic.ipynb">script on GitHub</Link>
+                                For a an example of how to work with ISTAT's SDMX see on our <Link target="_blank" className="font-bold underline" href="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants/blob/main/_scripts/D1(a)_resident-foreigners-demographic.ipynb">script on GitHub</Link>
 
                             </p>
                             <p>
@@ -238,7 +235,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                            <strong>I.Stat:</strong> The institution doesn't publish data regularly but ensures that quality tools have been developed in order to improve the quality of statistical processes and products, consistently with Istat's mission and according to the framework of the European Statistical System. The methodologies used for data quality can be <Link className="font-bold underline" href="https://www4.istat.it/en/tools/data-quality">seen here</Link> and the datasets can’t be used for re-identifying the person.
+                            <strong>I.Stat:</strong> The institution doesn't publish data regularly but ensures that quality tools have been developed in order to improve the quality of statistical processes and products, consistently with Istat's mission and according to the framework of the European Statistical System. The methodologies used for data quality can be <Link target="_blank" className="font-bold underline" href="https://www4.istat.it/en/tools/data-quality">seen here</Link> and the datasets can’t be used for re-identifying the person.
                             </p>
                             <p>                                  
                             The division among Italian regions presented by ISTAT is to be intented as follows:
@@ -249,7 +246,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             - South: includes the regions of Southern Italy or Southern Italy (Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia) and those of insular Italy (Sardinia, Sicily). Abruzzo is classified in southern Italy for historical reasons, as it was part of the Kingdom of the Two Sicilies before the unification of Italy in 1861.
                             </p>
                             <p> 
-                            <strong>EUROSTAT:</strong> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the <Link className="font-bold underline" href="http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428">quality declaration of the European Statistical System (ESS)</Link>. 
+                            <strong>EUROSTAT:</strong> The institution's mission is to provide high quality statistics on data in Europe. Statistical authorities, comprising Eurostat, the National Statistical Institutes (NSIs), and Other National Authorities (ONAs), are strongly committed to quality. They are responsible for the development, production, and dissemination of European statistics. This commitment and an awareness for high quality are clearly expressed in the <Link target="_blank" className="font-bold underline" href="http://ec.europa.eu/eurostat/web/products-catalogues/-/KS-02-17-428">quality declaration of the European Statistical System (ESS)</Link>. 
                             </p>
                             <p> 
                             The same guarantees the following pilars as data quality:
@@ -277,7 +274,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                                This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by <Link className="font-bold underline" href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati">AGID</Link>. The four characteristics to control the level of information quality are:
+                                This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by <Link target="_blank" className="font-bold underline" href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati">AGID</Link>. The four characteristics to control the level of information quality are:
                             </p>
                             <p className="pb-2">                                
                             <ul className="ml-2 mt-2">
@@ -358,7 +355,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             1. The dataset cannot be classified as complete due the fact of presenting data on gender only regarding Italy as a total. But once data is retrieved and information about regions in Italy are recovered, the gender upon these regions is not provided anymore.
                             </p>
                             <p>                   
-                            2. The institution in general follows the current NUTS 2021 classification <Link className="font-bold underline" href="https://ec.europa.eu/eurostat/web/nuts/background">(see here)</Link> but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
+                            2. The institution in general follows the current NUTS 2021 classification <Link target="_blank" className="font-bold underline" href="https://ec.europa.eu/eurostat/web/nuts/background">(see here)</Link> but the datasets relevant to our research follow mostly the used the NUTS2 classification and for this reason it is not accurate as it could be. 
                             </p>
                             <p>
                             3. The dataset presented in the institutional portal presented rounded numbers and had as unit of measurement thousands, which looks quite missleading since it's not accurate to round up a number of individuals.
@@ -773,10 +770,10 @@ export default function Documentation({ links }: DocumentationProps) {
                                 5.2 Licenses
                             </h2>
                                 <p>
-                                <b>I.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen <Link className="font-bold underline" href="https://www.istat.it/en/legal-notice">here</Link>. For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.0
+                                <b>I.stat</b>: On the direct page in which data is available to be explored and reused no disclaimers are at sight, so is not possible to understand what are the kind of licenses being used here, meaning that other companies can recopyright the data they find. But since is known the portal belongs to the Italian institution ISTAT, the same provides a disclaimer regarding its license and it can be seen <Link target="_blank" className="font-bold underline" href="https://www.istat.it/en/legal-notice">here</Link>. For that we understand Immigrants.stat is under the same license of the intitution that owns it, which is CC BY 3.0
                                 </p>
                                 <p>
-                                The datasets presented by the institution don&#39;t have a regular date to be published, as they are made public when surveys are concluded. <Link className="font-bold underline" href="https://www.istat.it/en/analysis-and-products/datasets">See here</Link>. Besides the fact there isn&#39;t a specific date in which data is published, for most of the datasets it was possible to find data regarding the first semesters of the current year, 2023.
+                                The datasets presented by the institution don&#39;t have a regular date to be published, as they are made public when surveys are concluded. <Link target="_blank" className="font-bold underline" href="https://www.istat.it/en/analysis-and-products/datasets">See here</Link>. Besides the fact there isn&#39;t a specific date in which data is published, for most of the datasets it was possible to find data regarding the first semesters of the current year, 2023.
                                 </p>
                                 <p>
                                 <b>IstatData</b>: The same information presented for I.stat can be considered for this very same item.
@@ -832,7 +829,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             </h2>
                         </div>
                             <p>
-                            This section has been written following the <Link className="font-bold underline" href="https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf">Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid</Link>. These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
+                            This section has been written following the <Link target="_blank" className="font-bold underline" href="https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf">Guidelines containing technical rules for data opening and reuse of public sector nformation by Agid</Link>. These guidelines on the opening of data and the reuse of public sector information are provided for by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, which implements the European Directive EU 2019/1024 (so-called Open Data Directive).
                             </p>
                             <p>
                             Adhering to the specifications outlined in the DCAT-AP_IT standard as recommended by AGID&#39;s guidelines for the valorization of public information heritage, and to facilitate data harvesting, each and every used dataset and all of the generated mashup datasets have been meticulously documented through metadata enriching format RDF/XML.
@@ -843,7 +840,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             The analysis, description and use of all source datasets are meant to be exploited not only by the RDF/XML serialization, but also through metadata quality assessment four main levels, for them being indicated by AGID.
                             </p>
                             <p>
-                            It has been established that <Link className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">&quot;The conservation system is logically distinct from the document management system&quot;</Link>; for this reason, we have to say that the project data preparation process that we took into consideration does not include the &quot;conservation and historicization&quot; step, as we will not return to it in the future, eventually making data non-reusable.
+                            It has been established that <Link target="_blank" className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">&quot;The conservation system is logically distinct from the document management system&quot;</Link>; for this reason, we have to say that the project data preparation process that we took into consideration does not include the &quot;conservation and historicization&quot; step, as we will not return to it in the future, eventually making data non-reusable.
                             </p>
 
                             <h3 className="                                        
@@ -857,13 +854,13 @@ export default function Documentation({ links }: DocumentationProps) {
                             <li>Format: Excel, CSV, SDMX</li>
                             <li>Metadata: </li>
                             <li>URI:<ul>
-                            <li><Link className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64217">Unemployment rate between italians and foreigners</Link></li>
-                            <li><Link className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64369">Activity rate of foreign citizens</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64217">Unemployment rate between italians and foreigners</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64369">Activity rate of foreign citizens</Link></li>
                             </ul>
                             </li>
                             <li>Provenance:<ul>
-                            <li><Link className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64217">Unemployment rate between italians and foreigners</Link></li>
-                            <li><Link className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64369">Activity rate of foreign citizens</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64217">Unemployment rate between italians and foreigners</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://dati.istat.it//Index.aspx?QueryId=64369">Activity rate of foreign citizens</Link></li>
                             </ul>
                             </li>
                             </ul>
@@ -878,19 +875,19 @@ export default function Documentation({ links }: DocumentationProps) {
                             <li>Format: Excel, CSV, SDMX, JSON</li>
                             <li>Metadata: Provided in SDMX</li>
                             <li>URI:<ul>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0">Resident foreign population by region 2019-2023</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0">Resident foreign population by region 2001-2019</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0">Total immigrants to Italy divided by continents</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0">Italian resident municipal population</Link></li>
-                            <li><Link className="font-bold underline" href="http://stra-dati.istat.it//Index.aspx?QueryId=64216">Presence of foreigners and italians divided by industry sector</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0">Resident foreign population by region 2019-2023</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0">Resident foreign population by region 2001-2019</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0">Total immigrants to Italy divided by continents</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0">Italian resident municipal population</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://stra-dati.istat.it//Index.aspx?QueryId=64216">Presence of foreigners and italians divided by industry sector</Link></li>
                             </ul>
                             </li>
                             <li>Provenance:<ul>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0">Resident foreign population by region 2019-2023</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0">Resident foreign population by region 2001-2019</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0">Total immigrants to Italy divided by continents</Link></li>
-                            <li><Link className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0">Italian resident municipal population</Link></li>
-                            <li><Link className="font-bold underline" href="http://stra-dati.istat.it//Index.aspx?QueryId=64216">Presence of foreigners and italians divided by industry sector</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_FOREIGNIM/DCIS_POPSTRRES1/IT1,29_7_DF_DCIS_POPSTRRES1_1,1.0">Resident foreign population by region 2019-2023</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0">Resident foreign population by region 2001-2019</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_MIGRATIONS/DCIS_MIGRAZIONI/IT1,28_185_DF_DCIS_MIGRAZIONI_3,1.0">Total immigrants to Italy divided by continents</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0">Italian resident municipal population</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="http://stra-dati.istat.it//Index.aspx?QueryId=64216">Presence of foreigners and italians divided by industry sector</Link></li>
                             </ul>
                             </li>
                             </ul>
@@ -903,13 +900,13 @@ export default function Documentation({ links }: DocumentationProps) {
                                         pb-8" id="eurostat"><em>EUROSTAT</em></h3>
                             <ul>
                             <li>Format: Excel, CSV, SDMX, JSON</li>
-                            <li>Metadata: <Link className="font-bold underline" href="https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm">LINK</Link></li>
+                            <li>Metadata: <Link target="_blank" className="font-bold underline" href="https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm">LINK</Link></li>
                             <li>URI:<ul>
-                            <li><Link className="font-bold underline" href="https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en">Level of education of foreign citizens</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en">Level of education of foreign citizens</Link></li>
                             </ul>
                             </li>
                             <li>Provenance:<ul>
-                            <li><Link className="font-bold underline" href="https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en">Level of education of foreign citizens</Link></li>
+                            <li><Link target="_blank" className="font-bold underline" href="https://ec.europa.eu/eurostat/databrowser/view/edat_lfs_9917__custom_8389265/default/table?lang=en">Level of education of foreign citizens</Link></li>
                             </ul>
                             </li>
                             </ul>
@@ -931,7 +928,7 @@ export default function Documentation({ links }: DocumentationProps) {
                             The EmpowerItaly datasets encompass information gathered from catalogs related to various aspects of the Italian labor market. Originally established as part of a University of Bologna course, the catalog is no longer actively maintained. However, the datasets utilized in this catalog are under the care of their respective institutions. Despite the catalog&#39;s lack of ongoing maintenance, our scripts remain accessible and can be executed on new files whenever necessary.
                             </p>
                             <p>
-                            If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It&#39;s important to note that our scripts are licensed under CC 4.0. We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our <Link className="font-bold underline" href="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants">GitHub</Link> project. Submitted files will undergo review, and if found accurate, they will be added to the project.
+                            If someone identifies that a newer version of one of our input files exists, we welcome notification to facilitate the updating of our files through our automated script. It&#39;s important to note that our scripts are licensed under <Link target="_blank" className="font-bold underline" href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1">CC BY-NC 4.0.</Link> We extend an invitation to the community to participate in the enhancement of our files by contributing updated versions to our <Link target="_blank" className="font-bold underline" href="https://github.com/openaccesstoimmigrants/openaccesstoimmigrants">GitHub</Link> project. Submitted files will undergo review, and if found accurate, they will be added to the project.
                             </p>
 
                         <div id="Visualization">
@@ -973,11 +970,11 @@ export default function Documentation({ links }: DocumentationProps) {
 
 
                             <p><em>This section is strictly related to the Technical and Ethical Analysis. For more, consult point 4 and 5 of this documentation</em></p>
-                            <p>This section has been written following the <Link className="font-bold underline" href="https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf">Guidelines containing technical rules for data opening and reuse of public sector information by Agid</Link>. These guidelines, which pertain to the opening of data and the reuse of public sector information, are mandated by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, implementing the European Directive EU 2019/1024 (commonly referred to as the Open Data Directive).</p>
+                            <p>This section has been written following the <Link target="_blank" className="font-bold underline" href="https://www.agid.gov.it/sites/default/files/repository_files/lg-open-data_v.1.0_1.pdf">Guidelines containing technical rules for data opening and reuse of public sector information by Agid</Link>. These guidelines, which pertain to the opening of data and the reuse of public sector information, are mandated by art. 12 of Legislative Decree no. 36/2006, as amended by Legislative Decree no. 200/2021, implementing the European Directive EU 2019/1024 (commonly referred to as the Open Data Directive).</p>
                             <p>Adhering to the FAIR principles published by the GO FAIR Initiative during the development of the project, we strived to ensure the Findability, Accessibility, Interoperability, and Reusability of digital assets, emphasizing machine-actionability. In this regard, the overview of FAIR Principles provided by GO Fair has been employed as a checklist, aligned with AGID&#39;s guidelines, to thoroughly examine our project.</p>
                             <p>In alignment with the specifications outlined in the DCAT-AP_IT standard, as recommended by AGID&#39;s guidelines for the valorization of public information heritage, and to facilitate data harvesting, each dataset used and all generated mashup datasets have undergone meticulous documentation in RDF/XML, enriching the metadata format. This approach is in accordance with the Open Data indications by AGID, wherein statistical data are presented and made available in both CSV and JSON formats, as employed in the data scraping and visualization testing phase. Furthermore, all datasets and metadata enrichments are easily accessible through download icons on the website.</p>
                             <p>The analysis, description, and utilization of source datasets aim to facilitate exploitation not only through RDF/XML serialization but also by adhering to AGID&#39;s recommended metadata quality assessment across four main levels.</p>
-                            <p>It is worth noting that our data preparation process, as considered in this project, excludes the &#39;conservation and historicization&#39; step. As articulated in <Link className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">&quot;The conservation system is logically distinct from the document management system&quot;</Link>, we affirm that our approach does not include this step, as the project&#39;s data is not intended for future return, ensuring its non-reusability.</p>
+                            <p>It is worth noting that our data preparation process, as considered in this project, excludes the &#39;conservation and historicization&#39; step. As articulated in <Link target="_blank" className="font-bold underline" href="https://github.com/AgID/lg-documenti-informatici-docs/blob/master/conservazione.rst">&quot;The conservation system is logically distinct from the document management system&quot;</Link>, we affirm that our approach does not include this step, as the project&#39;s data is not intended for future return, ensuring its non-reusability.</p>
 
                         <div id="Praxis">
                             <h2 className="                                        
