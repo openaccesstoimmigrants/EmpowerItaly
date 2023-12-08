@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import Hero from "@/components/Hero";
 import { HERO_DATA } from "@/app/lib/data"
 import Intro from "@/components/Intro";
@@ -8,9 +9,13 @@ import NumbersAge from "@/components/NumbersAge";
 import Conclusions from "@/components/Conclusions";
 import MashUp from "@/components/MashUp";
 import OccupationBarChart from "@/components/OccupationBarChart";
-import Map from "@/components/Map";
+// import Map from "@/components/Map";
 import Countries from "@/components/Countries";
 
+
+const DynamicMap = dynamic(() => import("@/components/Map"), {
+  ssr: false,
+});
 
 
 export default function Home() {
@@ -27,7 +32,7 @@ export default function Home() {
             <article className="max-w-7xl m-auto animate-fade-in-down">
                 <div className="grid grid-cols-12 gap-6 h-full">
                   <Countries />
-                  <Map />
+                  <DynamicMap />
                 </div>
             </article>
         </section>
