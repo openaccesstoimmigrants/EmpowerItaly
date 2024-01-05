@@ -514,14 +514,7 @@ Observing the mashup visualization is interesting to notice that immigrants with
 In all other cases, foreigners indeed face a higher unemployment rate even though being sometimes equally or more active than natives. We understand that there is a difference between those groups that can be explained by other factors not considered here, since the aspects of the labour market are too many to be covered in this project.
 
 ## LICENSE
-
-Shield: [![CC BY-NC 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY-NC 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+ 
+This work is licensed under CC BY-NC 4.0 ([Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/))  
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
